@@ -1,0 +1,58 @@
+/* Universal Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Margenes */
+
+.margen-nav {
+   margin-right: 400px; 
+}
+
+  
+/* Header */
+
+.header {
+    background: #303031;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/*
+.MiraiLogo {
+    height: 40px;
+    width: auto;
+}
+*/
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #F5C64F;
+    font-weight: 500;
+}
