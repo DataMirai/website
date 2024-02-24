@@ -76,7 +76,7 @@ html, body {
     
  } */
 
-.content {
+.fondo-main .content {
     width: 40%;
     max-width: 50%;
     max-height: 690px;
@@ -84,7 +84,6 @@ html, body {
     margin-right: 50px;
     
 }
-
 
 .content h1 {
     font-size: 64px;
@@ -125,11 +124,11 @@ html, body {
 }
 
 .btn-main:hover {
-    background: #C3343C;
+    background: #F5C64F;
     color: #fff;
     border-color: #fff;
     box-shadow: 6px 6px black;
-    transition: .3s ease;
+    transition: .2s ease;
 
 }
 
@@ -152,66 +151,60 @@ html, body {
 /* ------------------------------------------- */
 /* Our work */
 /* ------------------------------------------- */
-
-:root{
-    --color1: #8524E2;
-    --color2: #c038ee;
-}
-.serviceBox{
-    /*font-family: 'Poppins', sans-serif;*/
+.title {
     text-align: center;
-    padding: 0 15px 15px;
-    border-bottom: 2px solid var(--color1);
-    position: relative;
-    z-index: 1;
-}
-.serviceBox .service-icon{
-    color: rgba(0,0,0,0.6);
-    background: linear-gradient(to left,var(--color1),var(--color2));
+    margin-top: 100px;
     font-size: 50px;
-    line-height: 110px;
-    width: 110px;
-    height: 110px;
-    margin: 0 auto 25px;
-    border-radius: 50%;
-    position: relative;
-    z-index: 1;
-}
-.serviceBox .service-icon:before{
-    content: '';
-    background: linear-gradient(to right,var(--color1),var(--color2));
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 6px;
-    bottom: 6px;
-    z-index: -1;
-}
-.serviceBox .title{
-    color: var(--color1);
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin: 0 0 8px;
-}
-.serviceBox .description{
-    color: #777;
-    font-size: 13px;
-    line-height: 22px;
-    margin: 0;
-}
-.serviceBox.blue{
-    --color1: #7A54F2;
-    --color2: #5DC3D6;
-}
-.serviceBox.green{
-    --color1: #5DC3D6;
-    --color2: #C6ED8B;
-}
-.serviceBox.yellow{
-    --color1: #f1bd01;
-    --color2: #dbed8b;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
+.wrapper {
+    height: 720px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #dde1e7;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background: #dde1e7;
+    margin: 20px;
+}
+
+.inner-text {
+    padding: 25px;
+    text-align: center;
+}
+
+.inner-text i {
+    font-size: 45px;
+}
+
+.inner-text h2 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.inner-text p {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #262626;
+}
+
+@media (max-width:800px) {
+    .wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+}
