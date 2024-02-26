@@ -438,24 +438,27 @@ a {
 /* Body media */
 /* ------------------------------------------- */
     .our-work {
-        height: 1950px;
+        height: 2000px;
     }
     .wrapper {
         flex-direction: column;
-        height: 2000px;
+        height: 900px;
         width: 100%;
         margin-bottom: 300px;
-        padding-top: 100px;
+        padding-top: 600px;
         margin-top: 20px;
     }
     
     .box {
+        width: 700px;
         padding-right: 5%;
         margin-top: 150px;
-        margin-bottom: 150px;
+        margin-bottom: 80px;
     }
 
-    
+    .box p{
+        font-size: 30px;
+    }
 
     .main {
         flex-direction: column;
