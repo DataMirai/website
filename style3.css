@@ -58,6 +58,7 @@ body,
 .logo {
     margin-top: 70px;
     margin-left: 50px;
+    margin-bottom: 20px;
     display: block;
     align-items: left;
    
@@ -68,8 +69,9 @@ li {
     display: flex;
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding: 5px;
     float: right;
+    margin: 5px
     
 }
 
@@ -79,10 +81,12 @@ li:hover, li:active {
 }
 a {
     font-size: 18px;
+    font-family: "Lato", sans-serif;
     color: inherit;
     text-decoration: none;
     font-weight: 700;
-    margin-left: 20px;
+    width: 150px;
+    margin-left: 10px;
 }
 
 
@@ -111,7 +115,7 @@ a {
 
 .fondo-main .content {
     width: 25%;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 30%;
     max-height: 690px;
     padding-left: 20px;
@@ -135,9 +139,10 @@ a {
 
 .content h3 {
     font-size: 24px;
+    font-family: "Lato", sans-serif;
     font-weight: normal;
     margin-bottom: 20px;
-    color: #66645E;
+    color: black;
 }
 
 .btn-main {
@@ -147,6 +152,8 @@ a {
     width: 180px;
     height: 50px;
     margin-top: 50px;
+    margin-left: 0;
+    float: left;
     background: #fff;
     font-size: 20px;
     color: black;
@@ -172,7 +179,9 @@ a {
 .btn-main:active {
     transform: translateY(4px);
     box-shadow: 3px 3px black;
-    
+    background: #fff;
+    color: black;
+    border-color: black;
 }
 
 .fondo-main .img-main {
@@ -191,7 +200,7 @@ a {
 /* ------------------------------------------- */
 .title {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -209,8 +218,9 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 0px;
     background: #fff;
+    margin-top: 0px;
 }
 
 .box {
@@ -221,6 +231,7 @@ a {
     margin-top: 0px;
 }
 
+
 .inner-text {
     padding: 25px;
     text-align: center;
@@ -229,11 +240,15 @@ a {
 .inner-text i {
     font-size: 45px;
 }
+.inner-text svg {
+    width: 45px;
+    height: 45px;
+}
 
 .inner-text h2 {
     margin: 15px 0;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: "Lato", sans-serif;
 }
 
 .inner-text p {
@@ -246,9 +261,12 @@ a {
 /* About Us */
 /* ------------------------------------------- */
 
+.aboutus {
+    margin-top: 200px;
+}
 
 .about-divs {
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: -webkit-flex;
     display: -moz-flex;
@@ -271,12 +289,31 @@ a {
     border-width: 1px;
     border-color: black;
     float: left;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 .aboutus .title {
     margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 0;
     float: left;
+}
+
+.text-about p {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .img-about img {
@@ -297,12 +334,13 @@ a {
     padding: 20px 0%;
     display: flex;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
     }
 
 
 @media (max-width: 1200px) {
- 
+    
 /* ------------------------------------------- */
 /* Navbar media */
 /* ------------------------------------------- */
@@ -398,15 +436,22 @@ a {
 /* ------------------------------------------- */
 /* Body media */
 /* ------------------------------------------- */
-    
+    .our-work {
+        height: 1950px;
+    }
     .wrapper {
         flex-direction: column;
-        height: 100%;
+        height: 2000px;
         width: 100%;
+        margin-bottom: 300px;
+        padding-top: 100px;
+        margin-top: 20px;
     }
     
     .box {
         padding-right: 5%;
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
 
     
@@ -471,7 +516,7 @@ a {
         padding-right: 25%;
         float: none;
         padding-top: 10%;
-        margin-top: 200px;
+        margin-top: 150px;
         margin-bottom: 100px;
         margin-right: 30px;
         display: flex;
@@ -503,11 +548,15 @@ a {
         padding-right: 5%;
         font-size: 90px;
     }
-
+    .aboutus {
+        margin-top: 900px;
+    }
+    
     .about-divs {
         width: 100%;
+        height: 800px;
         flex-wrap: wrap-reverse;
-        
+        margin-top: 300px;
     }
     .img-about {
         width: 100%;
@@ -534,7 +583,8 @@ a {
         justify-content: center;
         align-items: center;
         float: none;
-        margin-right: 100px;
+        margin-left: 5%;
+        margin-top: 30px;
     }
 
     .footer {
