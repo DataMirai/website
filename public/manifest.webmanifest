@@ -1,7 +1,7 @@
 {
   "name": "Mirai Data",
   "short_name": "Mirai Data",
-  "lang": "es",
+  "lang": "es-es",
   "display": "fullscreen",
   "orientation" : "portrait",
   "start_url": "//localhost:1313/?utm_source=web_app_manifest",

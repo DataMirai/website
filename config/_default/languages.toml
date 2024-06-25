@@ -8,13 +8,13 @@ weight = 1
 ################ Español language ##################
 [es]
 languageName = "Esp"
-languageCode = "es"
+languageCode = "es-es"
 contentDir = "content/spanish"
-weight = 1
+weight = 2
 
 ################ Catalan language ##################
 [cat]
 languageName = "Cat"
-languageCode = "ca"
+languageCode = "ca-es"
 contentDir = "content/catalan"
-weight = 1
+weight = 3

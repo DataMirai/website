@@ -2,7 +2,7 @@
 <html
   itemscope
   class=""
-  lang="en-us"
+  lang="es-es"
   itemtype="http://schema.org/WebPage">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
@@ -81,7 +81,7 @@
 
 
 
-<title>Hugoplate</title>
+<title>Mirai Data</title>
 
 
 
@@ -92,6 +92,15 @@
 
 
 
+
+  
+    <link rel="alternate" hreflang="en" href="//localhost:1313/en/tags/tailwind/" />
+  
+    <link rel="alternate" hreflang="es" href="//localhost:1313/tags/tailwind/" />
+  
+    <link rel="alternate" hreflang="cat" href="//localhost:1313/cat/tags/tailwind/" />
+  
+  <link rel="alternate" hreflang="x-default" href="//localhost:1313/tags/tailwind/" />
 
 
 
@@ -181,13 +190,13 @@
 
 
 
-<meta property="og:title" content="Hugoplate" />
+<meta property="og:title" content="Mirai Data" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="//localhost:1313/tags/tailwind/" />
 
 
-<meta name="twitter:title" content="Hugoplate" />
+<meta name="twitter:title" content="Mirai Data" />
 <meta name="twitter:description" content="Hugo &amp; Tailwindcss Starter" />
 
 
@@ -213,8 +222,8 @@
 <script>
   let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "No results for";
-  let search_initial_message = "Type something to search..";
+  let search_no_results = "No se han encontrado resultados para";
+  let search_initial_message = "¿Qué quieres buscar?";
 </script>
 
 
@@ -543,143 +552,6 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       
       
-        
-        
-        
-        
-          <li class="nav-item">
-            <a
-              class="nav-link "
-              
-              href="/"
-              >Home</a
-            >
-          </li>
-        
-      
-        
-        
-        
-        
-          <li class="nav-item">
-            <a
-              class="nav-link "
-              
-              href="/about/"
-              >About</a
-            >
-          </li>
-        
-      
-        
-        
-        
-        
-          <li class="nav-item">
-            <a
-              class="nav-link "
-              
-              href="/elements/"
-              >Elements</a
-            >
-          </li>
-        
-      
-        
-        
-        
-        
-          <li class="nav-item nav-dropdown group relative">
-            <span
-              class="nav-link 
-                
-                
-                
-              
-                
-                
-                
-              
-                
-                
-                
-              
-                
-                
-                
-              
-                
-                
-                
-               inline-flex items-center">
-              Pages
-              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-              </svg>
-            </span>
-            <ul
-              class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/404.html">
-                    404 Page
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/authors/">
-                    Authors
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/blog/">
-                    Blog
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/categories/">
-                    Categories
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/contact/">
-                    Contact
-                  </a>
-                </li>
-              
-            </ul>
-          </li>
-        
-      
       
         <li class="mt-4 inline-block lg:hidden">
           <a
@@ -713,6 +585,35 @@
 
 
 
+
+  <select class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded" onchange="location = this.value">
+    
+      
+        <option
+          id="en"
+          value="/en/tags/tailwind/">
+          Eng
+        </option>
+      
+    
+      
+        <option
+          id="es"
+          value="/tags/tailwind/"
+          selected>
+          Esp
+        </option>
+      
+    
+      
+        <option
+          id="cat"
+          value="/cat/tags/tailwind/">
+          Cat
+        </option>
+      
+    
+  </select>
 
 
       
@@ -841,12 +742,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="Search Post..." />
+            placeholder="Buscar un post..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            Type something to search..
+            ¿Qué quieres buscar?
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -874,7 +775,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            to navigate
+            Navegar
           </span>
           <span>
             <kbd>
@@ -890,11 +791,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            to select
+            Seleccionar
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> to close
+            <kbd>ESC</kbd> Cerrar
           </span>
         </div>
       </div>
@@ -919,7 +820,7 @@
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
     <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/">
-      Home
+      Inicio
     </a>
     <span class="inlin-block mr-1">/</span>
   </li>
@@ -1112,7 +1013,7 @@
   
   <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
-    Read More
+    Más
   </a>
 </div>
 
@@ -1273,7 +1174,7 @@
   
   <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-2/">
-    Read More
+    Más
   </a>
 </div>
 
@@ -1426,7 +1327,7 @@
   
   <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-3/">
-    Read More
+    Más
   </a>
 </div>
 
@@ -1552,36 +1453,6 @@
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
           
-            <li class="m-3 inline-block">
-              <a
-                
-                href="
-                  /about/
-                "
-                >About</a
-              >
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                
-                href="
-                  /elements/
-                "
-                >Elements</a
-              >
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                
-                href="
-                  /privacy-policy/
-                "
-                >Privacy Policy</a
-              >
-            </li>
-          
         </ul>
       </div>
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
@@ -1590,10 +1461,10 @@
             <li>
               <a
                 target="_blank"
-                aria-label="facebook"
+                aria-label="instagram"
                 rel="nofollow noopener"
-                href="https://www.facebook.com/">
-                <i class="fab fa-facebook"></i>
+                href="https://www.instagram.com/mirai_data/">
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
           
@@ -1602,7 +1473,7 @@
                 target="_blank"
                 aria-label="twitter"
                 rel="nofollow noopener"
-                href="https://twitter.com/">
+                href="https://x.com/MiraiData">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
@@ -1612,7 +1483,7 @@
                 target="_blank"
                 aria-label="github"
                 rel="nofollow noopener"
-                href="https://www.github.com/">
+                href="https://github.com/DataMirai">
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -1622,8 +1493,18 @@
                 target="_blank"
                 aria-label="linkedin"
                 rel="nofollow noopener"
-                href="https://www.linkedin.com/">
+                href="https://www.linkedin.com/company/mirai-data">
                 <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="youtube"
+                rel="nofollow noopener"
+                href="https://www.youtube.com/@ReEstimando">
+                <i class="fab fa-youtube"></i>
               </a>
             </li>
           

@@ -61,3 +61,132 @@ weight = 2
 name = "Privacy Policy"
 pageRef = "/privacy-policy"
 weight = 3
+
+############# Español navigation ##############
+
+# main menu-esp
+[[main-esp]]
+name = "Inicio"
+pageRef = "/"
+weight = 1
+
+[[main-esp]]
+name = "Artículos"
+pageRef = "/about"
+weight = 2
+
+[[main-esp]]
+name = "El Blog de ReEstimando"
+pageRef = "/elements"
+weight = 3
+
+[[main-esp]]
+weight = 4
+name = "Pages"
+
+[[main-esp]]
+parent = "Pages"
+name = "Blog"
+pageRef = "/blog"
+
+[[main-esp]]
+parent = "Pages"
+name = "Contact"
+pageRef = "/contact"
+
+[[main-esp]]
+parent = "Pages"
+name = "Authors"
+pageRef = "/authors"
+
+[[main-esp]]
+parent = "Pages"
+name = "Categories"
+pageRef = "/categories"
+
+[[main-esp]]
+parent = "Pages"
+name = "404 Page"
+pageRef = "/404"
+
+
+# footer menu-esp
+[[footer-esp]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer-esp]]
+name = "Elementos"
+pageRef = "/elements"
+weight = 2
+
+[[footer-esp]]
+name = "Política de Privacidad"
+pageRef = "/privacy-policy"
+weight = 3
+
+
+############# Catalan navigation ##############
+
+# main menu-cat
+[[main-cat]]
+name = "Inici"
+pageRef = "/"
+weight = 1
+
+[[main-cat]]
+name = "Articles"
+pageRef = "/about"
+weight = 2
+
+[[main-cat]]
+name = "El Blog de ReEstimando"
+pageRef = "/elements"
+weight = 3
+
+[[main-cat]]
+weight = 4
+name = "Pages"
+
+[[main-cat]]
+parent = "Pages"
+name = "Blog"
+pageRef = "/blog"
+
+[[main-cat]]
+parent = "Pages"
+name = "Contact"
+pageRef = "/contact"
+
+[[main-cat]]
+parent = "Pages"
+name = "Authors"
+pageRef = "/authors"
+
+[[main-cat]]
+parent = "Pages"
+name = "Categories"
+pageRef = "/categories"
+
+[[main-cat]]
+parent = "Pages"
+name = "404 Page"
+pageRef = "/404"
+
+
+# footer menu-cat
+[[footer-cat]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer-cat]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer-cat]]
+name = "Política de Privacitat"
+pageRef = "/privacy-policy"
+weight = 3

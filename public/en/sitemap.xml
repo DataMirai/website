@@ -6,12 +6,12 @@
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
+                hreflang="ca-es"
                 href="//localhost:1313/cat/"
                 />
     <xhtml:link
@@ -22,23 +22,68 @@
   </url><url>
     <loc>//localhost:1313/en/categories/application/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/application/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/categories/application/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/application/"
+                />
   </url><url>
     <loc>//localhost:1313/en/categories/architecture/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/architecture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/categories/architecture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/architecture/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/"
+                />
   </url><url>
     <loc>//localhost:1313/en/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
+                hreflang="ca-es"
                 href="//localhost:1313/cat/categories/"
                 />
     <xhtml:link
@@ -49,41 +94,176 @@
   </url><url>
     <loc>//localhost:1313/en/categories/data/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/data/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/blog/post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/post-1/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/post-2/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/post-2/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/post-3/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/post-3/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/post-4/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/post-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/blog/post-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/post-4/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/nextjs/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/tags/nextjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/tags/nextjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/nextjs/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/silicon/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/tags/silicon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/tags/silicon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/silicon/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/software/"
+                />
   </url><url>
     <loc>//localhost:1313/en/categories/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/categories/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/software/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
+                hreflang="ca-es"
                 href="//localhost:1313/cat/tags/"
                 />
     <xhtml:link
@@ -94,31 +274,226 @@
   </url><url>
     <loc>//localhost:1313/en/tags/tailwind/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/tags/tailwind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/tags/tailwind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/tailwind/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/tags/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/tags/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/technology/"
+                />
   </url><url>
     <loc>//localhost:1313/en/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/categories/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/technology/"
+                />
   </url><url>
     <loc>//localhost:1313/en/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/"
+                />
   </url><url>
     <loc>//localhost:1313/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/contact/"
+                />
   </url><url>
     <loc>//localhost:1313/en/elements/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/elements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/elements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/elements/"
+                />
   </url><url>
     <loc>//localhost:1313/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/about/"
+                />
   </url><url>
     <loc>//localhost:1313/en/authors/john-doe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/john-doe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/authors/john-doe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/john-doe/"
+                />
   </url><url>
     <loc>//localhost:1313/en/pages/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pages/"
+                />
   </url><url>
     <loc>//localhost:1313/en/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/privacy-policy/"
+                />
   </url><url>
     <loc>//localhost:1313/en/authors/sam-wilson/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/sam-wilson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/authors/sam-wilson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/sam-wilson/"
+                />
   </url><url>
     <loc>//localhost:1313/en/sections/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/sections/"
+                />
   </url><url>
     <loc>//localhost:1313/en/authors/william-jacob/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/william-jacob/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/cat/authors/william-jacob/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/william-jacob/"
+                />
   </url>
 </urlset>

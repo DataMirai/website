@@ -2,7 +2,7 @@
 <html
   itemscope
   class=""
-  lang="es"
+  lang="es-es"
   itemtype="http://schema.org/WebPage">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
@@ -222,8 +222,8 @@
 <script>
   let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "0 results for";
-  let search_initial_message = "";
+  let search_no_results = "No se han encontrado resultados para";
+  let search_initial_message = "¿Qué quieres buscar?";
 </script>
 
 
@@ -742,12 +742,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="" />
+            placeholder="Buscar un post..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            
+            ¿Qué quieres buscar?
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -775,7 +775,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            to navigate
+            Navegar
           </span>
           <span>
             <kbd>
@@ -791,11 +791,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            to select
+            Seleccionar
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> to close
+            <kbd>ESC</kbd> Cerrar
           </span>
         </div>
       </div>
@@ -820,7 +820,7 @@
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
     <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/">
-      Home
+      Inicio
     </a>
     <span class="inlin-block mr-1">/</span>
   </li>
@@ -847,6 +847,61 @@
         
         
         
+          
+            <li class="m-3 inline-block">
+              <a
+                href="//localhost:1313/tags/tailwind/"
+                class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">
+                Tailwind
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  3
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="//localhost:1313/tags/technology/"
+                class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">
+                Technology
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  2
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="//localhost:1313/tags/nextjs/"
+                class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">
+                Nextjs
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="//localhost:1313/tags/silicon/"
+                class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">
+                Silicon
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="//localhost:1313/tags/software/"
+                class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">
+                Software
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
           
         
       </ul>
@@ -975,10 +1030,10 @@
             <li>
               <a
                 target="_blank"
-                aria-label="facebook"
+                aria-label="instagram"
                 rel="nofollow noopener"
-                href="https://www.facebook.com/">
-                <i class="fab fa-facebook"></i>
+                href="https://www.instagram.com/mirai_data/">
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
           
@@ -987,7 +1042,7 @@
                 target="_blank"
                 aria-label="twitter"
                 rel="nofollow noopener"
-                href="https://twitter.com/">
+                href="https://x.com/MiraiData">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
@@ -997,7 +1052,7 @@
                 target="_blank"
                 aria-label="github"
                 rel="nofollow noopener"
-                href="https://www.github.com/">
+                href="https://github.com/DataMirai">
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -1007,8 +1062,18 @@
                 target="_blank"
                 aria-label="linkedin"
                 rel="nofollow noopener"
-                href="https://www.linkedin.com/">
+                href="https://www.linkedin.com/company/mirai-data">
                 <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="youtube"
+                rel="nofollow noopener"
+                href="https://www.youtube.com/@ReEstimando">
+                <i class="fab fa-youtube"></i>
               </a>
             </li>
           
