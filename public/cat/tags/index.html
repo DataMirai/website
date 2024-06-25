@@ -81,7 +81,7 @@
 
 
 
-<title>Hugoplate</title>
+<title>Mirai Data</title>
 
 
 
@@ -94,11 +94,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/tags/" />
+    <link rel="alternate" hreflang="en" href="//localhost:1313/en/tags/" />
+  
+    <link rel="alternate" hreflang="es" href="//localhost:1313/tags/" />
   
     <link rel="alternate" hreflang="cat" href="//localhost:1313/cat/tags/" />
-  
-    <link rel="alternate" hreflang="es" href="//localhost:1313/es/tags/" />
   
   <link rel="alternate" hreflang="x-default" href="//localhost:1313/cat/tags/" />
 
@@ -190,13 +190,13 @@
 
 
 
-<meta property="og:title" content="Hugoplate" />
+<meta property="og:title" content="Mirai Data" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="//localhost:1313/cat/tags/" />
 
 
-<meta name="twitter:title" content="Hugoplate" />
+<meta name="twitter:title" content="Mirai Data" />
 <meta name="twitter:description" content="Hugo &amp; Tailwindcss Starter" />
 
 
@@ -222,8 +222,8 @@
 <script>
   let indexURL = "//localhost:1313/cat/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "No results for";
-  let search_initial_message = "Type something to search..";
+  let search_no_results = "0 results for";
+  let search_initial_message = "";
 </script>
 
 
@@ -591,8 +591,16 @@
       
         <option
           id="en"
-          value="/tags/">
+          value="/en/tags/">
           Eng
+        </option>
+      
+    
+      
+        <option
+          id="es"
+          value="/tags/">
+          Esp
         </option>
       
     
@@ -602,14 +610,6 @@
           value="/cat/tags/"
           selected>
           Cat
-        </option>
-      
-    
-      
-        <option
-          id="es"
-          value="/es/tags/">
-          Esp
         </option>
       
     
@@ -742,12 +742,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="Search Post..." />
+            placeholder="" />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            Type something to search..
+            
           </span>
         </div>
         <div class="search-wrapper-footer">

@@ -2,9 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>//localhost:1313/en/sitemap.xml</loc>
-    
-      <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>//localhost:1313/es/sitemap.xml</loc>
     
   </sitemap>
   
@@ -14,7 +12,9 @@
   </sitemap>
   
   <sitemap>
-    <loc>//localhost:1313/es/sitemap.xml</loc>
+    <loc>//localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     
   </sitemap>
   

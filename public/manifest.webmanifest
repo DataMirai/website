@@ -1,7 +1,7 @@
 {
-  "name": "Hugoplate",
-  "short_name": "Hugoplate",
-  "lang": "en-us",
+  "name": "Mirai Data",
+  "short_name": "Mirai Data",
+  "lang": "es",
   "display": "fullscreen",
   "orientation" : "portrait",
   "start_url": "//localhost:1313/?utm_source=web_app_manifest",
