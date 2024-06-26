@@ -41,6 +41,7 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = true
 label = "Contact Us"
 link = "contact"
+
    
 
 # search
