@@ -20,24 +20,6 @@
                 href="//localhost:1313/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/application/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/application/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/categories/application/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/categories/application/"
-                />
-  </url><url>
     <loc>//localhost:1313/categories/architecture/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
@@ -198,6 +180,24 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/tags/nextjs/"
+                />
+  </url><url>
+    <loc>//localhost:1313/categories/reestimando/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/ca/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/categories/reestimando/"
                 />
   </url><url>
     <loc>//localhost:1313/tags/silicon/</loc>

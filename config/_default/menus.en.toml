@@ -7,13 +7,13 @@ pageRef = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "Articles"
 pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
-pageRef = "/elements"
+name = "ReEstimando Blog"
+pageRef = "/categories/reestimando/"
 weight = 3
 
 [[main]]

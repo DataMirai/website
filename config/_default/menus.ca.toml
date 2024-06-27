@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "El Blog de ReEstimando"
-pageRef = "/elements"
+pageRef = "/categories/reestimando/"
 weight = 3
 
 [[main]]
