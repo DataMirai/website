@@ -12,7 +12,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/"
+                href="//localhost:1313/ca/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -30,7 +30,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/application/"
+                href="//localhost:1313/ca/categories/application/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -48,7 +48,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/architecture/"
+                href="//localhost:1313/ca/categories/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -66,7 +66,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/blog/"
+                href="//localhost:1313/ca/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -84,7 +84,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/"
+                href="//localhost:1313/ca/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -102,7 +102,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/data/"
+                href="//localhost:1313/ca/categories/data/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -120,7 +120,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/blog/post-1/"
+                href="//localhost:1313/ca/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -138,7 +138,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/blog/post-2/"
+                href="//localhost:1313/ca/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -156,7 +156,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/blog/post-3/"
+                href="//localhost:1313/ca/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -174,7 +174,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/blog/post-4/"
+                href="//localhost:1313/ca/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -192,7 +192,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/nextjs/"
+                href="//localhost:1313/ca/tags/nextjs/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -210,7 +210,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/silicon/"
+                href="//localhost:1313/ca/tags/silicon/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -228,7 +228,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/software/"
+                href="//localhost:1313/ca/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -246,7 +246,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/software/"
+                href="//localhost:1313/ca/categories/software/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -264,7 +264,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/"
+                href="//localhost:1313/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -282,7 +282,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/tailwind/"
+                href="//localhost:1313/ca/tags/tailwind/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -300,7 +300,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/tags/technology/"
+                href="//localhost:1313/ca/tags/technology/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -318,7 +318,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/categories/technology/"
+                href="//localhost:1313/ca/categories/technology/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -335,7 +335,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/authors/"
+                href="//localhost:1313/ca/authors/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -352,7 +352,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/contact/"
+                href="//localhost:1313/ca/contact/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -369,7 +369,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/elements/"
+                href="//localhost:1313/ca/elements/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -386,7 +386,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/about/"
+                href="//localhost:1313/ca/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -403,7 +403,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/authors/john-doe/"
+                href="//localhost:1313/ca/authors/john-doe/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -420,7 +420,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/pages/"
+                href="//localhost:1313/ca/pages/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -437,7 +437,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/privacy-policy/"
+                href="//localhost:1313/ca/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -454,7 +454,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/authors/sam-wilson/"
+                href="//localhost:1313/ca/authors/sam-wilson/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -471,7 +471,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/sections/"
+                href="//localhost:1313/ca/sections/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -488,7 +488,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/cat/authors/william-jacob/"
+                href="//localhost:1313/ca/authors/william-jacob/"
                 />
     <xhtml:link
                 rel="alternate"

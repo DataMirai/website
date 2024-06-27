@@ -13,7 +13,7 @@ contentDir = "content/spanish"
 weight = 2
 
 ################ Catalan language ##################
-[cat]
+[ca]
 languageName = "Cat"
 languageCode = "ca-es"
 contentDir = "content/catalan"
