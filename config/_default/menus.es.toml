@@ -1,15 +1,30 @@
 ############# Español navigation ##############
 
 # main menu-esp
+
 [[main]]
 name = "Inicio"
 pageRef = "/"
 weight = 1
 
 [[main]]
-name = "Artículos"
-pageRef = "/about"
+name = "Posts"
 weight = 2
+
+[[main]]
+parent = "Posts"
+name = "Todos los posts"
+pageRef = "/blog"
+
+[[main]]
+parent = "Posts"
+name = "Artículos"
+pageRef = "/blog"
+
+[[main]]
+parent = "Posts"
+name = "DataViz"
+pageRef = "/blog"
 
 [[main]]
 name = "El Blog de ReEstimando"
@@ -17,47 +32,27 @@ pageRef = "/categories/reestimando/"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
-name = "Blog"
-pageRef = "/blog"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-pageRef = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
+name = "Nosotros"
 pageRef = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-pageRef = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-pageRef = "/404"
-
+weight = 4
 
 # footer menu-esp
 [[footer]]
-name = "About"
-pageRef = "/about"
+name = "Contáctanos"
+pageRef = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
 weight = 1
 
 [[footer]]
-name = "Elementos"
-pageRef = "/elements"
+name = "Nosotros"
+pageRef = "/authors"
 weight = 2
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 3
 
 [[footer]]
 name = "Política de Privacidad"
 pageRef = "/privacy-policy"
-weight = 3
+weight = 4

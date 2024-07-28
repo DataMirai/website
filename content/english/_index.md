@@ -28,11 +28,11 @@ features:
 
   - title: "Data Visualization & Storytelling"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "We uncover the stories behind data and bring them closer to the real world by complementing them with interviews, newspapers and other documents."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "We create customized designs for each theme."
+      - "We develop infographics and interactive visualizations to share stories that entertain our readers."
+      - "We work mainly with R and JS data visualization libraries."
     button:
       enable: true
       label: "Discover stories"
@@ -40,12 +40,11 @@ features:
 
   - title: "Courses and seminars"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "We offer customized programs for universities and companies that want to start or improve their knowledge in programming and database management."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "We customize the contents to the level of the students."
+      - "We complement theory sessions with case studies to facilitate knowledge consolidation."
+      - "Trusted by: *Autonomous University of Barcelona* and *University of Salamanca*."
     button:
       enable: false
       label: ""

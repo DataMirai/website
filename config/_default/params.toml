@@ -39,9 +39,8 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 
 enable = true
-link = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
-label = "📥"
-
+link = "https://www.patreon.com/user/creators?u=136816989"
+label = ""
        
         
 

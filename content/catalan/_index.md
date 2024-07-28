@@ -11,7 +11,7 @@ banner:
 
 # Features
 features:
-  - title: "Modelització de dades"
+  - title: "Consultoria estadística"
     image: "/images/service-1.png"
     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
@@ -28,11 +28,11 @@ features:
 
   - title: "Visualització de dades i Storytelling"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Revelem les històries que hi ha darrere de les dades i les acostem al món real complementant-les amb entrevistes, hemeroteca i altres documents."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Creem dissenys personalitzats per a cada temàtica."
+      - "Desenvolupem infografies i visualitzacions interactives per a explicar històries que entretinguin als nostres lectors."
+      - "Treballem principalment amb llibreries de visualització de dades de R i JS."
     button:
       enable: true
       label: "Descobreix històries"
@@ -40,12 +40,12 @@ features:
 
   - title: "Cursos i formacions"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Oferim formacions personalitzades per a universitats i empreses que vulguin començar a endinsar-se o millorar els seus coneixements de programació i gestió de bases de dades."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Adaptem els continguts al nivell dels alumnes."
+      - "Complementem sessions de teoria i casos pràctics per a facilitar l'assentament dels coneixements."
+      - "Han confiat en nosaltres: *Universitat Autònoma de Bacelona* i *Universitat de Salamanca*."
+      
     button:
       enable: false
       label: ""
