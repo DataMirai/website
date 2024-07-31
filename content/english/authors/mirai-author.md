@@ -1,8 +1,8 @@
 ---
 title: Mirai Data
 #email: williamjacob@email.com
-image: "/images/avatar.png"
-description: Our team has many talents and when we work together some awesome things happen. Want to see what's coming next?
+image: "/images/logo_redondas.png"
+description: Our team has many talents and when we work together some awesome things happen.
 social:
   - name: instagram
     icon: fa-brands fa-instagram

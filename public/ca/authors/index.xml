@@ -8,25 +8,25 @@
     <language>ca-es</language>
     <atom:link href="//localhost:1313/ca/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>//localhost:1313/ca/authors/john-doe/</link>
+      <title>Aitor González</title>
+      <link>//localhost:1313/ca/authors/aitor-gonzalez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/authors/john-doe/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>//localhost:1313/ca/authors/aitor-gonzalez/</guid>
+      <description>Estadístic. Professor d&amp;rsquo;estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YouTube al canal Reestimando.</description>
     </item>
     <item>
-      <title>Sam Wilson</title>
-      <link>//localhost:1313/ca/authors/sam-wilson/</link>
+      <title>Mirai Data</title>
+      <link>//localhost:1313/ca/authors/mirai-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/authors/sam-wilson/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>//localhost:1313/ca/authors/mirai-author/</guid>
+      <description>El nostre equip té molts talents i quan treballem junts surten coses increïbles.</description>
     </item>
     <item>
-      <title>William Jacob</title>
-      <link>//localhost:1313/ca/authors/william-jacob/</link>
+      <title>Mireia Camacho</title>
+      <link>//localhost:1313/ca/authors/mireia-camacho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/authors/william-jacob/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>//localhost:1313/ca/authors/mireia-camacho/</guid>
+      <description>Analista i periodista de dades. Li encanta fer visualitzacions de dades.</description>
     </item>
   </channel>
 </rss>

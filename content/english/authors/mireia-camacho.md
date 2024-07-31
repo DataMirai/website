@@ -1,7 +1,7 @@
 ---
 title: Mireia Camacho
 #email: samwilson@email.com
-image: "/images/avatar.png"
+image: "/images/mireia-profile.jpg"
 description: Data analyst and data journalist. Loves to do data visualizations. Data journalism professor at Autonomous University of Barcelona.
 social:
   - name: github

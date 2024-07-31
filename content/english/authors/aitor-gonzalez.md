@@ -1,7 +1,7 @@
 ---
 title: Aitor González
 #email: johndoe@email.com
-image: "/images/avatar.png"
+image: "/images/aitor-profile.jpg"
 description: Statistician. Statistics professor at Autonomous University of Barcelona and explaining statistics on his YouTube channel Reestimando.
 social:
   - name: youtube
