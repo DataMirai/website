@@ -2,7 +2,7 @@
 <html
   itemscope
   class=""
-  lang="ca-es"
+  lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
@@ -72,7 +72,7 @@
 
 
 
-  <base href="//localhost:1313/ca/authors/john-doe/" />
+  <base href="//localhost:1313/en/authors/mirai-author/" />
 
 
 
@@ -83,7 +83,7 @@
   
 
 
-<title>John Doe</title>
+<title>Mirai Data</title>
 
 
 
@@ -94,13 +94,6 @@
 
 
 
-
-  
-    <link rel="alternate" hreflang="es" href="//localhost:1313/authors/john-doe/" />
-  
-    <link rel="alternate" hreflang="ca" href="//localhost:1313/ca/authors/john-doe/" />
-  
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/ca/authors/john-doe/" />
 
 
 
@@ -115,7 +108,7 @@
 
 <meta
   name="description"
-  content="this is meta description" />
+  content="Our team has many talents and when we work together some awesome things happen. Want to see what&#39;s coming next?" />
 
 
 
@@ -193,14 +186,14 @@
 
 
 
-<meta property="og:title" content="John Doe" />
-<meta property="og:description" content="this is meta description" />
+<meta property="og:title" content="Mirai Data" />
+<meta property="og:description" content="Our team has many talents and when we work together some awesome things happen. Want to see what&#39;s coming next?" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/ca/authors/john-doe/" />
+<meta property="og:url" content="//localhost:1313/en/authors/mirai-author/" />
 
 
-<meta name="twitter:title" content="John Doe" />
-<meta name="twitter:description" content="this is meta description" />
+<meta name="twitter:title" content="Mirai Data" />
+<meta name="twitter:description" content="Our team has many talents and when we work together some awesome things happen. Want to see what&#39;s coming next?" />
 
 
 
@@ -223,10 +216,10 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/ca/searchindex.json";
+  let indexURL = "//localhost:1313/en/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "No s'han trobat resultats per a";
-  let search_initial_message = "Què vols buscar?";
+  let search_no_results = "No results for";
+  let search_initial_message = "Type something to search...";
 </script>
 
 
@@ -430,7 +423,7 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/ca/">
+      <a class="navbar-brand block" href="/en/">
         
 
 
@@ -563,8 +556,8 @@
             <a
               class="nav-link "
               
-              href="/ca/"
-              >Inici</a
+              href="/en/"
+              >Home</a
             >
           </li>
         
@@ -603,8 +596,8 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/ca/blog/">
-                    Artícles
+                    href="/en/blog/">
+                    All posts
                   </a>
                 </li>
               
@@ -614,19 +607,19 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/ca/blog/">
+                    href="/en/blog/">
+                    Articles
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/en/blog/">
                     DataViz
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/ca/blog/">
-                    Tots els posts
                   </a>
                 </li>
               
@@ -642,8 +635,8 @@
             <a
               class="nav-link "
               
-              href="/ca/categories/reestimando/"
-              >El Blog de ReEstimando</a
+              href="/en/categories/reestimando/"
+              >ReEstimando Blog</a
             >
           </li>
         
@@ -656,8 +649,8 @@
             <a
               class="nav-link "
               
-              href="/ca/authors/"
-              >Nosaltres</a
+              href="/en/authors/"
+              >About</a
             >
           </li>
         
@@ -695,35 +688,6 @@
 
 
 
-
-  <select class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded" onchange="location = this.value">
-    
-      
-        <option
-          id="en"
-          value="/en/authors/john-doe/">
-          Eng
-        </option>
-      
-    
-      
-        <option
-          id="es"
-          value="/authors/john-doe/">
-          Esp
-        </option>
-      
-    
-      
-        <option
-          id="ca"
-          value="/ca/authors/john-doe/"
-          selected>
-          Cat
-        </option>
-      
-    
-  </select>
 
 
       
@@ -850,12 +814,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="Busca un post..." />
+            placeholder="Search Post..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            Què vols buscar?
+            Type something to search...
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -883,7 +847,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            Navegar
+            To navigate
           </span>
           <span>
             <kbd>
@@ -899,11 +863,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            Seleccionar
+            To select
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> Tancar
+            <kbd>ESC</kbd> To close
           </span>
         </div>
       </div>
@@ -1001,7 +965,7 @@
             decoding="async"
           
 
-          alt="John Doe"
+          alt="Mirai Data"
           class=" mx-auto img"
           width="200"
           height="200"
@@ -1020,26 +984,26 @@
 
 
           
-          <h1 class="h3 mt-10">John Doe</h1>
+          <h1 class="h3 mt-10">Mirai Data</h1>
           <div class="content mt-6">
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.</p>
+            <p>Our team has many talents and when we work together some awesome things happen. Want to see what&rsquo;s coming next?</p>
 
           </div>
           <ul class="social-icons ml-4 mt-10 text-center">
             
               <li>
                 <a
-                  href="https://github.com"
+                  href="https://www.instagram.com/mirai_data/"
                   target="_blank"
                   rel="noopener nofollow">
                   <span class="sr-only"></span>
-                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
             
               <li>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/MiraiData"
                   target="_blank"
                   rel="noopener nofollow">
                   <span class="sr-only"></span>
@@ -1049,7 +1013,7 @@
             
               <li>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/mirai-data/"
                   target="_blank"
                   rel="noopener nofollow">
                   <span class="sr-only"></span>
@@ -1063,473 +1027,6 @@
 
       <div class="row pb-16 pt-14">
         
-        
-          <div class="md:col-6 lg:col-4 mb-12">
-            <div class="bg-body dark:bg-darkmode-body">
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q100_h2_lanczos_3.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
-            class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-  
-  <h4 class="mb-3">
-    <a href="/ca/blog/post-1/">
-      How to build an Application with modern Technology
-    </a>
-  </h4>
-  
-  
-    <ul class="mb-4">
-      <li class="mr-4 inline-block">
-        <a href="/ca/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
-        </a>
-      </li>
-      <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
-        
-          <a
-            href="/ca/categories/reestimando/"
-            class="ms-1"
-            >Re estimando
-              ,
-            
-          </a>
-        
-          <a
-            href="/ca/categories/data/"
-            class="ms-1"
-            >Data
-          </a>
-        
-      </li>
-    </ul>
-  
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/post-1/">
-    Més
-  </a>
-</div>
-
-          </div>
-        
-          <div class="md:col-6 lg:col-4 mb-12">
-            <div class="bg-body dark:bg-darkmode-body">
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q100_h2_lanczos_3.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
-            class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-  
-  <h4 class="mb-3">
-    <a href="/ca/blog/post-3/">
-      How to build an Application with modern Technology
-    </a>
-  </h4>
-  
-  
-    <ul class="mb-4">
-      <li class="mr-4 inline-block">
-        <a href="/ca/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
-        </a>
-      </li>
-      <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
-        
-          <a
-            href="/ca/categories/software/"
-            class="ms-1"
-            >Software
-          </a>
-        
-      </li>
-    </ul>
-  
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/post-3/">
-    Més
-  </a>
-</div>
-
-          </div>
-        
-          <div class="md:col-6 lg:col-4 mb-12">
-            <div class="bg-body dark:bg-darkmode-body">
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q100_h2_lanczos_3.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q100_h2_lanczos_3.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
-            class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-  
-  <h4 class="mb-3">
-    <a href="/ca/blog/post-4/">
-      How to build an Application with modern Technology
-    </a>
-  </h4>
-  
-  
-    <ul class="mb-4">
-      <li class="mr-4 inline-block">
-        <a href="/ca/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
-        </a>
-      </li>
-      <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
-        
-          <a
-            href="/ca/categories/architecture/"
-            class="ms-1"
-            >Architecture
-          </a>
-        
-      </li>
-    </ul>
-  
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/post-4/">
-    Més
-  </a>
-</div>
-
-          </div>
         
       </div>
     </div>
@@ -1545,7 +1042,7 @@
         
         <a
           class="navbar-brand inline-block"
-          href="/ca/">
+          href="/en/">
           
 
 
@@ -1653,9 +1150,9 @@
               <a
                 
                 href="
-                  /ca/
+                  /en/
                 "
-                >Contacta&#39;ns</a
+                >Contact</a
               >
             </li>
           
@@ -1663,9 +1160,9 @@
               <a
                 
                 href="
-                  /ca/authors/
+                  /en/authors/
                 "
-                >Nosaltres</a
+                >About</a
               >
             </li>
           
@@ -1673,7 +1170,7 @@
               <a
                 
                 href="
-                  /ca/elements/
+                  /en/elements/
                 "
                 >Elements</a
               >
@@ -1683,9 +1180,9 @@
               <a
                 
                 href="
-                  /ca/privacy-policy/
+                  /en/privacy-policy/
                 "
-                >Política de Privacitat</a
+                >Privacy policy</a
               >
             </li>
           
