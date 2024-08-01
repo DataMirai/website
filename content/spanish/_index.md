@@ -44,7 +44,7 @@ features:
     bulletpoints:
       - "Adaptamos los contenidos al nivel de los alumnos."
       - "Complementamos sesiones de teoría y casos prácticos para facilitar el asentamiento de los conocimientos."
-      - "Han confiado en nosotros: *Universidad Autónoma de Bacelona* y *Universidad de Salamanca*."
+      - "Han confiado en nosotros: *Universidad Autónoma de Barcelona* y *Universidad de Salamanca*."
     button:
       enable: false
       label: ""

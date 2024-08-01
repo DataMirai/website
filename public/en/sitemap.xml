@@ -317,11 +317,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/categories/technology/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/categories/technology/"
                 />

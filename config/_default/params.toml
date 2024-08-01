@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = ""
+copyright = "© 2024 Mirai Data"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -36,11 +36,11 @@ enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
-[navigation_button]
+#[navigation_button]
 
-enable = true
-link = "https://www.patreon.com/user/creators?u=136816989"
-label = ""
+#enable = true
+#link = "https://www.patreon.com/user/creators?u=136816989"
+#label = ""
        
         
 
@@ -58,17 +58,17 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
-expire_days = 7
-content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+enable = false
+#expire_days = 7
+#content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-image = "images/og-image.png"
+keywords = ["statistics", "estadistica", "data", "visualization", "visualizacion datos", "data journalism", "periodismo de datos"]
+description = "Blog de estadística y periodismo de datos con visualizaciones de datos y programación en R y JavaScript."
+author = "Mirai Data"
+image = "images/logo.png"
 
 
 # site verifications
@@ -98,17 +98,17 @@ sidebar = ["categories", "tags"]
 
 
 # google map
-[google_map]
-enable = false
-map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+#[google_map]
+#enable = false
+#map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+#map_latitude = "51.5223477"
+#map_longitude = "-0.1622023"
+#map_marker = "images/marker.png"
 
 
 # Subscription
-[subscription]
-enable = false
+#[subscription]
+#enable = false
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+#mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+#mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
