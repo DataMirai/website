@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com/in/aitor-gonzalez-amezcua-392485184/
 ---
 
-Estadístic. Professor d'estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YouTube al canal *Reestimando*.
+Estadístic. Professor d'estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YT al canal *Reestimando*.

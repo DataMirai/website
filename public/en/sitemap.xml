@@ -343,6 +343,23 @@
                 href="//localhost:1313/en/authors/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/authors/aitor-gonzalez/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/aitor-gonzalez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/ca/authors/aitor-gonzalez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/aitor-gonzalez/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -394,21 +411,38 @@
                 href="//localhost:1313/en/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/authors/john-doe/</loc>
+    <loc>//localhost:1313/en/authors/mirai-author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/authors/john-doe/"
+                href="//localhost:1313/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/ca/authors/john-doe/"
+                href="//localhost:1313/ca/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/john-doe/"
+                href="//localhost:1313/en/authors/mirai-author/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/authors/mireia-camacho/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/mireia-camacho/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/ca/authors/mireia-camacho/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/mireia-camacho/"
                 />
   </url><url>
     <loc>//localhost:1313/en/pages/</loc>
@@ -445,23 +479,6 @@
                 href="//localhost:1313/en/privacy-policy/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/authors/sam-wilson/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/authors/sam-wilson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/authors/sam-wilson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/authors/sam-wilson/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/sections/</loc>
     <xhtml:link
                 rel="alternate"
@@ -477,23 +494,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/sections/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/authors/william-jacob/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/authors/william-jacob/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/authors/william-jacob/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/authors/william-jacob/"
                 />
   </url>
 </urlset>

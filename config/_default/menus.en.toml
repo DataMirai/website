@@ -40,7 +40,7 @@ weight = 4
 # footer menu
 [[footer]]
 name = "Contact"
-pageRef = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
+Url = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
 weight = 1
 
 [[footer]]

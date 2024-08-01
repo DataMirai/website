@@ -37,6 +37,13 @@
       <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
     </item>
     <item>
+      <title>Aitor González</title>
+      <link>//localhost:1313/en/authors/aitor-gonzalez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/authors/aitor-gonzalez/</guid>
+      <description>Statistician. Statistics professor at Autonomous University of Barcelona and explaining statistics on his YouTube channel Reestimando.</description>
+    </item>
+    <item>
       <title>Elements</title>
       <link>//localhost:1313/en/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,11 +51,18 @@
       <description>Table of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
     </item>
     <item>
-      <title>John Doe</title>
-      <link>//localhost:1313/en/authors/john-doe/</link>
+      <title>Mirai Data</title>
+      <link>//localhost:1313/en/authors/mirai-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/authors/john-doe/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>//localhost:1313/en/authors/mirai-author/</guid>
+      <description>Our team has many talents and when we work together awesome things happen, Want to see what&amp;rsquo;s coming next?</description>
+    </item>
+    <item>
+      <title>Mireia Camacho</title>
+      <link>//localhost:1313/en/authors/mireia-camacho/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/authors/mireia-camacho/</guid>
+      <description>Data analyst and data journalist. Loves to do data visualizations. Data journalism professor at Autonomous University of Barcelona.</description>
     </item>
     <item>
       <title>Privacy</title>
@@ -65,25 +79,11 @@
       <description></description>
     </item>
     <item>
-      <title>Sam Wilson</title>
-      <link>//localhost:1313/en/authors/sam-wilson/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/authors/sam-wilson/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    <item>
       <title>What Users Are Saying About Hugoplate</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>
       <description></description>
-    </item>
-    <item>
-      <title>William Jacob</title>
-      <link>//localhost:1313/en/authors/william-jacob/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/authors/william-jacob/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
   </channel>
 </rss>

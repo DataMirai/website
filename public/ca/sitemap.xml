@@ -38,24 +38,6 @@
                 href="//localhost:1313/ca/categories/architecture/"
                 />
   </url><url>
-    <loc>//localhost:1313/ca/blog/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/blog/"
-                />
-  </url><url>
     <loc>//localhost:1313/ca/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
@@ -180,6 +162,24 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="//localhost:1313/ca/tags/nextjs/"
+                />
+  </url><url>
+    <loc>//localhost:1313/ca/blog/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/ca/blog/"
                 />
   </url><url>
     <loc>//localhost:1313/ca/categories/reestimando/</loc>
@@ -326,21 +326,21 @@
                 href="//localhost:1313/ca/categories/technology/"
                 />
   </url><url>
-    <loc>//localhost:1313/ca/authors/</loc>
+    <loc>//localhost:1313/ca/authors/aitor-gonzalez/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/"
+                href="//localhost:1313/en/authors/aitor-gonzalez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/authors/"
+                href="//localhost:1313/authors/aitor-gonzalez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/ca/authors/"
+                href="//localhost:1313/ca/authors/aitor-gonzalez/"
                 />
   </url><url>
     <loc>//localhost:1313/ca/contact/</loc>
@@ -394,21 +394,38 @@
                 href="//localhost:1313/ca/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/ca/authors/john-doe/</loc>
+    <loc>//localhost:1313/ca/authors/mirai-author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/john-doe/"
+                href="//localhost:1313/en/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/authors/john-doe/"
+                href="//localhost:1313/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/ca/authors/john-doe/"
+                href="//localhost:1313/ca/authors/mirai-author/"
+                />
+  </url><url>
+    <loc>//localhost:1313/ca/authors/mireia-camacho/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/authors/mireia-camacho/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/authors/mireia-camacho/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="//localhost:1313/ca/authors/mireia-camacho/"
                 />
   </url><url>
     <loc>//localhost:1313/ca/pages/</loc>
@@ -445,23 +462,6 @@
                 href="//localhost:1313/ca/privacy-policy/"
                 />
   </url><url>
-    <loc>//localhost:1313/ca/authors/sam-wilson/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/authors/sam-wilson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/authors/sam-wilson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/ca/authors/sam-wilson/"
-                />
-  </url><url>
     <loc>//localhost:1313/ca/sections/</loc>
     <xhtml:link
                 rel="alternate"
@@ -479,21 +479,21 @@
                 href="//localhost:1313/ca/sections/"
                 />
   </url><url>
-    <loc>//localhost:1313/ca/authors/william-jacob/</loc>
+    <loc>//localhost:1313/ca/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/william-jacob/"
+                href="//localhost:1313/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/authors/william-jacob/"
+                href="//localhost:1313/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/ca/authors/william-jacob/"
+                href="//localhost:1313/ca/authors/"
                 />
   </url>
 </urlset>

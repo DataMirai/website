@@ -1,8 +1,8 @@
 ---
 title: Mirai Data
 #email: williamjacob@email.com
-image: "/images/logo_redondas.png"
-description: El nostre equip té molts talents i quan treballem junts surten coses increïbles.
+image: "/images/logo_redondas.jpg"
+description: Les coses més increïbles s'aconsegueixen en equip i nosaltres no volem fer curt, Vols veure en què estem treballant
 social:
   - name: instagram
     icon: fa-brands fa-instagram
@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com/company/mirai-data/
 ---
 
-El nostre equip té molts talents i quan treballem junts surten coses increïbles. Vols veure els nostres següents projectes?
+Les coses més increïbles s'aconsegueixen en equip i nosaltres no volem fer curt, Vols veure en què estem treballant?

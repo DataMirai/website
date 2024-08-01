@@ -1,8 +1,8 @@
 ---
 title: Mirai Data
 #email: williamjacob@email.com
-image: "/images/logo_redondas.png"
-description: Our team has many talents and when we work together some awesome things happen.
+image: "/images/logo_redondas.jpg"
+description: Our team has many talents and when we work together awesome things happen. Want to see what's coming next?
 social:
   - name: instagram
     icon: fa-brands fa-instagram
@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com/company/mirai-data/
 ---
 
-Our team has many talents and when we work together some awesome things happen. Want to see what's coming next?
+Our team has many talents and when we work together awesome things happen, Want to see what's coming next?

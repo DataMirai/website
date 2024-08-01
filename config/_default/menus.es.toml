@@ -1,6 +1,6 @@
 ############# Español navigation ##############
 
-# main menu-esp
+# main menu
 
 [[main]]
 name = "Inicio"
@@ -27,7 +27,7 @@ name = "DataViz"
 pageRef = "/blog"
 
 [[main]]
-name = "El Blog de ReEstimando"
+name = "ReEstimando Blog"
 pageRef = "/categories/reestimando/"
 weight = 3
 
@@ -36,10 +36,11 @@ name = "Nosotros"
 pageRef = "/authors"
 weight = 4
 
-# footer menu-esp
+# footer menu
+
 [[footer]]
 name = "Contáctanos"
-pageRef = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
+Url = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ07B8Ih74MHYxRNI3JVhj38FftPkbnIsgTtpXrgoTblohjPMtB9Zaun3E9PPTUI9SV5nlX43v7n"
 weight = 1
 
 [[footer]]

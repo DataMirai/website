@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Mirai Data</title>
+    <title>Sobre nosaltres on Mirai Data</title>
     <link>//localhost:1313/ca/authors/</link>
-    <description>Recent content in Authors on Mirai Data</description>
+    <description>Recent content in Sobre nosaltres on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
     <atom:link href="//localhost:1313/ca/authors/index.xml" rel="self" type="application/rss+xml" />
@@ -12,21 +12,21 @@
       <link>//localhost:1313/ca/authors/aitor-gonzalez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ca/authors/aitor-gonzalez/</guid>
-      <description>Estadístic. Professor d&amp;rsquo;estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YouTube al canal Reestimando.</description>
+      <description>Estadístic. Professor d&amp;rsquo;estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YT al canal Reestimando.</description>
     </item>
     <item>
       <title>Mirai Data</title>
       <link>//localhost:1313/ca/authors/mirai-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ca/authors/mirai-author/</guid>
-      <description>El nostre equip té molts talents i quan treballem junts surten coses increïbles.</description>
+      <description>Les coses més increïbles s&amp;rsquo;aconsegueixen en equip i nosaltres no volem fer curt, Vols veure en què estem treballant?</description>
     </item>
     <item>
       <title>Mireia Camacho</title>
       <link>//localhost:1313/ca/authors/mireia-camacho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ca/authors/mireia-camacho/</guid>
-      <description>Analista i periodista de dades. Li encanta fer visualitzacions de dades.</description>
+      <description>Analista i periodista de dades. Fan de les visualitzacions. Profesora de periodisme de dades a la Universitat Autònoma de Barcelona.</description>
     </item>
   </channel>
 </rss>
