@@ -3,7 +3,7 @@
 banner:
   title: ""
   content: ""
-  image: "/images/banner.png"
+  image: "/images/Sin-título-1.gif"
   button:
     enable: true
     label: "Contribueix al projecte"

@@ -1,6 +1,6 @@
 ---
 title: "#30DayChartChallenge 2024"
-meta_title: "Participació al #30DayChartChallenge 2024 i les visualitzacions que vam fer per a cada repte"
+meta_title: "#30DayChartChallenge 2024 i les visualitzacions que vam fer per a cada repte"
 description: "Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!"
 date: 2022-04-04T05:00:00Z
 image: "images/gallery/banners_posts/30DayChartChallenge.png"
@@ -13,7 +13,7 @@ draft: false
 Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!
 
 {{< notice "tip" >}}
-Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també vols col·laborar pots fer-ho [aquí](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
+Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també vols col·laborar pots fer-ho [*aquí*](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
 {{< /notice >}}
 
 El [#30DayChartChallenge](https://github.com/30DayChartChallenge/Edition2024 "Pàg Github amb les guies del repte 2024") és un repte que anima a la comunitat a fer una visualització de dades cada dia del mes d'abril seguint una guia que indica el tipus de gràfica que s'ha de fer o la temàtica que s'ha de seguir. Els participants poden participar-hi des de la xarxa social que prefereixin: en el meu cas vaig optar per compartir les visualitzacions al meu perfil de Twitter, LinkedIn, Mastodon i Bsky.

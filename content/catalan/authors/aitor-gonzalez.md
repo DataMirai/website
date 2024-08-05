@@ -15,6 +15,10 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/aitor-gonzalez-amezcua-392485184/
+
+  - name: twitch
+    icon: fa-brands fa-twitch
+    link: https://www.twitch.tv/reestimando
 ---
 
 Estadístic. Professor d'estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YT al canal *Reestimando*.

@@ -1,9 +1,9 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
+title: "Hi, we are Mirai Data!"
+meta_title: "About Mirai Data"
+description: "Mirai Data Description"
+image: "/images/logo_redondas.jpg"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Mirai Data is a multidisciplinary team specialized in statistics, data communication and visualization, and programming with the intention of providing solutions for database management. From statistical consulting services; such as experimental designs or data modeling, to facilitating processes such as decision making or efficient communication with data for a non-technical audience.
