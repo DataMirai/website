@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: ""
-  content: ""
-  image: "/images/Sin-título-1.gif"
-  button:
-    enable: true
-    label: "Contribueix al projecte"
-    link: "https://www.patreon.com/user/creators?u=136816989"
+  #title: ""
+  #content: ""
+  image: "/images/banner_miraiWEB.gif"
+  #button:
+   # enable: false
+   # label: "Contribueix al projecte"
+   # link: "https://www.patreon.com/user/creators?u=136816989"
 
 # Features
 features:

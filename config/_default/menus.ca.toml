@@ -47,13 +47,3 @@ weight = 1
 name = "Nosaltres"
 pageRef = "/authors"
 weight = 2
-
-[[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 3
-
-[[footer]]
-name = "Política de Privacitat"
-pageRef = "/privacy-policy"
-weight = 4

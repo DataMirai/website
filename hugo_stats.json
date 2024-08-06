@@ -3,6 +3,7 @@
     "tags": [
       "a",
       "article",
+      "base",
       "blockquote",
       "body",
       "button",
@@ -120,7 +121,6 @@
       "fa-search",
       "fa-solid",
       "fa-twitch",
-      "fa-twitter",
       "fa-x-twitter",
       "fa-youtube",
       "fab",
@@ -352,6 +352,7 @@
       "including-plots",
       "link",
       "message",
+      "my_dataviz",
       "name",
       "nav-menu",
       "nav-toggle",

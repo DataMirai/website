@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Mirai Data</title><link>/ca/tags/</link><description>Recent content in Tags on Mirai Data</description><generator>Hugo</generator><language>ca-es</language><lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate><atom:link href="/ca/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>#30DayChartChallenge</title><link>/ca/tags/%2330daychartchallenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/%2330daychartchallenge/</guid><description/></item><item><title>Nextjs</title><link>/ca/tags/nextjs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/nextjs/</guid><description/></item><item><title>Programming</title><link>/ca/tags/programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/programming/</guid><description/></item><item><title>Silicon</title><link>/ca/tags/silicon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/silicon/</guid><description/></item><item><title>Software</title><link>/ca/tags/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/software/</guid><description/></item><item><title>Tailwind</title><link>/ca/tags/tailwind/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/tailwind/</guid><description/></item><item><title>Technology</title><link>/ca/tags/technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ca/tags/technology/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mirai Data</title>
+    <link>//localhost:1313/ca/tags/</link>
+    <description>Recent content in Tags on Mirai Data</description>
+    <generator>Hugo</generator>
+    <language>ca-es</language>
+    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#30DayChartChallenge</title>
+      <link>//localhost:1313/ca/tags/%2330daychartchallenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/%2330daychartchallenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nextjs</title>
+      <link>//localhost:1313/ca/tags/nextjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/nextjs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>//localhost:1313/ca/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Silicon</title>
+      <link>//localhost:1313/ca/tags/silicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/silicon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/ca/tags/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailwind</title>
+      <link>//localhost:1313/ca/tags/tailwind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/tailwind/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>//localhost:1313/ca/tags/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ca/tags/technology/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

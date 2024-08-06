@@ -48,12 +48,3 @@ name = "Nosotros"
 pageRef = "/authors"
 weight = 2
 
-[[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 3
-
-[[footer]]
-name = "Política de Privacidad"
-pageRef = "/privacy-policy"
-weight = 4

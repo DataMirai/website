@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "¡Este título está en castellano!"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: ""
+  content: ""
+  image: "/images/banner_miraiWEB.gif"
   button:
-    enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    enable: false
+    label: "Contribuye al proyecto"
+    link: "https://www.patreon.com/user/creators?u=136816989"
 
 # Features
 features:

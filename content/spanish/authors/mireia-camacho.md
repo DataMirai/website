@@ -5,7 +5,7 @@ image: "/images/mireia-profile.jpg"
 description: Analista y periodista de datos. Fan de las visualizaciones. Profesora de periodismo de datos en la Universidad Autónoma de Barcelona.
 social:
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://x.com/mireiacamacho75
 
   - name: linkedin

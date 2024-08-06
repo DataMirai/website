@@ -9,7 +9,7 @@ social:
     link: https://www.instagram.com/mirai_data/
 
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://x.com/MiraiData
 
   - name: linkedin
