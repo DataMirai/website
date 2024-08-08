@@ -1,29 +1,90 @@
 ---
-title: "#30DayChartChallenge 2024"
-meta_title: "#30DayChartChallenge 2024 i les visualitzacions que vam fer per a cada repte"
-description: "Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!"
-date: 2022-04-04T05:00:00Z
-image: "images/gallery/banners_posts/30DayChartChallenge.png"
-categories: ["Data Visualization", "R"]
-author: "Mireia Camacho"
-tags: ["#30DayChartChallenge", "Programming"]
+title: "lerele"
+meta_title: ""
+description: "this is meta description"
+date: 2024-08-07T00:00:00.000Z
+image: "/images/image-placeholder.png"
+categories: ["ReEstimando", "Data"]
+author: "John Doe"
+tags: ["nextjs", "tailwind"]
 draft: false
 ---
 
-Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!
+<script src="https://d3js.org/d3.v4.js"></script>
 
-{{< notice type="tip" title="Hello" >}}
-Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també vols col·laborar pots fer-ho [aquí](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
-{{< /notice >}}
+<h3>Título provisional</h3>
 
-El [#30DayChartChallenge](https://github.com/30DayChartChallenge/Edition2024 "Pàg Github amb les guies del repte 2024") és un repte que anima a la comunitat a fer una visualització de dades cada dia del mes d'abril seguint una guia que indica el tipus de gràfica que s'ha de fer o la temàtica que s'ha de seguir. Els participants poden participar-hi des de la xarxa social que prefereixin: en el meu cas vaig optar per compartir les visualitzacions al meu perfil de Twitter, LinkedIn, Mastodon i Bsky.
+<div id="my_dataviz"></div>
 
-A part d'això, em vaig proposar utilitzar els Datasets de Dades Obertes de la Generalitat de Catalunya sempre que hi hagués dades relacionades amb la temàtica d'aquell dia. La part bona d'això és que pràcticament tots els datasets estan documentats i nets, així que vaig haver de perdre poc temps netejant les dades i em vaig poder enfocar en el disseny de les visualitzacions.
+<script>
 
-Reconec que va ser tota una experiència donat que feia molt que no dedicava temps a fer visualitzacions de dades. Per a la meva sorpresa, [Datawrapper](https://blog.datawrapper.de/data-vis-dispatch-april-9-2024/ "Data Vis Dispatch Datawrapper") va afegir una de les meves gràfiques en un post del seu blog sobre "les millors visualitzacions de dades de la setmana". Això em va animar a seguir dedicant-hi temps i esforçar-me per aprendre coses noves durant la resta del mes. 
+// set the dimensions and margins of the graph
+var margin = {top: 30, right: 10, bottom: 10, left: 0},
+  width = 500 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
 
-Es pot dir que vaig poder posar-me al dia de totes les novetats que no havia pogut provar fins aquell moment per falta de temps. Ara que ja estic actualitzada quant a R,toca dedicar-se al contingut i seguir fent visualitzacions interessants per a tothom🤗
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
 
-Mentrestant, podeu gaudir de les visualitzacions que vaig publicar per al repte. **Espero que us agradin!**
+// Parse the Data
+d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/iris.csv", function(data) {
 
-{{< gallery dir="images/gallery/30DayChartChallenge_2024" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true">}}
+  // Extract the list of dimensions we want to keep in the plot. Here I keep all except the column called Species
+  dimensions = d3.keys(data[0]).filter(function(d) { return d != "Species" })
+
+  // For each dimension, I build a linear scale. I store all in a y object
+  var y = {}
+  for (i in dimensions) {
+    name = dimensions[i]
+    y[name] = d3.scaleLinear()
+      .domain( d3.extent(data, function(d) { return +d[name]; }) )
+      .range([height, 0])
+  }
+
+  // Build the X scale -> it find the best position for each Y axis
+  x = d3.scalePoint()
+    .range([0, width])
+    .padding(1)
+    .domain(dimensions);
+
+  // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
+  function path(d) {
+      return d3.line()(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
+  }
+
+  // Draw the lines
+  svg
+    .selectAll("myPath")
+    .data(data)
+    .enter().append("path")
+    .attr("d",  path)
+    .style("fill", "none")
+    .style("stroke", "#69b3a2")
+    .style("opacity", 0.5)
+
+  // Draw the axis:
+  svg.selectAll("myAxis")
+    // For each dimension of the dataset I add a 'g' element:
+    .data(dimensions).enter()
+    .append("g")
+    // I translate this element to its right position on the x axis
+    .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+    // And I build the axis with the call function
+    .each(function(d) { d3.select(this).call(d3.axisLeft().scale(y[d])); })
+    // Add axis title
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; })
+      .style("fill", "black")
+
+})
+
+
+</script>

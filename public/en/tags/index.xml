@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#30DayChartChallenge</title>
@@ -16,45 +16,10 @@
       <description></description>
     </item>
     <item>
-      <title>Nextjs</title>
-      <link>//localhost:1313/en/tags/nextjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/tags/nextjs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Programming</title>
       <link>//localhost:1313/en/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Silicon</title>
-      <link>//localhost:1313/en/tags/silicon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/tags/silicon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>//localhost:1313/en/tags/software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/tags/software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tailwind</title>
-      <link>//localhost:1313/en/tags/tailwind/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/tags/tailwind/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>//localhost:1313/en/tags/technology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
