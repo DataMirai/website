@@ -4,23 +4,20 @@ banner:
   title: ""
   content: ""
   image: "/images/banner_miraiWEB.gif"
-  button:
-    enable: false
-    label: "Support the project"
-    link: "https://www.patreon.com/user/creators?u=136816989"
+  #button:
+  #  enable: false
+  #  label: "Support the project"
+  #  link: "https://www.patreon.com/user/creators?u=136816989"
 
 # Features
 features:
   - title: "Statistical consulting"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "A data problem can be turned into an opportunity by modeling it correctly. Each problem is unique, so we work in the most personal way with our clients to ensure that all their needs are captured, so that you can make informed and strategic decisions."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Experimental Design: We plan and execute controlled experiments to obtain accurate and reliable data, allowing you to make decisions based on solid evidence."
+      - "Predictive Modeling: We develop models that anticipate future trends and behaviors, helping you to optimize your strategies and processes."
+      - "Cost Analysis: We evaluate the costs associated with different options and scenarios, in order to maximize the efficiency and profitability of your operations."
     button:
       enable: false
       label: "Get Started Now"

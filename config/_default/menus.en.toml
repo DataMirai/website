@@ -45,6 +45,6 @@ weight = 1
 
 [[footer]]
 name = "About"
-pageRef = "/authors"
+pageRef = "/about"
 weight = 2
 

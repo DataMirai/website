@@ -4,23 +4,20 @@ banner:
   title: ""
   content: ""
   image: "/images/banner_miraiWEB.gif"
-  button:
-    enable: false
-    label: "Contribuye al proyecto"
-    link: "https://www.patreon.com/user/creators?u=136816989"
+  #button:
+   # enable: false
+   # label: "Contribuye al proyecto"
+   # link: "https://www.patreon.com/user/creators?u=136816989"
 
 # Features
 features:
   - title: "Consultoría estadística"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Un problema con datos puede convertirse en una oportunidad mediante su correcto modelado. Cada problema es único, por lo que trabajamos de la forma más personal con nuestros clientes para asegurar que se captan todas sus necesidades, todo con el objetivo de que al final puedas tomar tus decisiones de manera informada y estratégica."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "**Diseño Experimental:** Planificamos y ejecutamos experimentos controlados para obtener datos precisos y fiables, permitiéndote tomar decisiones basadas en evidencia sólida."
+      - "**Modelos Predictivos:** Desarrollamos modelos que anticipan tendencias y comportamientos futuros, ayudándote a optimizar tus estrategias y procesos."
+      - "**Análisis de Costes:** Evaluamos los costes asociados a diferentes opciones y escenarios, con el fin de maximizar la eficiencia y rentabilidad de tus operaciones."
     button:
       enable: false
       label: "Get Started Now"

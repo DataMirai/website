@@ -2,7 +2,7 @@
 title: "lerele"
 meta_title: ""
 description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+date: 2024-08-07T00:00:00.000Z
 image: "/images/image-placeholder.png"
 categories: ["ReEstimando", "Data"]
 author: "John Doe"

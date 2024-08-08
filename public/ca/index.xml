@@ -51,6 +51,13 @@
       <description>Estadístic. Professor d&amp;rsquo;estadística a la Universitat Autònoma de Barcelona i divulgant sobre estadística a YT al canal Reestimando.</description>
     </item>
     <item>
+      <title>Contribueix al nostre projecte</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
       <title>Elements</title>
       <link>//localhost:1313/ca/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -77,13 +84,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ca/privacy-policy/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    <item>
-      <title>Ready to build your next project with Hugo?</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
     </item>
     <item>
       <title>What Users Are Saying About Hugoplate</title>

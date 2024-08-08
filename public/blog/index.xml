@@ -6,8 +6,22 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>holahola</title>
+      <link>//localhost:1313/blog/post-7/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-7/</guid>
+      <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
+    </item>
+    <item>
+      <title>lerele</title>
+      <link>//localhost:1313/blog/post-5/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-5/</guid>
+      <description> Título provisional </description>
+    </item>
     <item>
       <title>#30DayChartChallenge 2024</title>
       <link>//localhost:1313/blog/post-2/</link>
@@ -35,13 +49,6 @@
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
       <guid>//localhost:1313/blog/post-4/</guid>
       <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
-    </item>
-    <item>
-      <title>lerele</title>
-      <link>//localhost:1313/blog/post-5/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-5/</guid>
-      <description> Título provisional </description>
     </item>
   </channel>
 </rss>

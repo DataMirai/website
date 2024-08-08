@@ -13,14 +13,11 @@ banner:
 features:
   - title: "Consultoria estadística"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Un problema amb dades pot convertir-se en una oportunitat mitjançant el seu correcte modelatge. Cada problema és únic, per la qual cosa treballem de la forma més personal amb els nostres clients per a assegurar que es capten totes les seves necessitats, tot amb l'objectiu que al final puguis prendre les teves decisions de manera informada i estratègica."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Disseny Experimental: Planifiquem i executem experiments controlats per a obtenir dades precises i fiables, permetent-te prendre decisions basades en evidència sòlida."
+      - "Models Predictius: Desenvolupem models que anticipen tendències i comportaments futurs, ajudant-te a optimitzar les teves estratègies i processos."
+      - "Anàlisi de Costos: Avaluem els costos associats a diferents opcions i escenaris, amb la finalitat de maximitzar l'eficiència i rendibilitat de les teves operacions."
     button:
       enable: false
       label: "Get Started Now"

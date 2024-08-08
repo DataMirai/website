@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Ready to build your next project with Hugo?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
+title: "Contribuye a nuestro proyecto"
+image: "/images/logo-darkmode.png"
+description: "Hazte nuestro patrón para hacer posible la continuidad de nuestro proyecto y acceder a contenidos exclusivos."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/hugoplate"
+  label: "Colabora"
+  link: "https://www.patreon.com/user?u=136816989"
 
 # don't create a separate page
 _build:
