@@ -37,7 +37,7 @@
   <select class="{{ $class }}" onchange="location = this.value">
     {{ range $siteLanguages }}
       {{ $langPath := .Language.Lang }}
-      {{ $fullPath := printf "/website/%s%s" $langPath $pageLink }}
+      {{ $fullPath := printf "/%s%s" $langPath $pageLink }}
       <option
         id="{{ .Language }}"
         value="{{ $fullPath }}"
