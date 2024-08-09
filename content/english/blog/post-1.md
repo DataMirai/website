@@ -1,7 +1,7 @@
 ---
 title: "#30DayChartChallenge 2024"
-meta_title: "#30DayChartChallenge 2024 i les visualitzacions que vam fer per a cada repte"
-description: "Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!"
+meta_title: "#30DayChartChallenge 2024 and the visualisations we did for each challenge"
+description: "This year we actively participated in the #30DayChartChallenge and here are the results!"
 date: 2024-08-07T00:00:00.000Z
 image: "images/gallery/banners_posts/30DayChartChallenge.png"
 categories: ["Data Visualization", "R"]
@@ -10,21 +10,24 @@ tags: ["#30DayChartChallenge", "Programming"]
 draft: false
 ---
 
-Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!
+This year we actively participated in the #30DayChartChallenge and here are the results!
+
 <hr>
+
 {{< notice "tip" >}}
-Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també vols col·laborar pots fer-ho [aquí](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
+This project can continue thanks to our patrons. If you also want to collaborate you can do it [here](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
 {{< /notice >}}
+
 <hr>
 
-El [#30DayChartChallenge](https://github.com/30DayChartChallenge/Edition2024 "Pàg Github amb les guies del repte 2024") és un repte que anima a la comunitat a fer una visualització de dades cada dia del mes d'abril seguint una guia que indica el tipus de gràfica que s'ha de fer o la temàtica que s'ha de seguir. Els participants poden participar-hi des de la xarxa social que prefereixin: en el meu cas vaig optar per compartir les visualitzacions al meu perfil de Twitter, LinkedIn, Mastodon i Bsky.
+The [#30DayChartChallenge](https://github.com/30daychartchallenge/edition2024 "Github page with 2024 challenge guide") is a challenge that encourages the community to make a data visualisation every day of April following a guide that indicates the type of chart to make or the theme to follow. Participants can join in using the social network of their choice: in my case, I chose to share the visualisations on my Twitter, Linkedin, Mastodon and Bsky profiles.
 
-A part d'això, em vaig proposar utilitzar els Datasets de Dades Obertes de la Generalitat de Catalunya sempre que hi hagués dades relacionades amb la temàtica d'aquell dia. La part bona d'això és que pràcticament tots els datasets estan documentats i nets, així que vaig haver de perdre poc temps netejant les dades i em vaig poder enfocar en el disseny de les visualitzacions.
+Besides this, I decided to use the *Dades Obertes* datasets of the Generalitat de Catalunya whenever there was data related to the theme of the day. The good thing about this is that almost all the datasets are documented and clean, so I had to spend little time cleaning the data and I could focus on the design of the visualisations.
 
-Reconec que va ser tota una experiència donat que feia molt que no dedicava temps a fer visualitzacions de dades. Per a la meva sorpresa, [Datawrapper](https://blog.datawrapper.de/data-vis-dispatch-april-9-2024/ "Data Vis Dispatch Datawrapper") va afegir una de les meves gràfiques en un post del seu blog sobre "les millors visualitzacions de dades de la setmana". Això em va animar a seguir dedicant-hi temps i esforçar-me per aprendre coses noves durant la resta del mes. 
+I confess it was quite an experience since I hadn't spent time doing data visualisations for a long time. To my surprise, [Datawrapper](https://blog.datawrapper.de/data-vis-dispatch-april-9-2024/ "Data Vis Dispatch Datawrapper") added one of my graphs in a blog post about "the best data visualisations of the week". This encouraged me to keep dedicating time and effort to learn new things for the rest of the month.
 
-Es pot dir que vaig poder posar-me al dia de totes les novetats que no havia pogut provar fins aquell moment per falta de temps. Ara que ja estic actualitzada quant a R, toca dedicar-se al contingut i seguir fent visualitzacions interessants per a tothom🤗
+I was able to catch up on all the new features that I had not been able to try out until then due to lack of time. Now that I'm up to date with R, it's time to focus on content and continue making interesting visualisations for all ages.🤗
 
-Mentrestant, podeu gaudir de les visualitzacions que vaig publicar per al repte. **Espero que us agradin!**
+Meanwhile, you can enjoy the visualisations I published for the challenge. **I hope you like them!**
 
 {{< gallery dir="images/gallery/30DayChartChallenge_2024" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true">}}

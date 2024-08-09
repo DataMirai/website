@@ -1,12 +1,12 @@
 ---
-title: "lerele"
+title: "D3"
 meta_title: ""
 description: "this is meta description"
 date: 2024-08-07T00:00:00.000Z
 image: "/images/image-placeholder.png"
 categories: ["ReEstimando", "Data"]
-author: "John Doe"
-tags: ["nextjs", "tailwind"]
+author: "Mirai Data"
+tags: ["charts", "story"]
 draft: false
 ---
 

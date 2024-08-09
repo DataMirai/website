@@ -1,12 +1,12 @@
 ---
-title: "holahola"
+title: "Quarto"
 meta_title: ""
 description: "Prueba Quarto html"
 date: 2024-08-07T00:00:00.000Z
 image: "/images/image-placeholder.png"
-categories: ["ReEstimando", "Data"]
+categories: ["ReEstimando", "R"]
 author: "Aitor gonzalez"
-tags: ["nextjs", "tailwind"]
+tags: ["estadística", "charts"]
 draft: false
 ---
 

@@ -1003,16 +1003,16 @@
   font-weight: 600;
   color: #1f2937;
   margin: 0;
-  line-height: 1; }
+  line-height: 0; }
 
 .notice-body {
   margin-top: 0rem;
-  font-size: 1.2rem;
   font-weight: 400;
   display: inline-block; }
 
 .notice-body p {
-  margin: 0; }
+  margin: 0;
+  font-size: 1rem; }
 
 code,
 kbd,
