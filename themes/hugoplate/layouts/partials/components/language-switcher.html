@@ -37,7 +37,7 @@
 {{ if $context.IsTranslated }}
   <select class="{{ $class }}" onchange="location = this.value">
     {{ range $siteLanguages }}
-      {{ $url := printf "https://datamirai.github.io/%s/%s" .Language $pageLink }}
+      {{ $url := printf "https://datamirai.github.io/website/%s/%s" .Language $pageLink }}
       {{ $finalUrl := replace $url "//" "/" }}
       {{ if eq (string $pageLang) (string .Language) }}
         <option
