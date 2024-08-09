@@ -2,357 +2,357 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/DataMirai/website/</loc>
+    <loc>http://localhost:1313/website/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/"
+                href="http://localhost:1313/website/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/"
+                href="http://localhost:1313/website/ca/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/"
+                href="http://localhost:1313/website/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/%2330daychartchallenge/</loc>
+    <loc>http://localhost:1313/website/tags/%2330daychartchallenge/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/tags/%2330daychartchallenge/"
+                href="http://localhost:1313/website/en/tags/%2330daychartchallenge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/tags/%2330daychartchallenge/"
+                href="http://localhost:1313/website/ca/tags/%2330daychartchallenge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/tags/%2330daychartchallenge/"
+                href="http://localhost:1313/website/tags/%2330daychartchallenge/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/blog/post-1/</loc>
+    <loc>http://localhost:1313/website/blog/post-1/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/blog/post-1/"
+                href="http://localhost:1313/website/en/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/blog/post-1/"
+                href="http://localhost:1313/website/ca/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/blog/post-1/"
+                href="http://localhost:1313/website/blog/post-1/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/blog/</loc>
+    <loc>http://localhost:1313/website/blog/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/blog/"
+                href="http://localhost:1313/website/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/blog/"
+                href="http://localhost:1313/website/ca/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/blog/"
+                href="http://localhost:1313/website/blog/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/categories/</loc>
+    <loc>http://localhost:1313/website/categories/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/categories/"
+                href="http://localhost:1313/website/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/categories/"
+                href="http://localhost:1313/website/ca/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/categories/"
+                href="http://localhost:1313/website/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/charts/</loc>
+    <loc>http://localhost:1313/website/tags/charts/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/blog/post-2/</loc>
+    <loc>http://localhost:1313/website/blog/post-2/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/categories/data/</loc>
+    <loc>http://localhost:1313/website/categories/data/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/categories/data-visualization/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/categories/data-visualization/"
-                />
-  </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/estad%C3%ADstica/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/programming/</loc>
+    <loc>http://localhost:1313/website/categories/data-visualization/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/tags/programming/"
+                href="http://localhost:1313/website/en/categories/data-visualization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/tags/programming/"
+                href="http://localhost:1313/website/ca/categories/data-visualization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/tags/programming/"
+                href="http://localhost:1313/website/categories/data-visualization/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/blog/post-3/</loc>
+    <loc>http://localhost:1313/website/tags/estad%C3%ADstica/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/categories/r/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/categories/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/categories/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/categories/r/"
-                />
-  </url><url>
-    <loc>//localhost:1313/DataMirai/website/categories/reestimando/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/story/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/DataMirai/website/tags/</loc>
+    <loc>http://localhost:1313/website/tags/programming/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/tags/"
+                href="http://localhost:1313/website/en/tags/programming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/tags/"
+                href="http://localhost:1313/website/ca/tags/programming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/tags/"
+                href="http://localhost:1313/website/tags/programming/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/authors/aitor-gonzalez/</loc>
+    <loc>http://localhost:1313/website/blog/post-3/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/website/categories/r/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/authors/aitor-gonzalez/"
+                href="http://localhost:1313/website/en/categories/r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/authors/aitor-gonzalez/"
+                href="http://localhost:1313/website/ca/categories/r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/authors/aitor-gonzalez/"
+                href="http://localhost:1313/website/categories/r/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/contact/</loc>
+    <loc>http://localhost:1313/website/categories/reestimando/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/website/tags/story/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/website/tags/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/contact/"
+                href="http://localhost:1313/website/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/contact/"
+                href="http://localhost:1313/website/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/contact/"
+                href="http://localhost:1313/website/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/elements/</loc>
+    <loc>http://localhost:1313/website/authors/aitor-gonzalez/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/elements/"
+                href="http://localhost:1313/website/en/authors/aitor-gonzalez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/elements/"
+                href="http://localhost:1313/website/ca/authors/aitor-gonzalez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/elements/"
+                href="http://localhost:1313/website/authors/aitor-gonzalez/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/about/</loc>
+    <loc>http://localhost:1313/website/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/about/"
+                href="http://localhost:1313/website/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/about/"
+                href="http://localhost:1313/website/ca/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/about/"
+                href="http://localhost:1313/website/contact/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/authors/mirai-author/</loc>
+    <loc>http://localhost:1313/website/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/authors/mirai-author/"
+                href="http://localhost:1313/website/en/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/authors/mirai-author/"
+                href="http://localhost:1313/website/ca/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/authors/mirai-author/"
+                href="http://localhost:1313/website/elements/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/authors/mireia-camacho/</loc>
+    <loc>http://localhost:1313/website/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/authors/mireia-camacho/"
+                href="http://localhost:1313/website/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/authors/mireia-camacho/"
+                href="http://localhost:1313/website/ca/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/authors/mireia-camacho/"
+                href="http://localhost:1313/website/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/pages/</loc>
+    <loc>http://localhost:1313/website/authors/mirai-author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/pages/"
+                href="http://localhost:1313/website/en/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/pages/"
+                href="http://localhost:1313/website/ca/authors/mirai-author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/pages/"
+                href="http://localhost:1313/website/authors/mirai-author/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/privacy-policy/</loc>
+    <loc>http://localhost:1313/website/authors/mireia-camacho/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/privacy-policy/"
+                href="http://localhost:1313/website/en/authors/mireia-camacho/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/privacy-policy/"
+                href="http://localhost:1313/website/ca/authors/mireia-camacho/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/privacy-policy/"
+                href="http://localhost:1313/website/authors/mireia-camacho/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/sections/</loc>
+    <loc>http://localhost:1313/website/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/sections/"
+                href="http://localhost:1313/website/en/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/sections/"
+                href="http://localhost:1313/website/ca/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/sections/"
+                href="http://localhost:1313/website/pages/"
                 />
   </url><url>
-    <loc>//localhost:1313/DataMirai/website/authors/</loc>
+    <loc>http://localhost:1313/website/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/DataMirai/website/en/authors/"
+                href="http://localhost:1313/website/en/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="//localhost:1313/DataMirai/website/ca/authors/"
+                href="http://localhost:1313/website/ca/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/DataMirai/website/authors/"
+                href="http://localhost:1313/website/privacy-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/website/sections/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/sections/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/website/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/authors/"
                 />
   </url>
 </urlset>

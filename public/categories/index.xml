@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mirai Data</title>
-    <link>//localhost:1313/DataMirai/website/categories/</link>
+    <link>http://localhost:1313/website/categories/</link>
     <description>Recent content in Categories on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/DataMirai/website/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/website/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data</title>
-      <link>//localhost:1313/DataMirai/website/categories/data/</link>
+      <link>http://localhost:1313/website/categories/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/categories/data/</guid>
+      <guid>http://localhost:1313/website/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
-      <link>//localhost:1313/DataMirai/website/categories/data-visualization/</link>
+      <link>http://localhost:1313/website/categories/data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/categories/data-visualization/</guid>
+      <guid>http://localhost:1313/website/categories/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>//localhost:1313/DataMirai/website/categories/r/</link>
+      <link>http://localhost:1313/website/categories/r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/categories/r/</guid>
+      <guid>http://localhost:1313/website/categories/r/</guid>
       <description></description>
     </item>
     <item>
       <title>ReEstimando</title>
-      <link>//localhost:1313/DataMirai/website/categories/reestimando/</link>
+      <link>http://localhost:1313/website/categories/reestimando/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/categories/reestimando/</guid>
+      <guid>http://localhost:1313/website/categories/reestimando/</guid>
       <description></description>
     </item>
   </channel>

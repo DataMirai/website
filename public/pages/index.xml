@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Mirai Data</title>
-    <link>//localhost:1313/DataMirai/website/pages/</link>
+    <link>http://localhost:1313/website/pages/</link>
     <description>Recent content in Pages on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <atom:link href="//localhost:1313/DataMirai/website/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/website/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elements</title>
-      <link>//localhost:1313/DataMirai/website/elements/</link>
+      <link>http://localhost:1313/website/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/elements/</guid>
+      <guid>http://localhost:1313/website/elements/</guid>
       <description>Contenidos Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>//localhost:1313/DataMirai/website/privacy-policy/</link>
+      <link>http://localhost:1313/website/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/DataMirai/website/privacy-policy/</guid>
+      <guid>http://localhost:1313/website/privacy-policy/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
   </channel>
