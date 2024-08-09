@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mirai Data</title>
-    <link>http://localhost:1313/website/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/website/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data</title>
-      <link>http://localhost:1313/website/categories/data/</link>
+      <link>//localhost:1313/categories/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/categories/data/</guid>
+      <guid>//localhost:1313/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
-      <link>http://localhost:1313/website/categories/data-visualization/</link>
+      <link>//localhost:1313/categories/data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/categories/data-visualization/</guid>
+      <guid>//localhost:1313/categories/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>http://localhost:1313/website/categories/r/</link>
+      <link>//localhost:1313/categories/r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/categories/r/</guid>
+      <guid>//localhost:1313/categories/r/</guid>
       <description></description>
     </item>
     <item>
       <title>ReEstimando</title>
-      <link>http://localhost:1313/website/categories/reestimando/</link>
+      <link>//localhost:1313/categories/reestimando/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/categories/reestimando/</guid>
+      <guid>//localhost:1313/categories/reestimando/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mirai Data</title>
-    <link>http://localhost:1313/website/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#30DayChartChallenge 2024</title>
-      <link>http://localhost:1313/website/blog/post-1/</link>
+      <link>//localhost:1313/blog/post-1/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/blog/post-1/</guid>
+      <guid>//localhost:1313/blog/post-1/</guid>
       <description>Este año hemos participado activamente en el #30DayChartChallenge ¡y aquí están los resultados!</description>
     </item>
     <item>
       <title>D3</title>
-      <link>http://localhost:1313/website/blog/post-2/</link>
+      <link>//localhost:1313/blog/post-2/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/blog/post-2/</guid>
+      <guid>//localhost:1313/blog/post-2/</guid>
       <description> Título provisional </description>
     </item>
     <item>
       <title>Quarto</title>
-      <link>http://localhost:1313/website/blog/post-3/</link>
+      <link>//localhost:1313/blog/post-3/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/blog/post-3/</guid>
+      <guid>//localhost:1313/blog/post-3/</guid>
       <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
     </item>
     <item>
       <title>Aitor González</title>
-      <link>http://localhost:1313/website/authors/aitor-gonzalez/</link>
+      <link>//localhost:1313/authors/aitor-gonzalez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/authors/aitor-gonzalez/</guid>
+      <guid>//localhost:1313/authors/aitor-gonzalez/</guid>
       <description>Estadístico. Professor de estadística en la Universidad Autónoma de Barcelona y explicando estadística en YT en Reestimando.</description>
     </item>
     <item>
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>Elements</title>
-      <link>http://localhost:1313/website/elements/</link>
+      <link>//localhost:1313/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/elements/</guid>
+      <guid>//localhost:1313/elements/</guid>
       <description>Contenidos Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
     </item>
     <item>
@@ -59,23 +59,23 @@
     </item>
     <item>
       <title>Mirai Data</title>
-      <link>http://localhost:1313/website/authors/mirai-author/</link>
+      <link>//localhost:1313/authors/mirai-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/authors/mirai-author/</guid>
+      <guid>//localhost:1313/authors/mirai-author/</guid>
       <description>Las cosas más increíbles se consiguen en equipo y el nuestro no se queda corto, ¿Quieres ver en qué estamos trabajando?</description>
     </item>
     <item>
       <title>Mireia Camacho</title>
-      <link>http://localhost:1313/website/authors/mireia-camacho/</link>
+      <link>//localhost:1313/authors/mireia-camacho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/authors/mireia-camacho/</guid>
+      <guid>//localhost:1313/authors/mireia-camacho/</guid>
       <description>Analista y periodista de datos. Profesora de periodismo de datos en la Universidad Autónoma de Barcelona.</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:1313/website/privacy-policy/</link>
+      <link>//localhost:1313/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/website/privacy-policy/</guid>
+      <guid>//localhost:1313/privacy-policy/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
   </channel>
