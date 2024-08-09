@@ -20,24 +20,6 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%2330daychartchallenge/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/%2330daychartchallenge/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/%2330daychartchallenge/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/%2330daychartchallenge/"
-                />
-  </url><url>
     <loc>http://localhost:1313/blog/post-1/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -54,6 +36,24 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/blog/post-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/30daychartchallenge/</loc>
+    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/30daychartchallenge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/30daychartchallenge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/30daychartchallenge/"
                 />
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
