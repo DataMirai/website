@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sobre nosotros on Mirai Data</title>
-    <link>//localhost:1313/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Sobre nosotros on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aitor González</title>
-      <link>//localhost:1313/authors/aitor-gonzalez/</link>
+      <link>http://localhost:1313/authors/aitor-gonzalez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/aitor-gonzalez/</guid>
+      <guid>http://localhost:1313/authors/aitor-gonzalez/</guid>
       <description>Estadístico. Professor de estadística en la Universidad Autónoma de Barcelona y explicando estadística en YT en Reestimando.</description>
     </item>
     <item>
       <title>Mirai Data</title>
-      <link>//localhost:1313/authors/mirai-author/</link>
+      <link>http://localhost:1313/authors/mirai-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/mirai-author/</guid>
+      <guid>http://localhost:1313/authors/mirai-author/</guid>
       <description>Las cosas más increíbles se consiguen en equipo y el nuestro no se queda corto, ¿Quieres ver en qué estamos trabajando?</description>
     </item>
     <item>
       <title>Mireia Camacho</title>
-      <link>//localhost:1313/authors/mireia-camacho/</link>
+      <link>http://localhost:1313/authors/mireia-camacho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/mireia-camacho/</guid>
+      <guid>http://localhost:1313/authors/mireia-camacho/</guid>
       <description>Analista y periodista de datos. Profesora de periodismo de datos en la Universidad Autónoma de Barcelona.</description>
     </item>
   </channel>

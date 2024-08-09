@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Charts on Mirai Data</title>
-    <link>//localhost:1313/ca/tags/charts/</link>
+    <link>http://localhost:1313/ca/tags/charts/</link>
     <description>Recent content in Charts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
     <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/ca/tags/charts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ca/tags/charts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>D3</title>
-      <link>//localhost:1313/ca/blog/post-2/</link>
+      <link>http://localhost:1313/ca/blog/post-2/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/blog/post-2/</guid>
+      <guid>http://localhost:1313/ca/blog/post-2/</guid>
       <description> Título provisional </description>
     </item>
     <item>
       <title>Quarto</title>
-      <link>//localhost:1313/ca/blog/post-3/</link>
+      <link>http://localhost:1313/ca/blog/post-3/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/blog/post-3/</guid>
+      <guid>http://localhost:1313/ca/blog/post-3/</guid>
       <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
     </item>
   </channel>

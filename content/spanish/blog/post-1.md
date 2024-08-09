@@ -6,7 +6,7 @@ date: 2024-08-07T00:00:00.000Z
 image: "images/gallery/banners_posts/30DayChartChallenge.png"
 categories: ["Data Visualization", "R"]
 author: "Mireia Camacho"
-tags: ["#30DayChartChallenge", "Programming"]
+tags: ["30DayChartChallenge", "Programming"]
 draft: false
 ---
 
