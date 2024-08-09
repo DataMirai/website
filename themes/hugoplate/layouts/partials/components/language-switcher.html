@@ -6,7 +6,7 @@
 {{ $siteLanguages := site.Home.AllTranslations }}
 <!-- {{ $pageLink := replace (replace $context.RelPermalink (add $pageLang "/") "") $base.Path "/" }} -->
 
-{{ $pageLink := replace (replace $context.RelPermalink (add $base.Path "/") (add $pageLang "/") "") }}
+{{ $pageLink := replace (replace $context.RelPermalink "") (add $base.Path "/") (add $pageLang "/") }}
 
 {{ if $context.IsTranslated }}
   <select class="{{ $class }}" onchange="location = this.value">
