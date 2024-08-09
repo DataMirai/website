@@ -24,10 +24,8 @@ status = 404
 
 [[redirects]]
 from = '/ca/website/ca/blog/'
-to = '/website/ca/blog/'
-status = 202
+to = '/ca/blog/'
 
 [[redirects]]
 from = '/en/website/en/blog/'
-to = '/website/en/blog/'
-status = 202
+to = '/en/blog/'
