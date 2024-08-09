@@ -94,12 +94,57 @@
   </url><url>
     <loc>http://localhost:1313/website/tags/charts/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/tags/charts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/tags/charts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/tags/charts/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/blog/post-2/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/blog/post-2/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/categories/data/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/categories/data/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/categories/data-visualization/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
@@ -121,6 +166,21 @@
   </url><url>
     <loc>http://localhost:1313/website/tags/estad%C3%ADstica/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/tags/estad%C3%ADstica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/tags/estad%C3%ADstica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/tags/estad%C3%ADstica/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/tags/programming/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
@@ -142,6 +202,21 @@
   </url><url>
     <loc>http://localhost:1313/website/blog/post-3/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/blog/post-3/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/categories/r/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
@@ -163,9 +238,39 @@
   </url><url>
     <loc>http://localhost:1313/website/categories/reestimando/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/categories/reestimando/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/tags/story/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/website/en/tags/story/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/website/ca/tags/story/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/website/tags/story/"
+                />
   </url><url>
     <loc>http://localhost:1313/website/tags/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>

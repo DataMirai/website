@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/website/ca/blog/post-1/</guid>
       <description>Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!</description>
     </item>
+    <item>
+      <title>Quarto</title>
+      <link>http://localhost:1313/website/ca/blog/post-3/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/ca/blog/post-3/</guid>
+      <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
+    </item>
   </channel>
 </rss>

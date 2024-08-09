@@ -30,4 +30,4 @@ I was able to catch up on all the new features that I had not been able to try o
 
 Meanwhile, you can enjoy the visualisations I published for the challenge. **I hope you like them!**
 
-{{< gallery dir="images/gallery/30DayChartChallenge_2024" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true">}}
+{{< gallery dir="images/gallery/post-1" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}

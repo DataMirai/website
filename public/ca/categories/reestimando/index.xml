@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReEstimando on Mirai Data</title>
-    <link>//localhost:1313/ca/categories/reestimando/</link>
+    <link>http://localhost:1313/website/ca/categories/reestimando/</link>
     <description>Recent content in ReEstimando on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/ca/categories/reestimando/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/website/ca/categories/reestimando/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Provant codis</title>
-      <link>//localhost:1313/ca/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/blog/post-1/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>D3</title>
+      <link>http://localhost:1313/website/ca/blog/post-2/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/ca/blog/post-2/</guid>
+      <description> Título provisional </description>
     </item>
     <item>
-      <title>Rmd to md</title>
-      <link>//localhost:1313/ca/blog/post-5/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ca/blog/post-5/</guid>
-      <description>R Markdown output: md_document&#xA;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
+      <title>Quarto</title>
+      <link>http://localhost:1313/website/ca/blog/post-3/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/ca/blog/post-3/</guid>
+      <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
     </item>
   </channel>
 </rss>

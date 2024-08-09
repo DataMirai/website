@@ -30,4 +30,4 @@ Se puede decir que pude ponerme al día de todas las novedades que no había pod
 
 Mientras tanto, podéis disfrutar de las visualizaciones que publiqué para el reto. **¡Espero que os gusten!**
 
-{{< gallery dir="images/gallery/30DayChartChallenge_2024" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true">}}
+{{< gallery dir="images/gallery/post-1" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}

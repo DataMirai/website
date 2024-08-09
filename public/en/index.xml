@@ -16,6 +16,20 @@
       <description>This year we actively participated in the #30DayChartChallenge and here are the results!</description>
     </item>
     <item>
+      <title>D3</title>
+      <link>http://localhost:1313/website/en/blog/post-2/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/en/blog/post-2/</guid>
+      <description> Título provisional </description>
+    </item>
+    <item>
+      <title>Quarto</title>
+      <link>http://localhost:1313/website/en/blog/post-3/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/en/blog/post-3/</guid>
+      <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
+    </item>
+    <item>
       <title>Aitor González</title>
       <link>http://localhost:1313/website/en/authors/aitor-gonzalez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
