@@ -32,4 +32,4 @@ Es pot dir que vaig poder posar-me al dia de totes les novetats que no havia pog
 
 Mentrestant, podeu gaudir de les visualitzacions que vaig publicar per al repte. **Espero que us agradin!**
 
-{{< gallery dir="images/gallery/post-1" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/gallery/30-day-chart-challenge-2024" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
