@@ -2,7 +2,7 @@
 title: Aitor González
 #email: johndoe@email.com
 image: "/images/aitor-profile.jpg"
-description: Estadístico. Professor de estadística en la Universidad Autónoma de Barcelona y divulgando sobre estadística en YouTube en el canal Reestimando.
+description: Estadístico. Profesor de estadística en la Universidad Autónoma de Barcelona y divulgando sobre estadística en YouTube en el canal Reestimando.
 social:
   - name: youtube
     icon: fa-brands fa-youtube
@@ -21,4 +21,4 @@ social:
     link: https://www.twitch.tv/reestimando
 ---
 
-Estadístico. Professor de estadística en la Universidad Autónoma de Barcelona y explicando estadística en YT en *Reestimando*.
+Estadístico. Profesor de estadística en la Universidad Autónoma de Barcelona y explicando estadística en YT en *Reestimando*.

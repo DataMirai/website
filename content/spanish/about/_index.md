@@ -1,5 +1,5 @@
 ---
-title: "Hola, somos Mirai Data!"
+title: "¡Hola, somos Mirai Data!"
 meta_title: "Sobre Mirai Data"
 description: "Mirai Data Description"
 image: "/images/logo_redondas.jpg"

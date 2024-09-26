@@ -2,7 +2,7 @@
 title: Mireia Camacho
 #email: samwilson@email.com
 image: "/images/mireia-profile.jpg"
-description: Analista i periodista de dades. Fan de les visualitzacions. Profesora de periodisme de dades a la Universitat Autònoma de Barcelona.
+description: Analista i periodista de dades. Fan de les visualitzacions. Professora de periodisme de dades a la Universitat Autònoma de Barcelona.
 social:
   - name: twitter
     icon: fa-brands fa-x-twitter
@@ -17,4 +17,4 @@ social:
     link: https://mastodon.social/@mireiacamacho75
 ---
 
-Analista i periodista de dades. Fan de les visualitzacions. Profesora de periodisme de dades a la Universitat Autònoma de Barcelona.
+Analista i periodista de dades. Fan de les visualitzacions. Professora de periodisme de dades a la Universitat Autònoma de Barcelona.
