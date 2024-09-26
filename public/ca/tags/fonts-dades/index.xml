@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fonts Dades on Mirai Data</title>
+    <link>http://localhost:1313/ca/tags/fonts-dades/</link>
+    <description>Recent content in Fonts Dades on Mirai Data</description>
+    <generator>Hugo</generator>
+    <language>ca-es</language>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ca/tags/fonts-dades/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les dades de les administracions públiques són sempre fiables?</title>
+      <link>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</guid>
+      <description>En aquesta entrada us explicaré una petita anècdota que m&amp;rsquo;ha passat recentment.</description>
+    </item>
+  </channel>
+</rss>

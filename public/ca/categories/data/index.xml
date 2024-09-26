@@ -6,8 +6,15 @@
     <description>Recent content in Data on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les dades de les administracions públiques són sempre fiables?</title>
+      <link>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</guid>
+      <description>En aquesta entrada us explicaré una petita anècdota que m&amp;rsquo;ha passat recentment.</description>
+    </item>
     <item>
       <title>D3</title>
       <link>http://localhost:1313/ca/blog/post-2/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anècdota</title>
+      <link>http://localhost:1313/ca/categories/an%C3%A8cdota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/categories/an%C3%A8cdota/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data</title>
       <link>http://localhost:1313/ca/categories/data/</link>

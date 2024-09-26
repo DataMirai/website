@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ca/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -18,6 +18,105 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/an%C3%A8cdota/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/data/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/data/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/fonts-dades/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/datos-admin-publicas-fiables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/datos-admin-publicas-fiables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/datos-admin-publicas-fiables/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/</loc>
+    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/blog/30-day-chart-challenge-2024/</loc>
@@ -56,42 +155,6 @@
                 href="http://localhost:1313/ca/tags/30daychartchallenge/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ca/blog/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/blog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ca/tags/charts/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -126,24 +189,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/blog/post-2/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/data/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/data/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/data/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/data/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
@@ -270,24 +315,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/tags/story/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/tags/</loc>
-    <lastmod>2024-08-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/authors/aitor-gonzalez/</loc>

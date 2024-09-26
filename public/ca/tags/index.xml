@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Administració Pública</title>
+      <link>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fonts Dades</title>
+      <link>http://localhost:1313/ca/tags/fonts-dades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/tags/fonts-dades/</guid>
+      <description></description>
+    </item>
     <item>
       <title>30DayChartChallenge</title>
       <link>http://localhost:1313/ca/tags/30daychartchallenge/</link>
