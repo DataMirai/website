@@ -34,7 +34,14 @@
       <link>http://localhost:1313/ca/blog/post-3/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ca/blog/post-3/</guid>
-      <description>Quarto Quarto enables you to weave together content and executable code into a finished document.</description>
+      <description>Quarto enables you to weave together content and executable code into a finished document.</description>
+    </item>
+    <item>
+      <title>Scrollytelling</title>
+      <link>http://localhost:1313/ca/blog/post-3-copy/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/post-3-copy/</guid>
+      <description>English Monarchs and Marriages By Nicola Rennie&#xA;Data from ianvisits.</description>
     </item>
     <item>
       <title>Aitor González</title>
@@ -69,7 +76,7 @@
       <link>http://localhost:1313/ca/authors/mireia-camacho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ca/authors/mireia-camacho/</guid>
-      <description>Analista i periodista de dades. Fan de les visualitzacions. Profesora de periodisme de dades a la Universitat Autònoma de Barcelona.</description>
+      <description>Analista i periodista de dades. Fan de les visualitzacions. Professora de periodisme de dades a la Universitat Autònoma de Barcelona.</description>
     </item>
     <item>
       <title>Privacy</title>

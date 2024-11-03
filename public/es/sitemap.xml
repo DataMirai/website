@@ -40,29 +40,9 @@
   </url><url>
     <loc>http://localhost:1313/tags/administraci%C3%B3n-p%C3%BAblica/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/administraci%C3%B3n-p%C3%BAblica/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/administraci%C3%B3n-p%C3%BAblica/"
-                />
   </url><url>
     <loc>http://localhost:1313/categories/anecdota/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/anecdota/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/anecdota/"
-                />
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
@@ -120,16 +100,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/fuentes-datos/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/fuentes-datos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/fuentes-datos/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
@@ -347,6 +317,23 @@
                 href="http://localhost:1313/tags/story/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/about/"
+                />
+  </url><url>
     <loc>http://localhost:1313/authors/aitor-gonzalez/</loc>
     <xhtml:link
                 rel="alternate"
@@ -396,23 +383,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/elements/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/authors/mirai-author/</loc>

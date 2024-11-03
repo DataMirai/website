@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Descobreix històries"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "https://miraidata.es/ca/blog/"
 
   - title: "Cursos i formacions"
     image: "/images/service-3.png"
