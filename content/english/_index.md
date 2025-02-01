@@ -13,22 +13,22 @@ banner:
 features:
   - title: "Statistical consulting"
     image: "/images/service-1.png"
-    content: "A data problem can be turned into an opportunity by modeling it correctly. Each problem is unique, so we work in the most personal way with our clients to ensure that all their needs are captured, so that you can make informed and strategic decisions."
+    content: "A data problem can be turned into an opportunity by modeling it correctly. Each problem is unique, so we work in the most personal way with our clients to ensure that all their needs are captured, in order for them to make informed and strategic decisions"
     bulletpoints:
-      - "Experimental Design: We plan and execute controlled experiments to obtain accurate and reliable data, allowing you to make decisions based on solid evidence."
-      - "Predictive Modeling: We develop models that anticipate future trends and behaviors, helping you to optimize your strategies and processes."
-      - "Cost Analysis: We evaluate the costs associated with different options and scenarios, in order to maximize the efficiency and profitability of your operations."
+      - "**Experimental Design**: We plan and execute controlled experiments to obtain accurate and reliable data, allowing you to make decisions based on solid evidence."
+      - "**Predictive Modeling**: We develop models that anticipate future trends and behaviors, helping you to optimize your strategies and processes."
+      - "**Cost Analysis**: We evaluate the costs associated with different options and scenarios, in order to maximize the efficiency and profitability of your operations."
     button:
       enable: false
       label: "Get Started Now"
-      link: "#"
+      link: ""
 
   - title: "Data Visualization & Storytelling"
     image: "/images/service-2.png"
     content: "We uncover the stories behind data and bring them closer to the real world by complementing them with interviews, newspapers and other documents."
     bulletpoints:
       - "We create customized designs for each theme."
-      - "We develop infographics and interactive visualizations to share stories that entertain our readers."
+      - "We develop infographics and interactive visualizations to share stories that entertain and inform our readers."
       - "We work mainly with R and JS data visualization libraries."
     button:
       enable: true

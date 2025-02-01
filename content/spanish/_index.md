@@ -21,14 +21,14 @@ features:
     button:
       enable: false
       label: "Get Started Now"
-      link: "#"
+      link: ""
 
   - title: "Visualización de datos y Storytelling"
     image: "/images/service-2.png"
     content: "Desvelamos las historias que hay detrás de los datos y las acercamos al mundo real complementándolas con entrevistas, hemeroteca y otros documentos."
     bulletpoints:
       - "Creamos diseños personalizados para cada temática."
-      - "Desarrollamos infografías y visualizaciones interactivas para contar historias que entretengan a nuestros lectores."
+      - "Desarrollamos infografías y visualizaciones interactivas para contar historias que entretengan e informen a nuestros lectores."
       - "Trabajamos principalmente con librerías de visualización de datos de R y JS."
     button:
       enable: true
