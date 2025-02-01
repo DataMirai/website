@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Discover stories"
-      link: "https://miraidata.es/en/blog/"
+      link: "https://miraidata.es/en/categories/data-visualization/"
 
   - title: "Courses and seminars"
     image: "/images/service-3.png"

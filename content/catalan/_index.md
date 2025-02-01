@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Descobreix històries"
-      link: "https://miraidata.es/ca/blog/"
+      link: "https://miraidata.es/ca/categories/data-visualization/"
 
   - title: "Cursos i formacions"
     image: "/images/service-3.png"

@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Descubre más"
-      link: "https://miraidata.es/blog/"
+      link: "https://miraidata.es/categories/data-visualization/"
 
   - title: "Cursos y formaciones"
     image: "/images/service-3.png"
