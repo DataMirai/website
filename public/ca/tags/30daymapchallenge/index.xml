@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>30DayMapChallenge on Mirai Data</title>
+    <link>http://localhost:1313/ca/tags/30daymapchallenge/</link>
+    <description>Recent content in 30DayMapChallenge on Mirai Data</description>
+    <generator>Hugo</generator>
+    <language>ca-es</language>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ca/tags/30daymapchallenge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#30DayMapChallenge 2024</title>
+      <link>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</guid>
+      <description>Molt similar al #30DayChartChallenge al qual vam participar a l&amp;rsquo;abril, durant el mes de novembre la comunitat fanàtica dels mapes celebra el #30DayMapChallenge i nosaltres ens hi hem sumat!</description>
+    </item>
+  </channel>
+</rss>

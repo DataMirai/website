@@ -2,7 +2,7 @@
 title: "Les dades de les administracions públiques són sempre fiables?"
 meta_title: "Les dades de les administracions públiques són sempre fiables?"
 description: "En aquesta entrada us explicaré una petita anècdota que m'ha passat recentment."
-date: 2024-08-10T00:00:00.000Z
+date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
 categories: ["Data", "Anècdota"]
 author: "Mireia Camacho"
@@ -12,9 +12,19 @@ draft: false
 
 En aquesta entrada us explicaré una petita anècdota que m'ha passat recentment. Tot i així, cal remuntar-se a 2020 per a trobar el seu principi.
 
+<hr>
+
+{{< notice "tip" >}}
+
+Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també vols col·laborar pots fer-ho [aquí](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
+
+{{< /notice >}} 
+
+<hr>
+
 El 2020, el confinament va acostar a moltes comunitats de veïns i les va incentivar a "fer barri". Va ser més o menys per aquestes dates que molts es van posar d'acord per a penjar una pancarta al seu balcó amb la frase "¡Basta ya! Por una Mataró segura" *(Mataró és la meva ciutat)*.
 
-{{< image src="images/gallery/bbdd_publiques_fiables/cartell_mataro_segura.png" caption="Cartell en una finestra del barri de Cerdanyola, Mataró." alt="Cartell Mataró Segura" position="center" command="fill" option="q100" class="img-fluid" title="Cartell Mataró Segura"  webp="false" >}}
+{{< image src="images/gallery/bbdd_publiques_fiables/cartell_mataro_segura.png" caption="Cartell en una finestra del barri de Cerdanyola, Mataró." alt="Cartell Mataró Segura" position="center" command="fill" option="q100" class="img-fluid" title="Cartell Mataró Segura"  webp="false" >}} 
 
 
 Era el problema tan greu? A principis de 2021 vaig decidir fer una *sol·licitud d'accés a la informació pública* i vaig demanar literalment: "les dades de les denúncies a Mataró de 2015 a 2020, per tipus de delicte, desglossat per barris i amb el sexe i l'edat de la persona denunciada". Fins aquí tot bé, a veure què podíem treure d'aquestes dades.

@@ -2,7 +2,7 @@
 title: "#30DayChartChallenge 2024"
 meta_title: "#30DayChartChallenge 2024 y las visualizaciones que hicimos para cada reto"
 description: "Este año hemos participado activamente en el #30DayChartChallenge ¡y aquí están los resultados!"
-date: 2024-08-07T00:00:00.000Z
+date: 2024-05-03T00:00:00.000Z
 image: "images/gallery/banners_posts/30DayChartChallenge.png"
 categories: ["Data Visualization", "R"]
 author: "Mireia Camacho"

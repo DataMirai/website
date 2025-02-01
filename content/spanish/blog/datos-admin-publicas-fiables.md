@@ -2,7 +2,7 @@
 title: "¿Los datos de las administraciones públicas son siempre fiables?"
 meta_title: "Los datos de las administraciones públicas son siempre fiables"
 description: "En esta entrada voy a contaros una pequeña anécdota que me ha ocurrido recientemente."
-date: 2024-08-10T00:00:00.000Z
+date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
 categories: ["Data", "Anecdota"]
 author: "Mireia Camacho"
@@ -12,7 +12,18 @@ draft: false
 
 En esta entrada voy a contaros una pequeña anécdota que me ha ocurrido recientemente. Aún así, hay que remontarse a 2020 para encontrar su principio.
 
+<hr>
+
+{{< notice "tip" >}}
+Este proyecto puede seguir adelante gracias a nuestros patronos. Si tú también quieres colaborar puedes hacerlo [aquí](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
+{{< /notice >}} 
+
+<hr>
+
 En 2020 el confinamiento acercó a muchas comunidades de vecinos y las incentivó a "hacer barrio". Fue más o menos por esas fechas que muchos se pusieron de acuerdo para colgar una pancarta en su balcón con la frase "¡Basta ya! Por una Mataró segura" *(Mataró es mi ciudad)*.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/cartell_mataro_segura.png" caption="Cartel en una ventana del barrio de Cerdanyola, Mataró." alt="Cartel Mataró Segura" position="center" command="fill" option="q100" class="img-fluid" title="Cartel Mataró Segura"  webp="false" >}} 
+
 
 ¿Realmente el problema era tan grave? A principios de 2021 decidí hacer una *solicitud de acceso a la información pública* y pedí literalmente "los datos de las denuncias en Mataró de 2015 a 2020, por tipo de delito, desglosado por barrios y con el sexo y la edad de la persona denunciada". Hasta ahí todo bien, a ver qué podíamos sacar de estos datos.
 

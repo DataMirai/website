@@ -2,7 +2,7 @@
 title: "Is government data always reliable?"
 meta_title: "Is government data always reliable?"
 description: "In this post I am going to tell you a short anecdote that happened to me recently."
-date: 2024-08-10T00:00:00.000Z
+date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
 categories: ["Data", "Anecdote"]
 author: "Mireia Camacho"
@@ -12,7 +12,19 @@ draft: false
 
 In this post I am going to tell you a short anecdote that happened to me recently. But we have to go back to 2020 to find its beginning.
 
+<hr>
+
+{{< notice "tip" >}}
+This project can continue thanks to our patrons. If you also want to collaborate you can do it [here](https://www.patreon.com/user/creators?u=136816989 "Mirai Data Patreon page").
+{{< /notice >}} 
+
+<hr>
+
+
 In 2020, the lockdown brought many neighbourhoods closer and encouraged residents to ‘make a community’. It was around that time that many agreed to hang a banner on their balcony with the slogan ‘Enough is enough! For a safe Mataró’ *(Mataró is my city)*.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/cartell_mataro_segura.png" caption="Banner in a window in Mataró." alt="Banner Mataró Segura" position="center" command="fill" option="q100" class="img-fluid" title="Banner Mataró Segura"  webp="false" >}} 
+
 
 Was the problem really that serious? At the beginning of 2021 I decided to make a *request to public information access* and literally asked for: "data on reports in Mataró from 2015 to 2020, by type of crime, detailed by neighbourhood and with the sex and age of the person reported". So far so good, let's see what we could get from this data.
 
