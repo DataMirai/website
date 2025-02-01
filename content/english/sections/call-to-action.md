@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Ready to build your next project with Hugo?"
+title: "Support us"
 image: "/images/logo-darkmode.png"
 description: "Become our patron to make possible the continuity of our project and access exclusive content."
 button:

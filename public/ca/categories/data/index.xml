@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</guid>
       <description>En aquesta entrada us explicaré una petita anècdota que m&amp;rsquo;ha passat recentment.</description>
     </item>
-    <item>
-      <title>D3</title>
-      <link>http://localhost:1313/ca/blog/post-2/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ca/blog/post-2/</guid>
-      <description> Título provisional </description>
-    </item>
   </channel>
 </rss>

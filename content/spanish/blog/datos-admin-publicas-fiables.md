@@ -3,7 +3,7 @@ title: "¿Los datos de las administraciones públicas son siempre fiables?"
 meta_title: "Los datos de las administraciones públicas son siempre fiables"
 description: "En esta entrada voy a contaros una pequeña anécdota que me ha ocurrido recientemente."
 date: 2024-08-10T00:00:00.000Z
-image: "/images/image-placeholder.png"
+image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
 categories: ["Data", "Anecdota"]
 author: "Mireia Camacho"
 tags: ["fuentes datos", "administración pública"]
@@ -12,21 +12,15 @@ draft: false
 
 En esta entrada voy a contaros una pequeña anécdota que me ha ocurrido recientemente. Aún así, hay que remontarse a 2020 para encontrar su principio.
 
-En 2020 el confinamiento acercó a muchas comunidades de vecinos y las incentivó a "hacer barrio". Fue más o menos por esas fechas que muchos se pusieron de acuerdo para colgar una pancarta en su balcón con la frase "¡Basta ya! Por una Mataró segura" *(Mataró es el nombre de mi ciudad)*.
+En 2020 el confinamiento acercó a muchas comunidades de vecinos y las incentivó a "hacer barrio". Fue más o menos por esas fechas que muchos se pusieron de acuerdo para colgar una pancarta en su balcón con la frase "¡Basta ya! Por una Mataró segura" *(Mataró es mi ciudad)*.
 
-Lo cierto es que desde hace ya bastantes años, el tema de conversación principal entre los vecinos se ha volcado hacia la seguridad. "¿A que no sabes a quién atracaron el otro día?", "A fulanito le han robado el móvil otra vez.", "Al que trabaja en tal sitio le incendiaron el coche en el párking de tal zona."... Ese tipo de frases cada vez se hacían notar más, pero por entonces yo estaba demasiado ocupada intentando sacar adelante mi TFG. 
-
-El estrés del TFG pudo conmigo durante el confinamiento y cuando lo levantaron convertí hacer ejercicio y salir a pasear en mi nuevo hobby. Fue ahí cuando comencé a prestarle atención a las famosas pancartas. 
-
-Las redes sociales juagaron un papel clave, porque fueron las que me permitieron ver la *pseudo-*discusión que había entre los vecinos que decían que notaban que los delitos se habían disparado en los últimos años y los que decían que eran percepciones porque ahora estábamos aburridos en casa y nos fijábamos más en lo que pasaba a nuestro alrededor.
-
-¿Quién tenía razón? ¿Eran realmente percepciones? A principios de 2021 decidí hacer una *solicitud de acceso a la información pública* y pedí literalmente "los datos de las denuncias en Mataró de 2015 a 2020, por tipo de delito, desglosado por barrios y con el sexo y la edad de la persona denunciada". Hasta ahí todo bien, a ver qué podíamos sacar de estos datos.
+¿Realmente el problema era tan grave? A principios de 2021 decidí hacer una *solicitud de acceso a la información pública* y pedí literalmente "los datos de las denuncias en Mataró de 2015 a 2020, por tipo de delito, desglosado por barrios y con el sexo y la edad de la persona denunciada". Hasta ahí todo bien, a ver qué podíamos sacar de estos datos.
 
 El excel llegó al cabo de un mes. Al hacer un análisis rápido, vi que entre 2015 y 2019 había una media de 2.200 denuncias por año, a excepción de 2020, donde la cifra se disparaba hasta las 3.700 denuncias. ¿Qué estaba pasando aquí? Me llevé una buena sorpresa al ver que casi la mitad de las denuncias de 2020 se debían a *(redoble de tambores)* ¡denuncias puestas a personas que se habían saltado el confinamiento! Quitando ese excedente, la realidad de los datos de 2020 era muy parecida a la de los años anteriores.
 
-Por suerte o por desgracia (más suerte que desgracia, ya os lo adelanto), el perfeccionismo llamó a mi puerta y decidí que ese proyecto se iba a quedar en *stand by* porque no tenía los conocimientos suficientes de programación para representar el artículo de periodismo de datos como yo quería. Y ahí se quedó aparcado hasta 2022, cuando me dio por retomar el proyecto y pedir los datos de 2021 con las mismas variables y la misma descripción. 
+Por suerte o por desgracia (más suerte que desgracia, ya os lo adelanto), el proyecto quedó en *stand by* hasta 2022. Pero las quejas de los vecinos seguían y decidí retomar el proyecto pidiendo los datos de 2021 con las mismas variables y la misma descripción. 
 
-El archivo que me llegó nuevo no tenía nada demasiado llamativo: esta vez, según los datos, en 2021 habían habido 2.600 denuncias. Ligeramente más que en los años anteriores, pero para una ciudad de 130.000 habitantes esa tasa parecía estar dentro de la normalidad.
+El archivo que me llegó nuevo no tenía nada demasiado llamativo: esta vez, según los datos, en 2021 habían habido 2.600 denuncias. Ligeramente más que en los años anteriores, pero para una ciudad de 130.000 habitantes esa tasa parecía bastante baja.
 
 De nuevo por cosas de la vida, volví a dejar aparcado el proyecto y no ha sido hasta ahora en 2024 que he retomado lo que había dejado en segundo plano.
 
@@ -50,10 +44,10 @@ A estas alturas los más avispados ya os habréis dado cuenta de lo que estaba p
 
 Resulta que en su lógica no existen los datasets con NAs. Si una fila tiene algún NA, la eliminan del dataset antes de entregártelo. Entonces, la **solución del misterio** es que en el primer dataset sólo constaban las denuncias en las que se sabía el sexo y la edad de la persona denunciada, y en el último debía cumplir con las variables *Sexo*, *Edad* y además *Orígen*. Por eso había menos filas. 
 
-En el de las 8.000 denuncias anuales de media, como me habían separado la información en dos pestañas, el número de denuncias no se había visto demasiado afectado y, tal como dijeron los mossos, es el que más se acerca a la realidad (Aunque en los datos abiertos de los mossos salen números superiores, posiblemente también han aplicado otro filtro y me han enviado sólo los casos en los que sí se sabe el barrio del delito.)
+En el de las 8.000 denuncias anuales de media, como me habían separado la información en dos pestañas, el número de denuncias no se había visto demasiado afectado y, tal como dijeron los mossos, es el que más se acerca a la realidad (Aunque en los datos abiertos de los mossos salen números superiores, posiblemente también han aplicado otro filtro y me han enviado sólo los casos en los que sí se sabe el barrio del delito).
 
-Entonces, contestando a la pregunta del título "¿Los datos de las administraciones públicas son fiables?", mi respuesta es: *depende*. Al fin y al cabo, los datos que me enviaron eran correctos. El *error* estaba en que estaban **incompletos**. ¿Si los hubiera pedido explícitamente con los NAs me los hubieran enviado completos? Eso tengo pendiente comprobarlo, pero espero que sí. ¿Me han creado cierto grado de desconfianza? Pues sí, para qué negarlo. Pero tampoco quiero pensar que el funcionario que me mandó los datos lo hizo con mala intención, tal vez una nota informativa sobre los NAs podrían haber solucionado el malentendido y haberme ahorrado mucho tiempo.
+Entonces, contestando a la pregunta del título "¿Los datos de las administraciones públicas son fiables?", mi respuesta es: *depende*. Al fin y al cabo, los datos que me enviaron eran correctos. El *error* estaba en que estaban **incompletos**. ¿Si los hubiera pedido explícitamente con los NAs me los hubieran enviado completos? Eso tengo pendiente comprobarlo, pero espero que sí. ¿Me han creado cierto grado de desconfianza? Desde luego que sí, para qué negarlo.
 
-A partir de ahora habrá que hacer mejor nuestro trabajo: habrá que escribir solicitudes más detalladas y comprobar los datos por otras vías. Sobretodo porque pocos vienen con documentación ni metadatos, por lo que las conclusiones de los análisis muchas veces salen de nuestras suposiciones de lo que representan los datos y eso no puede ser. 
+A partir de ahora habrá que hacer mejor nuestro trabajo: habrá que escribir solicitudes más detalladas y comprobar los datos por otras vías. Sobretodo porque pocos vienen con documentación ni metadatos, por lo que las conclusiones de los análisis muchas veces salen de nuestras suposiciones de lo que representan los datos. Y eso no puede ser. 
 
-Lo verdaderamente importante es saber el contexto de lo que queremos tratar y ver si los datos están reflejando la realidad, y si no es así buscar qué es lo que está pasando. Ese es el trabajo de un analista o periodista de datos y ¡aquí queremos hacer bien nuestro trabajo!
+Lo verdaderamente importante es saber el contexto de lo que queremos tratar y ver si los datos están reflejando la realidad, y si no es así, buscar qué es lo que está pasando. Ese es el trabajo de un analista o periodista de datos y ¡aquí queremos hacer bien nuestro trabajo!
