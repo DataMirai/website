@@ -4,7 +4,7 @@ meta_title: "Is government data always reliable?"
 description: "In this post I am going to tell you a short anecdote that happened to me recently."
 date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
-categories: ["Data", "Anecdote"]
+categories: ["Data", "Article"]
 author: "Mireia Camacho"
 tags: ["data sources", "public administration"]
 draft: false

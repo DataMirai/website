@@ -4,7 +4,7 @@ meta_title: "Les dades de les administracions públiques són sempre fiables?"
 description: "En aquesta entrada us explicaré una petita anècdota que m'ha passat recentment."
 date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
-categories: ["Data", "Anècdota"]
+categories: ["Data", "Article"]
 author: "Mireia Camacho"
 tags: ["fonts dades", "administració pública"]
 draft: false

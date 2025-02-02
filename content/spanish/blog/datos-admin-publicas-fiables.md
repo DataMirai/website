@@ -4,7 +4,7 @@ meta_title: "Los datos de las administraciones públicas son siempre fiables"
 description: "En esta entrada voy a contaros una pequeña anécdota que me ha ocurrido recientemente."
 date: 2024-10-10T00:00:00.000Z
 image: "images/gallery/banners_posts/datos-admin-publicas-fiables.png"
-categories: ["Data", "Anecdota"]
+categories: ["Data", "Artículo"]
 author: "Mireia Camacho"
 tags: ["fuentes datos", "administración pública"]
 draft: false
