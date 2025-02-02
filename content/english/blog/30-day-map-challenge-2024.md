@@ -10,7 +10,7 @@ tags: ["30DayMapChallenge", "Programming"]
 draft: false
 ---
 
-Very similar to the #30DayChartChallenge in which [we participated in April](https://miraidata.es/en/blog/30-day-chart-challenge-2024/), during November the map community celebrates the #30DayMapChallenge and we have joined in!
+Similarly to the #30DayChartChallenge in which [we participated in April](https://miraidata.es/en/blog/30-day-chart-challenge-2024/), during November the map community celebrates the #30DayMapChallenge and we have joined in!
 
 <hr>
 

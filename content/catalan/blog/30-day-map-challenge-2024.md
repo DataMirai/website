@@ -22,9 +22,9 @@ Aquest projecte pot seguir endavant gràcies als nostres patrons. Si tu també v
 
 <hr>
 
-El [#30DayMapChallenge](https://30daymapchallenge.com/ "Pàgina web amb les guies del repte 2024") és un repte que anima a la comunitat a fer mapa cada dia del mes de novembre seguint una guia que indica el tipus de mapa que s'ha de fer o la temàtica que s'ha de seguir. Els participants poden participar-hi des de la xarxa social que prefereixin.
+El [#30DayMapChallenge](https://30daymapchallenge.com/ "Pàgina web amb les guies del repte 2024") és un repte que anima a la comunitat a fer un mapa cada dia del mes de novembre seguint una guia que indica el tipus de mapa que s'ha de fer o la temàtica que s'ha de seguir. Els participants poden participar-hi des de la xarxa social que prefereixin.
 
-De la mateixa manera que per al #30DayChartChallenge ens vam proposar utilitzar datasets de *Dades Obertes* de la Generalitat, en aquest cas els mapes podien de ser únicament de Catalunya, el Maresme o Mataró.
+De la mateixa manera que per al #30DayChartChallenge ens vam proposar utilitzar datasets de *Dades Obertes* de la Generalitat, en aquest cas els mapes podien ser únicament de Catalunya, el Maresme o Mataró.
 
 Aquí estan els mapes que vam fer durant el repte, **esperem que us agradin!**
 
