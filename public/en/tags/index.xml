@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>30DayMapChallenge</title>
+      <link>http://localhost:1313/en/tags/30daymapchallenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/30daymapchallenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/en/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data Sources</title>
       <link>http://localhost:1313/en/tags/data-sources/</link>
@@ -27,13 +41,6 @@
       <link>http://localhost:1313/en/tags/30daychartchallenge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/tags/30daychartchallenge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>http://localhost:1313/en/tags/programming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/programming/</guid>
       <description></description>
     </item>
   </channel>

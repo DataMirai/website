@@ -6,21 +6,35 @@
     <description>Recent content on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#30DayMapChallenge 2024</title>
+      <link>http://localhost:1313/en/blog/30-day-map-challenge-2024/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/30-day-map-challenge-2024/</guid>
+      <description>Similarly to the #30DayChartChallenge in which we participated in April , during November the map community celebrates the #30DayMapChallenge and we have joined in!</description>
+    </item>
     <item>
       <title>Is government data always reliable?</title>
       <link>http://localhost:1313/en/blog/datos-admin-publicas-fiables/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/blog/datos-admin-publicas-fiables/</guid>
       <description>In this post I am going to tell you a short anecdote that happened to me recently.</description>
     </item>
     <item>
       <title>#30DayChartChallenge 2024</title>
       <link>http://localhost:1313/en/blog/30-day-chart-challenge-2024/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/blog/30-day-chart-challenge-2024/</guid>
       <description>This year we actively participated in the #30DayChartChallenge and here are the results!</description>
+    </item>
+    <item>
+      <title>#30DayChartChallenge 2024</title>
+      <link>http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/</guid>
+      <description>Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!</description>
     </item>
     <item>
       <title>Aitor González</title>

@@ -6,12 +6,19 @@
     <description>Recent content in Data Visualization on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#30DayMapChallenge 2024</title>
+      <link>http://localhost:1313/blog/30-day-map-challenge-2024/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/30-day-map-challenge-2024/</guid>
+      <description>Muy similar al #30DayChartChallenge al cual participamos en abril , durante novembre la comunidad fanática de los mapas celebra el #30DayMapChallenge ¡y nosotros nos hemos animado a participar!</description>
+    </item>
     <item>
       <title>#30DayChartChallenge 2024</title>
       <link>http://localhost:1313/blog/30-day-chart-challenge-2024/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/30-day-chart-challenge-2024/</guid>
       <description>Este año hemos participado activamente en el #30DayChartChallenge ¡y aquí están los resultados!</description>
     </item>
