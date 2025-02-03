@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jo només sé quant cobro jo, la resta…</title>
+      <link>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</guid>
+      <description>Les definicions importen tant com els propis resultats. Perquè… Què passa quan aquests resultats afecten directament la butxaca de les persones?</description>
+    </item>
     <item>
       <title>#30DayMapChallenge 2024</title>
       <link>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</link>
@@ -20,20 +27,13 @@
       <link>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ca/blog/datos-admin-publicas-fiables/</guid>
-      <description>n aquesta entrada us explicaré una petita anècdota que m&amp;rsquo;ha passat recentment.</description>
+      <description>En aquesta entrada us explicaré una petita anècdota que m&amp;rsquo;ha passat recentment.</description>
     </item>
     <item>
       <title>#30DayChartChallenge 2024</title>
       <link>http://localhost:1313/ca/blog/30-day-chart-challenge-2024/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ca/blog/30-day-chart-challenge-2024/</guid>
-      <description>Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!</description>
-    </item>
-    <item>
-      <title>#30DayChartChallenge 2024</title>
-      <link>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</guid>
       <description>Aquest any hem participat activament al #30DayChartChallenge i aquí estan els resultats!</description>
     </item>
   </channel>

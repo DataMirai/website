@@ -38,7 +38,7 @@ La dirección hace números:
 - Salario de la dirección: 50.000€ por directivo. (3 directivos) 
 - Salario de cada empleado: 15.500€ por empleado. (97 empleados)
 
-¿De cuánto es el salario total pagado? Una sencilla media ponderada lo dirá; 3 directivos y 97 empleados
+¿De cuánto es el salario total pagado? Una sencilla media ponderada lo dirá; 3 directivos y 97 empleados.
 
 ```r
 weighted.mean(c(50000,15500),c(3,97))
@@ -52,7 +52,7 @@ La prensa y los sindicatos mayores atacan con el argumento de que el salario pro
 
 Como únicamente están siendo atacados por el promedio salarial, deciden cambiar la forma de retribución. Los beneficios pasan a pagarse como parte del sueldo de los directivos. Así matan dos pájaros de un tiro: bajan los beneficios y encima aumentan el salario promedio, blanqueando así su imagen.
 
-No podrán poner todos los beneficios en el salario de los directivos, pues algunas cosas no se pueden por la legalidad, pero la magia de la ingeniería fiscal sí conseguirá hacer casi todo el traspaso casi todo.
+No podrán poner todos los beneficios en el salario de los directivos, pues algunas cosas no se pueden por la legalidad, pero la magia de la ingeniería fiscal sí conseguirá hacer casi todo el traspaso.
 
 La dirección hace de nuevo los números con “magia fiscal”: 
 
@@ -79,7 +79,7 @@ weighted.mean(c(266666,15500),c(3,97))
 Cambiando el relato a través de los números, la empresa se ha quitado de encima al gran hermano que todo ve y todo juzga. Los números, adalides de la objetividad, no son más que abstracciones de ideas de la gente.
 
 
-#### Cuando ejemplo se vuelve real
+#### Cuando el ejemplo se vuelve real
 
 ¡Pero bueno! Todo son risas y procrastinación en ejemplos aislados sin contexto. De modo que vamos a poner algo de realidad al asunto, salvando ciertas diferencias.
 

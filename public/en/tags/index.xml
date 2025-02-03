@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReEstimando</title>
+      <link>http://localhost:1313/en/tags/reestimando/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/reestimando/</guid>
+      <description></description>
+    </item>
     <item>
       <title>30DayMapChallenge</title>
       <link>http://localhost:1313/en/tags/30daymapchallenge/</link>

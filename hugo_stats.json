@@ -320,6 +320,7 @@
     ],
     "ids": [
       "TableOfContents",
+      "a-sandbox-example",
       "accordions",
       "blockquote",
       "button",
@@ -328,7 +329,7 @@
       "caption-Cartel en una ventana del barrio de Cerdanyola, Mataró.",
       "caption-Cartell en una finestra del barri de Cerdanyola, Mataró.",
       "code-and-syntax-highlighting",
-      "cuando-ejemplo-se-vuelve-real",
+      "cuando-el-ejemplo-se-vuelve-real",
       "custom-video",
       "disqus_thread",
       "email",
@@ -364,8 +365,10 @@
       "tab",
       "tables",
       "un-ejemplo-de-juguete",
+      "un-exemple-de-joguina",
       "unordered-list",
       "we-know-youre-dealing-in-stolen-ore",
+      "when-the-example-comes-to-life",
       "youtube-video"
     ]
   }

@@ -56,32 +56,54 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>http://localhost:1313/categories/estad%C3%ADstica/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/programming/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/programming/"
+                href="http://localhost:1313/ca/categories/estad%C3%ADstica/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="http://localhost:1313/tags/programming/"
+                href="http://localhost:1313/categories/estad%C3%ADstica/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/reestimando/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/reestimando/"
+                />
   </url><url>
     <loc>http://localhost:1313/categories/reestimando/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/statistics/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/reestimando/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
@@ -173,6 +195,24 @@
                 href="http://localhost:1313/categories/data-visualization/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/programming/"
+                />
+  </url><url>
     <loc>http://localhost:1313/categories/r/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -212,7 +252,7 @@
     <loc>http://localhost:1313/tags/administraci%C3%B3n-p%C3%BAblica/</loc>
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/anecdota/</loc>
+    <loc>http://localhost:1313/categories/art%C3%ADculo/</loc>
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/data/</loc>

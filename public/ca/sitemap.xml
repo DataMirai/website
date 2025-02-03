@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ca/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -18,6 +18,127 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/estad%C3%ADstica/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/estad%C3%ADstica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/estad%C3%ADstica/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/re-yo-solo-se-cuanto-cobro-yo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/reestimando/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/reestimando/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/reestimando/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/reestimando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/reestimando/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</loc>
@@ -54,42 +175,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/tags/30daymapchallenge/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/blog/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/blog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
@@ -146,29 +231,21 @@
                 href="http://localhost:1313/ca/categories/r/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ca/tags/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/article/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/en/categories/article/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/"
+                href="http://localhost:1313/ca/categories/article/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</loc>
-    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/an%C3%A8cdota/</loc>
-    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ca/categories/data/</loc>
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
@@ -225,24 +302,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/blog/30-day-chart-challenge-2024/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/</loc>
-    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/blog/re-yo-solo-se-cuanto-cobro-yo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/blog/re-yo-solo-se-cuanto-cobro-yo/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/tags/30daychartchallenge/</loc>
