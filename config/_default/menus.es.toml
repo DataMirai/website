@@ -19,7 +19,7 @@ pageRef = "/blog"
 [[main]]
 parent = "Posts"
 name = "Artículos"
-pageRef = "/categories/art%C3%ADculo/"
+pageRef = "/categories/artículo/"
 
 [[main]]
 parent = "Posts"
