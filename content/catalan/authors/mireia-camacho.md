@@ -15,11 +15,6 @@ social:
   - name: mastodon
     icon: fa-brands fa-mastodon
     link: https://mastodon.social/@mireiacamacho75
-  
-  - name: bluesky
-    icon: fa-brands fa-bluesky
-    link: https://bsky.app/profile/mireiacamacho75.bsky.social
-    
 ---
 
 Analista i periodista de dades. Fan de les visualitzacions. Professora de periodisme de dades a la Universitat Autònoma de Barcelona.
