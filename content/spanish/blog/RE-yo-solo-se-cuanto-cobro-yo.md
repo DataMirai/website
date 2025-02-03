@@ -10,7 +10,7 @@ tags: ["ReEstimando"]
 draft: false
 ---
 
-Las definiciones importan tanto como los propios resultados. Porque… ¿Qué pasa cuando esos resultados afectan directamente al bolsillo de las personas? Ahí realmente el fuego de cada uno sale a la palestra y abrasa hasta a una madre si fuera preciso. Cuando hay que hacer según qué lecturas de estadísticos para entender una situación, debemos prestar más atención incluso al contexto de los números que a los números en sí. Aquí es dónde la estadística se vuelve un campo de batalla, y el diseño experimental un arma cargada de implicaciones legales, éticas y económicas. **Ideas antes que números.**
+Las definiciones importan tanto como los propios resultados. Cuando hay que hacer según qué lecturas de estadísticos para entender una situación, debemos prestar más atención incluso al contexto de los números que a los números en sí. Aquí es dónde la estadística se vuelve un campo de batalla, y el diseño experimental un arma cargada de implicaciones legales, éticas y económicas. **Ideas antes que números.**
 
 Jugar con los cálculos es relativamente fácil y el impacto y la interpretación se entienden de inmediato. En cualquier problema, al analizarlo con una media o una mediana, cambian nuestras conclusiones sobre la población de estudio. Cambia la narrativa. Por completo. Esto de hecho es “intuitivo” y se ve muy rápido. Precisamente es intuitivo debido a que las definiciones de media y mediana están bien acotadas y aceptadas. No por nada hay gente “de números”. Gente que no cabalga contradicciones. 
 

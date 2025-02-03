@@ -28,17 +28,27 @@ In 2020, the lockdown brought many neighbourhoods closer and encouraged resident
 
 Was the problem really that serious? At the beginning of 2021 I decided to make a *request to public information access* and literally asked for: "data on reports in Mataró from 2015 to 2020, by type of crime, detailed by neighbourhood and with the sex and age of the person reported". So far so good, let's see what we could get from this data.
 
-The excel arrived within a month. Doing a quick analysis, I saw that between 2015 and 2019 there was an average of 2,200 complaints per year, with the exception of 2020, where the numbers shot up to 3,700 reports. What was going on here? I was quite surprised to see that almost half of the 2020 reports were due to *(drum roll)* reports made against people who had skipped lockdown! Taking out that excess, the reality of the 2020 data was pretty much the same as in previous years.
+The excel arrived within a month. Doing a quick analysis, I saw that between 2015 and 2019 there was an average of 2,200 complaints per year, with the exception of 2020, where the numbers shot up to 3,700 reports. What was going on here? 
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset1.png" caption="" alt="Gràfica 1" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 1"  webp="false" height="500px" width="600px" >}}
+
+I was quite surprised to see that almost half of the 2020 reports were due to *(drum roll)* reports made against people who had skipped lockdown! Taking out that excess, the reality of the 2020 data was pretty much the same as in previous years.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset1-5.png" caption="" alt="Gràfica 1.5" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 1.5"  webp="false" height="500px" width="600px" >}}
 
 Lucky or not (more lucky than unlucky, I'll tell you), the project end up on *stand by* until 2022. But the complaints from the neighbours persisted and I decided to take up the project again, asking for the 2021 data with the same variables and the same description. 
 
 There was nothing too remarkable in the new file I received: this time, according to the data, there had been 2,600 reports in 2021. Slightly more than in previous years, but for a city of 130,000 inhabitants that rate seemed to be low.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset2.png" caption="" alt="Gràfica 2" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 2"  webp="false" height="500px" width="600px" >}} 
 
 Again, due to life's circumstances, I left the project on the back burner and it is only now, in 2024, that I have taken up again what I had left behind.
 
 In order to keep the 'now' factor, I asked again for the updated data from 2020 to 2023. I asked for the data for 2020 and 2021 even though I already had it to be able to check, for example, if the name of any type of crime had changed or if the numbers were very different. I didn't have to lift a finger to realise that **the data was completely different**.
 
 How far behind the ‘skyrocketing’ 3,700 reports in 2020 in the previous dataset were that the updated data showed that in 2020 there had been 7,500 reports and the fines from the confinement were no longer included. On top of that, **the trend was rising year on year at a much more significant rate** than what was shown in the other dataset. While in the previous data we had a difference of tens or hundreds of reports from year to year, in the new data there was a clear upward trend that was growing by hundreds or thousands.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset3.png" caption="" alt="Gràfica 3" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 3"  webp="false" height="500px" width="600px" >}}
 
 The only difference in the new dataset was that here I had been given the data in two separate excel tabs: one with the crimes in each neighbourhood and the other tab with the profile of the reported people. Without any possibility of joining one data with the other as I had in the previous dataset. 
 
@@ -49,6 +59,8 @@ My first reaction was to think that they had given me the wrong data, because ou
 Knowing then that the data that was *wrong* was the old one, I made another request with the reports from 2016 to 2023, asking explicitly that the data of the reported people should not be in a separate table. 
 
 To my surprise (or at this point to nobody's surprise), a new dataset arrived **completely different from the previous ones**. Now the average number of reports was not around the 2,000 per year of the first dataset or the 8,000 of the second. Now I was faced with data that said there were 1,500 reports on average every year.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset4.png" caption="" alt="Gràfica 4" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 4"  webp="false" height="500px" width="600px" >}}
 
 At least this time the profile of those reported was in the same row as the offences for which they had been reported. They had also added the column ‘Origin’, even though I had not explicitly asked for it. 
 

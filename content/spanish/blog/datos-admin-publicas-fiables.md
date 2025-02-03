@@ -27,17 +27,27 @@ En 2020 el confinamiento acercó a muchas comunidades de vecinos y las incentiv�
 
 ¿Realmente el problema era tan grave? A principios de 2021 decidí hacer una *solicitud de acceso a la información pública* y pedí literalmente "los datos de las denuncias en Mataró de 2015 a 2020, por tipo de delito, desglosado por barrios y con el sexo y la edad de la persona denunciada". Hasta ahí todo bien, a ver qué podíamos sacar de estos datos.
 
-El excel llegó al cabo de un mes. Al hacer un análisis rápido, vi que entre 2015 y 2019 había una media de 2.200 denuncias por año, a excepción de 2020, donde la cifra se disparaba hasta las 3.700 denuncias. ¿Qué estaba pasando aquí? Me llevé una buena sorpresa al ver que casi la mitad de las denuncias de 2020 se debían a *(redoble de tambores)* ¡denuncias puestas a personas que se habían saltado el confinamiento! Quitando ese excedente, la realidad de los datos de 2020 era muy parecida a la de los años anteriores.
+El excel llegó al cabo de un mes. Al hacer un análisis rápido, vi que entre 2015 y 2019 había una media de 2.200 denuncias por año, a excepción de 2020, donde la cifra se disparaba hasta las 3.700 denuncias. ¿Qué estaba pasando aquí? 
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset1.png" caption="" alt="Gràfica 1" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 1"  webp="false" height="500px" width="600px" >}}
+
+Me llevé una buena sorpresa al ver que casi la mitad de las denuncias de 2020 se debían a *(redoble de tambores)* ¡denuncias puestas a personas que se habían saltado el confinamiento! Quitando ese excedente, la realidad de los datos de 2020 era muy parecida a la de los años anteriores.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset1-5.png" caption="" alt="Gràfica 1.5" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 1.5"  webp="false" height="500px" width="600px" >}}
 
 Por suerte o por desgracia (más suerte que desgracia, ya os lo adelanto), el proyecto quedó en *stand by* hasta 2022. Pero las quejas de los vecinos seguían y decidí retomar el proyecto pidiendo los datos de 2021 con las mismas variables y la misma descripción. 
 
 El archivo que me llegó nuevo no tenía nada demasiado llamativo: esta vez, según los datos, en 2021 habían habido 2.600 denuncias. Ligeramente más que en los años anteriores, pero para una ciudad de 130.000 habitantes esa tasa parecía bastante baja.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset2.png" caption="" alt="Gràfica 2" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 2"  webp="false" height="500px" width="600px" >}} 
 
 De nuevo por cosas de la vida, volví a dejar aparcado el proyecto y no ha sido hasta ahora en 2024 que he retomado lo que había dejado en segundo plano.
 
 Para no perder el factor inmediatez, volví a pedir los datos actualizados desde 2020 hasta 2023. Pedí los datos de 2020 y 2021 pese a tenerlos ya para poder hacer comprobaciones, como por ejemplo si han cambiado el nombre de algún tipo de delito o si las cifras son muy distintas. Dio la casualidad de que no tuve que mover ni un dedo para darme cuenta de que **los datos eran totalmente distintos**.
 
 Qué lejos habían quedado las "disparadas" 3.700 denuncias de 2020 en el dataset anterior que en los datos actualizados me aparecía que en 2020 había habido 7.500 denuncias y las multas del confinamiento ya no estaban incluídas. A eso había que añadirle que **la tendencia subía año a año a un ritmo bastante más llamativo** de lo que aparecía en el otro dataset. Si bien en los datos anteriores teníamos una diferencia de decenas o cientos de denuncias entre año y año, en los nuevos datos había una clara tendencia ascendente que crecía a ritmo de cientos o miles.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset3.png" caption="" alt="Gràfica 3" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 3"  webp="false" height="500px" width="600px" >}}
 
 La única diferencia del nuevo dataset fue que aquí me habían dado los datos en dos pestañas de excel separadas: una con los delitos de cada barrio y la otra pestaña con el perfil de las personas denunciadas. Sin ninguna posibilidad de unir unos datos con los otros como los tenía en el dataset anterior. 
 
@@ -48,6 +58,8 @@ Mi primera reacción fue pensar que me habían dado estos últimos datos mal, po
 Sabiendo entonces que los datos que estaban *mal* eran los antiguos, volví a hacer otra solicitud con los datos de 2016 a 2023, pidiendo explícitamente que los datos de las personas denunciadas no estuvieran en una tabla a parte. 
 
 Para mi sorpresa (o a estas alturas para sorpresa de nadie), llegó un nuevo dataset **completamente distinto de los anteriores.** Ahora la media de denuncias no rondaba las 2.000 anuales del primer dataset o las 8.000 del segundo. Ahora me encontraba ante unos datos que decían que había 1.500 denuncias de media cada año.
+
+{{< image src="images/gallery/bbdd_publiques_fiables/dataset4.png" caption="" alt="Gràfica 4" position="center" command="resize" option="q100" class="img-fluid" title="Gràfica 4"  webp="false" height="500px" width="600px" >}}
 
 Por lo menos esta vez el perfil de los denunciados sí estaba en la misma fila que los delitos por los que habían sido denunciados. También habían añadido la columna "Origen", pese a que yo no la había pedido explícitamente. 
 
