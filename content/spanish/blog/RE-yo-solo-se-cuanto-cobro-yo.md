@@ -50,6 +50,8 @@ La empresa reporta en cifras oficiales un salario promedio de 16.535€. Esto su
 
 La prensa y los sindicatos mayores atacan con el argumento de que el salario promedio no cubre para los gastos de la región. Tienen toda la razón, pero cometen un fallo. Confiar únicamente en que la cifra que la misma compañía reporta es correcta. No se preocupan de esa definición. La empresa se da cuenta de esto y entonces juegan su baza. 
 
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/cuentas.jpg" caption="" alt="Calculadora" position="center" command="fill" option="q100" class="img-fluid" title="Calculadora"  webp="false" >}} 
+
 Como únicamente están siendo atacados por el promedio salarial, deciden cambiar la forma de retribución. Los beneficios pasan a pagarse como parte del sueldo de los directivos. Así matan dos pájaros de un tiro: bajan los beneficios y encima aumentan el salario promedio, blanqueando así su imagen.
 
 No podrán poner todos los beneficios en el salario de los directivos, pues algunas cosas no se pueden por la legalidad, pero la magia de la ingeniería fiscal sí conseguirá hacer casi todo el traspaso.
@@ -92,6 +94,8 @@ Movilizar la producción siempre deja descontentos, y más siendo una marca glob
 Entre estos estándares había que cumplir un pago digno al trabajador, pero manteniendo los costos extremadamente bajos. Nike negociaba precios muy ajustados para los productos, dejando a las fábricas con márgenes de ganancia “mínimos”. Sin embargo, se desencadenó una competencia feroz entre los proveedores. Las fábricas extranjeras, sobre todo en Vietnam y Tailandia, competían entre sí para obtener los contratos de Nike.
 
 La estrategia de Nike parecía perfecta. No solo blanqueaban su imagen de cara a la galería, evitando acusaciones de explotación, ya que se aseguraba de mantener “salarios dignos”, sino que además evitaba la aparición de competencia fuerte debido a dejar escasísimos márgenes de ganancia a las compañías franquiciadas. Sin embargo, y por supuestísimo, Nike no fue la única con “grandes ideas”. Como se suele decir, hecha la ley, hecha la trampa.
+
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/fabrica.jpg" caption="" alt="Máquinas de coser" position="center" command="fill" option="q100" class="img-fluid" title="Máquinas de coser"  webp="false" >}} 
 
 Muchas de las fábricas subcontratadas por Nike recurrieron a malas praxis para cumplir con los estándares y ganarse el favor de ser franquicias de Nike. Una de las más comunes era la manipulación de los informes salariales. Para aparentar que cumplían con los estándares laborales de salario al trabajador, las fábricas inflaban los promedios salariales. Esto distorsionaba las métricas ya que en los cálculos se mezclaban las categorías de los sueldos. Gerentes, supervisores y personal administrativo, cuyos salarios eran significativamente más altos que los de los trabajadores de las líneas de producción, eran contabilizados en los cómputos de salario promedio.
 

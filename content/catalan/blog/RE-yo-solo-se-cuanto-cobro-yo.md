@@ -50,6 +50,8 @@ L'empresa reporta en xifres oficials un salari mitjà de 16.535€. Això suposa
 
 La premsa i els sindicats ataquen amb l'argument que el salari mitjà no cobreix per a les despeses de la regió. Tenen tota la raó, però cometen un error. Confiar únicament en que la xifra que la mateixa companyia reporta és correcta. No es preocupen de la definició. L'empresa s'adona d'això i llavors juguen les seves cartes.
 
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/cuentas.jpg" caption="" alt="Calculadora" position="center" command="fill" option="q100" class="img-fluid" title="Calculadora"  webp="false" >}} 
+
 Com només estan sent atacats per la mitjana salarial, decideixen canviar la forma de retribució. Els beneficis passen a pagar-se com a part del sou dels directius. Així maten dos ocells d'un tir: baixen els beneficis i augmenten el salari mitjà, blanquejant així la seva imatge.
 
 No podran posar tots els beneficis en el salari dels directius, perquè algunes coses no es poden per la legalitat, però la màgia de l'enginyeria fiscal sí que aconseguirà fer gairebé tot el traspàs.
@@ -92,6 +94,8 @@ Entre aquests estàndards calia complir un pagament digne al treballador, però 
 
 L'estratègia de Nike semblava perfecta. No només blanquejaven la seva imatge de cara a la galeria, evitant acusacions d'explotació, ja que s'assegurava de mantenir “salaris dignes”, sinó que a més evitava l'aparició de competència forta a causa de deixar escassíssims marges de guany a les companyies franquiciades. No obstant això, i per suposat, Nike no va ser l'única amb “grans idees”. Com s'acostuma a dir, feta la llei, fet el parany.
 
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/fabrica.jpg" caption="" alt="Màquines de cosir" position="center" command="fill" option="q100" class="img-fluid" title="Màquines de cosir"  webp="false" >}} 
+
 Moltes de les fàbriques subcontractades per Nike van recórrer a males praxis per a complir amb els estàndards i guanyar-se el favor de ser franquícies de Nike. Una de les més comunes era la manipulació dels informes salarials. Per a aparentar que complien amb els estàndards laborals de salari al treballador, les fàbriques inflaven les mitjanes salarials. Això distorsionava les mètriques ja que en els càlculs es barrejaven les categories dels sous. Gerents, supervisors i personal administratiu, els salaris del qual eren significativament més alts que els dels treballadors de les línies de producció, eren comptabilitzats en els còmputs de salari mitjà.
 
 D'aquesta manera, les fàbriques “maquillaven” les xifres, mantenint el relat que els seus treballadors base estaven molt ben pagats, quan la realitat era que els salaris per a operaris eren extremadament baixos, molt sovint insuficients per a cobrir si més no les seves necessitats bàsiques en països en vies de desenvolupament.
@@ -105,5 +109,6 @@ Al final, diverses organitzacions es van fer ressò dels fets. L'ONG Oxfam, en e
 Les mesures van tenir èxit, i Nike finalment va optar per replantejar-se el seu model i polítiques laborals. Sobretot reforçant les auditories, externalitzant també el procés per a poder mantenir un rigorós control per a que es compleixin les condicions.
 
 No obstant això, el cas Nike en els anys 90 continua sent un exemple emblemàtic dels dilemes ètics i socials del que pot suposar una manipulació en el càlcul d'una xifra com un salari.
+
 
 {{< youtube x1zW53U6_-E >}} 

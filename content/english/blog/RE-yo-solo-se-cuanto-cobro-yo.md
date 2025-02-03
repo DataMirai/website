@@ -50,6 +50,8 @@ The company reports in official figures an average salary of €16,535. This is 
 
 The press and the major labour unions attack with the argument that the average wage does not cover the region's expenses. They are absolutely right, but they make a mistake. They rely solely on the company's own reported figure being correct. They don't care about that definition. The company realises this and they play their card trick. 
 
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/cuentas.jpg" caption="" alt="Calculator" position="center" command="fill" option="q100" class="img-fluid" title="Calculator"  webp="false" >}} 
+
 As they are only being attacked by the average wage, they decide to change the compensation form. Benefits are now paid as part of the directors' salaries. This kills two birds with one stone: they lower the benefits and increase the average salary on top of that, whitening their image.
 
 They will not be able to put all the profits into the directors' salaries, as some things cannot be done legally, but the magic of fiscal engineering will make most of the transfer possible.
@@ -91,6 +93,8 @@ Moving production always leaves dissatisfaction, especially for a global brand w
 Among these standards was meeting decent worker pay, but keeping costs extremely low. Nike negotiated very tight prices for products, leaving factories with ‘minimal’ profit margins. However, fierce competition among suppliers was unleashed. Foreign factories, especially in Vietnam and Thailand, competed with each other for Nike contracts.
 
 Nike's strategy seemed perfect. Not only did it whitewash its image in the eyes of the public, avoiding accusations of exploitation by ensuring that it maintained ‘living wages’, but it also avoided the emergence of strong competition by leaving very low profit margins to the franchised companies. However, of course, Nike was not the only one with ‘big ideas’. As they say, for every law there is a loophole.
+
+{{< image src="images/gallery/RE-yo-solo-se-cuanto-cobro/fabrica.jpg" caption="" alt="sewing machines" position="center" command="fill" option="q100" class="img-fluid" title="Sewing machines"  webp="false" >}} 
 
 Many of the factories subcontracted by Nike relied on malpractice to meet standards and gain the favour of being Nike franchises. One of the most common was the manipulation of wage reports. In order to appear to meet labour standards for worker wages, factories inflated wage averages. This distorted the metrics as wage categories were mixed up in the calculations. Managers, supervisors and administrative staff, whose wages were significantly higher than those of production line workers, were counted in the average wage calculations.
 
