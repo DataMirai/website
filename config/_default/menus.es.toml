@@ -19,12 +19,12 @@ pageRef = "/blog"
 [[main]]
 parent = "Posts"
 name = "Artículos"
-pageRef = "/blog"
+pageRef = "/categories/art%C3%ADculo/"
 
 [[main]]
 parent = "Posts"
 name = "DataViz"
-pageRef = "/blog"
+pageRef = "/categories/data-visualization/"
 
 [[main]]
 name = "ReEstimando Blog"
