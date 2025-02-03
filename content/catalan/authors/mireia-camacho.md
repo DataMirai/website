@@ -12,9 +12,9 @@ social:
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/mireia-camacho-695475143/
 
-  - name: Bsky
-    icon: fa-brands fa-bluesky
-    link: https://bsky.app/profile/mireiacamacho75.bsky.social
+  - name: mastodon
+    icon: fa-brands fa-mastodon
+    link: https://mastodon.social/@mireiacamacho75
 ---
 
 Analista i periodista de dades. Fan de les visualitzacions. Professora de periodisme de dades a la Universitat Autònoma de Barcelona.
