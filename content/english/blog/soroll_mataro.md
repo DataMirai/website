@@ -1814,7 +1814,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
                 );
 //
                 document.getElementById('toggle-botigues').textContent = 
-                    sorollVisible ? 'Ocultar líneas de ruido' : 'Mostrar líneas de ruido';
+                    sorollVisible ? 'Hide noise lines' : 'Show noise lines';
                 });
 //
             const scroller = scrollama();
@@ -1943,7 +1943,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
                                             );
 //
                                             document.getElementById('toggle-arbres').textContent = 
-                                                sorollVisibleArbres ? 'Ocultar líneas de ruido' : 'Mostrar líneas de ruido';
+                                                sorollVisibleArbres ? 'Hide noise lines' : 'Show noise lines';
                                         });
 //
 //
