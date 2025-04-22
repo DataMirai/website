@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mataró a todo volumen</title>
+      <link>http://localhost:1313/blog/soroll_mataro/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/soroll_mataro/</guid>
+      <description>Tráfico, terrazas, mercados, obras, fiestas populares... El día a día de las ciudades es ruidoso.</description>
+    </item>
     <item>
       <title>Yo solo sé cuánto cobro yo, el resto…</title>
       <link>http://localhost:1313/blog/re-yo-solo-se-cuanto-cobro-yo/</link>

@@ -1,0 +1,198 @@
+
+    body {margin: 0; padding: 0; overflow-x: hidden;}
+    html, body{height: 100%; width: 100vw;}
+    .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    #map { 
+        position: sticky; 
+        margin-top: 300px; 
+        width:100vw; 
+        height:100vh; 
+    }
+    #intro {
+    font-size: 19px;
+    text-align: left;
+    margin: 50px auto 20px auto!important; 
+    padding-left:10px;
+    align-items: center;
+    justify-content: center;
+    width:30vw;
+    min-width:100px;
+    color: #ffffff!important;
+    }
+
+    div.container{
+    max-width:100%; 
+    padding:0px; 
+    overflow: visible!important;
+    }
+    
+    .lg\:col-10{
+    width: 100vw; 
+    margin:0px; 
+    overflow: visible!important;
+    }
+
+    h1.h2.mb-4, ul.mb-4{
+    text-align: center;
+    }
+    h1.h2.mb-4{font-size:70px;}
+
+    #scrolly {
+        position: relative;
+        background-color: transparent;
+        padding: 1rem 0px;
+    }
+    
+    
+    article {
+    position: relative;
+    padding: 0;
+    max-width: 20rem;
+    margin: 0 auto;
+    
+    }
+
+    .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    background-color: transparent;
+    z-index: 0;
+    top: 0vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible!important
+    }
+
+    .sticky-thing p {
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+    }
+
+    .step {
+    margin: 50px auto 1000px -7vw;
+    background-color: #ffffff;
+    padding: 15px;
+    position: relative;
+    border-radius: 40px;
+    border: solid 1px black;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 700px;
+    display: block;
+    unicode-bidi: isolate;
+    pointer-events: auto;
+    font-family: "Tex";
+    line-height: 1.2;
+    color: #000;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .step:last-child {
+    margin-bottom: 100px;
+    }
+
+
+    .step p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 21px;
+    background-color: #ffffff;
+    color:#222!important;
+    }
+
+    #footer {
+    height: 300px;
+    }
+
+    .maplibregl-ctrl-attrib {
+        background-color: rgba(255, 255, 255, 0.4)!important;
+    }
+
+    #scrolly-2{
+        background-color: #fff;
+        position: relative;
+        display: flex;  /* Alinea el mapa y el texto en fila */
+        justify-content: space-between; /* Separa los elementos */
+        align-items: flex-start;
+        padding: 400px 50px;
+        margin-top:275px;
+        width:100vw;
+    }
+    
+
+    #map2{
+        position: sticky; 
+        margin-top: 2vh;
+        margin-bottom:2vh;
+        margin-left:3vw;
+        }
+
+    .sticky-thing2 {
+        position: sticky;
+        top: 0;
+        width: 50%; /* Ocupa la mitad izquierda */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .step.map2{
+        margin-top: 500px;
+        display:block;
+        
+    }
+    @media (max-width: 1300px) {
+        #map2{
+            display: block;
+            width: 80vw;
+            margin-left: -30vw;
+            margin-right:20vw;
+            padding:0;
+            align-items: center;
+            justify-content: center;
+        }
+        #scrolly-2 {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            width:100vw;
+            padding:0;
+        }
+        .sticky-thing2 {
+            width: 100vw;
+            padding:0%;
+        }
+        .sticky-thing2 article {
+            margin: 0;
+    
+            }
+        
+        .step.map2{
+            margin-top: 100px;
+            margin-right:20vw;
+        }
+
+        .step:last-child {
+            margin-bottom: 10vh;
+    }
+    
+    }
+    
+    .step.map1 div p{
+        padding:7px;
+        margin:7px;
+    }

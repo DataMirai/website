@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/blog/30-day-chart-challenge-2024/</guid>
       <description>Este año hemos participado activamente en el #30DayChartChallenge ¡y aquí están los resultados!</description>
     </item>
+    <item>
+      <title>Mataró a tot volum</title>
+      <link>http://localhost:1313/blog/soroll/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/soroll/</guid>
+      <description>Trànsit, terrasses, mercats, obres, festes populars...El dia a dia de les ciutats és sorollós.</description>
+    </item>
   </channel>
 </rss>
