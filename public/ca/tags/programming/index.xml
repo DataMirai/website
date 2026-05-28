@@ -6,8 +6,22 @@
     <description>Recent content in Programming on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#39;Mataró a tot volum&#39; guanya el premi Catalan Dataviz de la Fundació ViT</title>
+      <link>http://localhost:1313/ca/blog/premi-fundacio-vit/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/premi-fundacio-vit/</guid>
+      <description>El projecte Mataró a tot volum , l&amp;rsquo;scrollytelling sobre els nivells de soroll a la ciutat de Mataró publicat per Mirai Data, ha estat reconegut amb el premi Català DataViz i també ha quedat finalista en la categoria Talent Jove dels Premis Women DataViz 2025 organitzats per la Fundació ViT .</description>
+    </item>
+    <item>
+      <title>MiraiData imparteix una formació en dades al JRC de la Comissió Europea</title>
+      <link>http://localhost:1313/ca/blog/curs-comissioeuropea/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/curs-comissioeuropea/</guid>
+      <description>La setmana passada MiraiData va viatjar fins a Sevilla per a impartir una formació de dos dies sobre anàlisi, visualització i comunicació amb dades al JRC de la Comissió Europea.</description>
+    </item>
     <item>
       <title>#30DayMapChallenge 2024</title>
       <link>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</link>

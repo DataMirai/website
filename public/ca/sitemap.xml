@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ca/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -20,8 +20,11 @@
                 href="http://localhost:1313/ca/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ca/blog/premi-fundacio-vit/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ca/blog/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -39,7 +42,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -54,6 +57,189 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/data-visualization/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/prize/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/programming/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/programming/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/courses/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/courses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/courses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/courses/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/formacions/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/formacions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/formacions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/formacions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/curs-comissioeuropea/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/curs-comissioeuropea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/curs-comissioeuropea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/curs-comissioeuropea/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/r/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/r/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/d3/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/d3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/d3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/d3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/soroll_mataro/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/soroll_mataro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/soroll_mataro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/soroll_mataro/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/scrollytelling/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/scrollytelling/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/estad%C3%ADstica/</loc>
@@ -123,24 +309,6 @@
                 href="http://localhost:1313/ca/categories/reestimando/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ca/tags/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ca/blog/30-day-map-challenge-2024/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -175,60 +343,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/tags/30daymapchallenge/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/data-visualization/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/tags/programming/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/programming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/programming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/programming/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/r/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/r/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/tags/administraci%C3%B3-p%C3%BAblica/</loc>
@@ -320,6 +434,78 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/tags/30daychartchallenge/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/events/</loc>
+    <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/events/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/congreso-r-barcelona-2023/</loc>
+    <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/congreso-r-barcelona-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/congreso-r-barcelona-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/congreso-r-barcelona-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/rhispano/</loc>
+    <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/rhispano/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/rhispano/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/rhispano/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/congreso-r-cordoba-2022/</loc>
+    <lastmod>2022-11-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/congreso-r-cordoba-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/congreso-r-cordoba-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/congreso-r-cordoba-2022/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/authors/aitor-gonzalez/</loc>

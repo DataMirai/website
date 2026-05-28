@@ -1,7 +1,7 @@
 <!doctype html>
 <html
   itemscope
-  class=""
+  class="dark"
   lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -72,7 +72,6 @@
 
 
 
-  <base href="//localhost:1313/en/blog/" />
 
 
 
@@ -81,9 +80,10 @@
 
 
   
+  
 
 
-<title>Blog Posts</title>
+<title>Blog posts</title>
 
 
 
@@ -96,13 +96,13 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/blog/" />
   
-    <link rel="alternate" hreflang="es" href="//localhost:1313/blog/" />
+    <link rel="alternate" hreflang="es" href="http://localhost:1313/blog/" />
   
-    <link rel="alternate" hreflang="ca" href="//localhost:1313/ca/blog/" />
+    <link rel="alternate" hreflang="ca" href="http://localhost:1313/ca/blog/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/en/blog/" />
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/en/blog/" />
 
 
 
@@ -117,7 +117,7 @@
 
 <meta
   name="description"
-  content="this is meta description" />
+  content="Blog posts" />
 
 
 
@@ -187,17 +187,14 @@
 
 
 
-<meta property="og:title" content="Blog Posts" />
-<meta property="og:description" content="this is meta description" />
+<meta property="og:title" content="Blog posts" />
+<meta property="og:description" content="Blog posts" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/en/blog/" />
+<meta property="og:url" content="http://localhost:1313/en/blog/" />
 
 
-<meta name="twitter:title" content="Blog Posts" />
-<meta name="twitter:description" content="this is meta description" />
-
-
-
+<meta name="twitter:title" content="Blog posts" />
+<meta name="twitter:description" content="Blog posts" />
 
 
 
@@ -208,6 +205,20 @@
 
 
 
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDRB04Y6ZC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DDRB04Y6ZC');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2034136345903615"
+     crossorigin="anonymous"></script>
 
 
 
@@ -217,7 +228,7 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/en/searchindex.json";
+  let indexURL = "http://localhost:1313/en/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search...";
@@ -452,21 +463,21 @@
       fetchpriority="high"
       decoding="async"
       class="img logo-light"
-      width="260"
-      height="82"
-      src="/images/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_520x0_resize_q100_h2_lanczos_3.webp"
+      width="220"
+      height="42"
+      src="/images/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_440x0_resize_q80_h2_lanczos_3.webp"
       alt="Mirai Data"
-      onerror="this.onerror=null;this.src='\/images\/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_520x0_resize_lanczos_3.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_440x0_resize_lanczos_3.png';" />
 
     <img
       fetchpriority="high"
       decoding="async"
       class="img logo-dark"
-      width="260"
-      height="82"
-      src="/images/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_520x0_resize_q100_h2_lanczos_3.webp"
+      width="220"
+      height="42"
+      src="/images/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_440x0_resize_q80_h2_lanczos_3.webp"
       alt="Mirai Data"
-      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_520x0_resize_lanczos_3.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_440x0_resize_lanczos_3.png';" />
   
   
 
@@ -524,11 +535,11 @@
               
                 
                 
-                active
+                
               
                 
                 
-                active
+                
                inline-flex items-center">
               Posts
               <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -555,10 +566,9 @@
                 
                 <li class="nav-dropdown-item">
                   <a
-                    class="nav-dropdown-link 
-                      active"
+                    class="nav-dropdown-link "
                     
-                    href="/en/blog/">
+                    href="/en/categories/article/">
                     Articles
                   </a>
                 </li>
@@ -567,10 +577,9 @@
                 
                 <li class="nav-dropdown-item">
                   <a
-                    class="nav-dropdown-link 
-                      active"
+                    class="nav-dropdown-link "
                     
-                    href="/en/blog/">
+                    href="/en/categories/data-visualization/">
                     DataViz
                   </a>
                 </li>
@@ -616,7 +625,7 @@
           <button
             aria-label="search"
             
-            class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
+            class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r lg:border-r-0 pr-5 lg:pr-0 text-xl dark:text-white dark:hover:text-darkmode-primary"
             
             data-target="search-modal">
             <i class="fa-solid fa-search"></i>
@@ -661,67 +670,9 @@
       
     
   </select>
-
-
+ 
       
 
-
-  <div class="theme-switcher mr-5">
-    <input id="theme-switcher" data-theme-switcher type="checkbox" />
-    <label for="theme-switcher">
-      <span class="sr-only">theme switcher</span>
-      <span>
-        
-        <svg
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
-          viewBox="0 0 56 56"
-          fill="#fff"
-          height="16"
-          width="16">
-          <path
-            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
-        </svg>
-        
-        <svg
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
-          viewBox="0 0 24 24"
-          fill="none"
-          height="16"
-          width="16">
-          <path
-            fill="#000"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
-        </svg>
-      </span>
-    </label>
-  </div>
-
-  
-  <script>
-    var darkMode = true;
-
-    
-
-    if (localStorage.getItem("theme") === "dark"){darkMode = true}
-    else if (localStorage.getItem("theme") === "light"){darkMode = false}
-    if (darkMode){document.documentElement.classList.toggle("dark")}
-    var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
-
-    document.addEventListener("DOMContentLoaded", () => {
-      [].forEach.call(themeSwitch, function (ts) {
-        ts.checked = darkMode ? true : false;
-        ts.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-          localStorage.setItem(
-            "theme",
-            document.documentElement.classList.contains("dark") ? "dark" : "light"
-          );
-        });
-      });
-    });
-  </script>
 
 
 
@@ -858,7 +809,7 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/en/">
+    <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/en/">
       Home
     </a>
     <span class="inlin-block mr-1">/</span>
@@ -970,31 +921,31 @@
         <picture>
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/datos-admin-publicas-fiables_hu461bb766c37284e3f9686638717fa0b8_234601_545x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/datos-admin-publicas-fiables_hu461bb766c37284e3f9686638717fa0b8_234601_600x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/datos-admin-publicas-fiables_hu461bb766c37284e3f9686638717fa0b8_234601_700x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/datos-admin-publicas-fiables_hu461bb766c37284e3f9686638717fa0b8_234601_1110x0_resize_q80_h2_lanczos_3.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
+              src="/images/gallery/banners_posts/datos-admin-publicas-fiables_hu461bb766c37284e3f9686638717fa0b8_234601_1110x0_resize_lanczos_3.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Is government data always reliable?"
+            width="702"
+            height="225" />
         </picture>
       
       
@@ -1008,32 +959,40 @@
 
   
   <h4 class="mb-3">
-    <a href="/en/blog/post-3/">
-      How to build an Application with modern Technology
+    <a href="/en/blog/datos-admin-publicas-fiables/">
+      Is government data always reliable?
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/en/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/en/authors/mireia-camacho/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/en/categories/software/"
+            href="/en/categories/data/"
             class="ms-1"
-            >Software
+            >Data
+              ,
+            
+          </a>
+        
+          <a
+            href="/en/categories/article/"
+            class="ms-1"
+            >Article
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/en/blog/post-3/">
+  <p class="mb-6">In this post I am going to tell you a short anecdote that happened to me recently.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/datos-admin-publicas-fiables/">
     Read More
   </a>
 </div>
@@ -1123,30 +1082,30 @@
         <picture>
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_545x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_600x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_700x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q100_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_1110x0_resize_q80_h2_lanczos_3.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
+              src="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_1110x0_resize_lanczos_3.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
+            alt="#30DayChartChallenge 2024"
+            width="1213"
             height="480" />
         </picture>
       
@@ -1161,32 +1120,362 @@
 
   
   <h4 class="mb-3">
-    <a href="/en/blog/post-4/">
-      How to build an Application with modern Technology
+    <a href="/en/blog/30-day-chart-challenge-2024/">
+      #30DayChartChallenge 2024
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/en/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/en/authors/mireia-camacho/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/en/categories/architecture/"
+            href="/en/categories/data-visualization/"
             class="ms-1"
-            >Architecture
+            >Data visualization
+              ,
+            
+          </a>
+        
+          <a
+            href="/en/categories/r/"
+            class="ms-1"
+            >R
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/en/blog/post-4/">
+  <p class="mb-6">This year we actively participated in the #30DayChartChallenge and here are the results!</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/30-day-chart-challenge-2024/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/gallery/banners_posts/IICongresoRHispanoBarcelona_hu1c9a062a4bbf10cc36328ae200f019b3_780263_545x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/IICongresoRHispanoBarcelona_hu1c9a062a4bbf10cc36328ae200f019b3_780263_600x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/IICongresoRHispanoBarcelona_hu1c9a062a4bbf10cc36328ae200f019b3_780263_700x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/IICongresoRHispanoBarcelona_hu1c9a062a4bbf10cc36328ae200f019b3_780263_1110x0_resize_q80_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/gallery/banners_posts/IICongresoRHispanoBarcelona_hu1c9a062a4bbf10cc36328ae200f019b3_780263_1110x0_resize_q80_lanczos.jpg"
+            class=" mb-6 w-full rounded img"
+            alt="II Congress &amp; XIII Conference of R Users in Barcelona"
+            width="1627"
+            height="400" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/en/blog/congreso-r-barcelona-2023/">
+      II Congress &amp; XIII Conference of R Users in Barcelona
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/en/authors/mireia-camacho/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/en/categories/r/"
+            class="ms-1"
+            >R
+              ,
+            
+          </a>
+        
+          <a
+            href="/en/categories/events/"
+            class="ms-1"
+            >Events
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">This year we have returned to the II Congress and XIII Conference of the R Hispano Community, which were held in Barcelona and hosted by Pompeu Fabra University.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/congreso-r-barcelona-2023/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_545x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_600x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_700x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_1110x0_resize_q80_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_1110x0_resize_q80_lanczos.jpg"
+            class=" mb-6 w-full rounded img"
+            alt="I Congress &amp; XII Conference of R Users in Córdoba"
+            width="4744"
+            height="1704" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/en/blog/congreso-r-cordoba-2022/">
+      I Congress &amp; XII Conference of R Users in Córdoba
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/en/authors/mireia-camacho/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/en/categories/r/"
+            class="ms-1"
+            >R
+              ,
+            
+          </a>
+        
+          <a
+            href="/en/categories/events/"
+            class="ms-1"
+            >Events
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">On 23, 24 and 25 November, we had the opportunity to attend the annual meeting organised by the R Hispano Community, which this year was hosted by the University of Córdoba.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/congreso-r-cordoba-2022/">
     Read More
   </a>
 </div>
@@ -1306,8 +1595,16 @@
             <li>
               <a
                 class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/en/categories/architecture/">
-                Architecture <span>( 1 )</span>
+                href="/en/categories/article/">
+                Article <span>( 1 )</span>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
+                href="/en/categories/courses/">
+                Courses <span>( 1 )</span>
               </a>
             </li>
           
@@ -1315,7 +1612,31 @@
               <a
                 class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
                 href="/en/categories/data/">
-                Data <span>( 2 )</span>
+                Data <span>( 1 )</span>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
+                href="/en/categories/data-visualization/">
+                Data Visualization <span>( 3 )</span>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
+                href="/en/categories/events/">
+                Events <span>( 2 )</span>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
+                href="/en/categories/r/">
+                R <span>( 5 )</span>
               </a>
             </li>
           
@@ -1330,71 +1651,8 @@
             <li>
               <a
                 class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/en/categories/software/">
-                Software <span>( 1 )</span>
-              </a>
-            </li>
-          
-            <li>
-              <a
-                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/en/categories/technology/">
-                Technology <span>( 1 )</span>
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  
-
-
-
-  
-
-  
-    <div class="mb-8">
-      <h5 class="mb-6">Tags</h5>
-      <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-6">
-        <ul>
-          
-            <li class="inline-block">
-              <a
-                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/en/tags/nextjs/">
-                Nextjs
-              </a>
-            </li>
-          
-            <li class="inline-block">
-              <a
-                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/en/tags/silicon/">
-                Silicon
-              </a>
-            </li>
-          
-            <li class="inline-block">
-              <a
-                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/en/tags/software/">
-                Software
-              </a>
-            </li>
-          
-            <li class="inline-block">
-              <a
-                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/en/tags/tailwind/">
-                Tailwind
-              </a>
-            </li>
-          
-            <li class="inline-block">
-              <a
-                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/en/tags/technology/">
-                Technology
+                href="/en/categories/statistics/">
+                Statistics <span>( 1 )</span>
               </a>
             </li>
           
@@ -1501,21 +1759,21 @@
       fetchpriority="high"
       decoding="async"
       class="img logo-light"
-      width="260"
-      height="82"
-      src="/images/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_520x0_resize_q100_h2_lanczos_3.webp"
+      width="220"
+      height="42"
+      src="/images/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_440x0_resize_q80_h2_lanczos_3.webp"
       alt="Mirai Data"
-      onerror="this.onerror=null;this.src='\/images\/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_520x0_resize_lanczos_3.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu57f63d63d9405b2ebde5ed1179dc8e35_4220_440x0_resize_lanczos_3.png';" />
 
     <img
       fetchpriority="high"
       decoding="async"
       class="img logo-dark"
-      width="260"
-      height="82"
-      src="/images/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_520x0_resize_q100_h2_lanczos_3.webp"
+      width="220"
+      height="42"
+      src="/images/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_440x0_resize_q80_h2_lanczos_3.webp"
       alt="Mirai Data"
-      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_520x0_resize_lanczos_3.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_huf1635aa554c030d957e9321ce952ef0d_4034_440x0_resize_lanczos_3.png';" />
   
   
 
@@ -1541,29 +1799,9 @@
               <a
                 
                 href="
-                  /en/authors/
+                  /en/about/
                 "
                 >About</a
-              >
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                
-                href="
-                  /en/elements/
-                "
-                >Elements</a
-              >
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                
-                href="
-                  /en/privacy-policy/
-                "
-                >Privacy policy</a
               >
             </li>
           
@@ -1588,7 +1826,7 @@
                 aria-label="twitter"
                 rel="nofollow noopener"
                 href="https://x.com/MiraiData">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-x-twitter"></i>
               </a>
             </li>
           

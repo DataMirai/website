@@ -6,8 +6,22 @@
     <description>Recent content on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MiraiData provides data training at the European Commission&#39;s JRC</title>
+      <link>http://localhost:1313/en/blog/curs-comissioeuropea/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/curs-comissioeuropea/</guid>
+      <description>Last week, MiraiData travelled to Seville to deliver a two-day training course on data analysis, visualisation and communication at the European Commission&amp;rsquo;s JRC.</description>
+    </item>
+    <item>
+      <title>Mataró out loud</title>
+      <link>http://localhost:1313/en/blog/soroll_mataro/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/soroll_mataro/</guid>
+      <description>Traffic, terraces, markets, construction sites, public festivals... Everyday life in cities is noisy.</description>
+    </item>
     <item>
       <title>I only know how much I get paid, the rest...</title>
       <link>http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/</link>
@@ -35,6 +49,20 @@
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/blog/30-day-chart-challenge-2024/</guid>
       <description>This year we actively participated in the #30DayChartChallenge and here are the results!</description>
+    </item>
+    <item>
+      <title>II Congress &amp; XIII Conference of R Users in Barcelona</title>
+      <link>http://localhost:1313/en/blog/congreso-r-barcelona-2023/</link>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/congreso-r-barcelona-2023/</guid>
+      <description>This year we have returned to the II Congress and XIII Conference of the R Hispano Community, which were held in Barcelona and hosted by Pompeu Fabra University.</description>
+    </item>
+    <item>
+      <title>I Congress &amp; XII Conference of R Users in Córdoba</title>
+      <link>http://localhost:1313/en/blog/congreso-r-cordoba-2022/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/congreso-r-cordoba-2022/</guid>
+      <description>On 23, 24 and 25 November, we had the opportunity to attend the annual meeting organised by the R Hispano Community, which this year was hosted by the University of Córdoba.</description>
     </item>
     <item>
       <title>Aitor González</title>

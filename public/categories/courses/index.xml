@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Mirai Data</title>
+    <link>http://localhost:1313/categories/courses/</link>
+    <description>Recent content in Courses on Mirai Data</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MiraiData imparte una formación sobre datos en el JRC de la Comissión Europea</title>
+      <link>http://localhost:1313/blog/curs-comissioeuropea/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/curs-comissioeuropea/</guid>
+      <description>La semana pasada MiraiData viajó hasta Sevilla para impartir una formación de dos días sobre análisis, visualización y comunicación con datos al JRC de la Comisión Europea.</description>
+    </item>
+  </channel>
+</rss>

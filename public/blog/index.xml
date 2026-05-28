@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MiraiData imparte una formación sobre datos en el JRC de la Comissión Europea</title>
+      <link>http://localhost:1313/blog/curs-comissioeuropea/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/curs-comissioeuropea/</guid>
+      <description>La semana pasada MiraiData viajó hasta Sevilla para impartir una formación de dos días sobre análisis, visualización y comunicación con datos al JRC de la Comisión Europea.</description>
+    </item>
     <item>
       <title>Mataró a todo volumen</title>
       <link>http://localhost:1313/blog/soroll_mataro/</link>
@@ -42,6 +49,20 @@
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/30-day-chart-challenge-2024/</guid>
       <description>Este año hemos participado activamente en el #30DayChartChallenge ¡y aquí están los resultados!</description>
+    </item>
+    <item>
+      <title>II Congreso &amp; XIII Jornadas de Usuarios de R en Barcelona</title>
+      <link>http://localhost:1313/blog/congreso-r-barcelona-2023/</link>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/congreso-r-barcelona-2023/</guid>
+      <description>Este año hemos repetido en el II Congreso y XIII Jornadas de la Comunidad de R Hispano que se han celebrado en Barcelona acogidas por la Universitat Pompeu Fabra.</description>
+    </item>
+    <item>
+      <title>I Congreso &amp; XII Jornadas de Usuarios de R en Córdoba</title>
+      <link>http://localhost:1313/blog/congreso-r-cordoba-2022/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/congreso-r-cordoba-2022/</guid>
+      <description>Los días 23, 24 y 25 de noviembre hemos tenido la oportunidad de asistir a la reunión anual que celebra la Comunidad de R Hispano, la cual este año ha acogido la Universidad de Córdoba.</description>
     </item>
   </channel>
 </rss>
