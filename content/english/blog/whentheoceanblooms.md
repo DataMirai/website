@@ -210,10 +210,10 @@ draft: false
                 <p>The first phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">Upwelling Systems.</span> There are four major regions in the world, located along the eastern boundaries of the Atlantic and Pacific Oceans. This system <strong style="color:black;">contributes up to 25% of global fisheries</strong> while occupying less than 1% of the ocean area.</p>
             </div>
             <div class="step map1" data-step="5">
-                <p>In the California region, this phenomenon is <strong style="color:black;">strongly seasonal.</strong> During spring, northerly winds become intense and blow along the coast toward the equator. This causes cold, deep, nutrient-rich water to rise to the surface and establish ideal conditions for upwelling to reactivate. <strong style="color:black;">Maximum intensity is reached during summer.</strong></p>
+                <p>In the California region, this phenomenon is <strong style="color:black;">strongly seasonal.</strong> During <strong style="color:black;">spring,</strong> northerly winds become intense and blow along the coast toward the equator. This causes cold, deep, nutrient-rich water to rise to the surface and establish ideal conditions for upwelling to reactivate. <strong style="color:black;">Maximum intensity is reached during summer.</strong></p>
             </div>
             <div class="step map1" data-step="6">
-                <p>In autumn and winter, the winds weaken, and so does the biological productivity of the region.</p>
+                <p>In <strong style="color:black;">autumn and winter,</strong>  the winds weaken, and so does the biological productivity of the region.</p>
             </div>
             <div class="step map1" data-step="7">
                 <p>The second phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">North Atlantic Spring Bloom.</span> This is <strong style="color:black;">one of the most significant biological events</strong> in the world's oceans. It occurs every year in spring and can extend over thousands of kilometers, making it clearly visible from satellites.</p>
