@@ -1,7 +1,7 @@
 ---
 title: "When the ocean blooms"
 meta_title: "When the ocean blooms"
-description: "Analitzem les dades del soroll dels carrers de Mataró"
+description: "Explore how phytoplankton population change over the year"
 date: 2026-06-19T00:00:00.000Z
 image: "images/gallery/banners_posts/phytoplankton_banner.png"
 categories: ["Data Visualization"]
