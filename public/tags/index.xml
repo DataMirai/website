@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Formacions</title>
-      <link>http://localhost:1313/tags/formacions/</link>
+      <title>Prize</title>
+      <link>http://localhost:1313/tags/prize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/formacions/</guid>
+      <guid>http://localhost:1313/tags/prize/</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +20,13 @@
       <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formacions</title>
+      <link>http://localhost:1313/tags/formacions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/formacions/</guid>
       <description></description>
     </item>
     <item>
