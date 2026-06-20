@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When the ocean blooms</title>
+      <link>http://localhost:1313/en/blog/whentheoceanblooms/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/whentheoceanblooms/</guid>
+      <description>Phytoplankton are microscopic algae. They live in surface waters and float and drift with the currents.</description>
+    </item>
     <item>
       <title>&#39;Mataró out loud&#39; wins the Catalan Dataviz Award from the ViT Foundation</title>
       <link>http://localhost:1313/en/blog/premi-fundacio-vit/</link>

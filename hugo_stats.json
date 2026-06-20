@@ -167,6 +167,7 @@
       "items-start",
       "justify-between",
       "justify-center",
+      "last",
       "left-0",
       "lg:!max-w-[800px]",
       "lg:border-r-0",

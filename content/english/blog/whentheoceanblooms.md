@@ -23,24 +23,31 @@ draft: false
 <style>
             
     body {margin: 0; padding: 0; overflow-x: hidden;}
-    html, body{height: 100%; width: 100vw;}
+    html, body{height: 100%; width: 100%;}
     .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    
     #map { 
         position: sticky; 
-        margin-top: 300px; 
+        margin-top: 10vw; 
         width:100vw; 
         height:100vh; 
     }
     .paragraph {
-    font-size: 19px;
-    text-align: left;
-    margin: 50px 50vw 80px 37vw!important; 
-    padding-left:10px;
-    align-items: center;
-    justify-content: center;
-    width:15vw;
-    min-width:600px!important;
-    color: #000000;
+        width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        line-height: 1.7;
+        color: #000;
+        text-align: left;
+        }
+    
+    .last p{
+        margin-top:5vw;
+    }
+
+    h1, h3, .paragraph p {
+    color: #B4AFB6;
     }
 
     .titols {
@@ -57,6 +64,7 @@ draft: false
     .lg\:col-10{
     width: 100vw; 
     margin:0px; 
+    padding:0px;
     overflow: visible!important;
     }
 
@@ -72,11 +80,8 @@ draft: false
     }
     
     article {
-    position: relative;
-    padding: 0;
-    max-width: 1rem;
-    margin: 0 auto;
-    
+        width: 100%;
+        max-width: 100%;
     }
 
     .sticky-thing {
@@ -104,30 +109,24 @@ draft: false
     }
 
     .step {
-    margin: 50px auto 1000px -12vw;
-    background-color: #ffffff;
-    padding: 10px;
-    position: relative;
-    border-radius: 20px;
-    border: solid 5px #FF7062;
-    width: 50vw;
-    min-width: 300px;
-    max-width: 700px;
-    display: block;
-    unicode-bidi: isolate;
-    pointer-events: auto;
-    font-family: "Tex";
-    line-height: 1.2;
-    color: #000;
-    word-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    align-items: center;
-    justify-content: center;
+        position: relative;
+        width: min(88vw, 700px);
+        margin: 0 auto 65vh auto;
+        padding: 1rem;
+        border-radius: 20px;
+        border: 5px solid #FF7062;
+        background: #fff;
+        color: #000;
+        pointer-events: auto;
+        line-height: 1.35;
+        word-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        z-index: 2;
     }
 
     .step:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 80vw;
     }
 
     .step p {
@@ -147,7 +146,7 @@ draft: false
     }
 
     #footer {
-    height: 20px;
+    height: 20vw;
     }
 
     .span-colored {
@@ -182,6 +181,97 @@ draft: false
         border-radius: 10%;
         font-weight: bold;
     }
+
+    /* ===== TABLET ===== */
+
+        @media (max-width: 1024px) {
+        .step {
+            width: min(90vw, 650px);
+            margin-bottom: 55vh;
+        }
+
+        .last p{
+            margin-top:0;
+        }
+        
+        #map {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #scrolly {
+            padding: 1rem 0px;
+        }
+
+        .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+        #footer {
+            height: 0;
+            }
+
+        }
+
+    /* ===== MÓVIL ===== */
+
+        @media (max-width: 768px) {
+
+        .paragraph {
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+
+        .step {
+            width: calc(100vw - 5rem);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50vh;
+            padding: 0.8rem;
+        }
+
+        .step p {
+            font-size: 1rem;
+        }
+
+        .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+        .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #scrolly {
+            position: relative;
+            background-color: transparent;
+            padding: 1rem 0px;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .timeline {
+            gap: 0.35rem;
+        }
+
+        .timeline button {
+            min-width: 2vw;
+            font-size: 0.8rem;
+        }
+        }
 </style>
 <body>
         <section class="paragraph">
@@ -213,7 +303,7 @@ draft: false
                 <p>In the California region, this phenomenon is <strong style="color:black;">strongly seasonal.</strong> During <strong style="color:black;">spring,</strong> northerly winds become intense and blow along the coast toward the equator. This causes cold, deep, nutrient-rich water to rise to the surface and establish ideal conditions for upwelling to reactivate. <strong style="color:black;">Maximum intensity is reached during summer.</strong></p>
             </div>
             <div class="step map1" data-step="6">
-                <p>In <strong style="color:black;">autumn and winter,</strong>  the winds weaken, and so does the biological productivity of the region.</p>
+                <p>In <strong style="color:black;">autumn and winter,</strong> the winds weaken, and so does the biological productivity of the region.</p>
             </div>
             <div class="step map1" data-step="7">
                 <p>The second phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">North Atlantic Spring Bloom.</span> This is <strong style="color:black;">one of the most significant biological events</strong> in the world's oceans. It occurs every year in spring and can extend over thousands of kilometers, making it clearly visible from satellites.</p>
@@ -243,7 +333,7 @@ draft: false
                 </div>
             </div>
         </section>
-        <section class="paragraph" style= "margin-top:350px!important;">
+        <section class="paragraph last">
         <p>Here you can explore how <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">phytoplankton population change over 2025</span> or view a specific month by clicking.</p>
             <div class="timeline-slider">
                 <img id="main-image" src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg">

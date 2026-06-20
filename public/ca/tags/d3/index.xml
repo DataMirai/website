@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/ca/blog/soroll_mataro/</guid>
       <description>Trànsit, terrasses, mercats, obres, festes populars... El dia a dia de les ciutats és sorollós.</description>
     </item>
-    <item>
-      <title>When the ocean blooms</title>
-      <link>http://localhost:1313/ca/blog/whentheoceanblooms/</link>
-      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ca/blog/whentheoceanblooms/</guid>
-      <description>Phytoplankton are microscopic algae. They live in surface waters and float and drift with the currents.</description>
-    </item>
   </channel>
 </rss>

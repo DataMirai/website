@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -20,26 +20,8 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/premi-fundacio-vit/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/blog/premi-fundacio-vit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/blog/premi-fundacio-vit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/blog/premi-fundacio-vit/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -57,7 +39,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -75,7 +57,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/data-visualization/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -90,6 +72,63 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/categories/data-visualization/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/scrollytelling/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/scrollytelling/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/blog/whentheoceanblooms/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/premi-fundacio-vit/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/premi-fundacio-vit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/premi-fundacio-vit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/premi-fundacio-vit/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/prize/</loc>
@@ -126,24 +165,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/tags/programming/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/courses/</loc>
@@ -252,24 +273,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/blog/soroll_mataro/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/scrollytelling/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/scrollytelling/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/scrollytelling/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/scrollytelling/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/blog/re-yo-solo-se-cuanto-cobro-yo/</loc>
