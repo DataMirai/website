@@ -16,4 +16,4 @@ Over the three days, the event combined presentations of projects and research b
 
 It was certainly an event we would love to attend again.
 
-{{< image src="images/Congressos/Congreso_RHispano_Cordoba.jpeg" caption="" alt="alter-text" height="400" width="400" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}
+{{< image src="images/Congressos/Congreso_RHispano_Cordoba.jpeg" caption="" alt="" height="400" width="400" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}

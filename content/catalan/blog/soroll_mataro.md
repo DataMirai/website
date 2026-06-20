@@ -23,29 +23,34 @@ draft: false
 <style>
             
     body {margin: 0; padding: 0; overflow-x: hidden;}
-    html, body{height: 100%; width: 100vw;}
+    html, body{height: 100%; width: 100%;}
     .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    
     #map { 
         position: sticky; 
-        margin-top: 300px; 
+        margin-top: 10vw; 
         width:100vw; 
         height:100vh; 
     }
     .paragraph {
-    font-size: 19px;
-    text-align: left;
-    margin: 50px 50vw 80px 37vw!important; 
-    padding-left:10px;
-    align-items: center;
-    justify-content: center;
-    width:15vw;
-    min-width:600px!important;
-    color: #000000;
+        width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        line-height: 1.7;
+        color: #000;
+        text-align: left;
+    }
+
+    .last p{
+        margin-top:5vw;
     }
 
     .titols {
         font-size: 35px;
         font-weight: bold;
+        text-align: center;
+        padding: 0 10%;
     }
 
     div.container{
@@ -55,9 +60,10 @@ draft: false
     }
     
     .lg\:col-10{
-    width: 100vw; 
-    margin:0px; 
-    overflow: visible!important;
+        width: 100vw; 
+        margin:0px; 
+        padding:0px;
+        overflow: visible!important;
     }
 
     h1.h2.mb-4, ul.mb-4{
@@ -69,15 +75,13 @@ draft: false
         position: relative;
         background-color: transparent;
         padding: 1rem 0px;
+        
     }
     
-    
     article {
-    position: relative;
-    padding: 0;
-    max-width: 1rem;
-    margin: 0 auto;
-    
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
     }
 
     .sticky-thing {
@@ -87,6 +91,7 @@ draft: false
     width: 100vw;
     max-width: 100vw;
     margin: 0;
+    margin-bottom: 15vw;
     background-color: transparent;
     z-index: 0;
     top: 0vh;
@@ -105,30 +110,24 @@ draft: false
     }
 
     .step {
-    margin: 50px auto 1000px -12vw;
-    background-color: #ffffff;
-    padding: 15px;
-    position: relative;
-    border-radius: 40px;
-    border: solid 1px black;
-    width: 50vw;
-    min-width: 300px;
-    max-width: 700px;
-    display: block;
-    unicode-bidi: isolate;
-    pointer-events: auto;
-    font-family: "Tex";
-    line-height: 1.2;
-    color: #000;
-    word-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    align-items: center;
-    justify-content: center;
+        position: relative;
+        width: min(88vw, 700px);
+        margin: 0 auto 65vh auto;
+        padding: 1rem;
+        border-radius: 40px;
+        border: solid 1px black;
+        background: #fff;
+        color: #000;
+        pointer-events: auto;
+        line-height: 1.35;
+        word-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        z-index: 2;
     }
 
     .step:last-child {
-    margin-bottom: 100px;
+        margin-bottom: 50vh;
     }
 
     .step p {
@@ -141,7 +140,7 @@ draft: false
     }
 
     #footer {
-    height: 20px;
+    height: 2vw;
     }
 
     .maplibregl-ctrl-attrib {
@@ -151,11 +150,8 @@ draft: false
     #scrolly-2, #scrolly-2-5{
         background-color: #fff;
         position: relative;
-        display: flex;  /* Alinea el mapa y el texto en fila */
-        justify-content: space-between; /* Separa los elementos */
-        align-items: flex-start;
-        padding: 50px 50px;
-        margin-top:20px;
+        padding: 0px 50px;
+        margin-top:0px;
         width:100vw;
     }
     
@@ -173,58 +169,74 @@ draft: false
 
     #map2{
         position: sticky; 
-        margin-top: 15vh;
-        margin-bottom:2vh;
-        margin-left:3vw;
+        margin: 0 auto;
+        margin-top: 10vw; 
+        height:100%; 
+        width: 100%;
+        max-width: 1200px;
+        
         }
+
     #map2-5 {
         position: sticky; 
-        margin-left: -10vw;
+        margin:auto;
         z-index: 100;
-        width: 80vw;
+        width:min(1000px,95vw);
         max-width: 800px;
-        min-height: 500px;
-        height: 100vh;
         overflow: visible !important;
         pointer-events: auto;
-        }
+        margin-top:3vh;
+    }
+        
+    #map2 svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 30vh;
+        
+    }
+
 
     #map2-5 svg {
         pointer-events: auto;
-        width: 80vw;
+        width: 100%;
         max-width: 800px;
         min-height: 500px;
-        height: 80vh;
+        height:auto;
         display: block;
-        margin-top:3vh;
         }
 
     #titol-piramide p{
-            font-size: 22px!important;
-            position: absolute;
-            z-index: 10;
-            margin-top: 7vw;
-            margin-bottom:50px;
             width: 100%;
             text-align: center!important;
+            margin:0;
         }
 
+    #map2-5 svg text{
+        opacity: 1!important;
+    }
+
     .sticky-thing2, .sticky-thing2-5 {
+        position: -webkit-sticky;
         position: sticky;
-        top: 0;
-        width: 50%; /* Ocupa la mitad izquierda */
-        height: 100vh;
+        left: 0;
+        width: 100%;
+        max-width: 100vw;
+        margin: 0;
+        background-color: transparent;
+        z-index: 0;
+        top: 0vh;
+        height: 75vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+        overflow: visible!important
     }
 
     .sticky-thing2-5 {
-        position: sticky;
-        width: 60vw;
-        overflow: visible;
-        padding-left:5vw;
+        padding-top:10vh;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     #tooltip {
@@ -249,12 +261,9 @@ draft: false
     .step.map2:last-child {
         margin-bottom: 0px;
     }
-    .step.map25{
-        margin-left:-18vw;
-    }
 
     .step.map25:first-child{
-        margin-top: 1000px;
+        margin-top: 10vh;
         
     }
     .step.map25:last-child{
@@ -283,19 +292,19 @@ draft: false
     }
 
     .sticky-thing3, .sticky-thing4 {
-    position: sticky;
+        position: sticky;
         top: 0;
         width: 100vw;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
-    overflow: visible!important;
+        overflow: visible!important;
     }
 
     #map3, #map4 { 
         position: sticky;
-        width:99vw; 
+        width:100%; 
         height:100vh;
     }
 
@@ -313,20 +322,22 @@ draft: false
         }
 
     .franges-horaries {
-        margin: 20px -10vw 20px -25vw; 
-        width:100vw; 
+        width:100%; 
         height:60vh;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
     }
 
     #llegenda-sync { 
         display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #llegenda-colors{
         display:inline-flex;
-        width:50vw;
-        margin: 5px -10vw 20px -5vw; 
         text-align:center;
     }
     .llegenda2{
@@ -336,6 +347,14 @@ draft: false
         font-size: 16px;
         color: #000!important;
     }
+
+    .arbres{
+        padding-top:0;
+    }
+
+    .arbres .titols {
+        margin-top:0;
+        }
 
     .map-button {
         position: absolute;
@@ -364,170 +383,258 @@ draft: false
 
     #map6 { 
         position: sticky; 
-        margin: 20px -10vw 20px -10vw; 
-        width:50vw; 
+        width:100%; 
         height:75vh;
-        display: block;
-        overflow: visible!important;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    @media (max-width: 1400px) {
-        
-        .step {
-            margin: 50px auto 1000px -22vw;
-        }
-        .paragraph {
-            align-items: center;
-            display: block;
-            margin: 50px 30vh 200px 0vh;
-            padding-left: 0px;
-            min-width:300px!important;
-        }
+    /* ==========================
+   TABLET
+   ========================== */
 
-        #map2{
-            display: block;
-            width: 80vw;
-            margin-left: -30vw;
-            margin-right:20vw;
-            padding:0;
-            padding-top:20vh;
-            align-items: center;
-            justify-content: center;
-        }
-        #map2-5{
-            margin-left:-20vw;
-            margin-right:-20vw;
-            padding-left: 0vw;
-            padding-right:0vw;
-            width: 80vw;
-            max-width: 800px;
-            min-height: 500px;
-            height: auto;
-            aspect-ratio: auto;
-            overflow: scroll;
-            position:relative;
-        }
-        #map2-5 svg {
-            width: 80vw;
-            max-width: 800px;
-            min-height: 500px;
-            height: 80vh;
-            display: block;
-            margin-top:0px;
-        }
+@media (max-width: 1024px) {
 
-        #titol-piramide p{
-            margin-top: 15vw;
-            margin-bottom:50px;
-        }
+    #scrolly {
+        margin-top:0;
+        padding:0;
+     }
 
-        #scrolly-2, #scrolly-2-5 {
-            display: block;
-            justify-content: center;
-            align-items: center;
-            width:100vw;
-            padding:0;
-        }
-        #scrolly-2-5 {
-            margin-top: 0px;
-        }
+    #scrolly .step:last-child {
+        margin-bottom: 0;
+    }
 
-        .sticky-thing2, .sticky-thing2-5 {
+    .sticky-thing {
+            height: 100vh;
             width: 100vw;
-            padding:0%;
+            margin-bottom:0;
         }
 
-        .sticky-thing2-5 {
-            padding-top:50vh;
-            padding-bottom:500px;
-        }
+    #scrolly-2,
+    #scrolly-2-5 {
+        padding: 1rem 0px;
+    }
 
-        .sticky-thing2 article, .sticky-thing25 article {
-            margin: 0;
-    
-            }
+    #map {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    #map2 {
+        padding-bottom: 150vh;
+        width: min(100vw, 700px);
+    }
+
+    .sticky-thing2 {
+        overflow: hidden !important;
+        height: 100vh;
         
-        .step.map2 {
-            margin-top: 100px;
-            margin-right:20vw;
-        }
-
-        .step.map25 {
-            margin-right:20vw;
-            margin-top:0px;
-        }
-
-        .step.map25:last-child{
-            margin-bottom: 80px;
-            
-        }
-        .step:last-child {
-            margin-bottom: 20vh;
     }
+
+    #map2-5 {
+        width: 95vw;
+        margin-top:0;
+        width: min(100vw, 700px);
+        padding-bottom: 20vh;
+    }
+
+    .sticky-thing2-5 {
+        padding-top: 0;
+        height: 150vh;
+        gap: 0;
+        }
+
+    .step {
+            width: min(90vw, 650px);
+            margin-bottom: 55vh;
+        }
     
-    table th{
-        font-size: 12px;
+    .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+    table th,
+    table td {
+        font-size: 16px;
     }
 
-    table td{
-        font-size: 12px;
+    .llegenda2 {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    #map51,
+    #map52,
+    #map53 {
+        width: 30vw;
+        height: 45vh;
+    }
+}
+
+
+/* ==========================
+   MÓVIL
+   ========================== */
+
+@media (max-width: 768px) {
+
+    #scrolly {
+        margin-top:0;
+        padding:0;
+    }
+
+    #scrolly .step:last-child {
+        margin-bottom: 0;
+    }
+
+    .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+            margin-bottom:0;
+        }
+
+    .titols {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #scrolly-2,
+    #scrolly-2-5 {
+        padding: 0 10px;
+    }
+
+    #scrolly-2-5 {
+        padding-bottom: 4vh!important;
+    }
+
+    .sticky-thing2,
+    .sticky-thing2-5 {
+        height: auto;
+        min-height: 30vh;
+    }
+
+    .sticky-thing2 {
+        height: 100vh;
+        width: 100vw;
+        margin-right: 60vw;
+        
+    }
+
+     #map2 {
+        width: min(900vw, 650px);
+        margin-top: 0;
+        padding: 0;
+        display: flex;   
+        justify-content: center;
+    }
+
+    #map2 svg {
+        padding-bottom: 0;
+        width: min(900vw, 650px);
+        
+    }
+
+    .sticky-thing2-5 {
+        padding-top: 2vh;
+        gap: 1rem;
+        
+    }
+
+    #titol-piramide {
+        width: 95%;
+    }
+
+    #titol-piramide p:first-child {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+
+    #map2-5 {
+        width: 100%;
+        max-width: none;
+        min-height: 320px;
+        height: auto;
+    }
+
+    #map2-5 svg {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .step.map2 {
+        margin-top: 250px;
+    }
+
+    .step.map25:first-child {
+        margin-top: 5vh;
+    }
+
+    .step.map25:last-child {
+        margin-bottom: 500px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table th,
+    table td {
+        font-size: 13px;
+        padding: 6px;
     }
 
     .franges-horaries {
-        margin: 20px -60vw 20px -5vw; 
-        width:100vw; 
-        height:115vh;
-        display: grid;
-        align-items:center;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
     }
-    .map-title h3 {
-        width:35vw;
-    }
-    #map51, #map52, #map53 { 
-        width:35vw; 
-        height:35vh; 
-        margin: 0px;
-        position: sticky;
-        overflow: visible!important;
-        display: block;
-        }
 
-    #llegenda-colors{
-        display:grid;
-        margin: 5px 0vw 5px 0vw;
+    #map51,
+    #map52,
+    #map53 {
+        width: 90vw;
+        height: 40vh;
     }
-    .llegenda2{
-        margin: 5px 20vw 5px -5vw;
-        width: 35vw;
-    }
-    
-    }
-    .step.map1 {
-    margin-right: -20vh;}
-    .step.map1 div p{
-        padding:7px;
-        margin:7px;
-    }      
-    
-    
-    .maplibregl-popup {
-        border-style: solid;
-        border-width: 3px 3px 0 3px; /* top right bottom left */
-        border-top-left-radius: 20px !important;
-        border-top-right-radius: 20px !important;
-        border-bottom-right-radius: 30px; 
-        border-bottom-left-radius: 30px; 
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-        border-color: transparent; /* Color inicial (serà canviat amb JS) */
-        }
 
-        .maplibregl-popup-content {
-        border-radius: 0px !important; /* Per evitar doble border-radius */
-        padding: 10px 15px;
-        font-family: sans-serif;
-        font-size: 14px;
-        }
+    #llegenda-colors {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .llegenda2 {
+        width: 70px;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    #map6 { 
+        position: sticky; 
+        width:100%; 
+        height:55vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map-button {
+        top: 10px;
+        left: 10px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    #tooltip {
+        font-size: 13px;
+        max-width: 200px;
+    }
+}
+
 </style>
 <body>
         <section class="paragraph">
@@ -582,7 +689,7 @@ draft: false
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:350px!important; background-color:#1C1C1C;">
+        <section class="paragraph" style= "background-color:#1C1C1C;">
             <p class="titols">Un 96% de mataronins conviuen amb més de 55 decibels diàriament</p>
             <p>Segons les dades de la Generalitat de Catalunya i de l'Ajuntament de Mataró, gairebé la totalitat dels mataronins viuen diàriament exposats a nivells de soroll que superen els 55dB recomanats per l'OMS. </p>
             <p>La majoria dels carrers de Mataró van registrar xifres d'entre 60dB i 74dB durant el 2022. Tot i això, la distribució de la població juga un paper important a l'hora de veure el grau d'afectació pel soroll que pateixen els mataronins. </p>
@@ -616,8 +723,8 @@ draft: false
             <div class="sticky-thing2-5">
                 <div id="map2-5">
                 <div id="titol-piramide">
-                <p>Nombre de persones afectades per la contaminació acústica per sexe i edat</p>
-                <p style="font-size:18px!important; padding-top:6vh;">💡<em>Interactúa amb la gràfica</em></p>
+                <p style="color:#595959;font-family:Fjalla One;">NOMBRE DE PERSONES AFECTADES PER LA CONTAMINACIÓ ACÚSTICA PER SEXE I EDAT</p>
+                <p style="margin-top:0;">💡<em>Interactúa amb la gràfica</em></p>
                 </div>
                 </div>
                 <div id="tooltip"></div>
@@ -715,7 +822,7 @@ draft: false
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:20px!important;">
+        <section class="paragraph">
             <p>Les zones amb més vehicles registrats no tenen relació directa amb els carrers amb nivells elevats de contaminació acústica. És a dir, que el soroll derivat de cotxes i motos no ve originat del lloc on resideixen els veïns, sinó que la causa principal és que els conductors tenen preferència per circular per determinats carrers independentment del seu origen i destí.</p>
             <p>Els carrers principals són els més transitats perquè permeten moure's àgilment i connectar amb tots els barris i les entrades i sortides de la ciutat. El punt d'unió de tot aquest trànsit és la plaça Granollers, la qual queda abraçada pels carrers més sorollosos de Mataró i arriba a sobrepassar els 75dB.</p>
             <p>A més a més dels vehicles, però sense deixar-los de banda, les zones comercials també són responsables del soroll al carrer. Terrasses, repartidors, distribuïdors de mercaderies i el propi moviment dels clients contribueix a augmentar els decibels dels carrers.</p>
@@ -741,7 +848,7 @@ draft: false
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:5vw!important;">
+        <section class="paragraph">
             <p class="titols">Les nits de Mataró són més silencioses</p>
             <p>Si el trànsit i el comerç són probablement les principals causes de la contaminació acústica de la ciutat, què passa durant les hores amb menys circulació i quan tot està tancat? Què passa durant la nit? </p>
             <p>Les dades recollides per l'administració separa en tres franges horàries la mesura del soroll: de 7h a 21h durant el dia, de 21h a 23h per al vespre i de 23h a 7h per a la nit.</p>
@@ -1036,16 +1143,21 @@ draft: false
         })
         .catch(error => console.error('Error:', error));
     //
-        const width = 1000, height = 2000, margin = { top: 50, right: 50, bottom: 100, left: 100 };
-    //
+        const width = 1000;
+        const height = 800;
+        const margin = { top: 50, right: 50, bottom: 100, left: 100 };
+//
         const svg = d3.select("#map2")
-            .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", `translate(${margin.left},${margin.top})`);
-    //
-    //
+        .append("svg")
+        .attr(
+            "viewBox",
+            `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`
+        )
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+            //
+            //
         // 📌 Crear una proyección y escala para el mapa
         const projection = d3.geoMercator()
             .center([2.4445, 41.54211]) 
@@ -1141,10 +1253,15 @@ draft: false
                                 .duration(500)
                                 .style("opacity", 0);
     //
+                            const beeswarmTop = height * 0.15;
+                            const beeswarmBottom = height * 0.85;
+                            const beeswarmHeight = beeswarmBottom - beeswarmTop;
+                            const ejeY = beeswarmBottom;
+//
                             // 📌 Crear simulación de fuerzas para beeswarm con `d3-force`
                             const simulation = d3.forceSimulation(nodos)
                                 .force("x", d3.forceX(d => escalaX(d.TOTDEN)).strength(0.5)) // Alinear en X
-                                .force("y", d3.forceY(height / 2).strength(0.2)) // Distribución vertical
+                                .force("y", d3.forceY(beeswarmTop + beeswarmHeight / 2).strength(0.2)) // Distribución vertical
                                 .force("collide", d3.forceCollide(d => d.radio + 5)) // Evitar solapamientos
                                 .force("charge", d3.forceManyBody().strength(-10)) // Repulsión
                                 .on("tick", () => { 
@@ -1160,7 +1277,7 @@ draft: false
     //
             const ejeXGroup = svg.append("g")
                 .attr("class", "eje-x")
-                .attr("transform", `translate(0, ${height - 810})`) // 🔥 Ajustamos posición
+                .attr("transform", `translate(0, ${ejeY})`)
                 .call(ejeX);
     //
             ejeXGroup.select("path") // Selecciona la línea del eje X
@@ -1174,8 +1291,9 @@ draft: false
             svg.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width - 460)
-                .attr("y", height - 750)
+                .attr("x", width / 2)
+                .attr("y", ejeY + 50)
+                .attr("text-anchor", "middle")
                 .text("Nº decibels")
                 .style("font-size", "16px")
                 .style("font-family", "Fjalla One")
@@ -1184,8 +1302,9 @@ draft: false
             svg.append("text")
                 .attr("class", "comentari")
                 .attr("text-anchor", "end")
-                .attr("x", width - 705)
-                .attr("y", height - 1140)
+                .attr("x", escalaX(55))
+                .attr("y", beeswarmTop - 10)
+                .attr("text-anchor", "middle")
                 .text("55dB")
                 .style("font-size", "13px")
                 .style("font-family", "Fjalla One")
@@ -1196,8 +1315,8 @@ draft: false
                 .attr("class", "linea-vertical")
                 .attr("x1", escalaX(55))
                 .attr("x2", escalaX(55))
-                .attr("y1", height - 1170) // 🔥 Ajustamos para que cubra el beeswarm
-                .attr("y2", height - 810)
+                .attr("y1", beeswarmTop)
+                .attr("y2", ejeY)
                 .attr("stroke", "#C8C8C8")
                 .attr("stroke-width", 1.5);
     //        
@@ -1208,8 +1327,8 @@ draft: false
                     .attr("class", "linea-vertical-ejeX")
                     .attr("x1", escalaX(valor))
                     .attr("x2", escalaX(valor))
-                    .attr("y1", height - 1170) // Ajustamos para que cubra el beeswarm
-                    .attr("y2", height - 810)
+                    .attr("y1", beeswarmTop)
+                    .attr("y2", ejeY)
                     .attr("stroke", "#D8D8D8")
                     .attr("stroke-width", 1.2)
                     .attr("stroke-dasharray", "5,5");
@@ -1268,6 +1387,11 @@ draft: false
                             .transition()
                             .duration(500)
                             .style("opacity", 0);
+    //                    
+                        d3.selectAll(".tick")
+                            .transition()
+                            .duration(500)
+                            .style("opacity", 0);
                     }
                 });
                 });
@@ -1279,7 +1403,8 @@ draft: false
             //
             const piramide = d3.select("#map2-5")
                             .append("svg")
-                            .attr("viewBox", "0 0 800 500")
+                            .attr("viewBox", `0 0 ${width_map25} ${height_map25}`)
+                            .attr("preserveAspectRatio", "xMidYMid meet")
                             .classed("svg-content", true);
 //
             // Datos de ejemplo
@@ -1478,7 +1603,7 @@ draft: false
 //
             // Eje Y
             const ejeYPiramid = piramide.append("g")
-                .attr("transform", `translate(${width_map25 / 2+10.8}, 0)`)
+                .attr("transform", `translate(${x(0)},0)`)
                 .call(d3.axisLeft(y)
                     .tickSize(0)
                     .tickSizeOuter(0));
@@ -1490,39 +1615,44 @@ draft: false
 //            
             ejeYPiramid.selectAll("text")
                 .style("fill", "#595959")
-                .attr('dx', '-370px')
+                .attr("dx", "-0.8em")
+                .attr("text-anchor", "end")
                 .style('font-size', "14px")
-                .style("font-family", "Fjalla One");
+                .style("font-family", "Fjalla One")
+                .style("opacity", 1);
 //
             piramide.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width_map25 -500)
-                .attr("y", height_map25 -3)
+                .attr("x", width_map25 * 0.25)
+                .attr("y", height_map25 * 0.98)
                 .text("HOMES")
                 .style("font-size", "18px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //           
             piramide.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width_map25 -200)
-                .attr("y", height_map25 -3)
+                .attr("x", width_map25 * 0.75)
+                .attr("y", height_map25 * 0.98)
                 .text("DONES")
                 .style("font-size", "18px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //            
             piramide.append("text")
                 .attr("class", "x-label")
-                .attr("text-anchor", "end")
-                .attr("x", width_map25 -760)
-                .attr("y", height_map25 -470)
+                .attr("text-anchor", "middle")
+                .attr("x", x(0) - 15)
+                .attr("y", margin_map25.top )
                 .text("EDAT")
                 .style("font-size", "15px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //
 //
 fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
@@ -1542,7 +1672,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 //
         map3.addControl(new maplibregl.AttributionControl({
             customAttribution: style_map3.sources.openmaptiles.attribution,
-            compact: true 
+            compact: false 
         }));
 //
         map3.scrollZoom.disable();
@@ -1716,7 +1846,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 //
         map4.addControl(new maplibregl.AttributionControl({
             customAttribution: style_map4.sources.openmaptiles.attribution,
-            compact: true 
+            compact: false 
         }));
 //
         map4.scrollZoom.disable();
@@ -1733,7 +1863,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
                             data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
                         });
             //
-                        // 2️⃣ Agregar la capa del polígono
+                        // Agregar la capa del polígono
                         map4.addLayer({
                             id: 'polygon-soroll-botigues',
                             type: 'line',
@@ -1833,122 +1963,122 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 //
 //
 //
-                            fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
-                                .then(response => response.json()) 
-                                .then(style => {
-                                    if (style.sources && style.sources.openmaptiles) {
-                                        style.sources.openmaptiles.attribution = "Mirai Data | ICGC - © OSM contributors";
-                                    }
+        fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
+            .then(response => response.json()) 
+            .then(style => {
+                if (style.sources && style.sources.openmaptiles) {
+                    style.sources.openmaptiles.attribution = "Mirai Data | ICGC - © OSM contributors";
+                }
 //
-                                    // 🔹 Crear el mapa en <div id="map6">
-                                    const map6 = new maplibregl.Map({
-                                        container: 'map6', // 📌 Se mantiene 'map6'
-                                        style: style, 
-                                        center: [2.437061, 41.540358],
-                                        zoom: 13.5,
-                                        attributionControl: false
-                                    });
+                // Crear el mapa en <div id="map6">
+                const map6 = new maplibregl.Map({
+                    container: 'map6', // Se mantiene 'map6'
+                    style: style, 
+                    center: [2.437061, 41.540358],
+                    zoom: 13.5,
+                    attributionControl: false
+                });
 //
-                                    // 🔹 Agregar control de atribución
-                                    map6.addControl(new maplibregl.AttributionControl({
-                                        customAttribution: style.sources.openmaptiles.attribution,
-                                        compact: true 
-                                    }));
-                                    map6.addControl(
-                                        new maplibregl.NavigationControl({
-                                            showZoom: true
-                                        })
-                                    );
+                // Agregar control de atribución
+                map6.addControl(new maplibregl.AttributionControl({
+                    customAttribution: style.sources.openmaptiles.attribution,
+                    compact: false 
+                }));
+                map6.addControl(
+                    new maplibregl.NavigationControl({
+                        showZoom: true
+                    })
+                );
 //
-                                    // 🔹 Cargar la capa GeoJSON cuando el mapa esté listo
-                                    map6.on('load', () => {
-                                        map6.addSource('polygon-soroll-arbres', {
-                                                        type: 'geojson',
-                                                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
-                                                    });
-                                        //
-                                        // 2️⃣ Agregar la capa del polígono
-                                        map6.addLayer({
-                                            id: 'polygon-soroll-arbres',
-                                            type: 'line',
-                                            source: 'polygon-soroll-arbres',
-                                            paint: {
-                                                'line-color': [
-                                                    'match',
-                                                    ['get', 'nivell_soroll_TOTDEN'],
-                                                    '<55 dB', '#016164',
-                                                    '55 - 59 dB', '#57C4AD',
-                                                    '60 - 64 dB', '#E7E0BC',
-                                                    '65 - 69 dB', '#EDA147',
-                                                    '70 - 74 dB', '#DB4325',
-                                                    '>= 75 dB', '#9D1642',
-                                                    '#000000'
-                                                ],
-                                                'line-width': 1.7,
-                                                'line-opacity': .7 
-                                            }
-                                        });
-                                        map6.addSource('polygon-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/zones_verdes.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'polygon-source',
-                                            type: 'fill', 
-                                            source: 'polygon-source',
-                                            paint: {
-                                                'fill-color': "#137448", 
-                                                'fill-opacity': 0.35 
-                                            }
-                                        });
-                                        map6.addSource('arbres-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'arbres-source',
-                                            type: 'circle', 
-                                            source: 'arbres-source',
-                                            paint: {
-                                                'circle-color': "#5CBA70", 
-                                                'circle-radius': 2.5, 
-                                                'circle-opacity': 0.6
-                                            }
-                                        });
-                                        map6.addSource('linies-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres2.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'linies-source',
-                                            type: 'line', 
-                                            source: 'linies-source',
-                                            paint: {
-                                                'line-color': "#5CBA70",
-                                                'line-width': 2
-                                            }
-                                        });
-                                        let sorollVisibleArbres = true;
-//
-                                        document.getElementById('toggle-arbres').addEventListener('click', () => {
-                                            sorollVisibleArbres = !sorollVisibleArbres;
-//
-                                            map6.setLayoutProperty(
-                                                'polygon-soroll-arbres',
-                                                'visibility',
-                                                sorollVisibleArbres ? 'visible' : 'none'
-                                            );
-//
-                                            document.getElementById('toggle-arbres').textContent = 
-                                                sorollVisibleArbres ? 'Ocultar línies de soroll' : 'Mostrar línies de soroll';
-                                        });
-//
-//
-                                    });
+                // Cargar la capa GeoJSON cuando el mapa esté listo
+                map6.on('load', () => {
+                    map6.addSource('polygon-soroll-arbres', {
+                                    type: 'geojson',
+                                    data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
                                 });
+                    //
+                    // 2️⃣ Agregar la capa del polígono
+                    map6.addLayer({
+                        id: 'polygon-soroll-arbres',
+                        type: 'line',
+                        source: 'polygon-soroll-arbres',
+                        paint: {
+                            'line-color': [
+                                'match',
+                                ['get', 'nivell_soroll_TOTDEN'],
+                                '<55 dB', '#016164',
+                                '55 - 59 dB', '#57C4AD',
+                                '60 - 64 dB', '#E7E0BC',
+                                '65 - 69 dB', '#EDA147',
+                                '70 - 74 dB', '#DB4325',
+                                '>= 75 dB', '#9D1642',
+                                '#000000'
+                            ],
+                            'line-width': 1.7,
+                            'line-opacity': .7 
+                        }
+                    });
+                    map6.addSource('polygon-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/zones_verdes.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'polygon-source',
+                        type: 'fill', 
+                        source: 'polygon-source',
+                        paint: {
+                            'fill-color': "#137448", 
+                            'fill-opacity': 0.35 
+                        }
+                    });
+                    map6.addSource('arbres-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'arbres-source',
+                        type: 'circle', 
+                        source: 'arbres-source',
+                        paint: {
+                            'circle-color': "#5CBA70", 
+                            'circle-radius': 2.5, 
+                            'circle-opacity': 0.6
+                        }
+                    });
+                    map6.addSource('linies-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres2.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'linies-source',
+                        type: 'line', 
+                        source: 'linies-source',
+                        paint: {
+                            'line-color': "#5CBA70",
+                            'line-width': 2
+                        }
+                    });
+                    let sorollVisibleArbres = true;
+//
+                    document.getElementById('toggle-arbres').addEventListener('click', () => {
+                        sorollVisibleArbres = !sorollVisibleArbres;
+//
+                        map6.setLayoutProperty(
+                            'polygon-soroll-arbres',
+                            'visibility',
+                            sorollVisibleArbres ? 'visible' : 'none'
+                        );
+//
+                        document.getElementById('toggle-arbres').textContent = 
+                            sorollVisibleArbres ? 'Ocultar línies de soroll' : 'Mostrar línies de soroll';
+                    });
+//
+//
+                });
+            });
 </script>
 <script type="module">
         import syncMove from "https://esm.sh/mapbox-gl-sync-move";
@@ -2012,11 +2142,8 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
         ]).then(([map51, map52, map53]) => {
             syncMove(map51, map52, map53);
 //
-            // Añadir la capa de ruido con la variable correspondiente en cada mapa
-            map51.on('idle', () => addCapaSoroll(map51, "nivell_soroll_TOTDIA"));
-            map52.on('idle', () => addCapaSoroll(map52, "nivell_soroll_TOTVES"));
-            map53.on('idle', () => addCapaSoroll(map53, "nivell_soroll_TOTNIT"));
-        });
+            addCapaSoroll(map51, "nivell_soroll_TOTDIA");
+            addCapaSoroll(map52, "nivell_soroll_TOTVES");
+            addCapaSoroll(map53, "nivell_soroll_TOTNIT");
+        });  
 </script>
-
-

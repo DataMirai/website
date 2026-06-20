@@ -17,4 +17,4 @@ We consider it a success, judging by the feedback and questions from the attende
 
 It has certainly been a year to remember, and we're already counting down the days to next year's event!
 
-{{< image src="images/Congressos/Congreso_RHispano_Barcelona.jpeg" caption="" alt="alter-text" height="400" width="400" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}
+{{< image src="images/Congressos/Congreso_RHispano_Barcelona.jpeg" caption="" alt="" height="400" width="400" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}

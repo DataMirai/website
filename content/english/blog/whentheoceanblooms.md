@@ -355,6 +355,7 @@ draft: false
             <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/patagonia%20bloom.jpg">Colorful bloom in Patagonia. Photo by NASA Science</img>
             <p>This piece was created for the Dataviz Challenge established by the Copernicus Marine Service with the aim of making visible and raising awareness of the phenomena that occur in the planet's oceans. Thank you for getting this far. I hope you found the role of phytoplankton as interesting as I did when choosing the challenge's theme. </p>
         </section>
+        {{< image src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Infographic_When%20the%20ocean%20blooms_MireiaCamacho.png" caption="" alt="" height="600" width="1000" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}
         <section id="footer"></section>
     <script>
             fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')

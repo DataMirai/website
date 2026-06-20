@@ -972,29 +972,34 @@
 <style>
             
     body {margin: 0; padding: 0; overflow-x: hidden;}
-    html, body{height: 100%; width: 100vw;}
+    html, body{height: 100%; width: 100%;}
     .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    
     #map { 
         position: sticky; 
-        margin-top: 300px; 
+        margin-top: 10vw; 
         width:100vw; 
         height:100vh; 
     }
     .paragraph {
-    font-size: 19px;
-    text-align: left;
-    margin: 50px 50vw 80px 37vw!important; 
-    padding-left:10px;
-    align-items: center;
-    justify-content: center;
-    width:15vw;
-    min-width:600px!important;
-    color: #000000;
+        width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        line-height: 1.7;
+        color: #000;
+        text-align: left;
+    }
+
+    .last p{
+        margin-top:5vw;
     }
 
     .titols {
         font-size: 35px;
         font-weight: bold;
+        text-align: center;
+        padding: 0 10%;
     }
 
     div.container{
@@ -1004,9 +1009,10 @@
     }
     
     .lg\:col-10{
-    width: 100vw; 
-    margin:0px; 
-    overflow: visible!important;
+        width: 100vw; 
+        margin:0px; 
+        padding:0px;
+        overflow: visible!important;
     }
 
     h1.h2.mb-4, ul.mb-4{
@@ -1018,15 +1024,13 @@
         position: relative;
         background-color: transparent;
         padding: 1rem 0px;
+        
     }
     
-    
     article {
-    position: relative;
-    padding: 0;
-    max-width: 1rem;
-    margin: 0 auto;
-    
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
     }
 
     .sticky-thing {
@@ -1036,6 +1040,7 @@
     width: 100vw;
     max-width: 100vw;
     margin: 0;
+    margin-bottom: 15vw;
     background-color: transparent;
     z-index: 0;
     top: 0vh;
@@ -1054,30 +1059,24 @@
     }
 
     .step {
-    margin: 50px auto 1000px -12vw;
-    background-color: #ffffff;
-    padding: 15px;
-    position: relative;
-    border-radius: 40px;
-    border: solid 1px black;
-    width: 50vw;
-    min-width: 300px;
-    max-width: 700px;
-    display: block;
-    unicode-bidi: isolate;
-    pointer-events: auto;
-    font-family: "Tex";
-    line-height: 1.2;
-    color: #000;
-    word-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    align-items: center;
-    justify-content: center;
+        position: relative;
+        width: min(88vw, 700px);
+        margin: 0 auto 65vh auto;
+        padding: 1rem;
+        border-radius: 40px;
+        border: solid 1px black;
+        background: #fff;
+        color: #000;
+        pointer-events: auto;
+        line-height: 1.35;
+        word-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        z-index: 2;
     }
 
     .step:last-child {
-    margin-bottom: 100px;
+        margin-bottom: 50vh;
     }
 
     .step p {
@@ -1090,7 +1089,7 @@
     }
 
     #footer {
-    height: 20px;
+    height: 2vw;
     }
 
     .maplibregl-ctrl-attrib {
@@ -1100,11 +1099,8 @@
     #scrolly-2, #scrolly-2-5{
         background-color: #fff;
         position: relative;
-        display: flex;  /* Alinea el mapa y el texto en fila */
-        justify-content: space-between; /* Separa los elementos */
-        align-items: flex-start;
-        padding: 50px 50px;
-        margin-top:20px;
+        padding: 0px 50px;
+        margin-top:0px;
         width:100vw;
     }
     
@@ -1122,58 +1118,74 @@
 
     #map2{
         position: sticky; 
-        margin-top: 15vh;
-        margin-bottom:2vh;
-        margin-left:3vw;
+        margin: 0 auto;
+        margin-top: 10vw; 
+        height:100%; 
+        width: 100%;
+        max-width: 1200px;
+        
         }
+
     #map2-5 {
         position: sticky; 
-        margin-left: -10vw;
+        margin:auto;
         z-index: 100;
-        width: 80vw;
+        width:min(1000px,95vw);
         max-width: 800px;
-        min-height: 500px;
-        height: 100vh;
         overflow: visible !important;
         pointer-events: auto;
-        }
+        margin-top:3vh;
+    }
+        
+    #map2 svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 30vh;
+        
+    }
+
 
     #map2-5 svg {
         pointer-events: auto;
-        width: 80vw;
+        width: 100%;
         max-width: 800px;
         min-height: 500px;
-        height: 80vh;
+        height:auto;
         display: block;
-        margin-top:3vh;
         }
 
     #titol-piramide p{
-            font-size: 22px!important;
-            position: absolute;
-            z-index: 10;
-            margin-top: 7vw;
-            margin-bottom:50px;
             width: 100%;
             text-align: center!important;
+            margin:0;
         }
 
+    #map2-5 svg text{
+        opacity: 1!important;
+    }
+
     .sticky-thing2, .sticky-thing2-5 {
+        position: -webkit-sticky;
         position: sticky;
-        top: 0;
-        width: 50%; /* Ocupa la mitad izquierda */
-        height: 100vh;
+        left: 0;
+        width: 100%;
+        max-width: 100vw;
+        margin: 0;
+        background-color: transparent;
+        z-index: 0;
+        top: 0vh;
+        height: 75vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+        overflow: visible!important
     }
 
     .sticky-thing2-5 {
-        position: sticky;
-        width: 60vw;
-        overflow: visible;
-        padding-left:5vw;
+        padding-top:10vh;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     #tooltip {
@@ -1198,12 +1210,9 @@
     .step.map2:last-child {
         margin-bottom: 0px;
     }
-    .step.map25{
-        margin-left:-18vw;
-    }
 
     .step.map25:first-child{
-        margin-top: 1000px;
+        margin-top: 10vh;
         
     }
     .step.map25:last-child{
@@ -1232,19 +1241,19 @@
     }
 
     .sticky-thing3, .sticky-thing4 {
-    position: sticky;
+        position: sticky;
         top: 0;
         width: 100vw;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
-    overflow: visible!important;
+        overflow: visible!important;
     }
 
     #map3, #map4 { 
         position: sticky;
-        width:99vw; 
+        width:100%; 
         height:100vh;
     }
 
@@ -1262,20 +1271,22 @@
         }
 
     .franges-horaries {
-        margin: 20px -10vw 20px -25vw; 
-        width:100vw; 
+        width:100%; 
         height:60vh;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
     }
 
     #llegenda-sync { 
         display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #llegenda-colors{
         display:inline-flex;
-        width:50vw;
-        margin: 5px -10vw 20px -5vw; 
         text-align:center;
     }
     .llegenda2{
@@ -1285,6 +1296,14 @@
         font-size: 16px;
         color: #000!important;
     }
+
+    .arbres{
+        padding-top:0;
+    }
+
+    .arbres .titols {
+        margin-top:0;
+        }
 
     .map-button {
         position: absolute;
@@ -1313,170 +1332,258 @@
 
     #map6 { 
         position: sticky; 
-        margin: 20px -10vw 20px -10vw; 
-        width:50vw; 
+        width:100%; 
         height:75vh;
-        display: block;
-        overflow: visible!important;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    @media (max-width: 1400px) {
-        
-        .step {
-            margin: 50px auto 1000px -22vw;
-        }
-        .paragraph {
-            align-items: center;
-            display: block;
-            margin: 50px 30vh 200px 0vh;
-            padding-left: 0px;
-            min-width:300px!important;
-        }
+    /* ==========================
+   TABLET
+   ========================== */
 
-        #map2{
-            display: block;
-            width: 80vw;
-            margin-left: -30vw;
-            margin-right:20vw;
-            padding:0;
-            padding-top:20vh;
-            align-items: center;
-            justify-content: center;
-        }
-        #map2-5{
-            margin-left:-20vw;
-            margin-right:-20vw;
-            padding-left: 0vw;
-            padding-right:0vw;
-            width: 80vw;
-            max-width: 800px;
-            min-height: 500px;
-            height: auto;
-            aspect-ratio: auto;
-            overflow: scroll;
-            position:relative;
-        }
-        #map2-5 svg {
-            width: 80vw;
-            max-width: 800px;
-            min-height: 500px;
-            height: 80vh;
-            display: block;
-            margin-top:0px;
-        }
+@media (max-width: 1024px) {
 
-        #titol-piramide p{
-            margin-top: 15vw;
-            margin-bottom:50px;
-        }
+    #scrolly {
+        margin-top:0;
+        padding:0;
+     }
 
-        #scrolly-2, #scrolly-2-5 {
-            display: block;
-            justify-content: center;
-            align-items: center;
-            width:100vw;
-            padding:0;
-        }
-        #scrolly-2-5 {
-            margin-top: 0px;
-        }
+    #scrolly .step:last-child {
+        margin-bottom: 0;
+    }
 
-        .sticky-thing2, .sticky-thing2-5 {
+    .sticky-thing {
+            height: 100vh;
             width: 100vw;
-            padding:0%;
+            margin-bottom:0;
         }
 
-        .sticky-thing2-5 {
-            padding-top:50vh;
-            padding-bottom:500px;
-        }
+    #scrolly-2,
+    #scrolly-2-5 {
+        padding: 1rem 0px;
+    }
 
-        .sticky-thing2 article, .sticky-thing25 article {
-            margin: 0;
-    
-            }
+    #map {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    #map2 {
+        padding-bottom: 150vh;
+        width: min(100vw, 700px);
+    }
+
+    .sticky-thing2 {
+        overflow: hidden !important;
+        height: 100vh;
         
-        .step.map2 {
-            margin-top: 100px;
-            margin-right:20vw;
-        }
-
-        .step.map25 {
-            margin-right:20vw;
-            margin-top:0px;
-        }
-
-        .step.map25:last-child{
-            margin-bottom: 80px;
-            
-        }
-        .step:last-child {
-            margin-bottom: 20vh;
     }
+
+    #map2-5 {
+        width: 95vw;
+        margin-top:0;
+        width: min(100vw, 700px);
+        padding-bottom: 20vh;
+    }
+
+    .sticky-thing2-5 {
+        padding-top: 0;
+        height: 150vh;
+        gap: 0;
+        }
+
+    .step {
+            width: min(90vw, 650px);
+            margin-bottom: 55vh;
+        }
     
-    table th{
-        font-size: 12px;
+    .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+    table th,
+    table td {
+        font-size: 16px;
     }
 
-    table td{
-        font-size: 12px;
+    .llegenda2 {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    #map51,
+    #map52,
+    #map53 {
+        width: 30vw;
+        height: 45vh;
+    }
+}
+
+
+/* ==========================
+   MÓVIL
+   ========================== */
+
+@media (max-width: 768px) {
+
+    #scrolly {
+        margin-top:0;
+        padding:0;
+    }
+
+    #scrolly .step:last-child {
+        margin-bottom: 0;
+    }
+
+    .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+            margin-bottom:0;
+        }
+
+    .titols {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #scrolly-2,
+    #scrolly-2-5 {
+        padding: 0 10px;
+    }
+
+    #scrolly-2-5 {
+        padding-bottom: 4vh!important;
+    }
+
+    .sticky-thing2,
+    .sticky-thing2-5 {
+        height: auto;
+        min-height: 30vh;
+    }
+
+    .sticky-thing2 {
+        height: 100vh;
+        width: 100vw;
+        margin-right: 60vw;
+        
+    }
+
+     #map2 {
+        width: min(900vw, 650px);
+        margin-top: 0;
+        padding: 0;
+        display: flex;   
+        justify-content: center;
+    }
+
+    #map2 svg {
+        padding-bottom: 0;
+        width: min(900vw, 650px);
+        
+    }
+
+    .sticky-thing2-5 {
+        padding-top: 2vh;
+        gap: 1rem;
+        
+    }
+
+    #titol-piramide {
+        width: 95%;
+    }
+
+    #titol-piramide p:first-child {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+
+    #map2-5 {
+        width: 100%;
+        max-width: none;
+        min-height: 320px;
+        height: auto;
+    }
+
+    #map2-5 svg {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .step.map2 {
+        margin-top: 250px;
+    }
+
+    .step.map25:first-child {
+        margin-top: 5vh;
+    }
+
+    .step.map25:last-child {
+        margin-bottom: 500px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table th,
+    table td {
+        font-size: 13px;
+        padding: 6px;
     }
 
     .franges-horaries {
-        margin: 20px -60vw 20px -5vw; 
-        width:100vw; 
-        height:115vh;
-        display: grid;
-        align-items:center;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
     }
-    .map-title h3 {
-        width:35vw;
-    }
-    #map51, #map52, #map53 { 
-        width:35vw; 
-        height:35vh; 
-        margin: 0px;
-        position: sticky;
-        overflow: visible!important;
-        display: block;
-        }
 
-    #llegenda-colors{
-        display:grid;
-        margin: 5px 0vw 5px 0vw;
+    #map51,
+    #map52,
+    #map53 {
+        width: 90vw;
+        height: 40vh;
     }
-    .llegenda2{
-        margin: 5px 20vw 5px -5vw;
-        width: 35vw;
-    }
-    
-    }
-    .step.map1 {
-    margin-right: -20vh;}
-    .step.map1 div p{
-        padding:7px;
-        margin:7px;
-    }      
-    
-    
-    .maplibregl-popup {
-        border-style: solid;
-        border-width: 3px 3px 0 3px; /* top right bottom left */
-        border-top-left-radius: 20px !important;
-        border-top-right-radius: 20px !important;
-        border-bottom-right-radius: 30px; 
-        border-bottom-left-radius: 30px; 
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-        border-color: transparent; /* Color inicial (serà canviat amb JS) */
-        }
 
-        .maplibregl-popup-content {
-        border-radius: 0px !important; /* Per evitar doble border-radius */
-        padding: 10px 15px;
-        font-family: sans-serif;
-        font-size: 14px;
-        }
+    #llegenda-colors {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .llegenda2 {
+        width: 70px;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    #map6 { 
+        position: sticky; 
+        width:100%; 
+        height:55vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map-button {
+        top: 10px;
+        left: 10px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    #tooltip {
+        font-size: 13px;
+        max-width: 200px;
+    }
+}
+
 </style>
 <body>
         <section class="paragraph">
@@ -1531,7 +1638,7 @@
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:350px!important; background-color:#1C1C1C;">
+        <section class="paragraph" style= "background-color:#1C1C1C;">
             <p class="titols">96% of mataronins live with more than 55 decibels daily</p>
             <p>According to data from the Generalitat de Catalunya and Mataró City Hall, almost all Mataró residents live daily exposed to noise levels that exceed the 55dB recommended by the WHO.</p>
             <p>Most streets in Mataró recorded figures between 60dB and 74dB during 2022. Even so, the distribution of the population plays an important role in determining the degree to which Mataró residents are affected by noise.</p>
@@ -1563,11 +1670,11 @@
         </section>
         <section id="scrolly-2-5">
             <div class="sticky-thing2-5">
-                <div id="map2-5">
                 <div id="titol-piramide">
-                <p>Number of people affected by noise pollution by gender and age</p>
-                <p style="font-size:18px!important; padding-top:6vh;">💡<em>Interact with the chart</em></p>
+                    <p style="color:#595959;font-family:Fjalla One;">NUMBER OF PEOPLE AFFECTED BY NOISE POLLUTION BY GENDER AND AGE</p>
+                    <p style="margin-top:0;">💡<em>Interact with the chart</em></p>
                 </div>
+                <div id="map2-5">
                 </div>
                 <div id="tooltip"></div>
             </div>
@@ -1589,7 +1696,7 @@
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:5vh!important;">
+        <section class="paragraph">
             <p class="titols">Traffic and shops are probably the main cause of noise in the city</p>
             <p>Vehicles are presumably the main cause of noise pollution in Mataró. The data from the Generalitat de Catalunya for 2022 provides a variable that isolates the level of noise caused by vehicles, but when compared with the total, the difference between columns is zero.</p>
             <p>Since much of the noise recorded on the streets comes from traffic, it is possible that the records simply aggregate the annual data and the average decibel level on each street is almost the same in both cases. The database approach would have to be seen to be able to make strong statements in this aspect.</p>
@@ -1690,7 +1797,7 @@
             </div>
             </article>
         </section>
-        <section class="paragraph" style= "margin-top:5vw!important;">
+        <section class="paragraph">
             <p class="titols">Mataró's nights are quieter</p>
             <p>If traffic and commerce are probably the main causes of noise pollution in the city, what happens during off-peak hours and when everything is closed? What happens at night?</p>
             <p>The data collected by the administration split the noise measurement into three time slots: from 7am to 9pm during the day, from 9pm to 11pm for the evening and from 11pm to 7am for the night.</p>
@@ -1985,16 +2092,21 @@
         })
         .catch(error => console.error('Error:', error));
     //
-        const width = 1000, height = 2000, margin = { top: 50, right: 50, bottom: 100, left: 100 };
-    //
+        const width = 1000;
+        const height = 800;
+        const margin = { top: 50, right: 50, bottom: 100, left: 100 };
+//
         const svg = d3.select("#map2")
-            .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", `translate(${margin.left},${margin.top})`);
-    //
-    //
+        .append("svg")
+        .attr(
+            "viewBox",
+            `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`
+        )
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+            //
+            //
         // 📌 Crear una proyección y escala para el mapa
         const projection = d3.geoMercator()
             .center([2.4445, 41.54211]) 
@@ -2090,10 +2202,15 @@
                                 .duration(500)
                                 .style("opacity", 0);
     //
+                            const beeswarmTop = height * 0.15;
+                            const beeswarmBottom = height * 0.85;
+                            const beeswarmHeight = beeswarmBottom - beeswarmTop;
+                            const ejeY = beeswarmBottom;
+//
                             // 📌 Crear simulación de fuerzas para beeswarm con `d3-force`
                             const simulation = d3.forceSimulation(nodos)
                                 .force("x", d3.forceX(d => escalaX(d.TOTDEN)).strength(0.5)) // Alinear en X
-                                .force("y", d3.forceY(height / 2).strength(0.2)) // Distribución vertical
+                                .force("y", d3.forceY(beeswarmTop + beeswarmHeight / 2).strength(0.2)) // Distribución vertical
                                 .force("collide", d3.forceCollide(d => d.radio + 5)) // Evitar solapamientos
                                 .force("charge", d3.forceManyBody().strength(-10)) // Repulsión
                                 .on("tick", () => { 
@@ -2109,7 +2226,7 @@
     //
             const ejeXGroup = svg.append("g")
                 .attr("class", "eje-x")
-                .attr("transform", `translate(0, ${height - 810})`) // 🔥 Ajustamos posición
+                .attr("transform", `translate(0, ${ejeY})`)
                 .call(ejeX);
     //
             ejeXGroup.select("path") // Selecciona la línea del eje X
@@ -2123,8 +2240,9 @@
             svg.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width - 460)
-                .attr("y", height - 750)
+                .attr("x", width / 2)
+                .attr("y", ejeY + 50)
+                .attr("text-anchor", "middle")
                 .text("Nº decibels")
                 .style("font-size", "16px")
                 .style("font-family", "Fjalla One")
@@ -2133,8 +2251,9 @@
             svg.append("text")
                 .attr("class", "comentari")
                 .attr("text-anchor", "end")
-                .attr("x", width - 705)
-                .attr("y", height - 1140)
+                .attr("x", escalaX(55))
+                .attr("y", beeswarmTop - 10)
+                .attr("text-anchor", "middle")
                 .text("55dB")
                 .style("font-size", "13px")
                 .style("font-family", "Fjalla One")
@@ -2145,8 +2264,8 @@
                 .attr("class", "linea-vertical")
                 .attr("x1", escalaX(55))
                 .attr("x2", escalaX(55))
-                .attr("y1", height - 1170) // 🔥 Ajustamos para que cubra el beeswarm
-                .attr("y2", height - 810)
+                .attr("y1", beeswarmTop)
+                .attr("y2", ejeY)
                 .attr("stroke", "#C8C8C8")
                 .attr("stroke-width", 1.5);
     //        
@@ -2157,8 +2276,8 @@
                     .attr("class", "linea-vertical-ejeX")
                     .attr("x1", escalaX(valor))
                     .attr("x2", escalaX(valor))
-                    .attr("y1", height - 1170) // Ajustamos para que cubra el beeswarm
-                    .attr("y2", height - 810)
+                    .attr("y1", beeswarmTop)
+                    .attr("y2", ejeY)
                     .attr("stroke", "#D8D8D8")
                     .attr("stroke-width", 1.2)
                     .attr("stroke-dasharray", "5,5");
@@ -2217,6 +2336,11 @@
                             .transition()
                             .duration(500)
                             .style("opacity", 0);
+    //                    
+                        d3.selectAll(".tick")
+                            .transition()
+                            .duration(500)
+                            .style("opacity", 0);
                     }
                 });
                 });
@@ -2228,7 +2352,8 @@
             //
             const piramide = d3.select("#map2-5")
                             .append("svg")
-                            .attr("viewBox", "0 0 800 500")
+                            .attr("viewBox", `0 0 ${width_map25} ${height_map25}`)
+                            .attr("preserveAspectRatio", "xMidYMid meet")
                             .classed("svg-content", true);
 //
             // Datos de ejemplo
@@ -2408,7 +2533,7 @@
                         tooltip
                             .style("display", "block")
                             .style("background-color", `rgba(${baseColor.r}, ${baseColor.g}, ${baseColor.b}, 0.8)`)
-                            .html(`${d.sexo}<br> Nivel ruido: ${d.key}<br> Nº afectados: ${Math.abs(d[1] - d[0])}`);
+                            .html(`${d.sexo}<br> Noise levels: ${d.key}<br> Affected: ${Math.abs(d[1] - d[0])}`);
                     }
                 })
                 .on("mousemove", (event) => {
@@ -2422,12 +2547,12 @@
                     tooltip.style("display", "block")
                         .style("left", `${event.clientX + 20}px`)
                         .style("top", `${event.clientY - 20}px`)
-                        .html(`${d.sexo}<br> Nivel ruido: ${d.key}<br> Nº afectados: ${Math.abs(d[1] - d[0])}`);
+                        .html(`${d.sexo}<br> Noise levels: ${d.key}<br> Affected: ${Math.abs(d[1] - d[0])}`);
                 });
 //
             // Eje Y
             const ejeYPiramid = piramide.append("g")
-                .attr("transform", `translate(${width_map25 / 2+10.8}, 0)`)
+                .attr("transform", `translate(${x(0)},0)`)
                 .call(d3.axisLeft(y)
                     .tickSize(0)
                     .tickSizeOuter(0));
@@ -2439,39 +2564,44 @@
 //            
             ejeYPiramid.selectAll("text")
                 .style("fill", "#595959")
-                .attr('dx', '-370px')
+                .attr("dx", "-0.8em")
+                .attr("text-anchor", "end")
                 .style('font-size', "14px")
-                .style("font-family", "Fjalla One");
+                .style("font-family", "Fjalla One")
+                .style("opacity", 1);
 //
             piramide.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width_map25 -500)
-                .attr("y", height_map25 -3)
+                .attr("x", width_map25 * 0.25)
+                .attr("y", height_map25 * 0.98)
                 .text("MEN")
                 .style("font-size", "18px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //           
             piramide.append("text")
                 .attr("class", "x-label")
                 .attr("text-anchor", "end")
-                .attr("x", width_map25 -200)
-                .attr("y", height_map25 -3)
+                .attr("x", width_map25 * 0.75)
+                .attr("y", height_map25 * 0.98)
                 .text("WOMEN")
                 .style("font-size", "18px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //            
             piramide.append("text")
                 .attr("class", "x-label")
-                .attr("text-anchor", "end")
-                .attr("x", width_map25 -760)
-                .attr("y", height_map25 -470)
+                .attr("text-anchor", "middle")
+                .attr("x", x(0) - 15)
+                .attr("y", margin_map25.top )
                 .text("AGE")
                 .style("font-size", "15px")
                 .style("font-family", "Fjalla One")
-                .style("fill", "#595959");
+                .style("fill", "#595959")
+                .style("opacity", 1);
 //
 //
 fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
@@ -2682,7 +2812,7 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
                             data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
                         });
             //
-                        // 2️⃣ Agregar la capa del polígono
+                        // Agregar la capa del polígono
                         map4.addLayer({
                             id: 'polygon-soroll-botigues',
                             type: 'line',
@@ -2782,122 +2912,122 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 //
 //
 //
-                            fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
-                                .then(response => response.json()) 
-                                .then(style => {
-                                    if (style.sources && style.sources.openmaptiles) {
-                                        style.sources.openmaptiles.attribution = "Mirai Data | ICGC - © OSM contributors";
-                                    }
+        fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
+            .then(response => response.json()) 
+            .then(style => {
+                if (style.sources && style.sources.openmaptiles) {
+                    style.sources.openmaptiles.attribution = "Mirai Data | ICGC - © OSM contributors";
+                }
 //
-                                    // 🔹 Crear el mapa en <div id="map6">
-                                    const map6 = new maplibregl.Map({
-                                        container: 'map6', // 📌 Se mantiene 'map6'
-                                        style: style, 
-                                        center: [2.437061, 41.540358],
-                                        zoom: 13.5,
-                                        attributionControl: false
-                                    });
+                // Crear el mapa en <div id="map6">
+                const map6 = new maplibregl.Map({
+                    container: 'map6', // Se mantiene 'map6'
+                    style: style, 
+                    center: [2.437061, 41.540358],
+                    zoom: 13.5,
+                    attributionControl: false
+                });
 //
-                                    // 🔹 Agregar control de atribución
-                                    map6.addControl(new maplibregl.AttributionControl({
-                                        customAttribution: style.sources.openmaptiles.attribution,
-                                        compact: false 
-                                    }));
-                                    map6.addControl(
-                                        new maplibregl.NavigationControl({
-                                            showZoom: true
-                                        })
-                                    );
+                // Agregar control de atribución
+                map6.addControl(new maplibregl.AttributionControl({
+                    customAttribution: style.sources.openmaptiles.attribution,
+                    compact: false 
+                }));
+                map6.addControl(
+                    new maplibregl.NavigationControl({
+                        showZoom: true
+                    })
+                );
 //
-                                    // 🔹 Cargar la capa GeoJSON cuando el mapa esté listo
-                                    map6.on('load', () => {
-                                        map6.addSource('polygon-soroll-arbres', {
-                                                        type: 'geojson',
-                                                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
-                                                    });
-                                        //
-                                        // 2️⃣ Agregar la capa del polígono
-                                        map6.addLayer({
-                                            id: 'polygon-soroll-arbres',
-                                            type: 'line',
-                                            source: 'polygon-soroll-arbres',
-                                            paint: {
-                                                'line-color': [
-                                                    'match',
-                                                    ['get', 'nivell_soroll_TOTDEN'],
-                                                    '<55 dB', '#016164',
-                                                    '55 - 59 dB', '#57C4AD',
-                                                    '60 - 64 dB', '#E7E0BC',
-                                                    '65 - 69 dB', '#EDA147',
-                                                    '70 - 74 dB', '#DB4325',
-                                                    '>= 75 dB', '#9D1642',
-                                                    '#000000'
-                                                ],
-                                                'line-width': 1.7,
-                                                'line-opacity': .7 
-                                            }
-                                        });
-                                        map6.addSource('polygon-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/zones_verdes.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'polygon-source',
-                                            type: 'fill', 
-                                            source: 'polygon-source',
-                                            paint: {
-                                                'fill-color': "#137448", 
-                                                'fill-opacity': 0.35 
-                                            }
-                                        });
-                                        map6.addSource('arbres-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'arbres-source',
-                                            type: 'circle', 
-                                            source: 'arbres-source',
-                                            paint: {
-                                                'circle-color': "#5CBA70", 
-                                                'circle-radius': 2.5, 
-                                                'circle-opacity': 0.6
-                                            }
-                                        });
-                                        map6.addSource('linies-source', {
-                                            type: 'geojson',
-                                            data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres2.geojson'
-                                        });
-//
-                                        map6.addLayer({
-                                            id: 'linies-source',
-                                            type: 'line', 
-                                            source: 'linies-source',
-                                            paint: {
-                                                'line-color': "#5CBA70",
-                                                'line-width': 2
-                                            }
-                                        });
-                                        let sorollVisibleArbres = true;
-//
-                                        document.getElementById('toggle-arbres').addEventListener('click', () => {
-                                            sorollVisibleArbres = !sorollVisibleArbres;
-//
-                                            map6.setLayoutProperty(
-                                                'polygon-soroll-arbres',
-                                                'visibility',
-                                                sorollVisibleArbres ? 'visible' : 'none'
-                                            );
-//
-                                            document.getElementById('toggle-arbres').textContent = 
-                                                sorollVisibleArbres ? 'Hide noise lines' : 'Show noise lines';
-                                        });
-//
-//
-                                    });
+                // Cargar la capa GeoJSON cuando el mapa esté listo
+                map6.on('load', () => {
+                    map6.addSource('polygon-soroll-arbres', {
+                                    type: 'geojson',
+                                    data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/soroll_mataro.geojson'
                                 });
+                    //
+                    // 2️⃣ Agregar la capa del polígono
+                    map6.addLayer({
+                        id: 'polygon-soroll-arbres',
+                        type: 'line',
+                        source: 'polygon-soroll-arbres',
+                        paint: {
+                            'line-color': [
+                                'match',
+                                ['get', 'nivell_soroll_TOTDEN'],
+                                '<55 dB', '#016164',
+                                '55 - 59 dB', '#57C4AD',
+                                '60 - 64 dB', '#E7E0BC',
+                                '65 - 69 dB', '#EDA147',
+                                '70 - 74 dB', '#DB4325',
+                                '>= 75 dB', '#9D1642',
+                                '#000000'
+                            ],
+                            'line-width': 1.7,
+                            'line-opacity': .7 
+                        }
+                    });
+                    map6.addSource('polygon-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/zones_verdes.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'polygon-source',
+                        type: 'fill', 
+                        source: 'polygon-source',
+                        paint: {
+                            'fill-color': "#137448", 
+                            'fill-opacity': 0.35 
+                        }
+                    });
+                    map6.addSource('arbres-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'arbres-source',
+                        type: 'circle', 
+                        source: 'arbres-source',
+                        paint: {
+                            'circle-color': "#5CBA70", 
+                            'circle-radius': 2.5, 
+                            'circle-opacity': 0.6
+                        }
+                    });
+                    map6.addSource('linies-source', {
+                        type: 'geojson',
+                        data: 'https://raw.githubusercontent.com/DataMirai/Soroll_Mat/refs/heads/main/arbres2.geojson'
+                    });
+//
+                    map6.addLayer({
+                        id: 'linies-source',
+                        type: 'line', 
+                        source: 'linies-source',
+                        paint: {
+                            'line-color': "#5CBA70",
+                            'line-width': 2
+                        }
+                    });
+                    let sorollVisibleArbres = true;
+//
+                    document.getElementById('toggle-arbres').addEventListener('click', () => {
+                        sorollVisibleArbres = !sorollVisibleArbres;
+//
+                        map6.setLayoutProperty(
+                            'polygon-soroll-arbres',
+                            'visibility',
+                            sorollVisibleArbres ? 'visible' : 'none'
+                        );
+//
+                        document.getElementById('toggle-arbres').textContent = 
+                            sorollVisibleArbres ? 'Hide noise lines' : 'Show noise lines';
+                    });
+//
+//
+                });
+            });
 </script>
 <script type="module">
         import syncMove from "https://esm.sh/mapbox-gl-sync-move";
@@ -2961,11 +3091,10 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
         ]).then(([map51, map52, map53]) => {
             syncMove(map51, map52, map53);
 //
-            // Añadir la capa de ruido con la variable correspondiente en cada mapa
-            map51.on('idle', () => addCapaSoroll(map51, "nivell_soroll_TOTDIA"));
-            map52.on('idle', () => addCapaSoroll(map52, "nivell_soroll_TOTVES"));
-            map53.on('idle', () => addCapaSoroll(map53, "nivell_soroll_TOTNIT"));
-        });
+            addCapaSoroll(map51, "nivell_soroll_TOTDIA");
+            addCapaSoroll(map52, "nivell_soroll_TOTVES");
+            addCapaSoroll(map53, "nivell_soroll_TOTNIT");
+        });  
 </script>
 
           </div>
@@ -3396,31 +3525,31 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
         <picture>
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_545x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_545x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_600x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_600x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_700x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_700x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_1110x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_1110x0_resize_q80_h2_lanczos_3.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_1110x0_resize_q80_lanczos.jpg"
+              src="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_1110x0_resize_lanczos_3.png"
             class=" mb-6 w-full rounded img"
-            alt="MiraiData provides data training at the European Commission&#39;s JRC"
-            width="1472"
-            height="828" />
+            alt="When the ocean blooms"
+            width="4075"
+            height="1503" />
         </picture>
       
       
@@ -3434,8 +3563,8 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 
   
   <h4 class="mb-3">
-    <a href="/en/blog/curs-comissioeuropea/">
-      MiraiData provides data training at the European Commission&#39;s JRC
+    <a href="/en/blog/whentheoceanblooms/">
+      When the ocean blooms
     </a>
   </h4>
   
@@ -3450,24 +3579,16 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/en/categories/courses/"
+            href="/en/categories/data-visualization/"
             class="ms-1"
-            >Courses
-              ,
-            
-          </a>
-        
-          <a
-            href="/en/categories/r/"
-            class="ms-1"
-            >R
+            >Data visualization
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Last week, MiraiData travelled to Seville to deliver a two-day training course on data analysis, visualisation and communication at the European Commission&rsquo;s JRC.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/en/blog/curs-comissioeuropea/">
+  <p class="mb-6">Phytoplankton are microscopic algae. They live in surface waters and float and drift with the currents.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/whentheoceanblooms/">
     Read More
   </a>
 </div>
@@ -3557,31 +3678,31 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
         <picture>
           <source
             
-              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_545x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/Reest_YoSoloSeCuantoCobro_hud4de5cf1ceb68f8162ac55ca4066f698_1210537_545x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_600x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/Reest_YoSoloSeCuantoCobro_hud4de5cf1ceb68f8162ac55ca4066f698_1210537_600x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_700x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/Reest_YoSoloSeCuantoCobro_hud4de5cf1ceb68f8162ac55ca4066f698_1210537_700x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_1110x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/gallery/banners_posts/Reest_YoSoloSeCuantoCobro_hud4de5cf1ceb68f8162ac55ca4066f698_1210537_1110x0_resize_q80_h2_lanczos.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/gallery/banners_posts/30DayChartChallenge_hub0411c3513e334224943a75331c43af8_159981_1110x0_resize_lanczos_3.png"
+              src="/images/gallery/banners_posts/Reest_YoSoloSeCuantoCobro_hud4de5cf1ceb68f8162ac55ca4066f698_1210537_1110x0_resize_q80_lanczos.jpeg"
             class=" mb-6 w-full rounded img"
-            alt="#30DayChartChallenge 2024"
-            width="1213"
-            height="480" />
+            alt="I only know how much I get paid, the rest..."
+            width="1280"
+            height="720" />
         </picture>
       
       
@@ -3595,40 +3716,40 @@ fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
 
   
   <h4 class="mb-3">
-    <a href="/en/blog/30-day-chart-challenge-2024/">
-      #30DayChartChallenge 2024
+    <a href="/en/blog/re-yo-solo-se-cuanto-cobro-yo/">
+      I only know how much I get paid, the rest...
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/en/authors/mireia-camacho/">
-          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
+        <a href="/en/authors/aitor-gonz%C3%A1lez/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Aitor González
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/en/categories/data-visualization/"
+            href="/en/categories/reestimando/"
             class="ms-1"
-            >Data visualization
+            >Re estimando
               ,
             
           </a>
         
           <a
-            href="/en/categories/r/"
+            href="/en/categories/statistics/"
             class="ms-1"
-            >R
+            >Statistics
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">This year we actively participated in the #30DayChartChallenge and here are the results!</p>
-  <a class="btn btn-outline-primary btn-sm" href="/en/blog/30-day-chart-challenge-2024/">
+  <p class="mb-6">Definitions matter as much as the outcomes themselves. Because&hellip; What happens when those outcomes directly affect people&rsquo;s wallets?</p>
+  <a class="btn btn-outline-primary btn-sm" href="/en/blog/re-yo-solo-se-cuanto-cobro-yo/">
     Read More
   </a>
 </div>
