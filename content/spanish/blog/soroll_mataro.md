@@ -123,7 +123,7 @@ draft: false
         word-wrap: break-word;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
-        z-index: 2;
+        z-index: 999;
     }
 
     .step:last-child {
@@ -450,6 +450,7 @@ draft: false
     .step {
             width: min(90vw, 650px);
             margin-bottom: 55vh;
+            z-index: 999!important;
         }
     
     .step:last-child {
@@ -494,6 +495,10 @@ draft: false
             height: 100vh;
             width: 100vw;
             margin-bottom:0;
+        }
+
+    .step {
+            z-index: 999!important;
         }
 
     .titols {

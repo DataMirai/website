@@ -1,7 +1,7 @@
 ---
-title: "When the ocean blooms"
-meta_title: "When the ocean blooms"
-description: "Explore how phytoplankton population change over the year"
+title: "Quan l'oceà floreix"
+meta_title: "Quan l'oceà floreix"
+description: "Explora com canvia la població de fitoplàncton al llarg de l'any."
 date: 2026-06-19T00:00:00.000Z
 image: "images/gallery/banners_posts/phytoplankton_banner.png"
 categories: ["Data Visualization"]
@@ -275,12 +275,12 @@ draft: false
 </style>
 <body>
         <section class="paragraph">
-            <p>Phytoplankton are microscopic algae. They live in surface waters and float and drift with the currents. They have an impressive variety of shapes, colors, and patterns. <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">Why are they so important?</span></p>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/PlanktonCommunity.jpg">Phytoplankton. Photo by Annegret Stuhr, GEOMAR</img>
-            <p>Phytoplankton are photosynthetic organisms. They use sunlight, carbon dioxide (CO₂), and nutrients to produce energy through photosynthesis. They perform the same role as plants on land and <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">produce up to 50% of the Earth's oxygen.</span></p>
-            <p>Even though they are microscopic, <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">they form the base of the marine food web.</span> Phytoplankton are eaten by zooplankton, which in turn feed small fish, which are then consumed by larger fish and other predators. This chain supports higher trophic levels and sustains global fisheries.</p>
-            <p>Although individual phytoplankton cannot be seen with the naked eye, large concentrations can tint the color of the ocean and become visible from space. <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">This is known as a Bloom.</span></p>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/baltic%20bloom.jpg">Bloom in the Baltic sea. Photo by NASA Science</img>
+            <p>El fitoplàncton està format per algues microscòpiques. Viuen en les aigües superficials i suren i es deixen arrossegar pels corrents. Presenten una impressionant varietat de formes, colors i patrons. <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">Per què són tan importants?</span></p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/PlanktonCommunity.jpg">Fitoplàncton. Foto de Annegret Stuhr, GEOMAR</img>
+            <p>El fitoplàncton són organismes capaços de realitzar la fotosíntesi. Utilitzen la llum solar, el diòxid de carboni (CO₂) i els nutrients per a produir energia. Exerceixen la mateixa funció que les plantes terrestres i <span class="span-colored" style="background-color:#1A5A5C;color:#fff">produeixen fins al 50% de l'oxigen de la Terra.</span></p>
+            <p>Encara que són microscòpics, <span class="span-colored" style="background-color:#1A5A5C;color:#fff">constitueixen la base de la cadena alimentària marina.</span> El fitoplàncton serveix d'aliment al zooplàncton, que al seu torn alimenta als peixos petits, els quals són consumits posteriorment per peixos més grans i altres depredadors. Aquesta cadena sustenta els nivells tròfics superiors i manté les explotacions pesqueres de tot el món.</p>
+            <p>Encara que les partícules individuals de fitoplàncton no es poden veure a simple vista, les grans concentracions poden tenyir el color de l'oceà i fer-se visibles des de l'espai. <span class= «span-colored» style="background-color:#FF7062;color:#fff;font-weight: bold;">Això es coneix com a «floració».</span></p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/baltic%20bloom.jpg">Floració en la mar Bàltica. Foto de NASA Science</img>
         </section>
         <section id="scrolly">
             <div class="sticky-thing">
@@ -288,74 +288,74 @@ draft: false
             </div>
             <article>
             <div class="step map1" data-step="1">
-                <p><strong style="color:black;">Blooms</strong> can display a wide range of colors, creating striking contrasts with the deep blue ocean waters. They generate <strong style="color:black;">massive patterns</strong>, forming edges, waves, and filaments that can cover vast areas of the ocean.</p>
+                <p>Les<strong style="color:black;">floracions</strong> poden presentar una àmplia gamma de colors, creant cridaners contrastos amb les aigües blau fosc de l'oceà. Creen <strong style="color:black;">patrons de gran magnitud,</strong> formant línies, ones i filaments que poden cobrir vastes àrees de l'oceà.</p>
             </div>
             <div class="step map1" data-step="2">
-                <p>However, blooms do not occur everywhere, as <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">phytoplankton do not grow uniformly</span> throughout the ocean. Their distribution is highly variable and influenced by factors such as sunlight, temperature, nutrient availability, and ocean currents.</p>
+                <p>No obstant això, les floracions no es produeixen a tot arreu, ja que <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">el fitoplàncton no creix de manera uniforme</span> en tot l'oceà. La seva distribució és molt variable i està influenciada per factors com la llum solar, la temperatura, la disponibilitat de nutrients i els corrents oceànics.</p>
             </div>
             <div class="step map1" data-step="3">
-                <p>There are <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">two major bloom-related phenomena</span> in the oceans. They occur in different regions and operate through different mechanisms, but they are linked by similar processes involving nutrient availability for phytoplankton growth.</p>
+                <p>Hi ha <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">dos fenòmens principals associats als floriments</span> als oceans. Es produeixen en regions diferents i funcionen a través de mecanismes diferents, però estan vinculats per processos similars que impliquen la disponibilitat de nutrients per al creixement del fitoplàncton.</p>
             </div>
             <div class="step map1" data-step="4">
-                <p>The first phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">Upwelling Systems.</span> There are four major regions in the world, located along the eastern boundaries of the Atlantic and Pacific Oceans. This system <strong style="color:black;">contributes up to 25% of global fisheries</strong> while occupying less than 1% of the ocean area.</p>
+                <p>El primer fenomen són els <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">sistemes d'aflorament.</span> Existeixen quatre regions principals en el món, situades a les costes dels límits orientals dels oceans Atlàntic i Pacífic. Aquest sistema <strong style="color:black;">aporta fins al 25% de la pesca mundial</strong> malgrat ocupar menys de l'1% de la superfície oceànica.</p>
             </div>
             <div class="step map1" data-step="5">
-                <p>In the California region, this phenomenon is <strong style="color:black;">strongly seasonal.</strong> During <strong style="color:black;">spring,</strong> northerly winds become intense and blow along the coast toward the equator. This causes cold, deep, nutrient-rich water to rise to the surface and establish ideal conditions for upwelling to reactivate. <strong style="color:black;">Maximum intensity is reached during summer.</strong></p>
+                <p>A la regió de Califòrnia, aquest fenomen és <strong style="color:black;">fortament estacional.</strong> Durant la <strong style="color:black;">primavera,</strong> els vents del nord s'intensifiquen i bufen al llarg de la costa cap a l'equador. Això fa que l'aigua freda, profunda i rica en nutrients pugi a la superfície i es donin les condicions ideals perquè es reactivi l'aflorament. <strong style="color:black;">S'aconsegueix la màxima intensitat durant l'estiu.</strong></p>
             </div>
             <div class="step map1" data-step="6">
-                <p>In <strong style="color:black;">autumn and winter,</strong> the winds weaken, and so does the biological productivity of the region.</p>
+                <p>A la <strong style="color:black;">tardor i l'hivern,</strong> els vents amainen, de la mateixa manera que la productivitat biològica de la regió.</p>
             </div>
             <div class="step map1" data-step="7">
-                <p>The second phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">North Atlantic Spring Bloom.</span> This is <strong style="color:black;">one of the most significant biological events</strong> in the world's oceans. It occurs every year in spring and can extend over thousands of kilometers, making it clearly visible from satellites.</p>
+                <p>El segon fenomen és la <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">floració primaveral de l'Atlàntic Nord.</span> Es tracta d'un <strong style="color:black;"> dels fenòmens biològics més importants</strong> dels oceans del món. Es produeix cada any a la primavera i pot estendre's al llarg de milers de quilòmetres, la qual cosa fa que sigui clarament visible des dels satèl·lits.</p>
                 <div style="text-align:center;">
-                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg" style="display:block;margin:auto;">The North Atlantic Spring Bloom captured by NASA in 2024</img>
+                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg" style="display:block;margin:auto;">La floració primaveral de l'Atlàntic Nord captada per la NASA en 2024</img>
                 </div>
             </div>
             <div class="step map1" data-step="8">
-                <p>During <strong style="color:black;">winter,</strong> daylight hours are shorter and the ocean surface cools. Storms become stronger and mix surface waters with deeper waters. As explained in the upwelling phenomenon, this mixing brings nutrients from deep waters to the surface. However, because sunlight is limited during winter, <strong style="color:black;">conditions are not favorable enough</strong> for phytoplankton to grow rapidly.</p>
+                <p>Durant <strong style="color:black;">l'hivern,</strong> les hores de llum són més curtes i la superfície de l'oceà es refreda. Les tempestes s'intensifiquen i barregen les aigües superficials amb les més profundes. Tal com s'explica en el fenomen dels sistemes d'aflorament, aquesta mescla porta nutrients de les aigües profundes cap a la superfície. No obstant això, pel fet que la llum solar és limitada durant l'hivern, <strong style="color:black;">les condicions no són prou favorables</strong> perquè el fitoplàncton creixi ràpidament.</p>
             </div>
             <div class="step map1" data-step="9">
-                <p>In <strong style="color:black;">spring,</strong> longer days and stronger sunlight warm the ocean’s surface, reducing the mixing between surface and deeper waters. As a result, nutrients brought up during winter remain available near the surface, where <strong style="color:black;">phytoplankton can access both abundant nutrients and sunlight.</strong></p>
+                <p>A la <strong style="color:black;">primavera,</strong> els dies més llargs i la llum solar més intensa escalfen la superfície de l'oceà, la qual cosa redueix la mescla entre les aigües superficials i les més profundes. Com a resultat, els nutrients que han pujat a la superfície durant l'hivern romanen disponibles allà, de manera que el <strong style="color:black;">fitoplàncton pot accedir tant als abundants nutrients com a la llum solar.</strong></p>
             </div>
             <div class="step map1" data-step="10">
-                <p>These favorable conditions promote rapid phytoplankton growth through photosynthesis, leading to the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">spring bloom.</span> As summer progresses,  <strong style="color:black;">surface nutrients become depleted,</strong> causing phytoplankton abundance to decline until conditions become favorable again the following spring.</p>
+                <p>Aquestes condicions favorables promouen el ràpid creixement del fitoplàncton a través de la fotosíntesi, la qual cosa dona lloc a la <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">floració primaveral.</span> A mesura que avança l'estiu, <strong style="color:black;">els nutrients de la superfície s'esgoten,</strong> la qual cosa provoca que l'abundància de fitoplàncton disminueixi fins que les condicions tornin a ser favorables la primavera següent.</p>
                 <div style="text-align:center;">
-                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Norway%20bloom.jpeg" style="display:block;margin:auto;" height="500" width="500">Bloom in Norway coasts. Photo by NASA Science</img>
+                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Norway%20bloom.jpeg" style="display:block;margin:auto;" height="500" width="500">Floració en les costes de Noruega. Foto de NASA Science</img>
                 </div>
             </div>
             <div class="step map1" data-step="11">
-                <p>As the North Atlantic Spring Bloom extends across thousands of kilometers, <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">it does not occur everywhere at the same time.</span> It starts earlier in lower-latitude regions and appears later at higher latitudes.</p>
+                <p>Donat que la floració primaveral de l'Atlàntic Nord s'estén al llarg de milers de quilòmetres, <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">aquesta no succeeix a tot arreu alhora.</span> Comença més aviat a les regions amb latituds més baixes i arriba més tard a les latituds més altes.</p>
             </div>
             <div class="step map1" data-step="12">
-                <p>Most of the time, phytoplankton remain invisible beneath the ocean surface. Yet their seasonal blooms transform vast regions of the sea and sustain life throughout the marine food web. From microscopic cells to patterns visible from space, <span class= "span-colored" style="background-color:#1A5A5C;color:#fff;font-weight: bold;">their influence reaches across the entire planet.</span></p>
+                <p>La majoria del temps, el fitoplàncton roman invisible sota la superfície de l'oceà. No obstant això, les seves floracions estacionals transformen extenses regions de la mar i sustenten la vida en tota la xarxa tròfica marina. Des de cèl·lules microscòpiques fins a patrons visibles des de l'espai, <span class="span-colored" style="background-color:#1A5A5C;color:#fff;font-weight: bold;">la seva influència s'estén per tot el planeta.</span></p>
                 <div style="text-align:center;">
                 <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/phytoplankton2.png" style="display:block;margin:auto;" height="150" width="150"></img>
                 </div>
             </div>
         </section>
         <section class="paragraph last">
-        <p>Here you can explore how <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">phytoplankton population change over 2025</span> or view a specific month by clicking.</p>
+        <p>Aquí pots veure com <span class="span-colored" style="background-color:#1A5A5C;color:#fff">evoluciona la població de fitoplàncton al llarg de 2025</span> o consultar un mes concret fent clic.</p>
             <div class="timeline-slider">
                 <img id="main-image" src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg">
                 <div class="timeline" id="timeline">
-                    <button data-index="0">Jan</button>
+                    <button data-index="0">Gen</button>
                     <button data-index="1">Feb</button>
                     <button data-index="2">Mar</button>
-                    <button data-index="3">Apr</button>
-                    <button data-index="4">May</button>
+                    <button data-index="3">Abr</button>
+                    <button data-index="4">Mai</button>
                     <button data-index="5">Jun</button>
                     <button data-index="6">Jul</button>
-                    <button data-index="7">Aug</button>
-                    <button data-index="8">Sep</button>
+                    <button data-index="7">Ago</button>
+                    <button data-index="8">Set</button>
                     <button data-index="9">Oct</button>
                     <button data-index="10">Nov</button>
-                    <button data-index="11">Dec</button>
+                    <button data-index="11">Des</button>
                 </div>
             </div>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/patagonia%20bloom.jpg">Colorful bloom in Patagonia. Photo by NASA Science</img>
-            <p>This piece was created for the Dataviz Challenge established by the Copernicus Marine Service with the aim of making visible and raising awareness of the phenomena that occur in the planet's oceans with the information provided by Elodie Gutknecht. Thank you for getting this far. I hope you found the role of phytoplankton as interesting as I did when choosing the challenge's theme. </p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/patagonia%20bloom.jpg">Floració colorida a la Patagònia. Foto de NASA Science</img>
+            <p>Aquesta obra ha estat desenvolupada per al Dataviz Challenge organitzat pel Copernicus Marine Service amb l'objectiu de donar visibilitat i sensibilitzar sobre els fenòmens que tenen lloc en els oceans del planeta, a partir de la informació facilitada per Elodie Gutknecht. Gràcies per arribar fins aquí. Espero que el paper del fitoplàncton t'hagi semblat tan interessant com a mi quan vaig triar el tema del repte.</p>
         </section>
-        {{< image src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Infographic_When%20the%20ocean%20blooms_MireiaCamacho.png" caption="" alt="" height="600" width="1000" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}
+        {{< image src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Cat_Infographic_When%20the%20ocean%20blooms_MireiaCamacho.png" caption="" alt="" height="600" width="1000" command="Fit" option="" class="" title="image title" position="center" webp="true" zoomable="true">}}
         <section id="footer"></section>
     <script>
             fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')

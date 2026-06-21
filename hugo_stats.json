@@ -348,7 +348,8 @@
       "warning",
       "xl:space-x-8",
       "z-30",
-      "zoomable"
+      "zoomable",
+      "«span-colored»"
     ],
     "ids": [
       "TableOfContents",
@@ -384,6 +385,7 @@
       "link",
       "llegenda-colors",
       "llegenda-sync",
+      "lse",
       "main-image",
       "map",
       "map2",

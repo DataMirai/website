@@ -123,7 +123,7 @@ draft: false
         word-wrap: break-word;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
-        z-index: 2;
+        z-index: 999;
     }
 
     .step:last-child {
@@ -450,6 +450,7 @@ draft: false
     .step {
             width: min(90vw, 650px);
             margin-bottom: 55vh;
+            z-index: 999!important;
         }
     
     .step:last-child {
@@ -489,6 +490,10 @@ draft: false
     #scrolly .step:last-child {
         margin-bottom: 0;
     }
+
+    .step {
+            z-index: 999!important;
+        }
 
     .sticky-thing {
             height: 100vh;

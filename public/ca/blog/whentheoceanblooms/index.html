@@ -83,7 +83,7 @@
   
 
 
-<title>When the ocean blooms</title>
+<title>Quan l&#39;oceà floreix</title>
 
 
 
@@ -94,6 +94,15 @@
 
 
 
+
+  
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/blog/whentheoceanblooms/" />
+  
+    <link rel="alternate" hreflang="es" href="http://localhost:1313/blog/whentheoceanblooms/" />
+  
+    <link rel="alternate" hreflang="ca" href="http://localhost:1313/ca/blog/whentheoceanblooms/" />
+  
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/ca/blog/whentheoceanblooms/" />
 
 
 
@@ -108,7 +117,7 @@
 
 <meta
   name="description"
-  content="Analitzem les dades del soroll dels carrers de Mataró" />
+  content="Explora com canvia la població de fitoplàncton al llarg de l&#39;any." />
 
 
 
@@ -186,14 +195,14 @@
 
 
 
-<meta property="og:title" content="When the ocean blooms" />
-<meta property="og:description" content="Analitzem les dades del soroll dels carrers de Mataró" />
+<meta property="og:title" content="Quan l&#39;oceà floreix" />
+<meta property="og:description" content="Explora com canvia la població de fitoplàncton al llarg de l&#39;any." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/ca/blog/whentheoceanblooms/" />
 
 
-<meta name="twitter:title" content="When the ocean blooms" />
-<meta name="twitter:description" content="Analitzem les dades del soroll dels carrers de Mataró" />
+<meta name="twitter:title" content="Quan l&#39;oceà floreix" />
+<meta name="twitter:description" content="Explora com canvia la població de fitoplàncton al llarg de l&#39;any." />
 
 
 
@@ -639,6 +648,35 @@
 
 
 
+
+  <select class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded" onchange="location = this.value">
+    
+      
+        <option
+          id="en"
+          value="/en/blog/whentheoceanblooms/">
+          Eng
+        </option>
+      
+    
+      
+        <option
+          id="es"
+          value="/blog/whentheoceanblooms/">
+          Esp
+        </option>
+      
+    
+      
+        <option
+          id="ca"
+          value="/ca/blog/whentheoceanblooms/"
+          selected>
+          Cat
+        </option>
+      
+    
+  </select>
  
       
 
@@ -874,7 +912,7 @@
               loading="lazy" decoding="async"
               src="/images/gallery/banners_posts/phytoplankton_banner_hu174edecc12dba0fc02b1b81bbf310179_767290_1110x0_resize_lanczos_3.png"
             class=" w-full rounded img"
-            alt="When the ocean blooms"
+            alt="Quan l&#39;oceà floreix"
             width="4075"
             height="1503" />
         </picture>
@@ -891,7 +929,7 @@
             </div>
           
           <h1 class="h2 mb-4">
-            When the ocean blooms
+            Quan l&#39;oceà floreix
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
@@ -934,24 +972,31 @@
 <style>
             
     body {margin: 0; padding: 0; overflow-x: hidden;}
-    html, body{height: 100%; width: 100vw;}
+    html, body{height: 100%; width: 100%;}
     .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    
     #map { 
         position: sticky; 
-        margin-top: 300px; 
+        margin-top: 10vw; 
         width:100vw; 
         height:100vh; 
     }
     .paragraph {
-    font-size: 19px;
-    text-align: left;
-    margin: 50px 50vw 80px 37vw!important; 
-    padding-left:10px;
-    align-items: center;
-    justify-content: center;
-    width:15vw;
-    min-width:600px!important;
-    color: #000000;
+        width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        line-height: 1.7;
+        color: #000;
+        text-align: left;
+        }
+    
+    .last p{
+        margin-top:5vw;
+    }
+
+    h1, h3, .paragraph p {
+    color: #B4AFB6;
     }
 
     .titols {
@@ -968,6 +1013,7 @@
     .lg\:col-10{
     width: 100vw; 
     margin:0px; 
+    padding:0px;
     overflow: visible!important;
     }
 
@@ -983,11 +1029,8 @@
     }
     
     article {
-    position: relative;
-    padding: 0;
-    max-width: 1rem;
-    margin: 0 auto;
-    
+        width: 100%;
+        max-width: 100%;
     }
 
     .sticky-thing {
@@ -1015,30 +1058,24 @@
     }
 
     .step {
-    margin: 50px auto 1000px -12vw;
-    background-color: #ffffff;
-    padding: 10px;
-    position: relative;
-    border-radius: 20px;
-    border: solid 5px #FF7062;
-    width: 50vw;
-    min-width: 300px;
-    max-width: 700px;
-    display: block;
-    unicode-bidi: isolate;
-    pointer-events: auto;
-    font-family: "Tex";
-    line-height: 1.2;
-    color: #000;
-    word-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    align-items: center;
-    justify-content: center;
+        position: relative;
+        width: min(88vw, 700px);
+        margin: 0 auto 65vh auto;
+        padding: 1rem;
+        border-radius: 20px;
+        border: 5px solid #FF7062;
+        background: #fff;
+        color: #000;
+        pointer-events: auto;
+        line-height: 1.35;
+        word-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        z-index: 2;
     }
 
     .step:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 80vw;
     }
 
     .step p {
@@ -1058,7 +1095,7 @@
     }
 
     #footer {
-    height: 20px;
+    height: 20vw;
     }
 
     .span-colored {
@@ -1093,15 +1130,106 @@
         border-radius: 10%;
         font-weight: bold;
     }
+
+    /* ===== TABLET ===== */
+
+        @media (max-width: 1024px) {
+        .step {
+            width: min(90vw, 650px);
+            margin-bottom: 55vh;
+        }
+
+        .last p{
+            margin-top:0;
+        }
+        
+        #map {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #scrolly {
+            padding: 1rem 0px;
+        }
+
+        .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+        #footer {
+            height: 0;
+            }
+
+        }
+
+    /* ===== MÓVIL ===== */
+
+        @media (max-width: 768px) {
+
+        .paragraph {
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+
+        .step {
+            width: calc(100vw - 5rem);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50vh;
+            padding: 0.8rem;
+        }
+
+        .step p {
+            font-size: 1rem;
+        }
+
+        .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+        .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #scrolly {
+            position: relative;
+            background-color: transparent;
+            padding: 1rem 0px;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .timeline {
+            gap: 0.35rem;
+        }
+
+        .timeline button {
+            min-width: 2vw;
+            font-size: 0.8rem;
+        }
+        }
 </style>
 <body>
         <section class="paragraph">
-            <p>Phytoplankton are microscopic algae. They live in surface waters and float and drift with the currents. They have an impressive variety of shapes, colors, and patterns. <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">Why are they so important?</span></p>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/PlanktonCommunity.jpg">Phytoplankton. Photo by Annegret Stuhr, GEOMAR</img>
-            <p>Phytoplankton are photosynthetic organisms. They use sunlight, carbon dioxide (CO₂), and nutrients to produce energy through photosynthesis. They perform the same role as plants on land and <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">produce up to 50% of the Earth's oxygen.</span></p>
-            <p>Even though they are microscopic, <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">they form the base of the marine food web.</span> Phytoplankton are eaten by zooplankton, which in turn feed small fish, which are then consumed by larger fish and other predators. This chain supports higher trophic levels and sustains global fisheries.</p>
-            <p>Although individual phytoplankton cannot be seen with the naked eye, large concentrations can tint the color of the ocean and become visible from space. <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">This is known as a Bloom.</span></p>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/baltic%20bloom.jpg">Bloom in the Baltic sea. Photo by NASA Science</img>
+            <p>El fitoplàncton està format per algues microscòpiques. Viuen en les aigües superficials i suren i es deixen arrossegar pels corrents. Presenten una impressionant varietat de formes, colors i patrons. <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">Per què són tan importants?</span></p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/PlanktonCommunity.jpg">Fitoplàncton. Foto de Annegret Stuhr, GEOMAR</img>
+            <p>El fitoplàncton són organismes capaços de realitzar la fotosíntesi. Utilitzen la llum solar, el diòxid de carboni (CO₂) i els nutrients per a produir energia. Exerceixen la mateixa funció que les plantes terrestres i <span class="span-colored" style="background-color:#1A5A5C;color:#fff">produeixen fins al 50% de l'oxigen de la Terra.</span></p>
+            <p>Encara que són microscòpics, <span class="span-colored" style="background-color:#1A5A5C;color:#fff">constitueixen la base de la cadena alimentària marina.</span> El fitoplàncton serveix d'aliment al zooplàncton, que al seu torn alimenta als peixos petits, els quals són consumits posteriorment per peixos més grans i altres depredadors. Aquesta cadena sustenta els nivells tròfics superiors i manté les explotacions pesqueres de tot el món.</p>
+            <p>Encara que les partícules individuals de fitoplàncton no es poden veure a simple vista, les grans concentracions poden tenyir el color de l'oceà i fer-se visibles des de l'espai. <span class= «span-colored» style="background-color:#FF7062;color:#fff;font-weight: bold;">Això es coneix com a «floració».</span></p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/baltic%20bloom.jpg">Floració en la mar Bàltica. Foto de NASA Science</img>
         </section>
         <section id="scrolly">
             <div class="sticky-thing">
@@ -1109,73 +1237,125 @@
             </div>
             <article>
             <div class="step map1" data-step="1">
-                <p><strong style="color:black;">Blooms</strong> can display a wide range of colors, creating striking contrasts with the deep blue ocean waters. They generate <strong style="color:black;">massive patterns</strong>, forming edges, waves, and filaments that can cover vast areas of the ocean.</p>
+                <p>Les<strong style="color:black;">floracions</strong> poden presentar una àmplia gamma de colors, creant cridaners contrastos amb les aigües blau fosc de l'oceà. Creen <strong style="color:black;">patrons de gran magnitud,</strong> formant línies, ones i filaments que poden cobrir vastes àrees de l'oceà.</p>
             </div>
             <div class="step map1" data-step="2">
-                <p>However, blooms do not occur everywhere, as <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">phytoplankton do not grow uniformly</span> throughout the ocean. Their distribution is highly variable and influenced by factors such as sunlight, temperature, nutrient availability, and ocean currents.</p>
+                <p>No obstant això, les floracions no es produeixen a tot arreu, ja que <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">el fitoplàncton no creix de manera uniforme</span> en tot l'oceà. La seva distribució és molt variable i està influenciada per factors com la llum solar, la temperatura, la disponibilitat de nutrients i els corrents oceànics.</p>
             </div>
             <div class="step map1" data-step="3">
-                <p>There are <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">two major bloom-related phenomena</span> in the oceans. They occur in different regions and operate through different mechanisms, but they are linked by similar processes involving nutrient availability for phytoplankton growth.</p>
+                <p>Hi ha <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">dos fenòmens principals associats als floriments</span> als oceans. Es produeixen en regions diferents i funcionen a través de mecanismes diferents, però estan vinculats per processos similars que impliquen la disponibilitat de nutrients per al creixement del fitoplàncton.</p>
             </div>
             <div class="step map1" data-step="4">
-                <p>The first phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">Upwelling Systems.</span> There are four major regions in the world, located along the eastern boundaries of the Atlantic and Pacific Oceans. This system <strong style="color:black;">contributes up to 25% of global fisheries</strong> while occupying less than 1% of the ocean area.</p>
+                <p>El primer fenomen són els <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">sistemes d'aflorament.</span> Existeixen quatre regions principals en el món, situades a les costes dels límits orientals dels oceans Atlàntic i Pacífic. Aquest sistema <strong style="color:black;">aporta fins al 25% de la pesca mundial</strong> malgrat ocupar menys de l'1% de la superfície oceànica.</p>
             </div>
             <div class="step map1" data-step="5">
-                <p>In the California region, this phenomenon is <strong style="color:black;">strongly seasonal.</strong> During spring, northerly winds become intense and blow along the coast toward the equator. This causes cold, deep, nutrient-rich water to rise to the surface and establish ideal conditions for upwelling to reactivate. <strong style="color:black;">Maximum intensity is reached during summer.</strong></p>
+                <p>A la regió de Califòrnia, aquest fenomen és <strong style="color:black;">fortament estacional.</strong> Durant la <strong style="color:black;">primavera,</strong> els vents del nord s'intensifiquen i bufen al llarg de la costa cap a l'equador. Això fa que l'aigua freda, profunda i rica en nutrients pugi a la superfície i es donin les condicions ideals perquè es reactivi l'aflorament. <strong style="color:black;">S'aconsegueix la màxima intensitat durant l'estiu.</strong></p>
             </div>
             <div class="step map1" data-step="6">
-                <p>In autumn and winter, the winds weaken, and so does the biological productivity of the region.</p>
+                <p>A la <strong style="color:black;">tardor i l'hivern,</strong> els vents amainen, de la mateixa manera que la productivitat biològica de la regió.</p>
             </div>
             <div class="step map1" data-step="7">
-                <p>The second phenomenon is the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">North Atlantic Spring Bloom.</span> This is <strong style="color:black;">one of the most significant biological events</strong> in the world's oceans. It occurs every year in spring and can extend over thousands of kilometers, making it clearly visible from satellites.</p>
+                <p>El segon fenomen és la <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">floració primaveral de l'Atlàntic Nord.</span> Es tracta d'un <strong style="color:black;"> dels fenòmens biològics més importants</strong> dels oceans del món. Es produeix cada any a la primavera i pot estendre's al llarg de milers de quilòmetres, la qual cosa fa que sigui clarament visible des dels satèl·lits.</p>
                 <div style="text-align:center;">
-                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg" style="display:block;margin:auto;">The North Atlantic Spring Bloom captured by NASA in 2024</img>
+                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg" style="display:block;margin:auto;">La floració primaveral de l'Atlàntic Nord captada per la NASA en 2024</img>
                 </div>
             </div>
             <div class="step map1" data-step="8">
-                <p>During <strong style="color:black;">winter,</strong> daylight hours are shorter and the ocean surface cools. Storms become stronger and mix surface waters with deeper waters. As explained in the upwelling phenomenon, this mixing brings nutrients from deep waters to the surface. However, because sunlight is limited during winter, <strong style="color:black;">conditions are not favorable enough</strong> for phytoplankton to grow rapidly.</p>
+                <p>Durant <strong style="color:black;">l'hivern,</strong> les hores de llum són més curtes i la superfície de l'oceà es refreda. Les tempestes s'intensifiquen i barregen les aigües superficials amb les més profundes. Tal com s'explica en el fenomen dels sistemes d'aflorament, aquesta mescla porta nutrients de les aigües profundes cap a la superfície. No obstant això, pel fet que la llum solar és limitada durant l'hivern, <strong style="color:black;">les condicions no són prou favorables</strong> perquè el fitoplàncton creixi ràpidament.</p>
             </div>
             <div class="step map1" data-step="9">
-                <p>In <strong style="color:black;">spring,</strong> longer days and stronger sunlight warm the ocean’s surface, reducing the mixing between surface and deeper waters. As a result, nutrients brought up during winter remain available near the surface, where <strong style="color:black;">phytoplankton can access both abundant nutrients and sunlight.</strong></p>
+                <p>A la <strong style="color:black;">primavera,</strong> els dies més llargs i la llum solar més intensa escalfen la superfície de l'oceà, la qual cosa redueix la mescla entre les aigües superficials i les més profundes. Com a resultat, els nutrients que han pujat a la superfície durant l'hivern romanen disponibles allà, de manera que el <strong style="color:black;">fitoplàncton pot accedir tant als abundants nutrients com a la llum solar.</strong></p>
             </div>
             <div class="step map1" data-step="10">
-                <p>These favorable conditions promote rapid phytoplankton growth through photosynthesis, leading to the <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">spring bloom.</span> As summer progresses,  <strong style="color:black;">surface nutrients become depleted,</strong> causing phytoplankton abundance to decline until conditions become favorable again the following spring.</p>
+                <p>Aquestes condicions favorables promouen el ràpid creixement del fitoplàncton a través de la fotosíntesi, la qual cosa dona lloc a la <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">floració primaveral.</span> A mesura que avança l'estiu, <strong style="color:black;">els nutrients de la superfície s'esgoten,</strong> la qual cosa provoca que l'abundància de fitoplàncton disminueixi fins que les condicions tornin a ser favorables la primavera següent.</p>
                 <div style="text-align:center;">
-                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Norway%20bloom.jpeg" style="display:block;margin:auto;" height="500" width="500">Bloom in Norway coasts. Photo by NASA Science</img>
+                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Norway%20bloom.jpeg" style="display:block;margin:auto;" height="500" width="500">Floració en les costes de Noruega. Foto de NASA Science</img>
                 </div>
             </div>
             <div class="step map1" data-step="11">
-                <p>As the North Atlantic Spring Bloom extends across thousands of kilometers, <span class= "span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">it does not occur everywhere at the same time.</span> It starts earlier in lower-latitude regions and appears later at higher latitudes.</p>
+                <p>Donat que la floració primaveral de l'Atlàntic Nord s'estén al llarg de milers de quilòmetres, <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">aquesta no succeeix a tot arreu alhora.</span> Comença més aviat a les regions amb latituds més baixes i arriba més tard a les latituds més altes.</p>
             </div>
             <div class="step map1" data-step="12">
-                <p>Most of the time, phytoplankton remain invisible beneath the ocean surface. Yet their seasonal blooms transform vast regions of the sea and sustain life throughout the marine food web. From microscopic cells to patterns visible from space, <span class= "span-colored" style="background-color:#1A5A5C;color:#fff;font-weight: bold;">their influence reaches across the entire planet.</span></p>
+                <p>La majoria del temps, el fitoplàncton roman invisible sota la superfície de l'oceà. No obstant això, les seves floracions estacionals transformen extenses regions de la mar i sustenten la vida en tota la xarxa tròfica marina. Des de cèl·lules microscòpiques fins a patrons visibles des de l'espai, <span class="span-colored" style="background-color:#1A5A5C;color:#fff;font-weight: bold;">la seva influència s'estén per tot el planeta.</span></p>
                 <div style="text-align:center;">
                 <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/phytoplankton2.png" style="display:block;margin:auto;" height="150" width="150"></img>
                 </div>
             </div>
         </section>
-        <section class="paragraph" style= "margin-top:350px!important;">
-        <p>Here you can explore how <span class= "span-colored" style="background-color:#1A5A5C;color:#fff">phytoplankton population change over 2025</span> or view a specific month by clicking.</p>
+        <section class="paragraph last">
+        <p>Aquí pots veure com <span class="span-colored" style="background-color:#1A5A5C;color:#fff">evoluciona la població de fitoplàncton al llarg de 2025</span> o consultar un mes concret fent clic.</p>
             <div class="timeline-slider">
                 <img id="main-image" src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/north%20atlantic%20bloom%20nasa%202024.jpg">
                 <div class="timeline" id="timeline">
-                    <button data-index="0">Jan</button>
+                    <button data-index="0">Gen</button>
                     <button data-index="1">Feb</button>
                     <button data-index="2">Mar</button>
-                    <button data-index="3">Apr</button>
-                    <button data-index="4">May</button>
+                    <button data-index="3">Abr</button>
+                    <button data-index="4">Mai</button>
                     <button data-index="5">Jun</button>
                     <button data-index="6">Jul</button>
-                    <button data-index="7">Aug</button>
-                    <button data-index="8">Sep</button>
+                    <button data-index="7">Ago</button>
+                    <button data-index="8">Set</button>
                     <button data-index="9">Oct</button>
                     <button data-index="10">Nov</button>
-                    <button data-index="11">Dec</button>
+                    <button data-index="11">Des</button>
                 </div>
             </div>
-            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/patagonia%20bloom.jpg">Colorful bloom in Patagonia. Photo by NASA Science</img>
-            <p>This piece was created for the Dataviz Challenge established by the Copernicus Marine Service with the aim of making visible and raising awareness of the phenomena that occur in the planet's oceans. Thank you for getting this far. I hope you found the role of phytoplankton as interesting as I did when choosing the challenge's theme. </p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/patagonia%20bloom.jpg">Floració colorida a la Patagònia. Foto de NASA Science</img>
+            <p>Aquesta obra ha estat desenvolupada per al Dataviz Challenge organitzat pel Copernicus Marine Service amb l'objectiu de donar visibilitat i sensibilitzar sobre els fenòmens que tenen lloc en els oceans del planeta, a partir de la informació facilitada per Elodie Gutknecht. Gràcies per arribar fins aquí. Espero que el paper del fitoplàncton t'hagi semblat tan interessant com a mi quan vaig triar el tema del repte.</p>
         </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+          
+            
+            <img
+              title="image title"
+              loading="lazy"
+              decoding="async"
+              src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/Cat_Infographic_When%20the%20ocean%20blooms_MireiaCamacho.png"
+              alt=""
+              class="img  img-center 
+                glightbox
+              "
+              width="1000"
+              height="600" />
+          
+          
+        
+        
+        
+        
+        
+        
+          <script>
+            window.addEventListener("load", (e) => {
+              const lightbox = GLightbox();
+            });
+          </script>
+        
+
         <section id="footer"></section>
     <script>
             fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
@@ -1681,31 +1861,31 @@
         <picture>
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_545x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_545x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_600x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_600x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_700x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_700x0_resize_q80_h2_lanczos.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_1110x0_resize_q80_h2_lanczos.webp"
+              srcset="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_1110x0_resize_q80_h2_lanczos.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/gallery/banners_posts/JRCSevilla_hu829f43141d115d4f1f6a31d58b48ecbc_403715_1110x0_resize_q80_lanczos.jpg"
+              src="/images/gallery/banners_posts/ICongresoRHispanoCordoba_huad643d37e8a2f2b3e396b733ced79c59_11086094_1110x0_resize_q80_lanczos.jpg"
             class=" mb-6 w-full rounded img"
-            alt="MiraiData imparteix una formació en dades al JRC de la Comissió Europea"
-            width="1472"
-            height="828" />
+            alt="I Congrés &amp; XII Jornades d&#39;Usuaris d&#39;R a Còrdova"
+            width="4744"
+            height="1704" />
         </picture>
       
       
@@ -1719,8 +1899,8 @@
 
   
   <h4 class="mb-3">
-    <a href="/ca/blog/curs-comissioeuropea/">
-      MiraiData imparteix una formació en dades al JRC de la Comissió Europea
+    <a href="/ca/blog/congreso-r-cordoba-2022/">
+      I Congrés &amp; XII Jornades d&#39;Usuaris d&#39;R a Còrdova
     </a>
   </h4>
   
@@ -1733,179 +1913,26 @@
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
-        
-          <a
-            href="/ca/categories/courses/"
-            class="ms-1"
-            >Courses
-              ,
-            
-          </a>
         
           <a
             href="/ca/categories/r/"
             class="ms-1"
             >R
+              ,
+            
           </a>
-        
-      </li>
-    </ul>
-  
-  <p class="mb-6">La setmana passada MiraiData va viatjar fins a Sevilla per a impartir una formació de dos dies sobre anàlisi, visualització i comunicació amb dades al JRC de la Comissió Europea.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/curs-comissioeuropea/">
-    Més
-  </a>
-</div>
-
-              </div>
-            
-              <div class="lg:col-4 md:col-6 mb-14">
-                <div class="bg-body dark:bg-darkmode-body">
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/gallery/banners_posts/premis-woma-dataviz_hu40720d626739364a55c9b210948dfae2_336478_545x0_resize_q80_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/gallery/banners_posts/premis-woma-dataviz_hu40720d626739364a55c9b210948dfae2_336478_600x0_resize_q80_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/gallery/banners_posts/premis-woma-dataviz_hu40720d626739364a55c9b210948dfae2_336478_700x0_resize_q80_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/gallery/banners_posts/premis-woma-dataviz_hu40720d626739364a55c9b210948dfae2_336478_1110x0_resize_q80_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/gallery/banners_posts/premis-woma-dataviz_hu40720d626739364a55c9b210948dfae2_336478_1110x0_resize_q80_lanczos.jpg"
-            class=" mb-6 w-full rounded img"
-            alt="&#39;Mataró a tot volum&#39; guanya el premi Catalan Dataviz de la Fundació ViT"
-            width="2336"
-            height="854" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-  
-  <h4 class="mb-3">
-    <a href="/ca/blog/premi-fundacio-vit/">
-      &#39;Mataró a tot volum&#39; guanya el premi Catalan Dataviz de la Fundació ViT
-    </a>
-  </h4>
-  
-  
-    <ul class="mb-4">
-      <li class="mr-4 inline-block">
-        <a href="/ca/authors/mireia-camacho/">
-          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
-        </a>
-      </li>
-      <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/ca/categories/data-visualization/"
+            href="/ca/categories/events/"
             class="ms-1"
-            >Data visualization
+            >Events
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">El projecte Mataró a tot volum , l&rsquo;scrollytelling sobre els nivells de soroll a la ciutat de Mataró publicat per Mirai Data, ha estat reconegut amb el premi Català DataViz i també ha quedat finalista en la categoria Talent Jove dels Premis Women DataViz 2025 organitzats per la Fundació ViT .</p>
-  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/premi-fundacio-vit/">
+  <p class="mb-6">Els dies 23, 24 i 25 de novembre hem tingut l&rsquo;oportunitat d&rsquo;assistir a la reunió anual que fa la Comunidad de R Hispano, que enguany ha acollit la Universitat de Còrdova.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/congreso-r-cordoba-2022/">
     Més
   </a>
 </div>
@@ -2067,6 +2094,159 @@
   
   <p class="mb-6">Molt similar al #30DayChartChallenge al qual vam participar a l&rsquo;abril , durant el mes de novembre la comunitat fanàtica dels mapes celebra el #30DayMapChallenge i nosaltres ens hi hem sumat!</p>
   <a class="btn btn-outline-primary btn-sm" href="/ca/blog/30-day-map-challenge-2024/">
+    Més
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/gallery/banners_posts/soroll-mataro_hu4337dd05135e9fe3ce895a99ae8bb7bb_1830956_545x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/soroll-mataro_hu4337dd05135e9fe3ce895a99ae8bb7bb_1830956_600x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/soroll-mataro_hu4337dd05135e9fe3ce895a99ae8bb7bb_1830956_700x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/gallery/banners_posts/soroll-mataro_hu4337dd05135e9fe3ce895a99ae8bb7bb_1830956_1110x0_resize_q80_h2_lanczos_3.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/gallery/banners_posts/soroll-mataro_hu4337dd05135e9fe3ce895a99ae8bb7bb_1830956_1110x0_resize_lanczos_3.png"
+            class=" mb-6 w-full rounded img"
+            alt="Mataró a tot volum"
+            width="2435"
+            height="811" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/ca/blog/soroll_mataro/">
+      Mataró a tot volum
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/ca/authors/mireia-camacho/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Mireia Camacho
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/ca/categories/data-visualization/"
+            class="ms-1"
+            >Data visualization
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">Trànsit, terrasses, mercats, obres, festes populars... El dia a dia de les ciutats és sorollós.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/ca/blog/soroll_mataro/">
     Més
   </a>
 </div>
