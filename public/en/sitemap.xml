@@ -112,6 +112,21 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/whentheoceanblooms/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/whentheoceanblooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/whentheoceanblooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/whentheoceanblooms/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/blog/premi-fundacio-vit/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>

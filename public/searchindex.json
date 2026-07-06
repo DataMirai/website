@@ -1,5 +1,16 @@
 [{
   "section": "Blog",
+  "slug": "/blog/re-perfiles-latentes-con-tidylpa/",
+  "title": "¿Puede un modelo descubrir 3 especies de flores sin que nadie se lo diga?",
+  "description": "Una introducción a los modelos de perfiles latentes con tidyLPA, contada desde cero y puesta a prueba con datos reales.",
+  "date": "3 de julio de 2026",
+  "image": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n\n\n        \n        \n\n\n        \u003cimg\n          \n            src=\"/images/gallery/banners_posts/Reest_Perfiles-LPA_hua393d30d2010c84d0d6e4542a70e88a8_310410_420x0_resize_q80_h2_lanczos.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"420\"\n          height=\"236\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/gallery\\/banners_posts\\/Reest_Perfiles-LPA_hua393d30d2010c84d0d6e4542a70e88a8_310410_420x0_resize_q80_lanczos.jpeg';\" /\u003e\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
+  "imageSM": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n          \n          \n          \n          \n        \n\n\n        \n        \n\n\n        \u003cimg\n          \n            src=\"/images/gallery/banners_posts/Reest_Perfiles-LPA_hua393d30d2010c84d0d6e4542a70e88a8_310410_100x100_fill_q80_h2_lanczos_smart1.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"100\"\n          height=\"100\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/gallery\\/banners_posts\\/Reest_Perfiles-LPA_hua393d30d2010c84d0d6e4542a70e88a8_310410_100x100_fill_q80_lanczos_smart1.jpeg';\" /\u003e\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
+  "searchKeyword": "",
+  "categories": "ReEstimando, Estadística, R",
+  "tags": "ReEstimando",
+  "content":"Una introducción a los modelos de perfiles latentes con tidyLPA, contada desde cero y puesta a prueba con datos reales.\n"},{
+  "section": "Blog",
   "slug": "/blog/whentheoceanblooms/",
   "title": "Cuando el océano florece",
   "description": "Explora cómo varían las poblaciones de fitoplancton a lo largo del año",

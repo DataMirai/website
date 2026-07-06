@@ -25,11 +25,11 @@ features:
 
   - title: "Visualización de datos y Storytelling"
     image: "/images/service-2.png"
-    content: "Desvelamos las historias que hay detrás de los datos y las acercamos al mundo real complementándolas con entrevistas, hemeroteca y otros documentos."
+    content: "Transformamos datos complejos en historias visuales que explican, contextualizan y conectan con la audiencia."
     bulletpoints:
-      - "Creamos diseños personalizados para cada temática."
-      - "Desarrollamos infografías y visualizaciones interactivas para contar historias que entretengan e informen a nuestros lectores."
-      - "Trabajamos principalmente con librerías de visualización de datos de R y JS."
+      - "Periodismo de datos"
+      - "Divulgación científica"
+      - "Comunicación de datos para empresas y administraciones"
     button:
       enable: true
       label: "Descubre más"
@@ -41,7 +41,15 @@ features:
     bulletpoints:
       - "Adaptamos los contenidos al nivel de los alumnos."
       - "Complementamos sesiones de teoría y casos prácticos para facilitar el asentamiento de los conocimientos."
-      - "Han confiado en nosotros: *Universidad Autónoma de Barcelona* y *Universidad de Salamanca*."
+      - |
+          Han confiado en nosotros:
+          <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:center; margin-top:15px;">
+            <img src="/images/Logos_entidades/logo_ub.png" alt="UB" style="height:70px;width:500;">
+            <img src="/images/Logos_entidades/logo universidad salamanca.png" alt="USAL" style="height:90px;width:auto;">
+            <img src="/images/Logos_entidades/logo_uab.png" alt="UAB" style="height:50px;width:auto;">
+            <img src="/images/Logos_entidades/logo_ec.png" alt="EC" style="height:70px;width:auto;">
+            <img src="/images/Logos_entidades/logo_comunidad_r_hispano.png" alt="Comunidad R Hispano" style="height:50px;width:auto;">
+          </div>
     button:
       enable: false
       label: ""

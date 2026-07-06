@@ -25,11 +25,11 @@ features:
 
   - title: "Data Visualization & Storytelling"
     image: "/images/service-2.png"
-    content: "We uncover the stories behind data and bring them closer to the real world by complementing them with interviews, newspapers and other documents."
+    content: "We transform complex data into visual stories that explain, provide context, and connect with audiences."
     bulletpoints:
-      - "We create customized designs for each theme."
-      - "We develop infographics and interactive visualizations to share stories that entertain and inform our readers."
-      - "We work mainly with R and JS data visualization libraries."
+      - "Data journalism"
+      - "Science communication"
+      - "Data communication for businesses and public institutions"
     button:
       enable: true
       label: "Discover stories"
@@ -41,7 +41,15 @@ features:
     bulletpoints:
       - "We customize the contents to the level of the students."
       - "We complement theory sessions with case studies to facilitate knowledge consolidation."
-      - "Trusted by: *Autonomous University of Barcelona* and *University of Salamanca*."
+      - |
+        Trusted by: 
+        <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:center; margin-top:15px;">
+            <img src="/images/Logos_entidades/logo_ub.png" alt="UB" style="height:70px;width:500;">
+            <img src="/images/Logos_entidades/logo universidad salamanca.png" alt="USAL" style="height:90px;width:auto;">
+            <img src="/images/Logos_entidades/logo_uab.png" alt="UAB" style="height:50px;width:auto;">
+            <img src="/images/Logos_entidades/logo_ec.png" alt="EC" style="height:70px;width:auto;">
+            <img src="/images/Logos_entidades/logo_comunidad_r_hispano.png" alt="Comunidad R Hispano" style="height:50px;width:auto;">
+          </div>
     button:
       enable: false
       label: ""

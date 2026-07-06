@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ca/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -18,6 +18,114 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/categories/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/categories/data-visualization/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/blog/whentheoceanblooms/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/whentheoceanblooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/whentheoceanblooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/whentheoceanblooms/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/scrollytelling/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/scrollytelling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/scrollytelling/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ca/tags/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/blog/premi-fundacio-vit/</loc>
@@ -36,60 +144,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/blog/premi-fundacio-vit/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/blog/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/blog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/categories/data-visualization/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/categories/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/categories/data-visualization/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/tags/prize/</loc>
@@ -126,24 +180,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/tags/programming/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/tags/</loc>
-    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/courses/</loc>
@@ -252,24 +288,6 @@
                 rel="alternate"
                 hreflang="ca-es"
                 href="http://localhost:1313/ca/blog/soroll_mataro/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ca/tags/scrollytelling/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/scrollytelling/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/tags/scrollytelling/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca-es"
-                href="http://localhost:1313/ca/tags/scrollytelling/"
                 />
   </url><url>
     <loc>http://localhost:1313/ca/categories/estad%C3%ADstica/</loc>

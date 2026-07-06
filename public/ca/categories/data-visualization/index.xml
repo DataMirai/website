@@ -6,8 +6,15 @@
     <description>Recent content in Data Visualization on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/categories/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quan l&#39;oceà floreix</title>
+      <link>http://localhost:1313/ca/blog/whentheoceanblooms/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/whentheoceanblooms/</guid>
+      <description>El fitoplàncton està format per algues microscòpiques. Viuen en les aigües superficials i suren i es deixen arrossegar pels corrents.</description>
+    </item>
     <item>
       <title>&#39;Mataró a tot volum&#39; guanya el premi Catalan Dataviz de la Fundació ViT</title>
       <link>http://localhost:1313/ca/blog/premi-fundacio-vit/</link>
