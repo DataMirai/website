@@ -1,0 +1,3536 @@
+---
+title: "Europa, una década marcada por el fuego"
+meta_title: "Europa, una década marcada por el fuego"
+description: "El vell continent ha d'enfrontar-se cada any a més incendis i a un clima que contribueix a la seva propagació"
+date: 2026-08-02T00:00:00.000Z
+image: "images/gallery/banners_posts/incendis_europa.png"
+categories: ["Data Visualization"]
+author: "Mireia Camacho"
+tags: ["Scrollytelling"]
+draft: false
+---
+<style>
+            
+    body {margin: 0; padding: 0; overflow-x: hidden;}
+    html, body{height: 100%; width: 100%;}
+    .row.items-start.justify-between, .mt-20, .section.pb-0, footer{padding:0px 5vw;}
+    
+    #chart1{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #chart1 svg{
+        width:100%;
+        height:100%;
+    }
+
+    .paragraph {
+        width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        line-height: 1.7;
+        color: #000;
+        text-align: left;
+        }
+    
+    .paragraph img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top:40px;
+        opacity: .7;
+    }
+    
+    .last p{
+        margin-top:5vw;
+    }
+
+    h1, h3, .paragraph p {
+    color: #B4AFB6;
+    }
+
+    .titols {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    div.container{
+    max-width:100%; 
+    padding:0px; 
+    overflow: visible!important;
+    }
+    
+    .lg\:col-10{
+    width: 100vw; 
+    margin:0px; 
+    padding:0px;
+    overflow: visible!important;
+    }
+
+    h1.h2.mb-4, ul.mb-4{
+    text-align: center;
+    }
+    h1.h2.mb-4{font-size:70px;}
+
+    #scrolly{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        column-gap:5rem;
+        align-items:start;
+        position:relative;
+        padding:2rem 5vw;
+    }
+    
+    #scrolly article{
+        width:100%;
+        max-width:100%;
+    }
+
+    .sticky-thing{
+        position:sticky;
+        top:10vh;
+        width:100%;
+        height:75vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        overflow:visible;
+        padding-left:20%;
+    }
+
+    .sticky-thing p {
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+    }
+
+    .step {
+        position: relative;
+        width: min(88vw, 700px);
+        max-width:500px;
+        margin: 0 auto 65vh auto;
+        padding: 1rem;
+        border: 0;
+        background: #000;
+        color: #989898;
+        pointer-events: auto;
+        line-height: 1.35;
+        word-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        z-index: 2;
+    }
+
+    .step.annotations{
+        background: transparent;
+        width: min(1vw, 700px);
+        line-height: 0;
+    }
+
+    .step:last-child {
+    margin-bottom:80vh;
+    }
+
+    .step p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 21px;
+    background-color: #000;
+    color:#fff!important;
+    }
+
+
+    .step img{
+        text-align:center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer {
+    height: 5vw;
+    }
+
+    .map-notice{
+        display:grid;
+        grid-template-columns:70px 1fr;
+        gap:18px;
+
+        align-items:center;
+
+        width:min(850px,90vw);
+        margin:2rem auto 3rem auto;
+        padding:1.2rem 1.5rem;
+
+        border-radius:16px;
+        background:#ffffff20;
+        border:2px solid #ffffff20;
+    }
+
+    .map-notice img{
+        width:55px;
+        height:55px;
+        display:block;
+        margin:auto;
+    }
+
+    .map-notice div{
+        color:#ddd;
+        line-height:1.5;
+    }
+
+    #scrolly2 {
+        position: relative;
+        background-color: transparent;
+        padding: 1rem 0px;
+    }
+
+    .sticky-thing2 {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100vw;
+        max-width: 100vw;
+        margin: 0;
+        background-color: transparent;
+        z-index: 0;
+        top: 0vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: visible!important
+    }
+
+    .sticky-thing2 p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    #map1{
+        position:absolute;
+        width:100%;
+        height:100%;
+        margin-top:10%;
+    }
+
+    .map-legend{
+        position:absolute;
+        top:20%;
+        left:50%;
+        transform:translateX(-50%);
+        display:flex;
+        align-items:center;
+        gap:14px;
+        padding:10px 18px;
+        border-radius:30px;
+        background:rgba(20,20,20,.85);
+        backdrop-filter:blur(.5px);
+        color:white;
+        font-size:15px;
+        font-weight:600;
+        z-index:10;
+    }
+
+    .legend-gradient{
+        width:240px;
+        height:18px;
+        border-radius:999px;
+        background:linear-gradient(
+            to right,
+            #1A6688,
+            #3E97A5,
+            #7EBD9D,
+            #EEDB91,
+            #E7A04D,
+            #C46A38,
+            #864242
+        );
+
+        border:1px solid rgba(255,255,255,.35);
+    }
+
+    .span-colored {
+        padding: 0px 5px;}
+    
+    .year-selector{
+        position:absolute;
+        top:20%;
+        left:50%;
+        transform:translateX(-50%);
+        z-index:20;          /* Mayor que la leyenda */
+        display:none;
+        background:rgba(10,10,10,.88);
+        backdrop-filter:blur(6px);
+        padding:10px 14px;
+        border-radius:30px;
+        box-shadow:0 2px 12px rgba(0,0,0,.35);
+    }
+
+    .chips{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:8px;
+        align-items:center;
+    }
+
+    .chips-title{
+        font-weight:600;
+        margin-bottom:10px;
+        color:#fff;
+    }
+
+    .year-chip{
+        border:2px solid var(--chip);
+        background:rgba(255,255,255,.05);
+        color:white;
+        border-radius:18px;
+        padding:5px 12px;
+        cursor:pointer;
+        transition:.25s;
+        font-size:13px;
+        font-weight:500;
+    }
+
+    .year-chip:hover{
+        transform:translateY(-1px);
+    }
+
+    .year-chip.active{
+        background:var(--chip);
+        color:white;
+        box-shadow:0 0 0 2px rgba(255,255,255,.25);
+    }
+
+    .chips-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:10px;
+    }
+
+    .chip-actions button:hover{
+        background:rgba(255,255,255,.12);
+    }
+
+    .chip-actions{
+        display:flex;
+        justify-content:space-between;
+        margin-top:5px;
+        margin-bottom:5px;
+        color:#fff;
+        font-size:12px;
+        gap:8px;
+    }
+
+    .chip-actions button{
+        border:none;
+        padding:3px 5px;
+        border: .3px solid #ccc;
+        border-radius:6px;
+        cursor:pointer;
+        transition:.2s;
+    }
+
+    .fire-popup{
+        min-width:240px;
+        background:rgba(10,10,10,.88);
+        backdrop-filter:blur(8px);
+        color:white;
+        border-radius:16px;
+        padding:14px 16px;
+        font-family:inherit;
+    }
+
+    .fire-popup-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        margin-bottom:6px;
+    }
+
+    .fire-popup-country{
+        font-size:18px;
+        font-weight:700;
+    }
+
+    .fire-popup-date{
+        font-size:13px;
+        color:#cccccc;
+    }
+
+    .fire-popup-province{
+        color:#bdbdbd;
+        font-size:14px;
+    }
+
+    .fire-popup-divider{
+        height:1px;
+        background:rgba(255,255,255,.15);
+        margin:14px 0;
+    }
+
+    .fire-popup-footer{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-end;
+    }
+
+    .fire-popup-footer span{
+        font-size:12px;
+        color:#bbbbbb;
+    }
+
+    .fire-popup-area{
+        font-size:20px;
+        font-weight:700;
+        color:#E67A2E;
+    }
+    
+    .maplibregl-popup-content{
+        background:transparent !important;
+        box-shadow:none !important;
+        padding:0 !important;
+        border-radius:16px;
+    }
+
+    .maplibregl-popup-tip{
+        border-top-color:rgba(10,10,10,.88) !important;
+    }
+
+    .annotation{
+        position:absolute;
+        width:fit-content;
+        max-width:520px;
+        min-width:340px;
+        background:rgba(10,10,10,.90);
+        backdrop-filter:blur(8px);
+        border:1px solid rgba(255,255,255,.15);
+        border-radius:18px;
+        padding:22px;
+        color:white;
+        z-index:9999;
+        pointer-events:auto;
+        transition:
+            left .8s ease,
+            top .8s ease;
+    }
+
+    .annotation.hidden{
+        opacity:0;
+        transform:translateY(15px);
+    }
+
+    .annotation-header{
+        display:flex;
+        align-items:flex-start;
+        justify-content:space-between;
+        margin-top:10px;
+        gap:16px;
+        margin-bottom:16px;
+    }
+
+    #annotation-title{
+        flex:1;                 
+        font-size:24px;
+        font-weight:700;
+        line-height:1.2;
+        border-bottom: 1px solid rgba(255,255,255,.25);
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
+
+    #annotation-body{
+        font-size:19px;
+        line-height:1.65;
+    }
+
+    #annotation-title,
+    #annotation-body{
+        transition:
+            opacity .25s ease,
+            transform .25s ease;
+    }
+
+    #annotation-close{
+        position:absolute;
+        top:1px;
+        right:1px;
+        width:28px;
+        height:28px;
+        border:none;
+        border-radius:50%;
+        background:transparent;
+        color:#999;
+        font-size:22px;
+        line-height:1;
+        cursor:pointer;
+        transition:.2s;
+        z-index: 9999;
+    }
+
+    #annotation-close:hover{
+        color:white;
+        background:rgba(255,255,255,.08);
+    }
+
+    #annotation-dots{
+        display:flex;
+        gap:8px;
+        flex-shrink:0;         
+        margin-top:4px;
+        pointer-events:auto;
+    }
+
+    .annotation-dot{
+        width:12px;
+        height:12px;
+        border-radius:50%;
+        border:1px solid #ff9b47;
+        background:transparent;
+        pointer-events:auto;
+        cursor:pointer;
+        transition:.25s;
+    }
+
+    .fire-index{
+        position:absolute;
+        left:5%;
+        top:60%;
+        padding:10px;
+        transform:translateY(-50%);
+        z-index:999;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        background:rgba(10,10,10,.90)!important;
+        backdrop-filter:blur(8px);
+        color:white;
+        font-size:14px;
+    }
+
+    .fire-index-list{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .fire-index-toggle{
+        display:none;
+    }
+
+    .fire-country{
+        font-size:12px;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        color:#888;
+        margin-bottom:6px;
+    }
+
+    .fire-item{
+        display:flex;
+        align-items:center;
+        gap:10px;
+
+        cursor:pointer;
+
+        opacity:.8;
+        transition:.25s;
+    }
+
+    .fire-item:hover{
+        opacity:1;
+    }
+
+    .fire-dot{
+        width:12px;
+        height:12px;
+        border-radius:50%;
+        flex-shrink:0;
+    }
+
+    .fire-item.active{
+        opacity:1;
+    }
+
+    .fire-item.active .fire-dot{
+        transform:scale(1.4);
+        border:1px solid white;
+    }
+
+    @media (max-width:768px){
+
+        .paragraph {
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+        /* ---------- GRÁFICOS ---------- */
+
+        #scrolly {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            column-gap: 0;
+            position: relative;
+            background-color: transparent;
+            padding: 1rem 0px;
+        }
+
+        article {
+            grid-column: 1;
+            grid-row: 1;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .sticky-thing {
+            height: 100vh;
+            width: 100vw;
+            padding-left: 0;
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        #scrolly .step{
+            width:min(92vw,520px);
+            margin:0 auto 70vh auto;
+        }
+
+        .sticky-thing{
+            position:sticky;
+            top:0;
+            width:100%;
+            height:100vh;
+            padding-left:0;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            z-index:1;
+        }
+
+        #chart1{
+            width:90%;
+            height:90%;
+            margin:auto;
+        }
+
+        .step {
+            width: calc(100vw - 5rem);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50vh;
+            padding: 0.8rem;
+        }
+
+        .step p {
+            font-size: 1rem;
+        }
+
+        .step:last-child {
+            margin-bottom: 80vw;
+        }
+
+        .taula{
+            width:min(70vw, 20px);
+        }
+        
+
+        /* ---------- MAPA ---------- */
+
+        .sticky-thing2{
+            position:sticky;
+            top:0;
+            width:100%;
+            height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:0;
+            overflow:hidden;
+        }
+
+        #map1{
+            width:100%;
+            height:100%;
+            margin-top:0;
+        }
+
+        .map-legend{
+            flex-direction:column;
+            gap:8px;
+            width:min(80vw,250px);
+            text-align:center;
+            top:15%;
+        }
+
+        .legend-gradient{
+            width:100%;
+            height:10px;
+        }
+
+        .year-selector{
+            top:8%;
+            width:92vw;
+            border-radius:18px;
+            padding:10px;
+        }
+
+        .chips{
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .chip-actions{
+            font-size:10px;
+        }
+
+        .year-chip{
+            padding:4px 9px;
+            font-size:10px;
+        }
+
+        .annotation{
+
+            position:fixed;
+
+            left:50%!important;
+            top:auto!important;
+            bottom:20px;
+
+            transform:translateX(-50%);
+
+            width:calc(100vw - 30px);
+            max-width:600px;
+            min-width:0;
+
+            z-index:99999;
+        }
+
+        #annotation-title{
+            font-size:15px;
+            margin-bottom:0;
+        }
+
+        #annotation-body{
+            font-size:12px;
+            line-height:1.5;
+        }
+
+        .fire-index{
+            position:absolute;
+            left:16px;
+            margin-top:10vh;
+            transform:translateY(-50%); 
+            z-index:999;
+            flex-direction:column-reverse;
+            align-items:flex-start;
+            gap:10px;
+            background:transparent!important;
+            backdrop-filter:none;
+            font-size:13px;
+            max-width:min(80vw,300px);
+        }
+        
+        
+
+        .fire-index-toggle{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-shrink:0;
+            width:48px;
+            height:48px;
+            padding:0;
+            border:.2px solid #fff;
+            border-radius:50%;
+            background:rgba(10,10,10,.92);
+            color:#fff;
+            font-size:20px;
+            box-shadow:0 2px 12px rgba(0,0,0,.45);
+            cursor:pointer;
+        }
+
+        .fire-index-list{
+            max-height:0;
+            opacity:0;
+            overflow:hidden;
+            pointer-events:none;
+            gap:14px;
+            border-radius:16px;
+            background:rgba(10,10,10,.90);
+            backdrop-filter:blur(8px);
+            padding:0 14px;
+            transition:max-height .3s ease, opacity .3s ease, padding .3s ease;
+        }
+
+        .fire-index.expanded .fire-index-list{
+            max-height:50vh;
+            opacity:1;
+            overflow-y:auto;
+            pointer-events:auto;
+            padding:14px;
+        }
+
+        .fire-dot{
+            width:10px;
+            height:10px;
+        }
+}
+</style>
+
+<meta charset='utf-8'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.3.0/dist/maplibre-gl.css' />
+<script src='https://unpkg.com/maplibre-gl@5.3.0/dist/maplibre-gl.js'></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<script src="https://unpkg.com/pmtiles@4.3.0/dist/pmtiles.js"></script>
+
+<body>
+        <section class="paragraph">
+            <p>El verano suele llegar acompañado del buen tiempo, días en la playa y vacaciones, pero el calor también trae consigo sequías y olas de calor. Estas condiciones hacen que el paisaje europeo reúna los factores necesarios para que un pequeño foco pueda convertirse en un incendio forestal.</p>
+            <p>El estándar europeo considera que la «época de incendios» transcurre entre el 1 de junio y el 30 de septiembre, pero el aumento de temperaturas y las sequías están contribuyendo a que los grandes incendios no se limiten a los meses de verano.</p>
+            <p>Europa ha pasado de tener que lidiar con 1.194 incendios en 2016 a 10.403 sólo durante los seis primeros meses de 2026.</p>
+            <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/incendis/scroll_arrow.png"></img>
+        </section>
+        <section id="scrolly">
+            <div class="sticky-thing">
+                <div id="chart1"></div>
+            </div>
+            <article>
+            <div class="step chart1" data-step="1">
+                <p>El número de incendios en Europa no ha dejado de crecer durante la última década. El mayor salto se produjo entre 2021 y 2022, cuando se pasó de 6.629 a 12.672 incendios, casi el doble en un solo año. Desde entonces, las cifras se han mantenido muy por encima de los niveles registrados a comienzos de la década.</p>
+            </div>
+            <div class="step chart1" data-step="2">
+                <p>En los últimos años, los incendios no han quedado limitados a los <span style="color:#EA9942; font-weight:600;">meses de verano</span> y en casos concretos como febrero y marzo de 2019 o los meses de marzo de 2021, 2022, 2025 y 2026 se ha llegado a superar el número de incendios de los meses de verano de ese mismo año.</p>
+            </div>
+            <div class="step chart1" data-step="3">
+                <p>También cabe destacar que, con el cambio climático, el mes de octubre tiende a igualar temperaturas y condiciones climáticas similares a las de septiembre y esto eleva el riesgo de que se puedan producir incendios similares a los del verano.</p>
+            </div>
+            <div class="step chart1" data-step="4">
+                <p>Pero uno podría pensar que un mayor número de incendios no tendría por qué suponer más hectáreas (Ha) quemadas. Y hasta cierto punto tendría razón.</p>
+            </div>
+            <div class="step chart1" data-step="5">
+                <p>En 2020 hubo 5.602 incendios y se quemaron 919.533 Ha, mientras que en 2021, con 6.629 incendios se quemaron 919.049 Ha. Más de 1.000 incendios más en 2021, pero menos hectáreas quemadas que en 2020.</p>
+            </div>
+            <div class="step chart1" data-step="6">
+                <p>Por desgracia, el incremento en las cifras de incendios ha sido tan brusco en los últimos años que también se ha visto reflejado en el número de Ha quemadas: de 506.184 Ha en 2016 a más de 2 millones de Ha en 2025.</p>
+            </div>
+            <div class="step chart1" data-step="7">
+                <p>Entonces, ¿qué está provocando que cada año ardan tantas hectáreas? La mayor parte de la superficie quemada no se reparte entre miles de pequeños incendios, sino que se concentra en un número reducido de incendios de gran tamaño.</p>
+            </div>
+            <div class="step chart1" data-step="8">
+                <p>Según los estándares oficiales utilizados en España, se considera <span style="color:#b02821; font-weight:600;">Gran Incendio Forestal (GIF)</span> a todo incendio que supera las 500 hectáreas de superficie forestal quemada.</p>
+            </div>
+            <div class="step chart1" data-step="9">
+                <p>Salvo en 2016 y 2017, estos grandes incendios forestales representan entre el 2% y el 6% del total de incendios registrados cada año. Sin embargo, son responsables de más de la mitad de la superficie quemada en la mayoría de años.</p>
+            </div>
+            <div class="step chart1 taula" data-step="10" style="color:#fff; width:min(100vw, 700px);">
+                <p>Cifra total de incendios y grandes incendios forestales por año </p>
+                <table style="margin-top:0;padding-top:0;font-size:13px;text-align:center;">
+                    <thead>
+                        <tr>
+                        <th>Año</th>
+                        <th>Incendios</th>
+                        <th style="width:100px;">GIF</th>
+                        <th>Ha totales</th>
+                        <th>Ha quemadas por GIF</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>2016</td><td>1.194</td><td>228 (19,1 %)</td><td>506.184</td><td>352.830 (69,7 %)</td></tr>
+                    <tr><td>2017</td><td>2.733</td><td>396 (14,5 %)</td><td>1.256.594</td><td>956.759 (76,1 %)</td></tr>
+                    <tr><td>2018</td><td>1.138</td><td>60 (5,3 %)</td><td>198.993</td><td>102.295 (51,4 %)</td></tr>
+                    <tr><td>2019</td><td>3.299</td><td>186 (5,6 %)</td><td>533.407</td><td>251.864 (47,2 %)</td></tr>
+                    <tr><td>2020</td><td>5.602</td><td>282 (5,0 %)</td><td>919.533</td><td>543.127 (59,1 %)</td></tr>
+                    <tr><td>2021</td><td>6.629</td><td>231 (3,5 %)</td><td>919.049</td><td>597.316 (65,0 %)</td></tr>
+                    <tr><td>2022</td><td>12.672</td><td>367 (2,9 %)</td><td>1.300.001</td><td>713.738 (54,9 %)</td></tr>
+                    <tr><td>2023</td><td>8.377</td><td>215 (2,6 %)</td><td>804.663</td><td>433.280 (53,8 %)</td></tr>
+                    <tr><td>2024</td><td>18.391</td><td>555 (3,0 %)</td><td>1.798.548</td><td>837.800 (46,6 %)</td></tr>
+                    <tr><td>2025</td><td>21.578</td><td>534 (2,5 %)</td><td>2.172.169</td><td>1.271.969 (58,6 %)</td></tr>
+                    <tr><td>2026*</td><td>10.403</td><td>116 (1,1 %)</td><td>471.529</td><td>158.402 (33,6 %)</td></tr>
+                </tbody>
+                </table>
+                <p style="text-align:left;font-size:13px;">* Hasta inicios de julio</p>
+            </div>
+            <div class="step chart1" data-step="11">
+                <p>Especialmente en verano es sencillo que un pequeño incendio termine descontrolándose y convirtiéndose en un gran incendio forestal. Las altas temperaturas, las sequías, los bajos niveles de humedad y el viento crean las condiciones propicias para que un incendio se propague con rapidez. En zonas de difícil acceso o con una orografía compleja, las labores de extinción se complican y aumenta el riesgo de que el fuego alcance grandes dimensiones.</p>
+            </div>
+        </article>
+        </section>
+        <div class="map-notice">
+                <img src="https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/incendis/interactive_icon.png" alt="">
+                <div>
+                    <i>Puedes desplazarte, hacer zoom, filtrar por años, usar el índice lateral y hacer clic en el mapa para descubrir los incendios forestales en Europa.</i>
+                </div>
+            </div>
+        <section id="scrolly2">
+            <div class="sticky-thing2">
+                <div id="fire-index" class="fire-index">
+                    <button id="fire-index-toggle" class="fire-index-toggle" aria-label="Mostrar índice de incendios" aria-expanded="false">
+                        <span class="fire-index-toggle-icon">☰</span>
+                    </button>
+                    <div id="fire-index-list" class="fire-index-list"></div>
+                </div>
+                <div id="map1"></div>
+                <div class="map-legend">
+                    <span>← Menor riesgo</span>
+                    <div class="legend-gradient"></div>
+                    <span>Mayor riesgo →</span>
+                </div>
+                <div id="year-selector" class="year-selector">
+                    <div class="chips-header">
+                        <div class="chips-title">
+                            Filtrar por años:
+                        </div>
+                        <div class="chip-actions">
+                            <button id="allYears">Seleccionar todos</button>
+                            <button id="clearYears">Eliminar selección</button>
+                        </div>
+                    </div>
+                    <div class="chips">
+                        <button class="year-chip" data-year="2016" style="--chip:#001E26">2016</button>
+                        <button class="year-chip" data-year="2017" style="--chip:#173C39">2017</button>
+                        <button class="year-chip" data-year="2018" style="--chip:#29504A">2018</button>
+                        <button class="year-chip" data-year="2019" style="--chip:#517667">2019</button>
+                        <button class="year-chip" data-year="2020" style="--chip:#8F9A74">2020</button>
+                        <button class="year-chip" data-year="2021" style="--chip:#F4D58D">2021</button>
+                        <button class="year-chip" data-year="2022" style="--chip:#EA9942">2022</button>
+                        <button class="year-chip" data-year="2023" style="--chip:#D45E20">2023</button>
+                        <button class="year-chip" data-year="2024" style="--chip:#BF2304">2024</button>
+                        <button class="year-chip" data-year="2025" style="--chip:#8D0801">2025</button>
+                        <button class="year-chip" data-year="2026" style="--chip:#520905">2026</button>
+                    </div>
+                </div>
+                <div id="annotation" class="annotation hidden">
+                    <button id="annotation-close" aria-label="Cerrar">
+                        ×
+                    </button>
+                    <div class="annotation-header">
+                        <div id="annotation-title"></div>
+                        <div id="annotation-dots"></div>
+                    </div>
+                    <div id="annotation-body"></div>
+                </div>
+            </div>
+        <article>
+            <div class="step map1" data-step="12">
+                <p>Aunque los incendios forestales se registran en prácticamente toda Europa, no se distribuyen de forma homogénea. El Fire Weather Index (FWI) de Copernicus estima el riesgo de que se produzcan incendios a partir de datos meteorológicos y establece qué zonas tienen condiciones más favorables para que aparezca un gran fuego. </p>
+            </div>
+            <div class="step map1" data-step="13">
+                <p>Desde 2016 el riesgo ha incrementado ligeramente, pero los países mediterráneos son los que reúnen cada verano las condiciones más favorables para la propagación del fuego y concentran la mayor parte de los incendios registrados.</p>
+            </div>
+            <div class="step map1" data-step="14">
+                <p>Aun así, cada país presenta patrones distintos en los incendios de la última década que también se han visto afectados por otros factores como el relieve o los efectivos disponibles.</p>
+            </div>
+            <div class="step map1" data-step="15">
+                <p>Portugal es uno de los países más asolados por los incendios. La superficie quemada se concentra en la parte norte y el centro del país, puesto que es la zona en la que el relieve es más pronunciado y los bomberos tienen más dificultad para controlar la expansión del fuego.</p>
+            </div>
+            <div class="step annotations" data-step="16"></div>
+            <div class="step annotations" data-step="17"></div>
+            <div class="step annotations" data-step="18"></div>
+            <div class="step annotations" data-step="19"></div>
+            <div class="step annotations" data-step="20"></div>
+            <div class="step annotations" data-step="21"></div>
+            <div class="step annotations" data-step="22"></div>
+            <div class="step annotations" data-step="23"></div>
+            <div class="step map1" data-step="24">
+                <p>En España, los incendios se distribuyen de forma bastante heterogénea. El noroeste peninsular concentra claramente la mayor actividad, con una sucesión casi continua de incendios desde Galicia hasta la cornisa cantábrica. También destacan varios focos en el oeste de Castilla y León, Extremadura y algunos sectores del Sistema Central, mientras que el litoral mediterráneo presenta incendios más aislados y de menor extensión.</p>
+            </div>
+            <div class="step annotations" data-step="25"></div>
+            <div class="step annotations" data-step="26"></div>
+            <div class="step annotations" data-step="27"></div>
+            <div class="step annotations" data-step="28"></div>
+            <div class="step annotations" data-step="29"></div>
+            <div class="step annotations" data-step="30"></div>
+            <div class="step annotations" data-step="31"></div>
+            <div class="step annotations" data-step="32"></div>
+            <div class="step annotations" data-step="33"></div>
+            <div class="step annotations" data-step="34"></div>
+            <div class="step annotations" data-step="35"></div>
+            <div class="step annotations" data-step="36"></div>
+            <div class="step map1" data-step="37">
+                <p>Italia es uno de los países europeos con mayor número de incendios forestales. La mayor parte se concentra en el sur de la península y en las islas de Sicilia y Cerdeña, donde el clima mediterráneo, las altas temperaturas estivales y la abundancia de vegetación favorecen la aparición y propagación del fuego. En cambio, el norte del país registra una actividad mucho más reducida y dispersa, concentrada principalmente en las regiones costeras y en algunos sectores de los Apeninos.</p>
+            </div>
+            <div class="step annotations" data-step="38"></div>
+            <div class="step annotations" data-step="39"></div>
+            <div class="step annotations" data-step="40"></div>
+            <div class="step annotations" data-step="41"></div>
+            <div class="step annotations" data-step="42"></div>
+            <div class="step annotations" data-step="43"></div>
+            <div class="step annotations" data-step="44"></div>
+            <div class="step map1" data-step="45">
+                <p>Los países de la costa occidental de los Balcanes presentan uno de los patrones de incendios más continuos de Europa. Desde Croacia hasta Albania, los incendios se concentran principalmente en la franja costera del mar Adriático y en las zonas montañosas del interior, donde los veranos secos, el relieve abrupto y la abundante vegetación mediterránea favorecen la propagación del fuego. En cambio, las llanuras del interior registran una actividad mucho más reducida y dispersa.</p>
+            </div>
+            <div class="step annotations" data-step="46"></div>
+            <div class="step annotations" data-step="47"></div>
+            <div class="step map1" data-step="48">
+                <p>Los incendios en Grecia se reparten por todo el territorio, pero se concentran en el centro y el sur del país. Las regiones de Ática, Eubea (Evia) y el Peloponeso registran algunos de los episodios más frecuentes, a los que se suman numerosos incendios en las islas del mar Egeo.</p>
+            </div>
+            <div class="step map1" data-step="49">
+                <p>Los veranos secos y calurosos, junto con la vegetación mediterránea y el relieve montañoso, favorecen que el fuego se propague con rapidez en muchas de estas zonas. Como consecuencia, Grecia ha registrado algunos de los incendios más extensos y devastadores de Europa durante la última década, incluido el mayor incendio jamás registrado en la Unión Europea.</p>
+            </div>
+            <div class="step annotations" data-step="50"></div>
+            <div class="step annotations" data-step="51"></div>
+            <div class="step annotations" data-step="52"></div>
+            <div class="step annotations" data-step="53"></div>
+            <div class="step annotations" data-step="54"></div>
+            <div class="step annotations" data-step="55"></div>
+            <div class="step annotations" data-step="56"></div>
+            <div class="step annotations" data-step="57"></div>
+            <div class="step map1" data-step="58">
+                <p>Ucrania presenta un patrón de incendios muy diferente al del resto de Europa. Mientras que hasta 2021 los focos se distribuían de forma dispersa por distintas regiones del país, a partir de 2024 se observa una fuerte concentración en el este y el sur, siguiendo de cerca la línea del frente y la frontera con Rusia.</p>
+            </div>
+            <div class="step map1" data-step="59">
+                <p>La mayoría de estos incendios no responden únicamente a las condiciones meteorológicas del verano, sino también a las consecuencias directas del conflicto armado: explosiones, bombardeos, minas y munición generan numerosos focos de incendio que, en un contexto de altas temperaturas y sequía, pueden propagarse durante días.</p>
+            </div>
+            <div class="step map1" data-step="60">
+                <p>Como resultado, 2024 se convirtió en la peor temporada de incendios jamás registrada en Ucrania, con una superficie quemada sin precedentes y un patrón de incendios que refleja con claridad el avance de la guerra sobre el territorio.</p>
+            </div>
+            </article>
+        </section>
+        <section class="paragraph" style="margin-top:3%">
+            <p>Durante la última década, Europa ha experimentado un aumento tanto del número de incendios como de la superficie quemada. Los grandes incendios forestales ya no son episodios excepcionales limitados a unos pocos veranos especialmente secos, sino fenómenos cada vez más frecuentes que aparecen antes del verano, se prolongan hasta bien entrado el otoño y afectan a regiones donde hace apenas unos años eran mucho menos habituales. El aumento de las temperaturas, las sequías prolongadas y las olas de calor crean unas condiciones cada vez más favorables para que un pequeño foco pueda transformarse en un incendio de grandes dimensiones.</p>
+            <p>Sin embargo, el clima por sí solo no explica lo que ocurre. La Comisión Europea señala que el cambio climático actúa como un multiplicador del riesgo, favoreciendo la propagación del fuego, pero no suele ser el origen del incendio. Según un estudio del Centro Común de Investigación (JRC), en aquellos incendios cuya causa ha podido determinarse (aproximadamente la mitad) alrededor del 96 % fueron provocados por la actividad humana, ya sea de forma deliberada o por negligencia, mientras que únicamente el 4 % tuvo un origen natural, como la caída de un rayo.</p>
+            <p>Reducir el riesgo de los grandes incendios pasa, por tanto, por actuar en dos frentes. Por un lado, limitar el calentamiento global para evitar que las condiciones meteorológicas sigan favoreciendo incendios cada vez más extremos. Por otro, reforzar la prevención, la gestión forestal y la concienciación ciudadana para reducir el número de incendios que llegan a producirse. Porque, aunque no siempre sea posible evitar que un verano sea más cálido y seco, sí es posible reducir el número de fuegos que llegan a iniciarse y, con ello, limitar el impacto de unos incendios que cada año amenazan una mayor parte del territorio europeo.</p>
+        </section>
+        <div style="text-align:center;align-items: center;justify-content: center;">
+            <a href="https://www.buymeacoffee.com/MiraiData" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+        </div>
+        <section id="footer"></section>
+</body>
+<script>
+// INICIO
+//
+// Gràfic barres incendis per any
+    const data = [
+        { year: 2016, fires: 1194 },
+        { year: 2017, fires: 2733 },
+        { year: 2018, fires: 1138 },
+        { year: 2019, fires: 3299 },
+        { year: 2020, fires: 5602 },
+        { year: 2021, fires: 6629 },
+        { year: 2022, fires: 12672 },
+        { year: 2023, fires: 8377 },
+        { year: 2024, fires: 18391 },
+        { year: 2025, fires: 21578 },
+        { year: 2026, fires: 10403 }
+        ];
+    //
+    const monthlyData = [
+        { year: 2016, month: 2, fires: 5 },
+        { year: 2016, month: 3, fires: 11 },
+        { year: 2016, month: 4, fires: 47 },
+        { year: 2016, month: 5, fires: 28 },
+        { year: 2016, month: 6, fires: 66 },
+        { year: 2016, month: 7, fires: 214 },
+        { year: 2016, month: 8, fires: 456 },
+        { year: 2016, month: 9, fires: 189 },
+        { year: 2016, month: 10, fires: 62 },
+        { year: 2016, month: 11, fires: 14 },
+        { year: 2016, month: 12, fires: 102 },
+    //
+        { year: 2017, month: 1, fires: 23 },
+        { year: 2017, month: 2, fires: 55 },
+        { year: 2017, month: 3, fires: 133 },
+        { year: 2017, month: 4, fires: 151 },
+        { year: 2017, month: 5, fires: 49 },
+        { year: 2017, month: 6, fires: 170 },
+        { year: 2017, month: 7, fires: 608 },
+        { year: 2017, month: 8, fires: 897 },
+        { year: 2017, month: 9, fires: 220 },
+        { year: 2017, month: 10, fires: 373 },
+        { year: 2017, month: 11, fires: 47 },
+        { year: 2017, month: 12, fires: 7 },
+    //
+        { year: 2018, month: 1, fires: 7 },
+        { year: 2018, month: 2, fires: 42 },
+        { year: 2018, month: 3, fires: 53 },
+        { year: 2018, month: 4, fires: 84 },
+        { year: 2018, month: 5, fires: 76 },
+        { year: 2018, month: 6, fires: 110 },
+        { year: 2018, month: 7, fires: 273 },
+        { year: 2018, month: 8, fires: 158 },
+        { year: 2018, month: 9, fires: 154 },
+        { year: 2018, month: 10, fires: 98 },
+        { year: 2018, month: 11, fires: 60 },
+        { year: 2018, month: 12, fires: 23 },
+    //
+        { year: 2019, month: 1, fires: 108 },
+        { year: 2019, month: 2, fires: 642 },
+        { year: 2019, month: 3, fires: 737 },
+        { year: 2019, month: 4, fires: 263 },
+        { year: 2019, month: 5, fires: 45 },
+        { year: 2019, month: 6, fires: 138 },
+        { year: 2019, month: 7, fires: 209 },
+        { year: 2019, month: 8, fires: 408 },
+        { year: 2019, month: 9, fires: 341 },
+        { year: 2019, month: 10, fires: 288 },
+        { year: 2019, month: 11, fires: 85 },
+        { year: 2019, month: 12, fires: 35 },
+    //
+        { year: 2020, month: 1, fires: 236 },
+        { year: 2020, month: 2, fires: 513 },
+        { year: 2020, month: 3, fires: 548 },
+        { year: 2020, month: 4, fires: 699 },
+        { year: 2020, month: 5, fires: 131 },
+        { year: 2020, month: 6, fires: 210 },
+        { year: 2020, month: 7, fires: 637 },
+        { year: 2020, month: 8, fires: 1056 },
+        { year: 2020, month: 9, fires: 836 },
+        { year: 2020, month: 10, fires: 388 },
+        { year: 2020, month: 11, fires: 308 },
+        { year: 2020, month: 12, fires: 40 },
+    //
+        { year: 2021, month: 1, fires: 103 },
+        { year: 2021, month: 2, fires: 467 },
+        { year: 2021, month: 3, fires: 1404 },
+        { year: 2021, month: 4, fires: 682 },
+        { year: 2021, month: 5, fires: 241 },
+        { year: 2021, month: 6, fires: 304 },
+        { year: 2021, month: 7, fires: 870 },
+        { year: 2021, month: 8, fires: 1430 },
+        { year: 2021, month: 9, fires: 444 },
+        { year: 2021, month: 10, fires: 239 },
+        { year: 2021, month: 11, fires: 256 },
+        { year: 2021, month: 12, fires: 189 },
+    //
+        { year: 2022, month: 1, fires: 1385 },
+        { year: 2022, month: 2, fires: 1010 },
+        { year: 2022, month: 3, fires: 4716 },
+        { year: 2022, month: 4, fires: 916 },
+        { year: 2022, month: 5, fires: 770 },
+        { year: 2022, month: 6, fires: 724 },
+        { year: 2022, month: 7, fires: 1250 },
+        { year: 2022, month: 8, fires: 934 },
+        { year: 2022, month: 9, fires: 457 },
+        { year: 2022, month: 10, fires: 359 },
+        { year: 2022, month: 11, fires: 135 },
+        { year: 2022, month: 12, fires: 16 },
+    //
+        { year: 2023, month: 1, fires: 112 },
+        { year: 2023, month: 2, fires: 1282 },
+        { year: 2023, month: 3, fires: 1342 },
+        { year: 2023, month: 4, fires: 506 },
+        { year: 2023, month: 5, fires: 256 },
+        { year: 2023, month: 6, fires: 328 },
+        { year: 2023, month: 7, fires: 618 },
+        { year: 2023, month: 8, fires: 1194 },
+        { year: 2023, month: 9, fires: 1577 },
+        { year: 2023, month: 10, fires: 860 },
+        { year: 2023, month: 11, fires: 163 },
+        { year: 2023, month: 12, fires: 139 },
+    //
+        { year: 2024, month: 1, fires: 357 },
+        { year: 2024, month: 2, fires: 1352 },
+        { year: 2024, month: 3, fires: 1390 },
+        { year: 2024, month: 4, fires: 1561 },
+        { year: 2024, month: 5, fires: 786 },
+        { year: 2024, month: 6, fires: 832 },
+        { year: 2024, month: 7, fires: 2899 },
+        { year: 2024, month: 8, fires: 3839 },
+        { year: 2024, month: 9, fires: 3305 },
+        { year: 2024, month: 10, fires: 1234 },
+        { year: 2024, month: 11, fires: 711 },
+        { year: 2024, month: 12, fires: 125 },
+    //
+        { year: 2025, month: 1, fires: 367 },
+        { year: 2025, month: 2, fires: 1569 },
+        { year: 2025, month: 3, fires: 3845 },
+        { year: 2025, month: 4, fires: 2218 },
+        { year: 2025, month: 5, fires: 577 },
+        { year: 2025, month: 6, fires: 1729 },
+        { year: 2025, month: 7, fires: 4218 },
+        { year: 2025, month: 8, fires: 3602 },
+        { year: 2025, month: 9, fires: 2360 },
+        { year: 2025, month: 10, fires: 679 },
+        { year: 2025, month: 11, fires: 294 },
+        { year: 2025, month: 12, fires: 120 },
+    //
+        { year: 2026, month: 1, fires: 79 },
+        { year: 2026, month: 2, fires: 1011 },
+        { year: 2026, month: 3, fires: 4288 },
+        { year: 2026, month: 4, fires: 2567 },
+        { year: 2026, month: 5, fires: 818 },
+        { year: 2026, month: 6, fires: 1329 },
+        { year: 2026, month: 7, fires: 311 }
+        ];
+    //
+    //
+    const margin = { top: 20, right: 20, bottom: 60, left: 70 },
+      width = 720 - margin.left - margin.right,
+      height = 450 - margin.top - margin.bottom;
+    let isMonthly = false;
+    let currentChart = "yearly";
+    const svg = d3.select("#chart1")
+        .append("svg")
+        .attr("viewBox", `-80 -60 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+        .attr("width", "100%")
+        .attr("height", "100%");
+// =======================
+// ESCALAS
+// =======================
+    const xYear = d3.scaleBand()
+        .domain(data.map(d => d.year))
+        .range([0, width])
+        .padding(0.15);
+//
+    const yYear = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.fires)])
+        .nice()
+        .range([height, 0]);
+//
+    const xMonth = d3.scaleBand()
+        .domain(d3.range(1,13))
+        .range([0, xYear.bandwidth()])
+        .paddingInner(0.15);
+//
+    const yMonth = d3.scaleLinear()
+        .domain([0, d3.max(monthlyData, d => d.fires)])
+        .nice()
+        .range([height,0]);
+//
+    const chartTitle = svg.append("text")
+        .attr("x", width / 2)
+        .attr("y", -5)
+        .attr("text-anchor", "middle")
+        .attr("fill", "white")
+        .attr("font-size", "22px")
+        .attr("font-weight", "bold")
+        .text("Incendios por año");
+//
+    const yLabel = svg.append("text")
+        .attr("class","y-label")
+        .attr("transform","rotate(-90)")
+        .attr("x",-height/2)
+        .attr("y",-50)
+        .attr("text-anchor","middle")
+        .attr("fill","white")
+        .attr("font-size","16px")
+        .style("opacity",0)
+        .text("Nº incendios");
+//
+// =======================
+// TOOLTIP
+// =======================
+//
+    const tooltip = d3.select("body")
+        .append("div")
+        .attr("class","tooltip")
+        .style("position","absolute")
+        .style("background","rgba(20,20,20,.9)")
+        .style("color","white")
+        .style("padding","8px 12px")
+        .style("border-radius","6px")
+        .style("font-size","14px")
+        .style("pointer-events","none")
+        .style("opacity",0);
+//
+// =======================
+// EJES
+// =======================
+    const xAxis = svg.append("g")
+        .attr("transform",`translate(0,${height})`)
+        .call(d3.axisBottom(xYear));
+//
+    const yAxis = svg.append("g")
+        .call(
+            d3.axisLeft(yYear)
+                .ticks(6)
+                .tickFormat(d3.format(","))
+        );
+//
+    function styleAxis(){
+        xAxis.selectAll("text").attr("fill","white");
+        xAxis.selectAll("line").attr("stroke","white");
+        xAxis.select("path").attr("stroke","white");
+        yAxis.selectAll("text").attr("fill","white");
+        yAxis.selectAll("line").attr("stroke","white");
+        yAxis.select("path").attr("stroke","white");
+    }
+    styleAxis();
+//
+// =======================
+// CLIP PATHS
+// =======================
+//
+    const defs = svg.append("defs");
+    data.forEach(d=>{
+        defs.append("clipPath")
+            .attr("id",`clip-${d.year}`)
+            .append("rect")
+            .attr("x",xYear(d.year))
+            .attr("y",0)
+            .attr("width",xYear.bandwidth())
+            .attr("height",height);
+    });
+//
+// =======================
+// BARRAS ANUALES
+// =======================
+//
+    const annualBars = svg.selectAll(".annual-bar")
+        .data(data)
+        .join("rect")
+        .attr("class","annual-bar")
+        .attr("x",d=>xYear(d.year))
+        .attr("y",height)
+        .attr("width",xYear.bandwidth())
+        .attr("height",0)
+        .attr("rx",3)
+        .attr("fill","#457d75");
+    annualBars
+        .transition()
+        .duration(1200)
+        .delay((d,i)=>i*80)
+        .ease(d3.easeCubicOut)
+        .attr("y",d=>yYear(d.fires))
+        .attr("height",d=>height-yYear(d.fires))
+        .style("pointer-events","all");
+    annualBars
+    .on("mouseover",function(event,d){
+        if(isMonthly) return;
+        if(currentChart !== "yearly") return;
+        d3.select(this)
+            .transition()
+            .duration(150)
+            .attr("fill","#457d75")
+            .style("opacity",0.8);
+        tooltip
+            .interrupt()
+            .style("opacity",1)
+            .html(`
+                <strong>${d.year}</strong><br>
+                ${d.fires.toLocaleString("es-ES")} incendios
+                ${d.year===2026 ? "<br><span style='font-size:12px;color:#ccc'>*Datos hasta inicios de julio</span>" : ""}
+            `);
+    })
+    .on("mousemove",function(event){
+        if(isMonthly) return;
+        if(currentChart !== "yearly") return;
+        tooltip
+            .style("left",(event.pageX+15)+"px")
+            .style("top",(event.pageY-30)+"px");
+    })
+    .on("mouseout",function(){
+        if(currentChart !== "yearly") return;
+        d3.select(this)
+            .transition()
+            .duration(150)
+            .attr("fill","#457d75")
+            .style("opacity",1);
+        tooltip
+            .transition()
+            .duration(150)
+            .style("opacity",0);
+    });
+//
+// =======================
+// BARRAS MENSUALES
+// =======================
+//
+    const monthlyBars = svg.selectAll(".month-bar")
+        .data(monthlyData)
+        .join("rect")
+        .attr("class","month-bar")
+        .attr("clip-path",d=>`url(#clip-${d.year})`)
+        .attr("fill","#457d75")
+        .attr("rx",2)
+        .attr("opacity",0)
+        .style("pointer-events","none")
+        .attr("x",d=>xYear(d.year))
+        .attr("width",xYear.bandwidth())
+        .attr("y",d=>{
+            const total=data.find(e=>e.year===d.year);
+            return yYear(total.fires);
+        })
+        .attr("height",d=>{
+            const total=data.find(e=>e.year===d.year);
+            return height-yYear(total.fires);
+        });
+//
+    const monthHitboxes = svg.selectAll(".month-hitbox")
+        .data(monthlyData)
+        .join("rect")
+        .attr("class","month-hitbox")
+        .attr("x", d => xYear(d.year))
+        .attr("width", xYear.bandwidth())
+        .attr("y", 0)
+        .attr("height", height)
+        .attr("fill","transparent")
+        .attr("opacity",0)
+        .style("pointer-events","none");
+//
+    const summerMonths=[6,7,8,9];
+    const monthNames=[
+    "",
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+    ];
+    //
+    monthHitboxes
+    .on("mouseover",function(event,d){
+        if(!isMonthly) return;
+        if(currentChart !== "monthly") return;
+        d3.select(this)
+            .raise()
+            .transition()
+            .duration(150)
+            .attr("fill",summerMonths.includes(d.month) ? "#EA9942" : "#457d75");
+        tooltip
+            .interrupt()
+            .style("opacity",1)
+            .html(`
+                <strong>${monthNames[d.month]} ${d.year}</strong><br>
+                ${d.fires.toLocaleString("es-ES")} incendios
+                ${d.year===2026 && d.month>=7 ? "<br><span style='font-size:12px;color:#ccc'>*Datos hasta inicios de julio</span>" : ""}
+            `);
+    })
+    .on("mousemove",event=>{
+        if(!isMonthly) return;
+        if(currentChart !== "monthly") return;
+        tooltip
+            .style("left",(event.pageX+15)+"px")
+            .style("top",(event.pageY-30)+"px");
+    })
+    .on("mouseout",function(){
+        if(currentChart !== "monthly") return;
+        d3.select(this)
+            .transition()
+            .duration(150)
+            .attr("fill",d=>summerMonths.includes(d.month) ? "#EA9942" : "#457d75");
+        tooltip
+            .transition()
+            .duration(150)
+            .style("opacity",0);
+    });
+//
+// =======================
+// TRANSICIONES
+// =======================
+//
+    function phase1() {
+        annualBars
+            .raise()
+            .interrupt()
+            .transition()
+            .duration(500)
+            .ease(d3.easeCubicInOut)
+            .attr("opacity",0.55)
+            .attr("width",xYear.bandwidth()*0.90)
+            .attr("x",d=>xYear(d.year)+xYear.bandwidth()*0.05);
+        yLabel.transition().duration(400).style("opacity",1).text("Nº incendios");
+    }
+//
+    function phase2(){
+        tooltip
+            .interrupt()
+            .style("opacity",0);
+        annualBars
+            .interrupt()
+            .transition()
+            .duration(250)
+            .attr("opacity",0);
+        monthlyBars
+            .style("pointer-events","none")
+            .attr("opacity",1)
+            .attr("x",d=>xYear(d.year))
+            .attr("width",xYear.bandwidth())
+            .attr("y",d=>{
+                const total=data.find(e=>e.year===d.year);
+                return yYear(total.fires);
+            })
+            .attr("height",d=>{
+                const total=data.find(e=>e.year===d.year);
+                return height-yYear(total.fires);
+            })
+            .transition()
+            .duration(900)
+            .ease(d3.easeCubicInOut)
+            .attr("x",d=>xYear(d.year)+xMonth(d.month))
+            .attr("width",xMonth.bandwidth());
+        monthHitboxes
+            .attr("x", d => xYear(d.year))
+            .attr("width", xYear.bandwidth())
+            .transition()
+            .duration(900)
+            .attr("x", d => xYear(d.year)+xMonth(d.month))
+            .attr("width", xMonth.bandwidth());
+    }
+//
+    function phase3(){
+        yAxis
+            .transition()
+            .duration(900)
+            .call(
+                d3.axisLeft(yMonth)
+                    .ticks(6)
+                    .tickFormat(d3.format(","))
+            )
+            .on("end",styleAxis);
+        monthlyBars
+            .transition()
+            .duration(900)
+            .ease(d3.easeCubicOut)
+            .attr("y",d=>yMonth(d.fires))
+            .attr("height",d=>height-yMonth(d.fires))
+            .attr("fill",d=>
+                summerMonths.includes(d.month)
+                    ? "#EA9942" : "#457d75"
+            )
+            .on("end",function(){
+                monthHitboxes.style("pointer-events","all");
+            });
+    }
+//
+    function transitionToMonthly(){
+        if(isMonthly) return;
+        isMonthly=true;
+        currentChart = "monthly";
+        chartTitle.text("Incendios por mes");
+        yLabel.transition().duration(400).style("opacity",1).text("Nº incendios");
+        annualBars.style("pointer-events","none");
+        monthlyBars.style("pointer-events","all");
+        hoverRects.style("pointer-events","none");
+        tooltip
+            .interrupt()
+            .style("opacity",0);
+        phase1();
+        setTimeout(()=>{
+            phase2();
+        },550);
+        setTimeout(()=>{
+            phase3();
+        },1450);
+    }
+//
+    function transitionToYearly(){
+        if(!isMonthly) return;
+        isMonthly=false;
+        currentChart = "yearly";
+        chartTitle.text("Incendios por año");
+        yLabel.transition().duration(400).style("opacity",1).text("Nº incendios");
+        annualBars.style("pointer-events","all");
+        monthlyBars.style("pointer-events","none");
+        hoverRects.style("pointer-events","none");
+        tooltip
+            .interrupt()
+            .style("opacity",0);
+        monthHitboxes
+            .style("pointer-events","none");
+        yAxis
+            .transition()
+            .duration(700)
+            .call(
+                d3.axisLeft(yYear)
+                    .ticks(6)
+                    .tickFormat(d3.format(","))
+            )
+            .on("end",styleAxis);
+        monthlyBars
+            .interrupt()
+            .transition()
+            .duration(600)
+            .ease(d3.easeCubicInOut)
+            .attr("x",d=>xYear(d.year))
+            .attr("width",xYear.bandwidth())
+            .attr("y",d=>{
+                const total=data.find(e=>e.year===d.year);
+                return yYear(total.fires);
+            })
+            .attr("height",d=>{
+                const total=data.find(e=>e.year===d.year);
+                return height-yYear(total.fires);
+            })
+            .attr("opacity",0);
+        annualBars
+            .raise()
+            .interrupt()
+            .transition()
+            .delay(250)
+            .duration(700)
+            .ease(d3.easeCubicOut)
+            .attr("opacity",1)
+            .attr("width",xYear.bandwidth())
+            .attr("x",d=>xYear(d.year))
+            .attr("y",d=>yYear(d.fires))
+            .attr("height",d=>height-yYear(d.fires));
+        monthHitboxes.style("pointer-events","none");
+    }
+//
+// =======================
+// HA CREMADEs
+// =======================
+//
+    const burnedData = [
+        { year: 2016, area: 506184, gif: 228, haGif: 352830 },
+        { year: 2017, area: 1256594, gif: 396, haGif: 956759 },
+        { year: 2018, area: 198993, gif: 60, haGif: 102295 },
+        { year: 2019, area: 533407, gif: 186, haGif: 251864 },
+        { year: 2020, area: 919533, gif: 282, haGif: 543127 },
+        { year: 2021, area: 919049, gif: 231, haGif: 597316 },
+        { year: 2022, area: 1300001, gif: 367, haGif: 713738 },
+        { year: 2023, area: 804663, gif: 215, haGif: 433280 },
+        { year: 2024, area: 1798548, gif: 555, haGif: 837800 },
+        { year: 2025, area: 2172169, gif: 534, haGif: 1271969 },
+        { year: 2026, area: 471529, gif: 116, haGif: 158402 }
+    ];
+//
+    const stackedData = burnedData.map(d => ({
+        year: d.year,
+        gif: d.haGif,
+        other: d.area - d.haGif,
+        total: d.area,
+        gifCount: d.gif
+    }));
+//
+    const stack = d3.stack()
+        .keys(["gif", "other"]);
+//
+    const stackedSeries = stack(stackedData);
+    const yArea = d3.scaleLinear()
+        .domain([0, d3.max(burnedData, d => d.area)])
+        .nice()
+        .range([height,0]);
+//
+    const stackedBars = svg.append("g")
+        .attr("class", "stacked-bars")
+        .style("opacity", 0);
+//
+    const stackLayers = stackedBars
+        .selectAll("g")
+        .data(stackedSeries)
+        .join("g")
+        .attr("fill", d =>
+            d.key === "gif"
+                ? "#b02821"
+                : "#de6c31"
+        )
+        .style("opacity", .8);
+//
+    const stackRects = stackLayers
+        .selectAll("rect")
+        .data(d => d)
+        .join("rect")
+        .attr("x", d => xYear(d.data.year))
+        .attr("width", xYear.bandwidth())
+        .attr("y", height)
+        .attr("height", 0);
+//
+    const areaHover = svg.append("g")
+        .attr("class","area-hover")
+        .style("opacity",0);
+//
+    const hoverRects = areaHover
+        .selectAll("rect")
+        .data(stackedData)
+        .join("rect")
+        .attr("x", d => xYear(d.year))
+        .attr("width", xYear.bandwidth())
+        .attr("y", 0)
+        .attr("height", height)
+        .attr("fill","transparent")
+        .style("pointer-events","none");
+//
+    hoverRects
+        .style("pointer-events","none")
+        .on("mouseover", function(event,d){
+            if(currentChart !== "area" && currentChart !== "gif") return;
+            let html = `
+                <strong>${d.year}</strong><br>
+                ${d.total.toLocaleString("es-ES")} Ha quemadas
+                ${d.year===2026 ? "<br><span style='font-size:12px;color:#ccc'>*Datos hasta inicios de julio</span>" : ""}`
+            if(currentChart === "gif"){
+                html += `
+                    <br><span style="color:#b02821">
+                        ${d.gif.toLocaleString("es-ES")} Ha por GIF
+                    </span>
+                    <br>${d.gifCount} Grandes Incendios Forestales`;
+            }
+            tooltip
+                .interrupt()
+                .style("opacity",1)
+                .html(html);
+        })
+        .on("mousemove", function(event){
+            if(currentChart !== "area" && currentChart !== "gif") return;
+            tooltip
+                .style("left",(event.pageX+15)+"px")
+                .style("top",(event.pageY-30)+"px");
+        })
+        .on("mouseout", function(){
+            if(currentChart !== "area" && currentChart !== "gif") return;
+            tooltip
+                .transition()
+                .duration(150)
+                .style("opacity",0);
+        });
+    //
+    //
+    function transitionToBurnedArea(){
+        isMonthly = false;
+        currentChart = "area";
+        chartTitle.text("Ha quemadas");
+        //
+        annualBars.style("pointer-events","none");
+        monthlyBars.style("pointer-events","none");
+        hoverRects.style("pointer-events","all");
+        //
+        yLabel.transition()
+            .duration(400)
+            .style("opacity",1)
+            .attr("y", -60)
+            .text("Ha quemadas");
+        tooltip
+            .interrupt()
+            .style("opacity",0);
+        // Ocultar barras mensuales
+        monthlyBars
+            .style("pointer-events","none")
+            .transition()
+            .duration(500)
+            .attr("opacity",0);
+        monthHitboxes
+            .interrupt()
+            .style("pointer-events","none")
+            .attr("opacity",0);
+        // Mostrar únicamente la parte "other"
+        stackLayers
+            .attr("opacity", d => d.key === "other" ? 1 : 0);
+        stackedBars
+            .style("opacity",1);
+        // Adaptar eje Y
+        yAxis
+            .transition()
+            .duration(700)
+            .call(
+                d3.axisLeft(yArea)
+                    .ticks(6)
+                    .tickFormat(d3.format(","))
+            )
+            .on("end", styleAxis);
+        // Dibujar una única barra anual
+        stackRects
+            .interrupt()
+            .transition()
+            .duration(900)
+            .ease(d3.easeCubicOut)
+            .attr("y", function(d){
+                if(d3.select(this.parentNode).datum().key === "other"){
+                    return yArea(d.data.total);
+                }
+                return height;
+            })
+            .attr("height", function(d){
+                if(d3.select(this.parentNode).datum().key === "other"){
+                    return height - yArea(d.data.total);
+                }
+                return 0;
+            });
+                    hoverRects.style("pointer-events","all");
+                }
+//
+//
+    function transitionFromBurnedArea(){
+        stackRects
+            .transition()
+            .duration(500)
+            .attr("y", height)
+            .attr("height", 0);
+//
+        stackedBars
+            .transition()
+            .delay(500)
+            .style("opacity", 0);
+        transitionToMonthly();
+        currentChart = "monthly";
+        yAxis
+            .transition()
+            .duration(900)
+            .call(
+                d3.axisLeft(yMonth)
+                    .ticks(6)
+                    .tickFormat(d3.format(","))
+            )
+            .on("end", styleAxis);
+    }
+//
+    function transitionToGif(){
+        currentChart = "gif";
+        chartTitle.text("Ha quemadas por Grandes Incendios Forestales");
+    //
+        annualBars.style("pointer-events","none");
+        monthlyBars.style("pointer-events","none");
+        hoverRects.style("pointer-events","all");
+    //
+        yLabel
+            .transition()
+            .duration(400)
+            .style("opacity",1)
+            .attr("y", -60)
+            .text("Ha quemadas");
+        stackLayers
+            .transition()
+            .duration(600)
+            .attr("opacity",1);
+        stackRects
+            .interrupt()
+            .transition()
+            .duration(900)
+            .ease(d3.easeCubicOut)
+            .attr("y", d => yArea(d[1]))
+            .attr("height", d => yArea(d[0]) - yArea(d[1]))
+            .on("end", () => {
+                hoverRects.style("pointer-events","all");
+            });
+    }
+//
+    function transitionFromGif(){
+        currentChart = "area";
+        stackRects
+            .style("pointer-events","none")
+            .interrupt()
+            .transition()
+            .duration(700)
+            .ease(d3.easeCubicInOut)
+            .attr("y", function(d){
+                if(d3.select(this.parentNode).datum().key === "other"){
+                    return yArea(d.data.total);
+                }
+                return height;
+            })
+            .attr("height", function(d){
+                if(d3.select(this.parentNode).datum().key === "other"){
+                    return height - yArea(d.data.total);
+                }
+                return 0;
+            });
+        stackLayers
+            .transition()
+            .duration(500)
+            .attr("opacity", d => d.key === "other" ? 1 : 0);
+    }
+//
+// =======================
+// SCROLLAMA
+// =======================
+//
+    const scroller = scrollama();
+    scroller
+        .setup({
+            step: ".step",
+            offset: 0.5
+        })
+        .onStepEnter(response=>{
+            const step = +response.element.dataset.step;
+            switch(step){
+                case 2:
+                    transitionToMonthly();
+                    break;
+                case 5:
+                    transitionToBurnedArea();
+                    break;
+                case 8:
+                    transitionToGif();
+                    break;
+                }
+            })
+        .onStepExit(response=>{
+            const step = +response.element.dataset.step;
+            if(step===2 && response.direction==="up"){
+                transitionToYearly();
+            }
+            if(step === 5 && response.direction === "up"){
+                transitionFromBurnedArea();
+            }
+            if(step === 8 && response.direction === "up"){
+                transitionFromGif();
+            }
+            });
+        window.addEventListener("resize", () => {
+            scroller.resize();
+            });
+//
+// Mapa
+    let map;
+//
+//
+//
+    const fireIndex = [
+        {
+            country: "Portugal",
+            id: "madeira",
+            label: "Madeira",
+            year: 2016,
+            step: 16
+        },
+        {
+            country: "Portugal",
+            id: "pedrogao",
+            label: "Pedrogão Grande",
+            year: 2017,
+            step: 18
+        },
+        {
+            country: "Portugal",
+            id: "centro",
+            label: "Región del Centro",
+            year: 2017,
+            step: 20
+        },
+        {
+            country: "España",
+            id: "donana",
+            label: "Parque Natural Doñana",
+            year: 2017,
+            step: 25
+        },
+        {
+            country: "España",
+            id: "canarias",
+            label: "Gran Canaria",
+            year: 2019,
+            step: 27
+        },
+        {
+            country: "España",
+            id: "bermeja",
+            label: "Sierra Bermeja",
+            year: 2021,
+            step: 30
+        },
+        {
+            country: "España",
+            id: "noroeste",
+            label: "Noroeste España",
+            year: 2025,
+            step: 33
+        },
+        {
+            country: "Italia",
+            id: "sardenya",
+            label: "Cerdeña",
+            year: 2021,
+            step: 40
+        },
+        {
+            country: "Italia",
+            id: "sicilia",
+            label: "Sicilia y Calabria",
+            year: 2021,
+            step: 42
+        },
+        {
+            country: "Grecia",
+            id: "mati",
+            label: "Mati",
+            year: 2018,
+            step: 50
+        },
+        {
+            country: "Grecia",
+            id: "kineta",
+            label: "Kineta",
+            year: 2018,
+            step: 52
+        },
+        {
+            country: "Grecia",
+            id: "eubea",
+            label: "Eubea",
+            year: 2021,
+            step: 54
+        },
+        {
+            country: "Grecia",
+            id: "alexandroupoli",
+            label: "Alexandroupoli",
+            year: 2023,
+            step: 56
+        }
+    ];
+// INDICE
+//
+    const yearColors = {
+        2016:"#001E26",
+        2017:"#173C39",
+        2018:"#29504A",
+        2019:"#517667",
+        2020:"#8F9A74",
+        2021:"#F4D58D",
+        2022:"#EA9942",
+        2023:"#D45E20",
+        2024:"#BF2304",
+        2025:"#8D0801",
+        2026:"#520905"
+    };
+//
+    function buildFireIndex(){
+        const container = document.getElementById("fire-index-list");
+        let html="";
+        let currentCountry="";
+        fireIndex.forEach(f=>{
+            if(f.country!==currentCountry){
+                currentCountry=f.country;
+                html+=`
+                <div class="fire-country">
+                    ${currentCountry}
+                </div>
+                `;
+            }
+            html+=`
+            <div
+                class="fire-item"
+                data-group="${f.id}"
+                data-step="${f.step}">
+                <div
+                    class="fire-dot"
+                    style="background:${yearColors[f.year]}"
+                ></div>
+                <span>${f.label}</span>
+            </div>
+            `;
+        });
+        container.innerHTML=html;
+        document
+        .querySelectorAll(".fire-item")
+        .forEach(item=>{
+            item.onclick=()=>{
+                const step=item.dataset.step;
+                document
+                .querySelector(`.step[data-step="${step}"]`)
+                .scrollIntoView({
+                    behavior:"smooth",
+                    block:"center"
+                });
+            };
+        });
+    }
+//
+const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
+    if(fireIndexToggleBtn){
+        fireIndexToggleBtn.addEventListener("click", ()=>{
+            const idx = document.getElementById("fire-index");
+            const expanded = idx.classList.toggle("expanded");
+            fireIndexToggleBtn.setAttribute("aria-expanded", expanded);
+        });
+    }
+//
+    function updateFireIndex(group){
+        document
+        .querySelectorAll(".fire-item")
+        .forEach(item=>{
+            item.classList.toggle(
+                "active",
+                item.dataset.group===group
+            );
+        });
+    }
+//
+//  
+    const protocol = new pmtiles.Protocol();
+    maplibregl.addProtocol("pmtiles", protocol.tile);
+    //
+    fetch('https://geoserveis.icgc.cat/contextmaps/icgc_mapa_base_fosc.json')
+        .then(response => response.json()) 
+        .then(style => {
+            if (style.sources && style.sources.openmaptiles) {
+                style.sources.openmaptiles.attribution = "Mirai Data | ICGC - Mediambient Gencat - © OSM contributors";
+            }
+            style.layers.forEach(layer => {
+                if (layer.id === 'place-country-2'|| layer.id === 'place-country-3'|| layer.id === 'place-continent') {
+                    layer.layout = layer.layout || {};
+                    layer.layout.visibility = 'none';
+                }
+            });
+    //
+            map = new maplibregl.Map({
+                container: 'map1',
+                style: style,
+                attributionControl: false,
+                center: [12.990010, 56.488053],
+                zoom: 3.2
+            });
+    //
+            map.addControl(new maplibregl.AttributionControl({
+                customAttribution: style.sources.openmaptiles.attribution,
+                compact: true 
+            }));
+    //
+            map.scrollZoom.disable();
+            map.addControl(
+            new maplibregl.NavigationControl({
+                showZoom: true
+            })
+            );
+    //
+            map.on('load', () => {
+            map.addSource('overlay-image', {
+                type: 'image',
+                url: 'https://raw.githubusercontent.com/DataMirai/Copernicus/refs/heads/main/incendis/Fire_weather_index.png',
+                coordinates: [
+                    [-33, 71.2],  // esquina superior izquierda
+                    [ 53.7, 71.1],  // esquina superior derecha
+                    [ 53, 33.8],  // esquina inferior derecha
+                    [-33, 33.8]   // esquina inferior izquierda
+                    ]
+            });
+            map.addLayer({
+                id: 'overlay-layer',
+                type: 'raster',
+                source: 'overlay-image',
+                paint: {
+                    'raster-opacity': 0.8,
+                    'raster-opacity-transition': {
+                        duration: 300,
+                        delay: 0
+                    }
+                }
+            });
+    //
+        map.addSource("fires1", {
+            type: "vector",
+            url: "pmtiles:///incendis/incendis1.bin"
+        });
+//
+        map.addSource("fires2", {
+            type: "vector",
+            url: "pmtiles:///incendis/incendis2.bin"
+        });
+//
+            map.addLayer({
+                id: "fires1",
+                type: "fill",
+                source: "fires1",
+                "source-layer": "fires",
+                paint: {
+                    "fill-color": [
+                        "match",
+                        ["get", "year"],
+                        2016,"#001E26",
+                        2017,"#173C39",
+                        2018,"#29504A",
+                        2019,"#517667",
+                        2020,"#8F9A74",
+                        2021,"#F4D58D",
+                        2022,"#EA9942",
+                        2023,"#D45E20",
+                        "#cccccc"
+                    ],
+                    "fill-opacity": [
+                        "case",
+                        ["boolean", ["feature-state", "selected"], false],
+                        0.9,
+                        0.4
+                    ]
+                    }
+                });
+//
+            map.addLayer({
+                id: "fires2",
+                type: "fill",
+                source: "fires2",
+                "source-layer": "fires",
+                paint: {
+                    "fill-color": [
+                        "match",
+                        ["get", "year"],
+                        2024,"#BF2304",
+                        2025,"#8D0801",
+                        2026,"#520905",   
+                        "#cccccc"
+                    ],
+                    "fill-opacity": [
+                        "case",
+                        ["boolean", ["feature-state", "selected"], false],
+                        0.9,
+                        0.4
+                    ]
+                }
+            });
+//
+            map.addLayer({
+                id: "fire-highlight1",
+                type: "line",
+                source: "fires1",
+                "source-layer": "fires",
+                paint:{
+                    "line-color":"white",
+                    "line-width":1,
+                    "line-opacity":1
+                },
+                filter:["==",["get","id"],-1]
+            });
+//
+            map.addLayer({
+                id: "fire-highlight2",
+                type: "line",
+                source: "fires2",
+                "source-layer":"fires",
+                paint:{
+                    "line-color":"white",
+                    "line-width":1,
+                    "line-opacity":1
+                },
+                filter:["==",["get","id"],-1]
+            });
+//
+            // ========= POPUP =========
+//
+            const popup = new maplibregl.Popup({
+                closeButton: false,
+                closeOnClick: false
+            });
+//
+            function getFireColor(year){
+                const colors = {
+                    2016:"#001E26",
+                    2017:"#173C39",
+                    2018:"#29504A",
+                    2019:"#517667",
+                    2020:"#8F9A74",
+                    2021:"#F4D58D",
+                    2022:"#EA9942",
+                    2023:"#D45E20",
+                    2024:"#BF2304",
+                    2025:"#8D0801",
+                    2026:"#520905"
+                };
+                return colors[year] || "#cccccc";
+            }
+//
+            function showFirePopup(e){
+                const p = e.features[0].properties;
+                const fireColor = getFireColor(Number(p.year));
+                new maplibregl.Popup({
+                    maxWidth: "260px"
+                })
+                .setLngLat(e.lngLat)
+                .setHTML(`
+                    <div class="fire-popup">
+                        <div class="fire-popup-header">
+                            <div class="fire-popup-country">${p.COUNTRY}</div>
+                            <div class="fire-popup-date">${p.FIREDATE}</div>
+                        </div>
+                        <div class="fire-popup-province">
+                            ${p.PROVINCE}
+                        </div>
+                        <div class="fire-popup-divider"></div>
+                        <div class="fire-popup-footer">
+                            <span>Superficie quemada</span>
+                            <div class="fire-popup-area"
+                                style="color:${fireColor}">
+                                ${Number(p.AREA_HA).toLocaleString("es-ES")} ha
+                            </div>
+                        </div>
+                    </div>
+                    `)
+                .addTo(map);
+            }
+            map.on("click", "fires1", showFirePopup);
+            map.on("click", "fires2", showFirePopup);
+            map.on("click", "fires2", (e) => {
+                console.log(e.features[0].properties);
+            });
+            map.on("click", "fires1", (e) => {
+                console.log(e.features[0].properties);
+            });
+            function pointerOn(){
+                map.getCanvas().style.cursor = "pointer";
+            }
+            function pointerOff(){
+                map.getCanvas().style.cursor = "";
+            }
+            map.on("mouseenter", "fires1", pointerOn);
+            map.on("mouseenter", "fires2", pointerOn);
+            map.on("mouseleave", "fires1", pointerOff);
+            map.on("mouseleave", "fires2", pointerOff);
+            });
+        precalculateAnnotationHeights();
+        buildFireIndex();
+                });
+//
+    function showLegend(show){
+        d3.select(".map-legend")
+            .transition()
+            .duration(300)
+            .style("opacity", show ? 1 : 0);
+    }
+    //
+    //
+    const selectedYears = new Set();
+    document.querySelectorAll(".year-chip").forEach(chip => {
+        chip.addEventListener("click", () => {
+            const year = Number(chip.dataset.year);
+            if(selectedYears.has(year)){
+                selectedYears.delete(year);
+                chip.classList.remove("active");
+            }else{
+                selectedYears.add(year);
+                chip.classList.add("active");
+            }
+            filterYears([...selectedYears]);
+        });
+    });
+//
+    document.getElementById("allYears").onclick = () => {
+        selectedYears.clear();
+        document.querySelectorAll(".year-chip").forEach(chip=>{
+            chip.classList.add("active");
+            selectedYears.add(Number(chip.dataset.year));
+        });
+        filterYears([...selectedYears]);
+    };
+//
+    document.getElementById("clearYears").onclick = () => {
+        selectedYears.clear();
+        document.querySelectorAll(".year-chip")
+            .forEach(chip=>chip.classList.remove("active"));
+        filterYears([]);
+    };
+//
+    function filterYears(years){
+        const years1 = years.filter(y => y <= 2023);
+        const years2 = years.filter(y => y >= 2024);
+        if(years1.length){
+            map.setFilter(
+                "fires1",
+                [
+                    "in",
+                    ["get","year"],
+                    ["literal", years1]
+                ]
+            );
+        }else{
+            map.setFilter("fires1", ["==",["get","year"],-999]);
+        }
+        if(years2.length){
+            map.setFilter(
+                "fires2",
+                [
+                    "in",
+                    ["get","year"],
+                    ["literal", years2]
+                ]
+            );
+        }else{
+            map.setFilter("fires2", ["==",["get","year"],-999]);
+        }
+    }
+//
+//
+    function highlightFire(ids){
+        const opacityExpression = [
+            "case",
+            ["in", ["get","id"], ["literal", ids]],
+            0.9,
+            0.4
+        ];
+        map.setPaintProperty(
+            "fires1",
+            "fill-opacity",
+            opacityExpression
+        );
+        map.setPaintProperty(
+            "fires2",
+            "fill-opacity",
+            opacityExpression
+        );
+        map.setFilter(
+            "fire-highlight1",
+            ["in",["get","id"],["literal",ids]]
+        );
+        map.setFilter(
+            "fire-highlight2",
+            ["in",["get","id"],["literal",ids]]
+        );
+    }
+//
+    function resetFireStyle(){
+        if(!map.getLayer("fires1")) return;
+        map.setPaintProperty(
+            "fires1",
+            "fill-opacity",
+            0.9
+        );
+        map.setPaintProperty(
+            "fires2",
+            "fill-opacity",
+            0.9
+        );
+        map.setFilter(
+            "fire-highlight1",
+            ["==", ["get","id"], -1]
+        );
+        map.setFilter(
+            "fire-highlight2",
+            ["==", ["get","id"], -1]
+        );
+    }
+//
+    function clearHighlight(){
+        map.setPaintProperty("fires1","fill-opacity",0.9);
+        map.setPaintProperty("fires2","fill-opacity",0.9);
+        const empty = ["==",["get","id"],-1];
+        map.setFilter("fire-highlight1", empty);
+        map.setFilter("fire-highlight2", empty);
+    }
+//
+//
+    const annotations = {
+        madeira1: {
+            title: "Madeira · Portugal · 2016",
+            fireId: ["526", "372"],
+            step:1,
+            total:2,
+            steps: [16,17],
+            years: [2016,2016],
+            group: "madeira",
+            coords: [-16.979405,32.725615],
+            annotationOffset: {
+                x: 120,
+                y: -20
+            },
+            text: "En Madeira, una isla portuguesa situada en el Atlántico, la vegetación frondosa y la superfície tan montañosa hacen que cada incendio sea complicado de controlar. En la última década, más del 30% de la isla ha sido afectada por el fuego."
+        },
+//
+        madeira2: {
+            title: "Madeira · Portugal · 2016",
+            fireId: ["526", "372"],
+            step:2,
+            total:2,
+            steps: [16,17],
+            years: [2016,2016],
+            group: "madeira",
+            coords: [-16.979405,32.725615],
+            annotationOffset: {
+                x: 120,
+                y: -20
+            },
+            text: "Los incendios de 2016 son recordados como los más catastróficos de este siglo, puesto que llegaron a la capital, Funchal, y causaron 3 fallecidos, afectaron a 300 viviendas y obligaron a evacuar a centenares de personas."
+        },
+//
+        PedrogaoGrande1: {
+            title: "Pedrogão Grande · Portugal · 2017",
+            fireId: ["585","11536","11902","11955","11904","12516","14085","11033","12094","12623","13056","13672","13768","13213","12956","13749"],
+            step:1,
+            total:2,
+            steps: [18,19],
+            years: [2017,2017],
+            coords: [-8.138051,39.914604],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            group: "pedrogao",
+            text: "En 2017, el centro de Portugal sufrió la peor racha de incendios nunca registrada. En junio, los incendios de Pedrogão Grande dejaron 66 muertes y cientos de heridos."
+        },
+//
+        PedrogaoGrande2: {
+            title: "Pedrogão Grande · Portugal · 2017",
+            fireId: ["585","11536","11902","11955","11904","12516","14085","11033","12094","12623","13056","13672","13768","13213","12956","13749"],
+            step:2,
+            total:2,
+            steps: [18,19],
+            years: [2017,2017],
+            group: "pedrogao",
+            coords: [-8.138051,39.914604],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "La Comisión Europea activó el Mecanismo de Protección Civil para coordinar los recursos de emergencias y España, Francia, Marruecos e Italia desplegaron bomberos e hidroaviones para extinguir las llamas en las 46.769Ha quemadas."
+        },
+//
+        PortugalCentro1: {
+            title: "Región del Centro · Portugal · 2017",
+            fireId: [
+            "10239","11003","11019","11041","11071","12505","10165","11511","11482","11464","11584","11573","11956","12081","12423","12170","12302","12311","12398","12587","13979","12846","12759","12761","12787","12799","12948","13334","13685","10195","10298","13584","11387","11903","12266","12528","12642","12184","13580","10293","10313","11412","10983","11818","10170","12790","13183","13235","13268","11046","13404","13147","10155","10191","10993","11127","11157","11576","11773","11810","12554","11960","11961","11982","10981","12702","12903","11649","12915","12933","13150","11322","12532","13285","13350","13366","13388","13623","11304","13483","13493","13515","13630","11600","11599","14062","13835","13885","10193","10335","10356","11215","10944","11001","11208","11239","11254","11346","11376","11386","12714","11400","11415","11431","11480","11631","11736","11763","11802","11898","11933","12021","12024","12107","12127","12034","12229","12542","12464","12494","13042","12561","12600","12617","12620","12687","12814","12863","12888","12900","12912","12957","13273","13284","13287","13335","13477","13491","13661","13599","13600","13678","13704","13731","13753","13780","13808","13848","13960","14065","14131","13393","12117","11701"],
+            step:1,
+            total:3,
+            steps: [20,21,22],
+            years: [2017,2017,2017],
+            group: "centro",
+            coords: [-7.752482,40.459779],
+            annotationOffset: {
+                x: 150,
+                y: -40
+            },
+            text: "En octubre del mismo año, Portugal registró centenares de incendios simultáneos repartidos entre el norte y el centro del país. El episodio obligó a evacuar decenas de municipios y el fuego se cobró 51 víctimas."
+        },
+//
+        PortugalCentro2: {
+            title: "Región del Centro · Portugal · 2017",
+            fireId: [
+            "10239","11003","11019","11041","11071","12505","10165","11511","11482","11464","11584","11573","11956","12081","12423","12170","12302","12311","12398","12587","13979","12846","12759","12761","12787","12799","12948","13334","13685","10195","10298","13584","11387","11903","12266","12528","12642","12184","13580","10293","10313","11412","10983","11818","10170","12790","13183","13235","13268","11046","13404","13147","10155","10191","10993","11127","11157","11576","11773","11810","12554","11960","11961","11982","10981","12702","12903","11649","12915","12933","13150","11322","12532","13285","13350","13366","13388","13623","11304","13483","13493","13515","13630","11600","11599","14062","13835","13885","10193","10335","10356","11215","10944","11001","11208","11239","11254","11346","11376","11386","12714","11400","11415","11431","11480","11631","11736","11763","11802","11898","11933","12021","12024","12107","12127","12034","12229","12542","12464","12494","13042","12561","12600","12617","12620","12687","12814","12863","12888","12900","12912","12957","13273","13284","13287","13335","13477","13491","13661","13599","13600","13678","13704","13731","13753","13780","13808","13848","13960","14065","14131","13393","12117","11701"],
+            step:2,
+            total:3,
+            steps: [20,21,22],
+            years: [2017,2017,2017],
+            group: "centro",
+            coords: [-7.752482,40.459779],
+            annotationOffset: {
+                x: 150,
+                y: -40
+            },
+            text: "La extrema sequedad experimentada durante el verano se unió a los fuertes vientos del huracán Ophelia, que traía aire cálido y seco proviniente del norte de África, lo cual contribuyó a una expansión muy rápida del fuego y llegó a arrasar más de 322.000Ha."
+        },
+//
+        PortugalCentro3: {
+            title: "Región del Centro · Portugal · 2017",
+            fireId: [
+            "10239","11003","11019","11041","11071","12505","10165","11511","11482","11464","11584","11573","11956","12081","12423","12170","12302","12311","12398","12587","13979","12846","12759","12761","12787","12799","12948","13334","13685","10195","10298","13584","11387","11903","12266","12528","12642","12184","13580","10293","10313","11412","10983","11818","10170","12790","13183","13235","13268","11046","13404","13147","10155","10191","10993","11127","11157","11576","11773","11810","12554","11960","11961","11982","10981","12702","12903","11649","12915","12933","13150","11322","12532","13285","13350","13366","13388","13623","11304","13483","13493","13515","13630","11600","11599","14062","13835","13885","10193","10335","10356","11215","10944","11001","11208","11239","11254","11346","11376","11386","12714","11400","11415","11431","11480","11631","11736","11763","11802","11898","11933","12021","12024","12107","12127","12034","12229","12542","12464","12494","13042","12561","12600","12617","12620","12687","12814","12863","12888","12900","12912","12957","13273","13284","13287","13335","13477","13491","13661","13599","13600","13678","13704","13731","13753","13780","13808","13848","13960","14065","14131","13393","12117","11701"],
+            step:3,
+            total:3,
+            steps: [20,21,22],
+            years: [2017,2017,2017],
+            group: "centro",
+            coords: [-7.752482,40.459779],
+            annotationOffset: {
+                x: 150,
+                y: -40
+            },
+            text: "Sólo gracias a las lluvias los incendios pudieron ser controlados al cabo de varios días."
+        },
+        Donana1: {
+            title: "Parque Natural de Doñana · España · 2017",
+            fireId: ["11942"],
+            step:1,
+            total:2,
+            steps: [25,26],
+            years: [2017,2017],
+            group: "donana",
+            coords: [-6.602809,37.117941],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "Uno de los fuegos que marcaron la última década en España fue el incendio del Parque Natural de Doñana, justo a las puertas del parque nacional con el mismo nombre. El fuego comenzó el 25 de junio, pero los fuertes vientos hicieron que hasta el día 4 de julio no se considerase extinguido."
+        },
+        Donana2: {
+            title: "Parque Natural de Doñana · España · 2017",
+            fireId: ["11942"],
+            step:2,
+            total:2,
+            steps: [25,26],
+            years: [2017,2017],
+            group: "donana",
+            coords: [-6.602809,37.117941],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "A lo largo de esa semana, se quemaron 10.375Ha y más de 20.000 personas de la zona fueron confinadas en sus casas."
+        },
+        canarias1: {
+            title: "Gran Canaria · España · 2019",
+            fireId: ["18502","16531"],
+            step:1,
+            total:3,
+            steps: [27,28,29],
+            years: [2019,2019,2019],
+            group: "canarias",
+            coords: [-15.616977,28.022193],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "En 2019, Gran Canaria sufrió una serie de incendios que quemaron cerca del 6% de la isla. El 10 de agosto, la imprudencia de un trabajador causó un incendio en el municipio de Artenara y en pocos días se propagó hasta quemar 1.264Ha."
+        },
+        canarias2: {
+            title: "Gran Canaria · España · 2019",
+            fireId: ["18502","16531"],
+            step:2,
+            total:3,
+            steps: [27,28,29],
+            years: [2019,2019,2019],
+            group: "canarias",
+            coords: [-15.616977,28.022193],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "Cuando los bomberos ya habían controlado este primer incendio, el 17 de agosto se declaró otro en una zona muy próxima, esta vez causado por un fallo en el cableado de una torre de alta tensión. La ola de calor que hubo durante esos días y los fuertes vientos obtaculizaron los esfuerzos por contener el fuego; en algunas zonas las llamas llegaron a medir 50m de altura e hicieron que algunas áreas fueran inaccesibles para los hidroaviones."
+        },
+        canarias3: {
+            title: "Gran Canaria · España · 2019",
+            fireId: ["18502","16531"],
+            step:3,
+            total:3,
+            steps: [27,28,29],
+            years: [2019,2019,2019],
+            group: "canarias",
+            coords: [-15.616977,28.022193],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "A medida que pasaron los días, las condiciones meteorológicas fueron mejorando y los bomberos pudieron controlar las llamas. En total se quemaron 8.867Ha y los alrededores de Risco Caído y las Montañas Sagradas de Gran Canaria se vieron afectadas, justamente un mes después de que el sitio fuera declarado Patrimonio de la Humanidad por la UNESCO."
+        },
+        bermeja1: {
+            title: "Sierra Bermeja · España · 2021",
+            fireId: ["55350"],
+            step:1,
+            total:3,
+            steps: [30,31,32],
+            years: [2021,2021,2021],
+            group: "bermeja",
+            coords: [-5.127758,36.508963],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "En septiembre de 2021, un incendio declarado en Sierra Bermeja, en la provincia de Málaga, se convirtió en uno de los incendios más destacados de la década en España. El fuego se inició el 8 de septiembre, presuntamente por un origen intencionado, y las altas temperaturas, la baja humedad y las fuertes rachas de viento favorecieron una rápida propagación por un terreno muy escarpado."
+        },
+        bermeja2: {
+            title: "Sierra Bermeja · España · 2021",
+            fireId: ["55350"],
+            step:2,
+            total:3,
+            steps: [30,31,32],
+            years: [2021,2021,2021],
+            group: "bermeja",
+            coords: [-5.127758,36.508963],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "La intensidad del incendio llegó a generar un comportamiento extremo, con columnas convectivas y focos secundarios que dificultaron enormemente las labores de extinción. Durante los primeros días fue necesario evacuar a miles de personas de varios municipios y más de un millar de efectivos participaron en las tareas para contener las llamas."
+        },
+        bermeja3: {
+            title: "Sierra Bermeja · España · 2021",
+            fireId: ["55350"],
+            step:3,
+            total:3,
+            steps: [30,31,32],
+            years: [2021,2021,2021],
+            group: "bermeja",
+            coords: [-5.127758,36.508963],
+            annotationOffset: {
+                x: 100,
+                y: 0
+            },
+            text: "En total ardieron 9.296 hectáreas, la mayoría dentro del paraje natural de Sierra Bermeja, y un bombero forestal falleció mientras trabajaba en las labores de extinción. Fue además el primer incendio en España catalogado oficialmente como un incendio de sexta generación, una nueva tipología de incendios caracterizada por su comportamiento extremo y su capacidad para alterar las condiciones atmosféricas que los rodean."
+        },
+        noroeste1: {
+            title: "Noroeste de España · España · 2025",
+            fireId: ["276568","276709","276803","276930","276954","277103","277104","277115","277326","277330","277333","277676","277677","277678","277679","277900","277901","277904","277918","277921","277922","277928","277936","277940","277944","277945","277948","277952","277953","277955","278268","278330","278334","278339","278346","278347","278348","278422","278423", "278425","278475","278477","278478","278479","278481","278483","278485","278487","278488","278489","278490","278491", "278498","278504","278513","278554","278555","278656","278658","278752","278846","278847","278853","278854","278908", "278909","278911","278912","278913","278914","278916","278917","278918","278920","278921","278950","278951","279039", "279040","279048","279050","279091","279194","279206","279207","279208","279209","279210","279211","279212","279213", "279218","279225","279306","279307","279308","279319","279337","279338","279339","279340","279341","279368","279372", "279373","279378","279404","279417","279421","279427","279431","279503","279504","279568","279586","279593","279595", "279596","279600","279663","279664","279665","279666","279671","279672","279673","279711","279713","279714","279766","279768","279772","279773","279776","279781","279784","279795","279801","280108","280228","280829","281040"],
+            step:1,
+            total:4,
+            steps: [33,34,35,36],
+            years: [2025,2025,2025,2025],
+            group: "noroeste",
+            coords: [-6.137385,42.259355],
+            annotationOffset: {
+                x: 180,
+                y: 0
+            },
+            text: "En agosto de 2025, una intensa ola de calor, unida a la sequía acumulada y a fuertes rachas de viento, desencadenó una de las peores temporadas de incendios registradas en España. En apenas unos días se declararon decenas de grandes incendios, especialmente en Galicia y Castilla y León, que obligaron a evacuar a miles de personas y movilizaron a cientos de efectivos de extinción."
+        },
+        noroeste2: {
+            title: "Noroeste de España · España · 2025",
+            fireId: ["276568","276709","276803","276930","276954","277103","277104","277115","277326","277330","277333","277676","277677","277678","277679","277900","277901","277904","277918","277921","277922","277928","277936","277940","277944","277945","277948","277952","277953","277955","278268","278330","278334","278339","278346","278347","278348","278422","278423", "278425","278475","278477","278478","278479","278481","278483","278485","278487","278488","278489","278490","278491", "278498","278504","278513","278554","278555","278656","278658","278752","278846","278847","278853","278854","278908", "278909","278911","278912","278913","278914","278916","278917","278918","278920","278921","278950","278951","279039", "279040","279048","279050","279091","279194","279206","279207","279208","279209","279210","279211","279212","279213", "279218","279225","279306","279307","279308","279319","279337","279338","279339","279340","279341","279368","279372", "279373","279378","279404","279417","279421","279427","279431","279503","279504","279568","279586","279593","279595", "279596","279600","279663","279664","279665","279666","279671","279672","279673","279711","279713","279714","279766","279768","279772","279773","279776","279781","279784","279795","279801","280108","280228","280829","281040"],
+            step:2,
+            total:4,
+            steps: [33,34,35,36],
+            years: [2025,2025,2025,2025],
+            group: "noroeste",
+            coords: [-6.137385,42.259355],
+            annotationOffset: {
+                x: 180,
+                y: 0
+            },
+            text: "Las provincias de Ourense, Zamora y León concentraron los incendios de mayor extensión, aunque también se registraron grandes fuegos en Cáceres, Salamanca, Palencia y Badajoz."
+        },
+        noroeste3: {
+            title: "Noroeste de España · España · 2025",
+            fireId: ["277940", "278475", "278477", "278268", "278504", "278348", "277944","278481"],
+            step:3,
+            total:4,
+            steps: [33,34,35,36],
+            years: [2025,2025,2025,2025],
+            group: "noroeste",
+            coords: [-6.312976,42.455564], 
+            annotationOffset: {
+                x: 150,
+                y: 0
+            },
+            text: "El incendio más extenso comenzó el 10 de agosto en Uña de Quintana (Zamora) y terminó afectando también a la provincia de León, donde quemó 40.081 hectáreas. En los días siguientes se sucedieron otros grandes incendios en Rúa (37.179 ha), Veiga (25.953 ha), Manzaneda (24.583 ha) y Oímbra (24.471 ha), todos ellos en la provincia de Ourense, así como en Benuza (26.241 ha) y Burón (19.112 ha), en León."
+        },
+        noroeste4: {
+            title: "Noroeste de España · España · 2025",
+            fireId: ["277940", "278475", "278477", "278268", "278504", "278348", "277944","278481"],
+            step:4,
+            total:4,
+            steps: [33,34,35,36],
+            years: [2025,2025,2025,2025],
+            group: "noroeste",
+            coords: [-6.312976,42.455564], 
+            annotationOffset: {
+                x: 150,
+                y: 0
+            },
+            text: "En conjunto, esta sucesión de incendios convirtió al noroeste peninsular en el principal foco de la crisis, dejando una de las mayores superficies quemadas de la historia reciente de España."
+        },
+        suritalia1: {
+            title: "Sur de Italia · Italia · 2021",
+            fireId: ["52155","51541", "51299","52270","51984","50908","51333","52171","51974","52120","52539","50044","50067","50087","50209","50210","50211","50218","50233","50250","52525","51305","50515","50455","50687","52269","51394","51527","51563","51653","51407","51747","52162","50990","52163","52533","52534","52118","53116","52742","52472","54117","50073","52268","52111","51787","52441","53041","52478"],
+            step:1,
+            total:2,
+            steps: [38,39],
+            years: [2021,2021],
+            group: "suritalia",
+            coords: [11.839659,38.709953],
+            annotationOffset: {
+                x: -150,
+                y: -100
+            },
+            text: "En el verano de 2021, una intensa ola de calor hizo que los incendios se multiplicaran por todo el sur de Italia. Las altas temperaturas, la sequía y el viento favorecieron la rápida propagación de las llamas, obligando a evacuar a miles de personas y movilizando a cientos de bomberos durante varias semanas."
+        },
+        suritalia2: {
+            title: "Sur de Italia · Italia · 2021",
+            fireId: ["52155","51541", "51299","52270","51984","50908","51333","52171","51974","52120","52539","50044","50067","50087","50209","50210","50211","50218","50233","50250","52525","51305","50515","50455","50687","52269","51394","51527","51563","51653","51407","51747","52162","50990","52163","52533","52534","52118","53116","52742","52472","54117","50073","52268","52111","51787","52441","53041","52478"],
+            step:2,
+            total:2,
+            steps: [38,39],
+            years: [2021,2021],
+            group: "suritalia",
+            coords: [11.839659,38.709953], 
+            annotationOffset: {
+                x: -150,
+                y: -100
+            },
+            text: "Sicilia, Calabria y Cerdeña fueron las regiones más afectadas, donde numerosos incendios llegaron a propagarse de forma simultánea y dificultaron las labores de extinción."
+        },
+        sardenya1: {
+            title: "Cerdeña · Italia · 2021",
+            fireId: ["50908", "50686"],
+            step:1,
+            total:2,
+            steps: [40,41],
+            years: [2021,2021],
+            group: "sardenya",
+            coords: [8.681902,40.284508],
+            annotationOffset: {
+                x: 150,
+                y: 0
+            },
+            text: "El incendio de mayor extensión comenzó el 24 de julio en Bonarcado, en la isla de Cerdeña, y quemó 13.278 hectáreas. Las altas temperaturas, los fuertes vientos de siroco y la vegetación extremadamente seca favorecieron una propagación explosiva que obligó a evacuar a unas 800 personas y afectó a varios municipios del macizo de Montiferru."
+        },
+        sardenya2: {
+            title: "Cerdeña · Italia · 2021",
+            fireId: ["50908", "50686"],
+            step:2,
+            total:2,
+            steps: [40,41],
+            years: [2021,2021],
+            group: "sardenya",
+            coords: [8.681902,40.284508],
+            annotationOffset: {
+                x: 150,
+                y: 0
+            },
+            text: "La magnitud del incendio llevó a Italia a solicitar ayuda al Mecanismo Europeo de Protección Civil, que movilizó aviones anfibios de Francia y Grecia para colaborar en las tareas de extinción."
+        },
+        sicilia1: {
+            title: "Sicilia y Calabria · Italia · 2021",
+            fireId: ["52155", "51974","51536"],
+            step:1,
+            total:2,
+            steps: [42,43],
+            years: [2021,2021],
+            group: "sicilia",
+            coords: [15.175052,37.841740],
+            annotationOffset: {
+                x: -150,
+                y: -250
+            },
+            text: "Apenas unos días después, el 4 de agosto, se declararon otros dos grandes incendios en San Mauro Castelverde, en Sicilia (9.778 hectáreas), y en San Lorenzo, en Calabria (7.096 hectáreas). Ambos se produjeron en plena ola de calor que afectó al sur de Italia, con temperaturas cercanas a los 49 °C y una vegetación extremadamente seca."
+        },
+        sicilia2: {
+            title: "Sicilia y Calabria · Italia · 2021",
+            fireId: ["52155", "51974","51536"],
+            step:2,
+            total:2,
+            steps: [42,43],
+            years: [2021,2021],
+            group: "sicilia",
+            coords: [15.175052,37.841740],
+            annotationOffset: {
+                x: -150,
+                y: -250
+            },
+            text: "En Sicilia, el incendio avanzó por las montañas del Parque de las Madonie y obligó a desplegar numerosos medios aéreos, mientras que en Calabria el fuego afectó extensas masas forestales y terrenos agrícolas. La simultaneidad de cientos de incendios repartidos por ambas regiones complicó las labores de extinción durante varios días."
+        },
+        suritalia3: {
+            title: "Sur de Italia · Italia · 2021",
+            fireId: ["52155", "51974","51536","50908", "50686"],
+            step:1,
+            total:1,
+            steps: [44],
+            years: [2021],
+            group: "suritalia",
+            coords: [11.839659,38.709953],
+            annotationOffset: {
+                x: -150,
+                y: -100
+            },
+            text: "En apenas dos semanas, estos tres incendios arrasaron más de 30.000 hectáreas de superficie forestal y agrícola, convirtiéndose en los incendios de mayor extensión registrados en Italia."
+        },
+        balcanes1: {
+            title: "Costa adriática · Balcanes · 2017",
+            fireId: [],
+            step:1,
+            total:2,
+            steps: [46,47],
+            years: [2017,2017],
+            group: "balcanes",
+            coords: [20.194159,43.436505], 
+            annotationOffset: {
+                x: 150,
+                y: -200
+            },
+            text: "Entre 2016 y junio de 2026, Croacia, Bosnia y Herzegovina, Montenegro y Albania registraron incendios que se repiten en las mismas regiones año tras año, especialmente en la costa dálmata croata, el sur de Bosnia, el litoral montenegrino y el norte de Albania."
+        },
+        balcanes2: {
+            title: "Costa adriática · Balcanes · 2017",
+            fireId: [],
+            step:2,
+            total:2,
+            steps: [46,47],
+            years: [2017,2017],
+            group: "balcanes",
+            coords: [20.194159,43.436505], 
+            annotationOffset: {
+                x: 150,
+                y: -100
+            },
+            text: "Aunque la mayoría afectan superficies relativamente reducidas, algunos veranos especialmente cálidos y secos dieron lugar a incendios de gran extensión, como los que amenazaron la ciudad de Split (Croacia) en 2017, los incendios que afectaron a la costa de Montenegro ese mismo verano o los registrados en Herzegovina y el sur de Albania durante las olas de calor de 2021 y 2022."
+        },
+        mati1: {
+            title: "Mati · Grecia · 2018",
+            fireId: ["15060"],
+            step:1,
+            total:2,
+            steps: [50,51],
+            years: [2018,2018],
+            group: "mati",
+            coords: [24.037609,38.055146],
+            annotationOffset: {
+                x: 150,
+                y: -100
+            },
+            text: "El 23 de julio de 2018, una combinación de fuertes vientos, altas temperaturas y varios focos simultáneos provocó una de las mayores tragedias de la historia reciente de Grecia. El incendio se propagó desde el monte Penteli hasta la localidad costera de Mati en apenas unas horas, dejando a miles de personas sin tiempo para evacuar."
+        },
+        mati2: {
+            title: "Mati · Grecia · 2018",
+            fireId: ["15060"],
+            step:2,
+            total:2,
+            steps: [50,51],
+            years: [2018,2018],
+            group: "mati",
+            coords: [24.037609,38.055146],
+            annotationOffset: {
+                x: 150,
+                y: -100
+            },
+            text: "Muchas intentaron refugiarse en la playa o escapar por carretera, pero el avance del fuego bloqueó las vías de salida. En total murieron 104 personas y más de un centenar resultaron heridas, convirtiéndose en el incendio forestal más letal registrado en Europa en lo que va de siglo."
+        },
+        kineta1: {
+            title: "Kineta · Grecia · 2018",
+            fireId: ["14384", "15060"],
+            step:1,
+            total:2,
+            steps: [52,53],
+            years: [2018,2018],
+            group: "kineta",
+            coords: [23.761625,37.979446], 
+            annotationOffset: {
+                x: 150,
+                y: 100
+            },
+            text: "Mientras el incendio de Mati avanzaba por el este de la región de Ática, otro gran incendio se declaró ese mismo día en Kineta, al oeste de Atenas. La simultaneidad de ambos incendios obligó a repartir los recursos de extinción y puso de manifiesto la vulnerabilidad del área metropolitana de la capital griega durante los episodios de calor extremo."
+        },
+        kineta2: {
+            title: "Kineta · Grecia · 2018",
+            fireId: ["14384", "15060"],
+            step:2,
+            total:2,
+            steps: [52,53],
+            years: [2018,2018],
+            group: "kineta",
+            coords: [23.761625,37.979446], 
+            annotationOffset: {
+                x: 150,
+                y: 100
+            },
+            text: "Aunque el incendio de Kineta tuvo un impacto humano mucho menor, quemó 5.568 hectáreas de bosque y obligó a evacuar varias localidades, convirtiéndose en el mayor incendio registrado ese verano en Grecia."
+        },
+        eubea1: {
+            title: "Eubea · Grecia · 2021",
+            fireId: ["213578"],
+            step:1,
+            total:2,
+            steps: [54,55],
+            years: [2021,2021],
+            group: "eubea",
+            coords: [22.904831,38.749200],
+            annotationOffset: {
+                x: -300,
+                y: 100
+            },
+            text: "En el verano de 2021, Grecia sufrió una intensa ola de calor con temperaturas que superaron los 45 °C durante varios días consecutivos. Estas condiciones favorecieron la aparición de numerosos incendios, entre ellos el que afectó a la isla de Eubea (Evia)."
+        },
+        eubea2: {
+            title: "Eubea · Grecia · 2021",
+            fireId: ["213578"],
+            step:2,
+            total:2,
+            steps: [54,55],
+            years: [2021,2021],
+            group: "eubea",
+            coords: [22.904831,38.749200],
+            annotationOffset: {
+                x: -300,
+                y: 100
+            },
+            text: "Las llamas avanzaron durante más de una semana a través de extensos pinares y obligaron a evacuar decenas de pueblos, muchos de ellos únicamente por mar. En total se quemaron 51.881 hectáreas, convirtiéndose en uno de los mayores incendios registrados en el Mediterráneo durante el siglo XXI."
+        },
+        alexandroupoli1: {
+            title: "Alexandroupoli · Grecia · 2023",
+            fireId: ["218736"],
+            step:1,
+            total:2,
+            steps: [56,57],
+            years: [2023,2023],
+            group: "alexandroupoli",
+            coords: [26.350018,41.007097],
+            annotationOffset: {
+                x: 0,
+                y: 100
+            },
+            text: "Dos años después, en agosto de 2023, otro incendio de dimensiones excepcionales se declaró en la región de Alexandroupoli, al noreste de Grecia. Impulsado por una prolongada sequía y fuertes vientos, el fuego atravesó el bosque de Dadia, una de las áreas protegidas más importantes del país por su biodiversidad y sus poblaciones de aves rapaces."
+        },
+        alexandroupoli2: {
+            title: "Alexandroupoli · Grecia · 2023",
+            fireId: ["218736"],
+            step:2,
+            total:2,
+            steps: [56,57],
+            years: [2023,2023],
+            group: "alexandroupoli",
+            coords: [26.350018,41.007097],
+            annotationOffset: {
+                x: 0,
+                y: 100
+            },
+            text: "Durante más de dos semanas, cientos de bomberos trabajaron para contener un incendio que terminó arrasando 96.610 hectáreas, la mayor superficie quemada por un único incendio desde que existen registros en la Unión Europea."
+        }
+// TEXTOS
+//
+    };
+// Botón cerrar annotation
+    let annotationClosed = false;
+    document
+    .getElementById("annotation-close")
+    .addEventListener("click", () => {
+        annotationClosed = true;
+        d3.select("#annotation")
+            .transition()
+            .duration(250)
+            .style("opacity",0);
+    });
+//
+//
+    function updateDots(options){
+        const container = document.getElementById("annotation-dots");
+        container.innerHTML = "";
+        for(let i=1; i<=options.total; i++){
+            const dot = document.createElement("button");
+            dot.className = "annotation-dot";
+            const year = options.years?.[i-1];
+            const color = yearColors[year] || "#ffffff";
+            // Color del borde
+            dot.style.borderColor = color;
+            // Si es el punto activo, se rellena
+            if(i === options.step){
+                dot.classList.add("active");
+                dot.style.background = color;
+            }
+            dot.onclick = () => {
+                const step = document.querySelector(
+                    `.step[data-step="${options.steps[i-1]}"]`
+                );
+                const y =
+                    window.scrollY +
+                    step.getBoundingClientRect().top -
+                    window.innerHeight * 0.5 +
+                    step.offsetHeight / 2;
+                window.scrollTo({
+                    top: y,
+                    behavior: "smooth"
+                });
+            };
+            container.appendChild(dot);
+        }
+    }
+//
+    function positionAnnotation(options){
+        const box = document.getElementById("annotation");
+        const p = map.project(options.coords);
+        const mobile = window.innerWidth < 768;
+        const offset = mobile
+            ? (options.mobileOffset || {x:0, y:120})
+            : (options.annotationOffset || {x:100, y:0});
+        box.style.left = (p.x + offset.x) + "px";
+        box.style.top  = (p.y + offset.y) + "px";
+    }
+//
+    const annotationHeights = {};
+    function calculateAnnotationHeight(group){
+        const box = document.getElementById("annotation");
+        const title = document.getElementById("annotation-title");
+        const body = document.getElementById("annotation-body");
+        let maxHeight = 0;
+        box.classList.remove("hidden");
+        Object.values(annotations)
+            .filter(a => a.group === group)
+            .forEach(a => {
+                title.innerHTML = a.title;
+                body.innerHTML = a.text;
+                updateDots(a);
+                box.style.height = "auto";
+                maxHeight = Math.max(
+                    maxHeight,
+                    box.offsetHeight
+                );
+            });
+        annotationHeights[group] = maxHeight;
+    }
+//
+    function precalculateAnnotationHeights(){
+        const groups = [
+            ...new Set(
+                Object.values(annotations).map(a => a.group)
+            )
+        ];
+        groups.forEach(group => {
+            calculateAnnotationHeight(group);
+        });
+        hideAnnotation();
+    }
+//
+    function showAnnotation(options){
+        const box = document.getElementById("annotation");
+        box.style.height = annotationHeights[options.group] + "px";
+        box.classList.remove("hidden");
+        document.getElementById("fire-index").style.display = "flex";
+        document.getElementById("annotation-title").innerHTML =
+            options.title;
+        document.getElementById("annotation-body").innerHTML =
+            options.text;
+        updateDots(options);
+        updateFireIndex(options.group);
+        // PRIMERO resaltamos
+        highlightFire(options.fireId);
+        // Esperamos un frame para que MapLibre pinte el highlight
+        requestAnimationFrame(() => {
+            positionAnnotation(options);
+        });
+        const title = document.getElementById("annotation-title");
+        const body = document.getElementById("annotation-body");
+        title.style.opacity = 1;
+        body.style.opacity = 1;
+        title.style.transform = "translateY(0)";
+        body.style.transform = "translateY(0)";
+    }
+//
+//
+    function updateAnnotation(options){
+        annotationClosed = false;
+//
+        d3.select("#annotation")
+            .interrupt()
+            .style("opacity",1);
+//
+        const title = document.getElementById("annotation-title");
+        const body  = document.getElementById("annotation-body");
+        const box   = document.getElementById("annotation");
+        box.style.height = annotationHeights[options.group] + "px";
+        body.style.opacity = 0;
+        setTimeout(() => {
+            if(options.title)
+                title.innerHTML = options.title;
+            if(options.text)
+                body.innerHTML = options.text;
+            updateDots(options);
+            updateFireIndex(options.group);
+            // Primero cambia el highlight
+            highlightFire(options.fireId);
+            // Después recoloca la annotation
+            requestAnimationFrame(() => {
+                positionAnnotation(options);
+            });
+            body.style.opacity = 1;
+        },180);
+    }
+//
+//
+    function hideAnnotation(){
+        document
+            .getElementById("annotation")
+            .classList
+            .add("hidden");
+        const fireIndexEl = document.getElementById("fire-index");
+        fireIndexEl.style.display = "none";
+        fireIndexEl.classList.remove("expanded");
+        const fireIndexToggle = document.getElementById("fire-index-toggle");
+        if(fireIndexToggle) fireIndexToggle.setAttribute("aria-expanded", false);
+        resetFireStyle();
+    }
+//
+//
+    function showFWI(show){
+        map.setPaintProperty(
+            "overlay-layer",
+            "raster-opacity",
+            show ? 0.8 : 0
+        );
+        showLegend(show);
+        map.setLayoutProperty(
+            "fires1",
+            "visibility",
+            show ? "none" : "visible"
+        );
+        map.setLayoutProperty(
+            "fires2",
+            "visibility",
+            show ? "none" : "visible"
+        );
+        document.getElementById("year-selector").style.display =
+            show ? "none" : "block";
+        if(show){
+            hideAnnotation();
+            resetFireStyle();
+        }
+    }
+//
+//
+    function openAnnotation(annotation, update = false){
+        if(update){
+            updateAnnotation(annotation);
+        }else{
+            showAnnotation(annotation);
+        }
+        highlightFire(annotation.fireId);
+    }
+//
+    let currentScene = null;
+    let isMoving = false;
+    function goToScene(annotation, zoom){
+        if(currentScene === annotation.group && !isMoving){
+            return false;
+        }
+        currentScene = annotation.group;
+        isMoving = true;
+        map.easeTo({
+            center: annotation.coords,
+            zoom,
+            duration: 700,
+            essential: true
+        });
+        map.once("moveend", () => {
+            isMoving = false;
+        });
+        return true;
+    }
+//
+    let currentStep = -1;
+//
+    function handleStepEnter2(response){
+        const step = Number(response.element.dataset.step);
+        if(step === currentStep) return;
+        currentStep = step;
+//
+        switch(step){
+            case 12:
+            case 13:
+                showFWI(true);
+                break;
+            // ======================
+            // STEP 2 - Aparecen incendios
+            // ======================
+            case 14:    
+            case 15:
+                map.setPaintProperty(
+                    "overlay-layer",
+                    "raster-opacity",
+                    0
+                );
+                showLegend(false);
+                map.setLayoutProperty("fires1", "visibility", "visible");
+                map.setLayoutProperty("fires2", "visibility", "visible");
+                document.getElementById("year-selector").style.display = "block";
+                document.getElementById("allYears").click();
+                resetFireStyle();
+                hideAnnotation();
+                map.flyTo({
+                    center: [9.286879, 46.838509],
+                    zoom: 4.25,
+                    speed: 0.7
+                });
+                break;
+            // ======================
+            // Madeira
+            // ======================
+            case 16:
+                if(goToScene(annotations.madeira1,9.5)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.madeira1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.madeira1);
+                }
+                showFWI(false);
+                break;
+//
+            case 17:
+                goToScene(annotations.madeira2,9.5);
+                openAnnotation(annotations.madeira2, true);
+                break;
+// PEDROGAO
+            case 18:
+                if(goToScene(annotations.PedrogaoGrande1,7.3)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.PedrogaoGrande1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.PedrogaoGrande1);
+                }
+                break;
+//
+            case 19:
+                goToScene(annotations.PedrogaoGrande1, 7.3);
+                openAnnotation(annotations.PedrogaoGrande2, true);
+                break;
+// CENTRO
+            case 20:
+                if(goToScene(annotations.PortugalCentro1,7)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.PortugalCentro1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.PortugalCentro1);
+                }
+                break;
+//
+            case 21:
+                goToScene(annotations.PortugalCentro1, 7);
+                openAnnotation(annotations.PortugalCentro2, true);
+                break;
+//
+            case 22:
+                goToScene( annotations.PortugalCentro1, 7);
+                openAnnotation(annotations.PortugalCentro3, true);
+                break;
+//ESPANYA
+            case 24:
+                hideAnnotation();
+                map.flyTo({
+                    center: [-3.196121, 40.592831],
+                    zoom: 5.8,
+                    speed: 0.7
+                });
+                break;
+// Doñana
+            case 25:
+                if(goToScene(annotations.Donana1,10)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.Donana1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.Donana1);
+                }
+                break;
+//
+            case 26:
+                goToScene(annotations.Donana1, 10);
+                openAnnotation(annotations.Donana2, true);
+                break;
+// Gran Canaria
+            case 27:
+                if(goToScene(annotations.canarias1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.canarias1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.canarias1);
+                }
+                break;
+//
+            case 28:
+                goToScene(annotations.canarias1, 9);
+                openAnnotation(annotations.canarias2, true);
+                break;
+//
+            case 29:
+                goToScene( annotations.canarias1, 9);
+                openAnnotation(annotations.canarias3, true);
+                break;
+// Sierra Bermeja
+            case 30:
+                if(goToScene(annotations.bermeja1,10)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.bermeja1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.bermeja1);
+                }
+                break;
+//
+            case 31:
+                goToScene(annotations.bermeja1, 10);
+                openAnnotation(annotations.bermeja2, true);
+                break;
+//
+            case 32:
+                goToScene( annotations.bermeja1, 10);
+                openAnnotation(annotations.bermeja3, true);
+                break;
+// Noroeste España
+            case 33:
+                if(goToScene(annotations.noroeste1,7)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.noroeste1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.noroeste1);
+                }
+                break;
+//
+            case 34:
+                goToScene(annotations.noroeste1, 7);
+                openAnnotation(annotations.noroeste2, true);
+                break;
+//
+            case 35:
+                if(goToScene(annotations.noroeste3,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.noroeste3);
+                    },650);
+                }else{
+                    openAnnotation(annotations.noroeste3);
+                }
+                break;
+//
+            case 36:
+                goToScene(annotations.noroeste3, 9);
+                openAnnotation(annotations.noroeste4, true);
+                break;
+//
+            case 37:
+                hideAnnotation();
+                map.flyTo({
+                    center: [11.464119,40.793090], 
+                    zoom: 5.5,
+                    speed: 0.7
+                });
+                break;
+//
+            case 38:
+                if(goToScene(annotations.suritalia1,7)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.suritalia1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.suritalia1);
+                }
+                break;
+//
+            case 39:
+                goToScene(annotations.suritalia1, 7);
+                openAnnotation(annotations.suritalia2, true);
+                break;
+//
+            case 40:
+                if(goToScene(annotations.sardenya1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.sardenya1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.sardenya1);
+                }
+                break;
+//
+            case 41:
+                goToScene(annotations.sardenya1, 9);
+                openAnnotation(annotations.sardenya2, true);
+                break;
+//
+            case 42:
+                if(goToScene(annotations.sicilia1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.sicilia1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.sicilia1);
+                }
+                break;
+//
+            case 43:
+                goToScene(annotations.sicilia1, 9);
+                openAnnotation(annotations.sicilia2, true);
+                break;
+//
+            case 44:
+                if(goToScene(annotations.suritalia3,7)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.suritalia3);
+                    },650);
+                }else{
+                    openAnnotation(annotations.suritalia3);
+                }
+                break;
+//
+            case 45:
+                    hideAnnotation();
+                    map.flyTo({
+                        center: [20.194159,43.436505], 
+                        zoom: 6,
+                        speed: 0.7
+                    });
+                    break;
+//
+            case 46:
+                if(goToScene(annotations.balcanes1,7)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.balcanes1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.balcanes1);
+                }
+                resetFireStyle();
+                break;
+//
+            case 47:
+                goToScene(annotations.balcanes2,7);
+                openAnnotation(annotations.balcanes2);
+                resetFireStyle();
+                break;
+//
+            case 48:
+            case 49:
+                    hideAnnotation();
+                    map.flyTo({
+                        center: [22.411720,39.026670], 
+                        zoom: 6,
+                        speed: 0.7
+                    });
+                    break;
+//
+            case 50:
+                if(goToScene(annotations.mati1,11)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.mati1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.mati1);
+                }
+                break;
+//
+            case 51:
+                goToScene(annotations.mati1, 11);
+                openAnnotation(annotations.mati2, true);
+                break;
+//
+            case 52:
+                if(goToScene(annotations.kineta1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.kineta1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.kineta1);
+                }
+                break;
+//
+            case 53:
+                goToScene(annotations.kineta1, 9);
+                openAnnotation(annotations.kineta2, true);
+                break;
+//
+            case 54:
+                if(goToScene(annotations.eubea1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.eubea1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.eubea1);
+                }
+                break;
+//
+            case 55:
+                goToScene(annotations.eubea1, 9);
+                openAnnotation(annotations.eubea2, true);
+                break;
+//
+            case 56:
+                if(goToScene(annotations.alexandroupoli1,9)){
+                    setTimeout(()=>{
+                        openAnnotation(annotations.alexandroupoli1);
+                    },650);
+                }else{
+                    openAnnotation(annotations.alexandroupoli1);
+                }
+                break;
+//
+            case 57:
+                goToScene(annotations.alexandroupoli1, 9);
+                openAnnotation(annotations.alexandroupoli2, true);
+                break;
+//
+            case 58:
+            case 59:
+            case 60:
+                hideAnnotation();
+                map.flyTo({
+                    center: [33.089442,49.091434],
+                    zoom: 6,
+                    speed: 0.7
+                });
+                break;
+        }
+    };
+//CASES
+//
+    const scroller2 = scrollama();
+//
+    scroller2
+        .setup({
+            step: "#scrolly2 .step",
+            offset: 0.5
+        })
+        .onStepEnter(handleStepEnter2);
+//
+</script>

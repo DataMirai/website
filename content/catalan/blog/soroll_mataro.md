@@ -1315,7 +1315,7 @@ draft: false
                 .style("font-family", "Fjalla One")
                 .style("fill", "#919191");
     //
-            // 🔥 **Añadir línea vertical dashed en 55**
+            // **Añadir línea vertical dashed en 55**
             svg.append("line")
                 .attr("class", "linea-vertical")
                 .attr("x1", escalaX(55))
@@ -1346,7 +1346,7 @@ draft: false
                     const step = response.element.getAttribute("data-step");
     //
                     if (step === "15" || step == "18") {
-                        // 🔥 Solo reseteamos el gráfico si volvemos a `data-step="1"`
+                        // Solo reseteamos el gráfico si volvemos a `data-step="1"`
                         beeswarmActivo = false;
     //
                         // 📌 Mostrar líneas del mapa de nuevo

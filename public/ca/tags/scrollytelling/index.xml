@@ -6,8 +6,15 @@
     <description>Recent content in Scrollytelling on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/tags/scrollytelling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Europa, una dècada marcada pel foc</title>
+      <link>http://localhost:1313/ca/blog/incendis-europa/</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/incendis-europa/</guid>
+      <description>El verano suele llegar acompañado del buen tiempo, días en la playa y vacaciones, pero el calor también trae consigo sequías y olas de calor.</description>
+    </item>
     <item>
       <title>Quan l&#39;oceà floreix</title>
       <link>http://localhost:1313/ca/blog/whentheoceanblooms/</link>

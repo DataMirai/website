@@ -288,7 +288,7 @@ draft: false
             </div>
             <article>
             <div class="step map1" data-step="1">
-                <p>Las<strong style="color:black;">floraciones</strong> pueden presentar una amplia gama de colores, creando llamativos contrastes con las aguas azul oscuro del océano. Crean <strong style="color:black;">patrones de gran magnitud,</strong> formando líneas, olas y filamentos que pueden cubrir vastas áreas del océano.</p>
+                <p>Las <strong style="color:black;">floraciones</strong> pueden presentar una amplia gama de colores, creando llamativos contrastes con las aguas azul oscuro del océano. Crean <strong style="color:black;">patrones de gran magnitud,</strong> formando líneas, olas y filamentos que pueden cubrir vastas áreas del océano.</p>
             </div>
             <div class="step map1" data-step="2">
                 <p>Sin embargo, las floraciones no se producen en todas partes, ya que <span class="span-colored" style="background-color:#FF7062;color:#fff;font-weight: bold;">el fitoplancton no crece de manera uniforme</span> en todo el océano. Su distribución es muy variable y está influenciada por factores como la luz solar, la temperatura, la disponibilidad de nutrientes y las corrientes oceánicas.</p>

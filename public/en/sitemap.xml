@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -39,7 +39,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -57,7 +57,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/data-visualization/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -74,8 +74,26 @@
                 href="http://localhost:1313/en/categories/data-visualization/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/blog/incendis-europa/</loc>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/blog/incendis-europa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca-es"
+                href="http://localhost:1313/ca/blog/incendis-europa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/blog/incendis-europa/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/scrollytelling/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -93,7 +111,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"

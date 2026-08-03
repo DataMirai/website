@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Mirai Data</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Europa, una dècada marcada pel foc</title>
+      <link>http://localhost:1313/blog/incendis-europa/</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/incendis-europa/</guid>
+      <description>El verano suele llegar acompañado del buen tiempo, días en la playa y vacaciones, pero el calor también trae consigo sequías y olas de calor.</description>
+    </item>
     <item>
       <title>¿Puede un modelo descubrir 3 especies de flores sin que nadie se lo diga?</title>
       <link>http://localhost:1313/blog/re-perfiles-latentes-con-tidylpa/</link>

@@ -6,8 +6,15 @@
     <description>Recent content on Mirai Data</description>
     <generator>Hugo</generator>
     <language>ca-es</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Europa, una dècada marcada pel foc</title>
+      <link>http://localhost:1313/ca/blog/incendis-europa/</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/incendis-europa/</guid>
+      <description>El verano suele llegar acompañado del buen tiempo, días en la playa y vacaciones, pero el calor también trae consigo sequías y olas de calor.</description>
+    </item>
     <item>
       <title>Quan l&#39;oceà floreix</title>
       <link>http://localhost:1313/ca/blog/whentheoceanblooms/</link>
@@ -77,6 +84,13 @@
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ca/blog/congreso-r-cordoba-2022/</guid>
       <description>Els dies 23, 24 i 25 de novembre hem tingut l&amp;rsquo;oportunitat d&amp;rsquo;assistir a la reunió anual que fa la Comunidad de R Hispano, que enguany ha acollit la Universitat de Còrdova.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ca/blog/text_prova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ca/blog/text_prova/</guid>
+      <description>Aunque los incendios forestales se registran en prácticamente toda Europa, no se distribuyen de forma homogénea.</description>
     </item>
     <item>
       <title>Aitor González</title>
