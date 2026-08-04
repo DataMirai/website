@@ -1004,6 +1004,7 @@ draft: false
             <p>Durant l'última dècada, Europa ha experimentat un augment tant del nombre d'incendis com de la superfície cremada. Els grans incendis forestals ja no són episodis excepcionals limitats a uns quants estius especialment secs, sinó fenòmens cada vegada més freqüents que apareixen abans de l'estiu, s'allarguen fins ben entrada la tardor i afecten regions on fa només uns anys eren molt menys habituals. L'augment de les temperatures, les sequeres prolongades i les onades de calor creen unes condicions cada vegada més favorables perquè un petit focus pugui transformar-se en un incendi de grans dimensions.</p>
             <p>Tanmateix, el clima per si sol no explica el que està passant. La Comissió Europea assenyala que el canvi climàtic actua com un multiplicador del risc, afavorint la propagació del foc, però no acostuma a ser l'origen de l'incendi. Segons un estudi del Centre Comú de Recerca (JRC), en aquells incendis dels quals s'ha pogut determinar la causa (aproximadament la meitat), al voltant del 96 % van ser provocats per l'activitat humana, ja fos de manera deliberada o per negligència, mentre que només el 4 % van tenir un origen natural, com ara la caiguda d'un llamp.</p>
             <p>Reduir el risc dels grans incendis passa, per tant, per actuar en dos fronts. D'una banda, limitar l'escalfament global per evitar que les condicions meteorològiques continuïn afavorint incendis cada vegada més extrems. De l'altra, reforçar la prevenció, la gestió forestal i la conscienciació ciutadana per reduir el nombre d'incendis que arriben a produir-se. Perquè, tot i que no sempre és possible evitar que un estiu sigui més càlid i sec, sí que és possible reduir el nombre de focs que arriben a iniciar-se i, amb això, limitar l'impacte d'uns incendis que cada any amenacen una part més gran del territori europeu.</p>
+            <p><i>La totalitat d'aquesta peça ha estat elaborada a partir de dades del Sistema Europeu d'Informació sobre Incendis Forestals (EFFIS).</i></p>
         </section>
         <div style="text-align:center;align-items: center;justify-content: center;">
             <a href="https://www.buymeacoffee.com/MiraiData" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
@@ -2119,6 +2120,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             url: "pmtiles:///incendis/incendis2.bin"
         });
 //
+        map.addSource("fires3", {
+                    type: "vector",
+                    url: "pmtiles:///incendis/incendis3.bin"
+                });
+        //
             map.addLayer({
                 id: "fires1",
                 type: "fill",
@@ -2171,6 +2177,27 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             });
 //
             map.addLayer({
+                            id: "fires3",
+                            type: "fill",
+                            source: "fires3",
+                            "source-layer": "fires",
+                            paint: {
+                                "fill-color": [
+                                    "match",
+                                    ["get", "year"],
+                                    2026,"#520905",   
+                                    "#cccccc"
+                                ],
+                                "fill-opacity": [
+                                    "case",
+                                    ["boolean", ["feature-state", "selected"], false],
+                                    0.9,
+                                    0.4
+                                ]
+                            }
+                        });
+//
+            map.addLayer({
                 id: "fire-highlight1",
                 type: "line",
                 source: "fires1",
@@ -2187,6 +2214,19 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
                 id: "fire-highlight2",
                 type: "line",
                 source: "fires2",
+                "source-layer":"fires",
+                paint:{
+                    "line-color":"white",
+                    "line-width":1,
+                    "line-opacity":1
+                },
+                filter:["==",["get","id"],-1]
+            });
+//
+            map.addLayer({
+                id: "fire-highlight3",
+                type: "line",
+                source: "fires3",
                 "source-layer":"fires",
                 paint:{
                     "line-color":"white",
@@ -2250,10 +2290,14 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             }
             map.on("click", "fires1", showFirePopup);
             map.on("click", "fires2", showFirePopup);
+            map.on("click", "fires3", showFirePopup);
             map.on("click", "fires2", (e) => {
                 console.log(e.features[0].properties);
             });
             map.on("click", "fires1", (e) => {
+                console.log(e.features[0].properties);
+            });
+            map.on("click", "fires3", (e) => {
                 console.log(e.features[0].properties);
             });
             function pointerOn(){
@@ -2264,8 +2308,10 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             }
             map.on("mouseenter", "fires1", pointerOn);
             map.on("mouseenter", "fires2", pointerOn);
+            map.on("mouseenter", "fires3", pointerOn);
             map.on("mouseleave", "fires1", pointerOff);
             map.on("mouseleave", "fires2", pointerOff);
+            map.on("mouseleave", "fires3", pointerOff);
             });
         precalculateAnnotationHeights();
         buildFireIndex();
@@ -2311,33 +2357,36 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
     };
 //
     function filterYears(years){
-        const years1 = years.filter(y => y <= 2023);
-        const years2 = years.filter(y => y >= 2024);
-        if(years1.length){
-            map.setFilter(
-                "fires1",
-                [
-                    "in",
-                    ["get","year"],
-                    ["literal", years1]
-                ]
-            );
-        }else{
-            map.setFilter("fires1", ["==",["get","year"],-999]);
+            const years1 = years.filter(y => y <= 2023);
+            const years2 = years.filter(y => y >= 2024);
+            if(years1.length){
+                map.setFilter(
+                    "fires1",
+                    [
+                        "in",
+                        ["get","year"],
+                        ["literal", years1]
+                    ]
+                );
+            }else{
+                map.setFilter("fires1", ["==",["get","year"],-999]);
+            }
+            if(years2.length){
+            const filter = [
+                "in",
+                ["get", "year"],
+                ["literal", years2]
+            ];
+//
+            map.setFilter("fires2", filter);
+            map.setFilter("fires3", filter);
+        } else {
+            const emptyFilter = ["==", ["get", "year"], -999];
+//
+            map.setFilter("fires2", emptyFilter);
+            map.setFilter("fires3", emptyFilter);
         }
-        if(years2.length){
-            map.setFilter(
-                "fires2",
-                [
-                    "in",
-                    ["get","year"],
-                    ["literal", years2]
-                ]
-            );
-        }else{
-            map.setFilter("fires2", ["==",["get","year"],-999]);
         }
-    }
 //
 //
     function highlightFire(ids){
@@ -2357,12 +2406,21 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fill-opacity",
             opacityExpression
         );
+        map.setPaintProperty(
+            "fires3",
+            "fill-opacity",
+            opacityExpression
+        );
         map.setFilter(
             "fire-highlight1",
             ["in",["get","id"],["literal",ids]]
         );
         map.setFilter(
             "fire-highlight2",
+            ["in",["get","id"],["literal",ids]]
+        );
+        map.setFilter(
+            "fire-highlight3",
             ["in",["get","id"],["literal",ids]]
         );
     }
@@ -2379,6 +2437,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fill-opacity",
             0.9
         );
+        map.setPaintProperty(
+            "fires3",
+            "fill-opacity",
+            0.9
+        );
         map.setFilter(
             "fire-highlight1",
             ["==", ["get","id"], -1]
@@ -2387,14 +2450,20 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fire-highlight2",
             ["==", ["get","id"], -1]
         );
+        map.setFilter(
+            "fire-highlight3",
+            ["==", ["get","id"], -1]
+        );
     }
 //
     function clearHighlight(){
         map.setPaintProperty("fires1","fill-opacity",0.9);
         map.setPaintProperty("fires2","fill-opacity",0.9);
+        map.setPaintProperty("fires3","fill-opacity",0.9);
         const empty = ["==",["get","id"],-1];
         map.setFilter("fire-highlight1", empty);
         map.setFilter("fire-highlight2", empty);
+        map.setFilter("fire-highlight3", empty);
     }
 //
 //
@@ -3129,6 +3198,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "visibility",
             show ? "none" : "visible"
         );
+        map.setLayoutProperty(
+            "fires3",
+            "visibility",
+            show ? "none" : "visible"
+        );
         document.getElementById("year-selector").style.display =
             show ? "none" : "block";
         if(show){
@@ -3192,6 +3266,7 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
                 showLegend(false);
                 map.setLayoutProperty("fires1", "visibility", "visible");
                 map.setLayoutProperty("fires2", "visibility", "visible");
+                map.setLayoutProperty("fires3", "visibility", "visible");
                 document.getElementById("year-selector").style.display = "block";
                 document.getElementById("allYears").click();
                 resetFireStyle();

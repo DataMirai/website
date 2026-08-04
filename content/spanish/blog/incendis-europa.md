@@ -1004,6 +1004,7 @@ draft: false
             <p>Durante la última década, Europa ha experimentado un aumento tanto del número de incendios como de la superficie quemada. Los grandes incendios forestales ya no son episodios excepcionales limitados a unos pocos veranos especialmente secos, sino fenómenos cada vez más frecuentes que aparecen antes del verano, se prolongan hasta bien entrado el otoño y afectan a regiones donde hace apenas unos años eran mucho menos habituales. El aumento de las temperaturas, las sequías prolongadas y las olas de calor crean unas condiciones cada vez más favorables para que un pequeño foco pueda transformarse en un incendio de grandes dimensiones.</p>
             <p>Sin embargo, el clima por sí solo no explica lo que ocurre. La Comisión Europea señala que el cambio climático actúa como un multiplicador del riesgo, favoreciendo la propagación del fuego, pero no suele ser el origen del incendio. Según un estudio del Centro Común de Investigación (JRC), en aquellos incendios cuya causa ha podido determinarse (aproximadamente la mitad) alrededor del 96 % fueron provocados por la actividad humana, ya sea de forma deliberada o por negligencia, mientras que únicamente el 4 % tuvo un origen natural, como la caída de un rayo.</p>
             <p>Reducir el riesgo de los grandes incendios pasa, por tanto, por actuar en dos frentes. Por un lado, limitar el calentamiento global para evitar que las condiciones meteorológicas sigan favoreciendo incendios cada vez más extremos. Por otro, reforzar la prevención, la gestión forestal y la concienciación ciudadana para reducir el número de incendios que llegan a producirse. Porque, aunque no siempre sea posible evitar que un verano sea más cálido y seco, sí es posible reducir el número de fuegos que llegan a iniciarse y, con ello, limitar el impacto de unos incendios que cada año amenazan una mayor parte del territorio europeo.</p>
+            <p><i>Todo el contenido de este artículo se ha elaborado a partir de datos del Sistema Europeo de Información sobre Incendios Forestales (EFFIS).</i></p>
         </section>
         <div style="text-align:center;align-items: center;justify-content: center;">
             <a href="https://www.buymeacoffee.com/MiraiData" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
@@ -2119,6 +2120,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             url: "pmtiles:///incendis/incendis2.bin"
         });
 //
+        map.addSource("fires3", {
+                    type: "vector",
+                    url: "pmtiles:///incendis/incendis3.bin"
+                });
+//
             map.addLayer({
                 id: "fires1",
                 type: "fill",
@@ -2171,6 +2177,27 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             });
 //
             map.addLayer({
+                            id: "fires3",
+                            type: "fill",
+                            source: "fires3",
+                            "source-layer": "fires",
+                            paint: {
+                                "fill-color": [
+                                    "match",
+                                    ["get", "year"],
+                                    2026,"#520905",   
+                                    "#cccccc"
+                                ],
+                                "fill-opacity": [
+                                    "case",
+                                    ["boolean", ["feature-state", "selected"], false],
+                                    0.9,
+                                    0.4
+                                ]
+                            }
+                        });
+//
+            map.addLayer({
                 id: "fire-highlight1",
                 type: "line",
                 source: "fires1",
@@ -2187,6 +2214,19 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
                 id: "fire-highlight2",
                 type: "line",
                 source: "fires2",
+                "source-layer":"fires",
+                paint:{
+                    "line-color":"white",
+                    "line-width":1,
+                    "line-opacity":1
+                },
+                filter:["==",["get","id"],-1]
+            });
+//
+            map.addLayer({
+                id: "fire-highlight3",
+                type: "line",
+                source: "fires3",
                 "source-layer":"fires",
                 paint:{
                     "line-color":"white",
@@ -2250,10 +2290,14 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             }
             map.on("click", "fires1", showFirePopup);
             map.on("click", "fires2", showFirePopup);
+            map.on("click", "fires3", showFirePopup);
             map.on("click", "fires2", (e) => {
                 console.log(e.features[0].properties);
             });
             map.on("click", "fires1", (e) => {
+                console.log(e.features[0].properties);
+            });
+            map.on("click", "fires3", (e) => {
                 console.log(e.features[0].properties);
             });
             function pointerOn(){
@@ -2264,8 +2308,10 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             }
             map.on("mouseenter", "fires1", pointerOn);
             map.on("mouseenter", "fires2", pointerOn);
+            map.on("mouseenter", "fires3", pointerOn);
             map.on("mouseleave", "fires1", pointerOff);
             map.on("mouseleave", "fires2", pointerOff);
+            map.on("mouseleave", "fires3", pointerOff);
             });
         precalculateAnnotationHeights();
         buildFireIndex();
@@ -2326,16 +2372,17 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             map.setFilter("fires1", ["==",["get","year"],-999]);
         }
         if(years2.length){
-            map.setFilter(
-                "fires2",
-                [
-                    "in",
-                    ["get","year"],
-                    ["literal", years2]
-                ]
-            );
-        }else{
-            map.setFilter("fires2", ["==",["get","year"],-999]);
+            const filter = [
+                "in",
+                ["get", "year"],
+                ["literal", years2]
+            ];
+            map.setFilter("fires2", filter);
+            map.setFilter("fires3", filter);
+        } else {
+            const emptyFilter = ["==", ["get", "year"], -999];
+            map.setFilter("fires2", emptyFilter);
+            map.setFilter("fires3", emptyFilter);
         }
     }
 //
@@ -2357,12 +2404,21 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fill-opacity",
             opacityExpression
         );
+        map.setPaintProperty(
+            "fires3",
+            "fill-opacity",
+            opacityExpression
+        );
         map.setFilter(
             "fire-highlight1",
             ["in",["get","id"],["literal",ids]]
         );
         map.setFilter(
             "fire-highlight2",
+            ["in",["get","id"],["literal",ids]]
+        );
+        map.setFilter(
+            "fire-highlight3",
             ["in",["get","id"],["literal",ids]]
         );
     }
@@ -2379,6 +2435,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fill-opacity",
             0.9
         );
+        map.setPaintProperty(
+            "fires3",
+            "fill-opacity",
+            0.9
+        );
         map.setFilter(
             "fire-highlight1",
             ["==", ["get","id"], -1]
@@ -2387,14 +2448,20 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "fire-highlight2",
             ["==", ["get","id"], -1]
         );
+        map.setFilter(
+            "fire-highlight3",
+            ["==", ["get","id"], -1]
+        );
     }
 //
     function clearHighlight(){
         map.setPaintProperty("fires1","fill-opacity",0.9);
         map.setPaintProperty("fires2","fill-opacity",0.9);
+        map.setPaintProperty("fires3","fill-opacity",0.9);
         const empty = ["==",["get","id"],-1];
         map.setFilter("fire-highlight1", empty);
         map.setFilter("fire-highlight2", empty);
+        map.setFilter("fire-highlight3", empty);
     }
 //
 //
@@ -3129,6 +3196,11 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
             "visibility",
             show ? "none" : "visible"
         );
+        map.setLayoutProperty(
+            "fires3",
+            "visibility",
+            show ? "none" : "visible"
+        );
         document.getElementById("year-selector").style.display =
             show ? "none" : "block";
         if(show){
@@ -3192,6 +3264,7 @@ const fireIndexToggleBtn = document.getElementById("fire-index-toggle");
                 showLegend(false);
                 map.setLayoutProperty("fires1", "visibility", "visible");
                 map.setLayoutProperty("fires2", "visibility", "visible");
+                map.setLayoutProperty("fires3", "visibility", "visible");
                 document.getElementById("year-selector").style.display = "block";
                 document.getElementById("allYears").click();
                 resetFireStyle();
