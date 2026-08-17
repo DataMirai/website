@@ -85,12 +85,5 @@
       <guid>http://localhost:1313/ca/blog/congreso-r-cordoba-2022/</guid>
       <description>Els dies 23, 24 i 25 de novembre hem tingut l&amp;rsquo;oportunitat d&amp;rsquo;assistir a la reunió anual que fa la Comunidad de R Hispano, que enguany ha acollit la Universitat de Còrdova.</description>
     </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/ca/blog/text_prova/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ca/blog/text_prova/</guid>
-      <description>Aunque los incendios forestales se registran en prácticamente toda Europa, no se distribuyen de forma homogénea.</description>
-    </item>
   </channel>
 </rss>
